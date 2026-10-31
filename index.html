@@ -279,6 +279,20 @@ footer.foot{margin-top:2.5rem;padding-top:1rem;border-top:1px solid var(--line);
 .neu-kopf{display:flex;gap:.6rem;align-items:center;flex-wrap:wrap}
 .neu-kopf span{color:var(--muted);font-size:.85rem}
 .neu-eintrag ul{margin:.3rem 0 0 1rem;padding:0}
+
+.nav-g{margin:.15rem 0}
+.nav-gk{display:flex;align-items:center;gap:.55rem;width:100%;text-align:left;border:0;background:none;padding:.5rem .6rem;border-radius:8px;cursor:pointer;font-size:1.12rem;color:var(--ink);font-weight:600}
+.nav-gk:hover{background:var(--sunk)}
+.nav-gk > svg:first-child{width:1.7rem;height:1.7rem;flex:0 0 auto}
+.nav-gk .pfeil{width:.9rem;height:.9rem;margin-left:auto;color:var(--muted);transition:transform .15s ease}
+.nav-g.auf > .nav-gk .pfeil{transform:rotate(90deg)}
+.nav-g.akt > .nav-gk{color:var(--gold)}
+.nav-gi{display:none;margin:.1rem 0 .35rem .9rem;padding-left:.55rem;border-left:1px solid var(--line)}
+.nav-g.auf > .nav-gi{display:block}
+.nav-u{font-size:1rem;padding:.36rem .55rem}
+.nav-u svg{width:1.35rem;height:1.35rem}
+.nav-gi .nav-sub{margin:.1rem 0 .3rem .4rem}
+@media (prefers-reduced-motion:reduce){.nav-gk .pfeil{transition:none}}
 </style>
 
 <header class="bar">
@@ -384,30 +398,66 @@ var SECTIONS = [
   ['faehigkeiten','Alle Fähigkeiten'],['rotation','Rotation'],['werte','Werte'],['ausruestung','Ausrüstung'],['crafts','Crafts'],
   ['berufe','Berufe'],['meilensteine','Meilensteine'],['gruppe','In der Gruppe'],['tipps','Tipps'],['quellen','Quellen']
 ];
+/* Gruppen mit Aufklapp-Menü (wie im Gilden-Tool): Klick auf die Überschrift klappt auf/zu, der Zustand bleibt gespeichert */
+var navOffen = {};
+try { navOffen = JSON.parse(localStorage.getItem('siikk-nav') || '{}') || {}; } catch (e) { navOffen = {}; }
+function navMerken(){ try { localStorage.setItem('siikk-nav', JSON.stringify(navOffen)); } catch (e) {} }
+var GOLDICON = function(p){ return medal(p, 'var(--gold)', 22); };
+function navGruppe(id, label, svg, aktiv, inhalt){
+  var offen = navOffen[id] !== undefined ? navOffen[id] : aktiv;
+  return '<div class="nav-g'+(offen ? ' auf' : '')+(aktiv ? ' akt' : '')+'" data-g="'+id+'"><button type="button" class="nav-gk" aria-expanded="'+(offen ? 'true' : 'false')+'">'+svg+'<span>'+esc(label)+'</span><svg class="pfeil" viewBox="0 0 16 16" aria-hidden="true"><path d="M5 3l5 5-5 5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="nav-gi">'+inhalt+'</div></div>';
+}
+function navUnter(label, hash, sec, cur, svg){
+  return '<button type="button" class="nav-i nav-u"'+(hash ? ' data-go="'+hash+'"' : '')+(sec ? ' data-sec2="'+sec+'"' : '')+(cur ? ' aria-current="page"' : '')+'>'+(svg||'')+'<span>'+esc(label)+'</span></button>';
+}
 function renderSide(){
-  var h = '<h4>Allgemein</h4>' +
-    navItem('Startseite', 'start', medal('<path d="M14 32 32 16l18 16M20 28v20h24V28"/>', 'var(--gold)', 22), route.v === 'start') +
-    navItem('Völker im Vergleich', 'voelker', medal('<circle cx="24" cy="26" r="7"/><circle cx="42" cy="26" r="7"/><path d="M12 50c2-10 22-10 24 0M30 50c2-10 22-10 24 0"/>', 'var(--gold)', 22), route.v === 'voelker') +
-    navItem('Leveln: Gebiete', 'gebiete', medal('<path d="M10 50 26 18l10 18 6-10 12 24z"/>', 'var(--gold)', 22), route.v === 'gebiete') +
-    navItem('Berufe', 'berufe-allg', medal('<path d="M14 50 40 24M36 14l14 14-6 6-14-14z"/>', 'var(--gold)', 22), route.v === 'berufe-allg') +
-    navItem('Begriffe', 'begriffe', medal('<path d="M16 14h26l6 6v30H16z"/><path d="M22 28h20M22 36h20M22 44h12"/>', 'var(--gold)', 22), route.v === 'begriffe') +
-    '<h4>Addon</h4><button type="button" class="nav-i ad" data-go="addons"'+(route.v === 'addons' ? ' aria-current="page"' : '')+'>'+medal('<path d="M32 14v24M22 30l10 10 10-10M18 50h28"/>', 'var(--ame)', 22)+'<span>siikkUI herunterladen</span><span class="new">GRATIS</span></button>';
-  /* Klassen und Völker stehen als Buttons auf der Startseite; links erscheinen nur die Kapitel der gerade geöffneten Klasse */
-  if (route.v === 'klasse' && BYK[route.id]) {
-    var k = BYK[route.id];
-    h += '<h4>Klasse</h4>' + navItem(k.name, k.id, clsMedal(k, 22), true) + '<div class="nav-sub">';
-    SECTIONS.forEach(function(s){ h += '<button type="button" class="nav-i" data-sec="'+s[0]+'">'+esc(s[1])+'</button>'; });
-    h += '</div>' + navItem('Andere Klasse wählen', 'start', medal('<path d="M38 16 22 32l16 16"/>', 'var(--gold)', 22), false);
-  } else if (route.v === 'volk' && BYV[route.id]) {
-    var v = BYV[route.id];
-    h += '<h4>Volk</h4>' + navItem(v.name, 'volk-' + v.id, raceMedal(v, 22), true) + navItem('Anderes Volk wählen', 'start', medal('<path d="M38 16 22 32l16 16"/>', 'var(--gold)', 22), false);
-  }
+  var v = route.v, h = '';
+  h += navItem('Startseite', 'start', GOLDICON('<path d="M14 32 32 16l18 16M20 28v20h24V28"/>'), v === 'start');
+  // Klassen – die geöffnete Klasse zeigt darunter ihre Kapitel
+  var kl = '';
+  K.forEach(function(k){
+    var cur = v === 'klasse' && route.id === k.id;
+    kl += navUnter(k.name, k.id, null, cur, clsMedal(k, 20));
+    if (cur) { kl += '<div class="nav-sub">'; SECTIONS.forEach(function(s){ kl += '<button type="button" class="nav-i" data-sec="'+s[0]+'">'+esc(s[1])+'</button>'; }); kl += '</div>'; }
+  });
+  h += navGruppe('klassen', 'Klassen', GOLDICON('<path d="M20 44 44 20M40 16l8 8M16 40l8 8M22 22l20 20"/>'), v === 'klasse', kl);
+  // Völker
+  var vo = navUnter('Völker im Vergleich', 'voelker', null, v === 'voelker', null);
+  V.forEach(function(x){ vo += navUnter(x.name, 'volk-' + x.id, null, v === 'volk' && route.id === x.id, raceMedal(x, 20)); });
+  h += navGruppe('voelker', 'Völker', GOLDICON('<circle cx="24" cy="26" r="7"/><circle cx="42" cy="26" r="7"/><path d="M12 50c2-10 22-10 24 0M30 50c2-10 22-10 24 0"/>'), v === 'voelker' || v === 'volk', vo);
+  // Leveln
+  h += navGruppe('leveln', 'Leveln', GOLDICON('<path d="M10 50 26 18l10 18 6-10 12 24z"/>'), v === 'gebiete',
+    navUnter('Gebiete nach Stufe', 'gebiete', null, v === 'gebiete', null) + navUnter('Horde-Route', 'gebiete', 'horde', false, null) + navUnter('Allianz-Route', 'gebiete', 'allianz', false, null) + navUnter('Neu in Forever', 'gebiete', 'neu-forever', false, null));
+  // Berufe
+  h += navGruppe('berufe', 'Berufe', GOLDICON('<path d="M14 50 40 24M36 14l14 14-6 6-14-14z"/>'), v === 'berufe-allg',
+    navUnter('Alle Berufe', 'berufe-allg', null, v === 'berufe-allg', null) + navUnter('Empfehlung je Klasse', 'berufe-allg', 'empf', false, null));
+  h += navItem('Begriffe', 'begriffe', GOLDICON('<path d="M16 14h26l6 6v30H16z"/><path d="M22 28h20M22 36h20M22 44h12"/>'), v === 'begriffe');
+  // Addons
+  var ad = '<button type="button" class="nav-i nav-u ad" data-go="addons"'+(v === 'addons' ? ' aria-current="page"' : '')+'><span>Herunterladen</span><span class="new">GRATIS</span></button>' +
+    navUnter('siikk-Oberfläche', 'addons', 'ui', false, null) + navUnter('siikk-Damagemeter', 'addons', 'dm', false, null) +
+    navUnter('siikk-Questhilfe', 'addons', 'qh', false, null) + navUnter('siikk-Auktionshaus', 'addons', 'ah', false, null) +
+    navUnter('Was ist neu?', 'addons', 'neu', false, null) + navUnter('Installation', 'addons', 'install', false, null);
+  h += navGruppe('addons', 'siikk-UI Addons', medal('<path d="M32 14v24M22 30l10 10 10-10M18 50h28"/>', 'var(--ame)', 22), v === 'addons', ad);
   side.innerHTML = h;
+}
+function zuAbschnitt(id){
+  var el = document.getElementById('s-' + id); if (!el) return false;
+  el.scrollIntoView({ behavior: matchMedia('(prefers-reduced-motion:reduce)').matches ? 'auto' : 'smooth' }); return true;
 }
 side.addEventListener('click', function(e){
   var b = e.target.closest('button'); if (!b) return;
-  if (b.dataset.go) { location.hash = b.dataset.go; closeMenu(); }
-  else if (b.dataset.sec) { var el = document.getElementById('s-' + b.dataset.sec); if (el) el.scrollIntoView({ behavior: matchMedia('(prefers-reduced-motion:reduce)').matches ? 'auto' : 'smooth' }); closeMenu(); }
+  if (b.classList.contains('nav-gk')) {
+    var g = b.parentNode, auf = !g.classList.contains('auf');
+    g.classList.toggle('auf', auf); b.setAttribute('aria-expanded', auf ? 'true' : 'false');
+    navOffen[g.dataset.g] = auf; navMerken(); return;
+  }
+  if (b.dataset.go) {
+    var ziel = b.dataset.sec2;
+    if (location.hash.replace('#', '') === b.dataset.go) { if (ziel) zuAbschnitt(ziel); else window.scrollTo({ top: 0, behavior: 'smooth' }); }
+    else { location.hash = b.dataset.go; if (ziel) setTimeout(function(){ zuAbschnitt(ziel); }, 120); }
+    closeMenu();
+  }
+  else if (b.dataset.sec) { zuAbschnitt(b.dataset.sec); closeMenu(); }
 });
 var menuBtn = document.getElementById('menu-btn'), scrim = document.getElementById('scrim');
 function closeMenu(){ side.classList.remove('open'); scrim.classList.remove('on'); menuBtn.setAttribute('aria-expanded', 'false'); }
@@ -472,16 +522,16 @@ function renderVoelker(){
 /* ---------- Allgemeine Seiten ---------- */
 function renderGebiete(){
   var g = DATA.gebiete, h = '<div class="kap">Allgemein</div><h1>Wo leveln?</h1><p>Grobe Route für beide Fraktionen. Die Stufen sind Richtwerte: Gelbe und orangefarbene Quests geben am meisten Erfahrung, rote sind zu schwer.</p>';
-  h += '<h3>Horde</h3>' + table(['Stufe','Gebiete','Dungeons'], g.horde.map(function(r){ return ['<span class="lvl">'+esc(r[0])+'</span>', esc(r[1]), esc(r[2])]; }));
-  h += '<h3>Allianz</h3>' + table(['Stufe','Gebiete','Dungeons'], g.allianz.map(function(r){ return ['<span class="lvl">'+esc(r[0])+'</span>', esc(r[1]), esc(r[2])]; }));
-  h += '<h3>Neu in Forever</h3>' + list(g.neu);
+  h += '<h3 id="s-horde">Horde</h3>' + table(['Stufe','Gebiete','Dungeons'], g.horde.map(function(r){ return ['<span class="lvl">'+esc(r[0])+'</span>', esc(r[1]), esc(r[2])]; }));
+  h += '<h3 id="s-allianz">Allianz</h3>' + table(['Stufe','Gebiete','Dungeons'], g.allianz.map(function(r){ return ['<span class="lvl">'+esc(r[0])+'</span>', esc(r[1]), esc(r[2])]; }));
+  h += '<h3 id="s-neu-forever">Neu in Forever</h3>' + list(g.neu);
   h += '<div class="tip"><b>Erholt-Bonus</b>Beende jede Spielrunde in einem Gasthaus oder einer Hauptstadt. Die gesammelte Bonus-Erfahrung spart auf dem Weg zu 60 viele Stunden.</div>';
   view.innerHTML = h;
 }
 function renderBerufeAllg(){
   var h = '<div class="kap">Allgemein</div><h1>Berufe</h1><p>Jeder Charakter kann <b>zwei Hauptberufe</b> lernen, dazu die Nebenberufe Erste Hilfe, Kochen und Angeln. Sammelberufe (Bergbau, Kräuterkunde, Kürschnerei) bringen beim Leveln Gold, Herstellungsberufe verbessern deine Ausrüstung.</p>';
   h += table(['Beruf','Art','Was er bringt'], DATA.berufe.map(function(b){ return ['<b>'+esc(b[0])+'</b>', esc(b[1]), esc(b[2])]; }));
-  h += '<h3>Empfehlung je Klasse</h3>';
+  h += '<h3 id="s-empf">Empfehlung je Klasse</h3>';
   h += table(['Klasse','Empfohlen','Warum'], K.map(function(k){ var b = (k.berufe || [])[0] || {}; return ['<button type="button" class="nav-i" data-go="'+k.id+'" style="padding:0">'+clsMedal(k, 20)+' '+esc(k.name)+'</button>', esc(b.name || ''), esc(b.warum || '')]; }));
   h += '<div class="tip"><b>Für Anfänger</b>Erste Hilfe immer mitnehmen: Verbände heilen ohne Mana. Kochen und Angeln geben günstiges Essen mit Stärkungseffekten.</div>';
   view.innerHTML = h;
