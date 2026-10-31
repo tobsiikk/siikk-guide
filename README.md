@@ -5,5 +5,5 @@ Deutscher Einsteiger-Guide für alle Klassen in **WoW: Forever** – erreichbar 
 Privates Fan-Projekt, nicht mit Blizzard Entertainment verbunden.
 
 - `index.html` – der Guide
-- `downloads/` – das siikkUI-Addon
+- `downloads/` – die siikk-Addons: Komplettpaket siikk-UI sowie siikk-Oberfläche, siikk-Damagemeter, siikk-Questhilfe und siikk-Auktionshaus einzeln
 - `fonts/` – lokal eingebundene Schriften (SIL Open Font License, siehe `fonts/OFL-*.txt`)
