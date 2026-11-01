@@ -483,6 +483,24 @@ section.sec:first-of-type::after{display:none}
 .cbtn[style*="--c:#FFFFFF;"] b,.cbtn[style*="--c:#ffffff;"] b{color:#45413a!important}
 .cbtn[style*="--c:#FFFFFF;"] .medal,.cbtn[style*="--c:#ffffff;"] .medal{filter:drop-shadow(0 0 1px #000) drop-shadow(0 0 1px rgba(0,0,0,.8))}
 </style>
+<style id="logo-anim">
+/* Bewegtes Logo: funkelnde Augen und aufsteigender Qualm */
+.logo-anim{position:relative;display:inline-block;width:min(34rem,100%);isolation:isolate}
+.logo-anim img{position:relative;z-index:1;display:block;width:100%!important}
+.la-qualm{position:absolute;left:-18%;top:-22%;width:136%;height:122%;z-index:0;pointer-events:none}
+.la-auge{position:absolute;z-index:2;top:41%;width:13%;aspect-ratio:1;transform:translate(-50%,-50%);border-radius:50%;pointer-events:none;mix-blend-mode:screen;
+  background:radial-gradient(circle,rgba(255,240,255,.95) 0%,rgba(205,140,255,.75) 18%,rgba(150,70,255,.35) 42%,transparent 68%);animation:la-glimm 3.4s ease-in-out infinite}
+.la-auge.l{left:45.5%}.la-auge.r{left:55.6%;animation-delay:-.35s}
+@keyframes la-glimm{0%,100%{opacity:.35;transform:translate(-50%,-50%) scale(.82)}45%{opacity:.95;transform:translate(-50%,-50%) scale(1.08)}55%{opacity:.75}70%{opacity:1;transform:translate(-50%,-50%) scale(1.15)}}
+.la-funke{position:absolute;z-index:3;width:5.5%;aspect-ratio:1;transform:translate(-50%,-50%) scale(0) rotate(0deg);pointer-events:none;mix-blend-mode:screen;
+  background:radial-gradient(circle,#fff 0 9%,transparent 11%),linear-gradient(90deg,transparent 46%,#fff 49% 51%,transparent 54%),linear-gradient(0deg,transparent 46%,#fff 49% 51%,transparent 54%);
+  filter:drop-shadow(0 0 4px #c48cff) drop-shadow(0 0 8px #9a5cff);animation:la-funkeln 4.2s ease-out infinite}
+.la-funke.f1{left:44%;top:39.5%}
+.la-funke.f2{left:57%;top:40%;animation-delay:-1.6s}
+.la-funke.f3{left:47%;top:42.5%;width:3.8%;animation-delay:-2.9s;animation-duration:5.1s}
+@keyframes la-funkeln{0%,62%{transform:translate(-50%,-50%) scale(0) rotate(0deg);opacity:0}70%{transform:translate(-50%,-50%) scale(1.15) rotate(40deg);opacity:1}82%{transform:translate(-50%,-50%) scale(.5) rotate(80deg);opacity:.7}90%,100%{transform:translate(-50%,-50%) scale(0) rotate(100deg);opacity:0}}
+@media (prefers-reduced-motion:reduce){.la-auge,.la-funke{animation:none}.la-funke{display:none}.la-auge{opacity:.6}}
+</style>
 
 
 <header class="bar">
@@ -670,7 +688,7 @@ function rateTag(t){ t = String(t || ''); var c = /empfohlen|sehr gut|bis 1/i.te
 
 /* ---------- Startseite ---------- */
 function renderStart(){
-  var h = '<div class="hero"><img src="'+DATA.logo+'" alt="siikk-guide – World of Warcraft Guide">' +
+  var h = '<div class="hero"><div class="logo-anim"><canvas class="la-qualm" aria-hidden="true"></canvas><img src="'+DATA.logo+'" alt="siikk-guide – World of Warcraft Guide"><span class="la-auge l" aria-hidden="true"></span><span class="la-auge r" aria-hidden="true"></span><span class="la-funke f1" aria-hidden="true"></span><span class="la-funke f2" aria-hidden="true"></span><span class="la-funke f3" aria-hidden="true"></span></div>' +
     '<p>Der Klassen-Guide für <b>World of Warcraft: Forever</b>. Für jede Klasse: Talentbaum zum Durchklicken, Skill-Reihenfolge beim Leveln, alle Fähigkeiten erklärt, Ausrüstung, Crafts, Berufe und Völker.</p>' +
     '<div class="chips"><span class="chip">Start <b>5. Nov. 2026</b></span><span class="chip">Maximalstufe <b>60</b></span><span class="chip">Talentpunkte <b>51</b></span><span class="chip">Stand <b>'+esc(DATA.stand)+'</b></span></div></div>';
   h += '<h2 style="margin-top:1.6rem">Wähle deine Klasse</h2><div class="grid-btn g3">';
@@ -1204,6 +1222,48 @@ function go(){
 }
 window.addEventListener('hashchange', go);
 go();
+})();
+</script>
+<script id="logo-anim-js">
+(function(){
+  var still = window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches;
+  function qualm(cv){
+    if (cv.dataset.an) return; cv.dataset.an = 1;
+    var ctx = cv.getContext('2d'), T = [], w = 0, h = 0, dpr = Math.min(window.devicePixelRatio || 1, 2), letzt = 0;
+    function groesse(){ var r = cv.getBoundingClientRect(); w = r.width; h = r.height; cv.width = Math.max(1, w * dpr); cv.height = Math.max(1, h * dpr); ctx.setTransform(dpr,0,0,dpr,0,0); }
+    groesse(); window.addEventListener('resize', groesse);
+    function neu(start){
+      var x = w * (.18 + Math.random() * .64);
+      return { x: x, y: start ? h * (.25 + Math.random() * .65) : h * (.78 + Math.random() * .12), r: w * (.035 + Math.random() * .05),
+        vy: -(h * (.018 + Math.random() * .022)), vx: (Math.random() - .5) * w * .006, phase: Math.random() * 6.28,
+        leben: 0, max: 7 + Math.random() * 6, lila: Math.random() < .55 };
+    }
+    for (var i = 0; i < 26; i++) { var p = neu(true); p.leben = Math.random() * p.max; T.push(p); }
+    function bild(t){
+      if (!cv.isConnected) return;
+      var dt = Math.min(.05, letzt ? (t - letzt) / 1000 : .016); letzt = t;
+      if (cv.offsetParent === null) { requestAnimationFrame(bild); return; }
+      ctx.clearRect(0, 0, w, h);
+      ctx.globalCompositeOperation = 'lighter';
+      for (var i = 0; i < T.length; i++) {
+        var p = T[i]; p.leben += dt;
+        if (p.leben > p.max) { T[i] = neu(false); continue; }
+        var k = p.leben / p.max;
+        p.y += p.vy * dt; p.x += (p.vx + Math.sin(p.phase + p.leben * .9) * w * .012) * dt;
+        var rad = p.r * (1 + k * 2.4), a = Math.sin(Math.PI * Math.min(1, k * 1.15)) * .26;
+        var g = ctx.createRadialGradient(p.x, p.y, 0, p.x, p.y, rad);
+        if (p.lila) { g.addColorStop(0, 'rgba(160,95,235,' + a + ')'); g.addColorStop(1, 'rgba(90,40,160,0)'); }
+        else { g.addColorStop(0, 'rgba(175,165,190,' + a * .8 + ')'); g.addColorStop(1, 'rgba(90,85,100,0)'); }
+        ctx.fillStyle = g; ctx.beginPath(); ctx.arc(p.x, p.y, rad, 0, 6.283); ctx.fill();
+      }
+      requestAnimationFrame(bild);
+    }
+    if (still) { bild(0); return; }
+    requestAnimationFrame(bild);
+  }
+  function suchen(){ document.querySelectorAll('.la-qualm').forEach(qualm); }
+  new MutationObserver(suchen).observe(document.documentElement, { childList: true, subtree: true });
+  suchen();
 })();
 </script>
 </body></html>
