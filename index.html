@@ -427,6 +427,38 @@ footer.foot,.site-foot{color:var(--muted)}
 .ad-shot img{display:block;width:100%;height:auto}
 .ad-shot figcaption{font-size:.82rem;color:var(--muted);padding:.4rem .7rem;background:#120c06;border-top:1px solid var(--frame)}
 </style>
+<style id="theme-logo">
+/* Stil passend zum siikk-Logo: Bronze, Gold, lila Leuchten und Runenring */
+:root:not(#_){--ame:#b98cff;--ame-soft:#24163a;--glow:rgba(150,80,255,.22)}
+body{background:
+  radial-gradient(ellipse 55% 38% at 50% -6%,rgba(155,85,255,.28),transparent 70%),
+  radial-gradient(ellipse 40% 30% at 8% 92%,rgba(120,60,210,.13),transparent 70%),
+  radial-gradient(ellipse 40% 30% at 94% 70%,rgba(120,60,210,.11),transparent 70%),
+  url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%201000%201000%22%3E%3Cg%20opacity%3D%22.2%22%3E%0A%3Cdefs%3E%3Cpath%20id%3D%22k%22%20d%3D%22M500%2C500%20m-410%2C0%20a410%2C410%200%201%2C1%20820%2C0%20a410%2C410%200%201%2C1%20-820%2C0%22/%3E%3C/defs%3E%0A%3Cg%20fill%3D%22none%22%20stroke%3D%22%23e3b84f%22%3E%0A%3Ccircle%20cx%3D%22500%22%20cy%3D%22500%22%20r%3D%22470%22%20stroke-width%3D%223%22%20opacity%3D%22.5%22/%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22500%22%20r%3D%22455%22%20stroke-width%3D%221%22%20opacity%3D%22.4%22/%3E%0A%3Ccircle%20cx%3D%22500%22%20cy%3D%22500%22%20r%3D%22370%22%20stroke-width%3D%222%22%20opacity%3D%22.45%22/%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22500%22%20r%3D%22360%22%20stroke-width%3D%221%22%20opacity%3D%22.3%22/%3E%0A%3Ccircle%20cx%3D%22500%22%20cy%3D%22500%22%20r%3D%22240%22%20stroke-width%3D%221%22%20opacity%3D%22.25%22%20stroke-dasharray%3D%224%2010%22/%3E%0A%3Cpath%20d%3D%22M500%2020%20L515%2060%20L500%2050%20L485%2060Z%20M500%20980%20L515%20940%20L500%20950%20L485%20940Z%20M20%20500%20L60%20485%20L50%20500%20L60%20515Z%20M980%20500%20L940%20485%20L950%20500%20L940%20515Z%22%20fill%3D%22%23e3b84f%22%20opacity%3D%22.55%22/%3E%0A%3C/g%3E%0A%3Ctext%20font-family%3D%22serif%22%20font-size%3D%2238%22%20fill%3D%22%23e3b84f%22%20opacity%3D%22.55%22%20letter-spacing%3D%229%22%3E%3CtextPath%20href%3D%22%23k%22%3E%E1%9A%A0%E1%9A%A2%E1%9A%A6%E1%9A%A8%E1%9A%B1%E1%9A%B2%E1%9A%B7%E1%9A%B9%E1%9A%BA%E1%9A%BE%E1%9B%81%E1%9B%83%E1%9B%87%E1%9B%88%E1%9B%89%E1%9B%8A%E1%9B%8F%E1%9B%92%E1%9B%96%E1%9B%97%E1%9B%9A%E1%9B%9C%E1%9B%9E%E1%9B%9F%20%E1%9A%A0%E1%9A%A2%E1%9A%A6%E1%9A%A8%E1%9A%B1%E1%9A%B2%E1%9A%B7%E1%9A%B9%E1%9A%BA%E1%9A%BE%E1%9B%81%E1%9B%83%E1%9B%87%E1%9B%88%E1%9B%89%E1%9B%8A%E1%9B%8F%E1%9B%92%E1%9B%96%E1%9B%97%E1%9B%9A%E1%9B%9C%E1%9B%9E%E1%9B%9F%20%E1%9A%A0%E1%9A%A2%E1%9A%A6%E1%9A%A8%E1%9A%B1%E1%9A%B2%E1%9A%B7%E1%9A%B9%E1%9A%BA%E1%9A%BE%E1%9B%81%E1%9B%83%E1%9B%87%E1%9B%88%E1%9B%89%E1%9B%8A%E1%9B%8F%E1%9B%92%E1%9B%96%E1%9B%97%E1%9B%9A%E1%9B%9C%E1%9B%9E%E1%9B%9F%20%3C/textPath%3E%3C/text%3E%0A%3C/g%3E%3C/svg%3E") center 52%/min(1150px,140vw) no-repeat fixed,
+  repeating-linear-gradient(135deg,rgba(255,226,170,.016) 0 2px,transparent 2px 7px),
+  radial-gradient(ellipse 120% 90% at 50% 40%,#1a120b 0%,#0e0906 55%,#060403 100%) fixed,
+  #0b0705 !important}
+@supports (-webkit-touch-callout:none){body{background-attachment:scroll!important}}
+/* Runenring nur ganz leicht sichtbar */
+body{background-blend-mode:normal}
+main#main{position:relative}
+main#main::before{content:"";position:fixed;inset:0;pointer-events:none;z-index:-1;background:radial-gradient(ellipse 85% 75% at 50% 45%,transparent 55%,rgba(0,0,0,.55) 100%)}
+/* Kopfleiste: Bronze mit Gold-Lila-Linie wie das Schriftband im Logo */
+.bar{background:linear-gradient(#1d150d,#110b06)!important;border-bottom:0!important;box-shadow:0 1px 0 #000,0 8px 22px rgba(0,0,0,.55)!important}
+.bar::after{content:"";position:absolute;left:0;right:0;bottom:-2px;height:2px;background:linear-gradient(90deg,transparent,#6e5226 12%,#e3b84f 35%,#9a5cff 50%,#e3b84f 65%,#6e5226 88%,transparent)}
+.bar .home img{filter:drop-shadow(0 0 6px rgba(155,85,255,.55))}
+/* Seitenleiste: Bronzeplatte */
+.side{background:linear-gradient(90deg,rgba(24,16,9,.97),rgba(16,11,6,.96)),repeating-linear-gradient(135deg,rgba(255,226,170,.02) 0 2px,transparent 2px 7px)!important;border-right:1px solid #5a4220!important;box-shadow:inset -1px 0 0 rgba(155,85,255,.18)}
+.nav-i[aria-current="page"]{box-shadow:inset 3px 0 0 #b98cff,inset 0 0 0 1px #5a4220,0 0 14px rgba(155,85,255,.18)!important}
+/* Überschriften: Gold mit leichtem Lila-Schein wie die Augen im Logo */
+h1{text-shadow:0 2px 0 #000,0 0 22px rgba(155,85,255,.35)!important}
+h2{text-shadow:0 1px 0 #000,0 0 16px rgba(155,85,255,.22)!important}
+/* Großes Logo auf der Startseite: lila Glimmen dahinter */
+.hero img,.addon-hero img{filter:drop-shadow(0 0 28px rgba(155,85,255,.35)) drop-shadow(0 10px 18px rgba(0,0,0,.7))}
+/* Trennlinien zwischen Abschnitten mit kleiner Raute in der Mitte */
+section.sec::after{content:"";position:absolute;left:50%;top:-5px;width:9px;height:9px;transform:translateX(-50%) rotate(45deg);background:#0e0906;border:1px solid #b8913f;box-shadow:0 0 8px rgba(155,85,255,.45)}
+section.sec:first-of-type::after{display:none}
+</style>
 
 
 <header class="bar">
