@@ -485,8 +485,12 @@ section.sec:first-of-type::after{display:none}
 </style>
 <style id="logo-anim">
 /* Bewegtes Logo: funkelnde Augen und aufsteigender Qualm */
-.logo-anim{position:relative;display:inline-block;width:min(34rem,100%);isolation:isolate}
-.logo-anim img{position:relative;z-index:1;display:block;width:100%!important}
+.logo-anim{position:relative;display:inline-block;isolation:isolate;line-height:0;vertical-align:middle}
+.logo-anim img{position:relative;z-index:1;display:block;box-shadow:none!important;border-radius:0!important;background:none!important}
+.hero .logo-anim{width:min(34rem,100%)} .hero .logo-anim img{width:100%!important}
+.addon-hero .logo-anim{width:min(36rem,100%)} .addon-hero .logo-anim img{width:100%!important}
+.promo .logo-anim{display:block;width:100%;max-width:20rem}
+.logo-anim.klein .la-auge{width:17%}
 .la-qualm{position:absolute;left:-18%;top:-22%;width:136%;height:122%;z-index:0;pointer-events:none}
 .la-auge{position:absolute;z-index:2;top:41%;width:13%;aspect-ratio:1;transform:translate(-50%,-50%);border-radius:50%;pointer-events:none;mix-blend-mode:screen;
   background:radial-gradient(circle,rgba(255,240,255,.95) 0%,rgba(205,140,255,.75) 18%,rgba(150,70,255,.35) 42%,transparent 68%);animation:la-glimm 3.4s ease-in-out infinite}
@@ -1261,7 +1265,21 @@ go();
     if (still) { bild(0); return; }
     requestAnimationFrame(bild);
   }
-  function suchen(){ document.querySelectorAll('.la-qualm').forEach(qualm); }
+  // jedes Logo-Bild (Kopfleiste, Addon-Seite, Werbebox) bekommt Augen-Glimmen, die großen auch Qualm und Funken
+  function einpacken(img, klein){
+    if (!img || !img.parentNode || img.closest('.logo-anim')) return;
+    var w = document.createElement('span'); w.className = 'logo-anim' + (klein ? ' klein' : '');
+    img.parentNode.insertBefore(w, img);
+    if (!klein) { var c = document.createElement('canvas'); c.className = 'la-qualm'; c.setAttribute('aria-hidden', 'true'); w.appendChild(c); }
+    w.appendChild(img);
+    var teile = klein ? ['la-auge l', 'la-auge r'] : ['la-auge l', 'la-auge r', 'la-funke f1', 'la-funke f2', 'la-funke f3'];
+    teile.forEach(function(k){ var e = document.createElement('span'); e.className = k; e.setAttribute('aria-hidden', 'true'); w.appendChild(e); });
+  }
+  function suchen(){
+    einpacken(document.getElementById('bar-logo'), true);
+    document.querySelectorAll('.addon-hero > img, .promo > img').forEach(function(i){ einpacken(i, i.closest('.promo.small') ? true : false); });
+    document.querySelectorAll('.la-qualm').forEach(qualm);
+  }
   new MutationObserver(suchen).observe(document.documentElement, { childList: true, subtree: true });
   suchen();
 })();
