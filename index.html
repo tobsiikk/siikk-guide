@@ -458,6 +458,30 @@ h2{text-shadow:0 1px 0 #000,0 0 16px rgba(155,85,255,.22)!important}
 /* Trennlinien zwischen Abschnitten mit kleiner Raute in der Mitte */
 section.sec::after{content:"";position:absolute;left:50%;top:-5px;width:9px;height:9px;transform:translateX(-50%) rotate(45deg);background:#0e0906;border:1px solid #b8913f;box-shadow:0 0 8px rgba(155,85,255,.45)}
 section.sec:first-of-type::after{display:none}
+
+/* Karten: gedämpftes, graues Pergament statt kräftigem Gelb */
+.tt,.card,.tbl,.chead,.dl,.cbtn,.sk-btn,.ord,.promo,.sk-bar,.neu-eintrag,.dl-neu{
+  --surface:#d9d5cc!important; --bg:#cdc7bb!important; --sunk:#c3bcae!important; --line:#a69e8d!important; --gold-soft:#d0c9ba!important;
+  background:radial-gradient(ellipse at 50% 40%,#dedad1 0%,#cfc9bc 58%,#bdb5a5 100%)!important;
+  border-color:#8e7a52!important;
+  box-shadow:0 0 0 3px #15100a,0 0 0 4px #5a4a2c,inset 0 0 36px rgba(40,32,20,.22),0 8px 22px rgba(0,0,0,.55)!important}
+:is(.tt,.card,.tbl,.chead,.dl,.cbtn,.sk-btn,.ord,.promo,.sk-bar,.neu-eintrag,.dl-neu) :is(.chip,.fchip){background:#c8c1b2!important;border-color:#9a907c!important;color:#4e4536!important}
+.tbl th{background:#c7c0b1!important}
+.cbtn:hover,.sk-btn:hover{box-shadow:0 0 0 3px #15100a,0 0 0 4px var(--frame-hi),inset 0 0 36px rgba(40,32,20,.22),0 0 18px rgba(185,140,255,.28)!important}
+.sk-btn[aria-pressed="true"]{background:radial-gradient(ellipse at 50% 40%,#ece8df 0%,#dcd6c9 60%,#c9c1b0 100%)!important}
+.tt-tabs button[aria-selected="true"]{background:radial-gradient(ellipse at 50% 30%,#dedad1,#cbc5b8)!important}
+.tt-detail{background:linear-gradient(#d2ccbf,#c4bdae)!important}
+/* „Was ist neu?“ in den Download-Karten ohne eigenen Kasten */
+.dl .dl-neu{background:none!important;border:0!important;box-shadow:none!important;padding:0!important}
+
+/* auf grauem Grund: helle Klassenfarben (Priester, Schurke) besser lesbar */
+.cbtn b{color:color-mix(in srgb,var(--c,#2b2012) 45%,#120e09)!important}
+.cbtn .medal,.chead .medal{filter:drop-shadow(0 0 1px rgba(0,0,0,.85)) drop-shadow(0 0 2px rgba(0,0,0,.45))}
+:is(.tt,.card,.chead,.dl,.promo,.ord) h1,:is(.tt,.card,.chead,.dl,.promo,.ord) h3{text-shadow:none}
+
+/* Priester (weiß) auf grauem Grund dunkler */
+.cbtn[style*="--c:#FFFFFF;"] b,.cbtn[style*="--c:#ffffff;"] b{color:#45413a!important}
+.cbtn[style*="--c:#FFFFFF;"] .medal,.cbtn[style*="--c:#ffffff;"] .medal{filter:drop-shadow(0 0 1px #000) drop-shadow(0 0 1px rgba(0,0,0,.8))}
 </style>
 
 
