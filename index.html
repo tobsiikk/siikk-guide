@@ -395,6 +395,32 @@ footer.foot,.site-foot{color:var(--muted)}
 .site-foot a{color:var(--muted)}
 .scrim.on{background:rgba(0,0,0,.6)}
 ::selection{background:#6b4f1d;color:#fff3cf}
+/* Changelogs */
+.cl-h{margin-top:1.4rem}
+.cl-uebersicht{display:grid;grid-template-columns:repeat(auto-fill,minmax(12rem,1fr));gap:.7rem;margin:1rem 0 2rem}
+.cl-kachel{position:relative;display:grid;gap:.15rem;text-align:left;cursor:pointer;padding:.75rem .9rem;border-radius:8px;background:linear-gradient(#22180c,#160f08);border:1px solid var(--frame);color:var(--ink);font:inherit}
+.cl-kachel:hover{border-color:var(--frame-hi);box-shadow:0 0 14px rgba(233,200,115,.25)}
+.cl-kachel.neu{border-color:#a582d8;box-shadow:0 0 0 1px #a582d8,0 0 16px rgba(165,130,216,.35)}
+.cl-k-name{font-family:"Cinzel",Georgia,serif;color:#f1d792;font-size:.98rem;padding-right:3rem;overflow-wrap:anywhere}
+.cl-k-ver{font-family:var(--f-mono);font-size:.8rem;color:var(--ink)}
+.cl-k-dat{font-family:var(--f-mono);font-size:.72rem;color:var(--muted)}
+.cl-badge{display:inline-block;font-family:var(--f-mono);font-size:.64rem;letter-spacing:.08em;background:#6b3fa0;color:#fff;border-radius:4px;padding:.1rem .4rem}
+.cl-kachel .cl-badge{position:absolute;top:.6rem;right:.6rem}
+.cl-win{margin:1.6rem 0;border-radius:6px;overflow:hidden;scroll-margin-top:4rem;border:1px solid var(--frame-hi);box-shadow:0 0 0 3px #1a1209,0 0 0 4px var(--frame),0 8px 22px rgba(0,0,0,.55)}
+.cl-titel{display:flex;flex-wrap:wrap;align-items:center;gap:.5rem .8rem;padding:.65rem 1rem;background:linear-gradient(#2c1f0f,#1a1208);border-bottom:1px solid var(--frame-hi)}
+.cl-name{font-family:var(--f-title);color:var(--title);font-size:1.35rem;margin-right:auto}
+.cl-chip{font-family:var(--f-mono);font-size:.78rem;color:#f1d792;border:1px solid var(--frame-hi);border-radius:999px;padding:.1rem .55rem}
+.cl-dat{font-family:var(--f-mono);font-size:.75rem;color:var(--muted)}
+.cl-body{--ink:#2b2012;--muted:#6a5534;--line:#c3a873;--ame:#6a3a9a;--ame-soft:#e8dcd8;color:var(--ink);padding:.9rem 1.1rem 1rem;background:radial-gradient(ellipse at 50% 30%,#f6ecd0 0%,#ecdcb1 60%,#dcc590 100%);box-shadow:inset 0 0 36px rgba(120,80,20,.2)}
+.cl-version{border-left:3px solid #c3a873;padding:.3rem 0 .3rem .8rem;margin:.5rem 0}
+.cl-version.aktuell{border-left-color:#6a3a9a}
+.cl-vkopf{display:flex;flex-wrap:wrap;gap:.6rem;align-items:baseline}
+.cl-vkopf span{font-family:var(--f-mono);font-size:.75rem;color:var(--muted)}
+.cl-version ul{margin:.3rem 0 0 1.1rem;padding:0}
+.cl-alt summary{cursor:pointer;font-family:"Cinzel",Georgia,serif;color:#5d4a2c;margin:.6rem 0 .2rem}
+.cl-fuss{margin:.8rem 0 0;font-size:.9rem;color:var(--muted)}
+.cl-fuss .cmd{background:#e2cf9f}
+.cl-fuss .linkbtn{background:none;border:0;box-shadow:none;color:#6a3a9a;text-decoration:underline;font:inherit;cursor:pointer;padding:0;letter-spacing:0}
 </style>
 
 
@@ -539,8 +565,10 @@ function renderSide(){
   var ad = '<button type="button" class="nav-i nav-u ad" data-go="addons"'+(v === 'addons' ? ' aria-current="page"' : '')+'><span>Herunterladen</span><span class="new">GRATIS</span></button>' +
     navUnter('siikk-Oberfläche', 'addons', 'ui', false, null) + navUnter('siikk-Damagemeter', 'addons', 'dm', false, null) +
     navUnter('siikk-Questhilfe', 'addons', 'qh', false, null) + navUnter('siikk-Auktionshaus', 'addons', 'ah', false, null) + navUnter('siikk-Schadenszahlen', 'addons', 'sz', false, null) + navUnter('siikk-Infoleiste', 'addons', 'il', false, null) +
-    navUnter('Was ist neu?', 'addons', 'neu', false, null) + navUnter('Installation', 'addons', 'install', false, null);
-  h += navGruppe('addons', 'siikk-UI Addons', medal('<path d="M32 14v24M22 30l10 10 10-10M18 50h28"/>', 'var(--ame)', 22), v === 'addons', ad);
+    navUnter('Installation', 'addons', 'install', false, null) +
+    '<button type="button" class="nav-i nav-u ad" data-go="changelog"'+(v === 'changelog' ? ' aria-current="page"' : '')+'><span>Changelogs</span>'+(clNeuAnzahl() ? '<span class="new">'+clNeuAnzahl()+' NEU</span>' : '')+'</button>';
+  if (v === 'changelog') { ad += '<div class="nav-sub">'; CL_KEYS.forEach(function(k){ var cl = (DATA.addon.changelog || {})[k]; if (cl) ad += '<button type="button" class="nav-i" data-sec="cl-'+k+'">'+esc(cl.name)+(clIstNeu(cl) ? ' <span class="cl-badge">NEU</span>' : '')+'</button>'; }); ad += '</div>'; }
+  h += navGruppe('addons', 'siikk-UI Addons', medal('<path d="M32 14v24M22 30l10 10 10-10M18 50h28"/>', 'var(--ame)', 22), v === 'addons' || v === 'changelog', ad);
   side.innerHTML = h;
 }
 function zuAbschnitt(id){
@@ -752,13 +780,7 @@ function renderAddons(){
       ['Frei platzierbar', 'Einfach mit der Maus an ihren Platz ziehen. Auf Wunsch zusätzlich FPS, Latenz und Uhr – die zeigt die siikk-Oberfläche aber schon, deshalb sind sie anfangs aus.']
     ]) + table(['Befehl','Was er macht'], [[c('/il'), 'Einstellungen öffnen'], [c('/il an')+' / '+c('/il aus'), 'Leiste an oder aus'], [c('/il sperren'), 'Leiste festmachen (Shift + Ziehen verschiebt trotzdem)'], [c('/il reset'), 'Leiste zurück nach oben links'], [c('/il intro'), 'Einführung öffnen'], [c('/il neu'), 'Was ist neu?']]));
 
-  h += sec('neu', 'Änderungen', 'Was ist neu? – alle Updates', '<p>Hier steht zu jedem Addon, wann es aktualisiert wurde, welche Version es hat und was geändert oder hinzugefügt wurde. Im Spiel zeigt dir jedes siikk-Addon nach einem Update einmal das Fenster <b>„Was ist neu?“</b> – wieder öffnen mit '+c('/th neu')+', '+c('/meter neu')+', '+c('/qh neu')+' oder '+c('/ah neu')+'.</p>' +
-    ['oberflaeche','damagemeter','questhilfe','auktionshaus','schadenszahlen','infoleiste'].map(function(k){
-      var cl = (DATA.addon.changelog || {})[k]; if (!cl) return '';
-      return '<h3>'+esc(cl.name)+'</h3>' + cl.eintraege.map(function(e, i){
-        return '<div class="neu-eintrag'+(i === 0 ? ' aktuell' : '')+'"><div class="neu-kopf"><b>Version '+esc(e.version)+'</b><span>'+esc(e.datum)+'</span>'+(i === 0 ? '<span class="tag">aktuell</span>' : '')+'</div><ul>'+e.punkte.map(function(p){ return '<li>'+esc(p)+'</li>'; }).join('')+'</ul></div>';
-      }).join('');
-    }).join(''));
+  h += sec('neu', 'Änderungen', 'Was ist neu?', '<p>Alle Updates stehen jetzt auf einer eigenen Seite – für jedes Addon in einem eigenen Fenster mit Version, Datum und allen Änderungen.</p><p><button type="button" class="btn" data-go="changelog">Zu den Changelogs</button></p>');
 
   h += sec('install', 'Anleitung', 'So installierst du die Addons', '<ol class="steps">' + [
     'ZIP-Datei oben herunterladen.',
@@ -1061,6 +1083,33 @@ function talentTree(k, host){
   render();
 }
 
+/* ---------- Changelogs: ein Fenster pro Addon ---------- */
+var CL_KEYS = ['oberflaeche','damagemeter','questhilfe','auktionshaus','schadenszahlen','infoleiste'];
+var CL_INFO = { oberflaeche:['Oberfläche','/th neu'], damagemeter:['Damagemeter','/meter neu'], questhilfe:['Questhilfe','/qh neu'], auktionshaus:['Auktionshaus','/ah neu'], schadenszahlen:['Schadenszahlen','/sz'], infoleiste:['Infoleiste','/il'] };
+function clDatum(t){ var m = /^(\d{1,2})\.(\d{1,2})\.(\d{4})$/.exec(t || ''); return m ? new Date(+m[3], +m[2] - 1, +m[1]) : null; }
+function clIstNeu(cl){ var e = cl && cl.eintraege && cl.eintraege[0], d = e && clDatum(e.datum); return !!d && (Date.now() - d.getTime()) < 3 * 864e5; }
+function clNeuAnzahl(){ var C = DATA.addon.changelog || {}; return CL_KEYS.filter(function(k){ return clIstNeu(C[k]); }).length; }
+function clListe(e){ return '<ul>' + e.punkte.map(function(p){ return '<li>'+esc(p)+'</li>'; }).join('') + '</ul>'; }
+function renderChangelog(){
+  var C = DATA.addon.changelog || {};
+  var keys = CL_KEYS.filter(function(k){ return C[k] && C[k].eintraege && C[k].eintraege.length; });
+  var neu = keys.slice().sort(function(a, b){ return (clDatum(C[b].eintraege[0].datum) || 0) - (clDatum(C[a].eintraege[0].datum) || 0); });
+  var h = '<div class="kap" style="color:var(--ame)">siikk-UI Addons</div><h1>Changelogs</h1><p>Hier kommt jede Änderung an den siikk-Addons rein. Jedes Addon hat sein eigenes Fenster – so siehst du sofort, welches Addon erneuert wurde, welche Version aktuell ist und was sich geändert hat. Im Spiel zeigt dir jedes Addon nach einem Update einmal das Fenster <b>„Was ist neu?“</b>.</p>';
+  h += '<h2 class="cl-h">Zuletzt aktualisiert</h2><div class="cl-uebersicht">' + neu.map(function(k){
+    var cl = C[k], e = cl.eintraege[0], isNeu = clIstNeu(cl);
+    return '<button type="button" class="cl-kachel'+(isNeu ? ' neu' : '')+'" data-sec="cl-'+k+'"><span class="cl-k-name">'+esc(cl.name)+'</span><span class="cl-k-ver">v'+esc(e.version)+'</span><span class="cl-k-dat">'+esc(e.datum)+'</span>'+(isNeu ? '<span class="cl-badge">NEU</span>' : '')+'</button>';
+  }).join('') + '</div>';
+  h += keys.map(function(k){
+    var cl = C[k], cur = cl.eintraege[0], alt = cl.eintraege.slice(1), isNeu = clIstNeu(cl);
+    return '<section class="cl-win" id="s-cl-'+k+'"><header class="cl-titel"><span class="cl-name">'+esc(cl.name)+'</span><span class="cl-chip">v'+esc(cur.version)+'</span><span class="cl-dat">'+esc(cur.datum)+'</span>'+(isNeu ? '<span class="cl-badge">NEU</span>' : '')+'</header>' +
+      '<div class="cl-body"><div class="cl-version aktuell"><div class="cl-vkopf"><b>Version '+esc(cur.version)+'</b><span>'+esc(cur.datum)+'</span><span class="tag">aktuell</span></div>'+clListe(cur)+'</div>' +
+      (alt.length ? '<details class="cl-alt"><summary>Ältere Versionen ('+alt.length+')</summary>' + alt.map(function(e){ return '<div class="cl-version"><div class="cl-vkopf"><b>Version '+esc(e.version)+'</b><span>'+esc(e.datum)+'</span></div>'+clListe(e)+'</div>'; }).join('') + '</details>' : '') +
+      '<p class="cl-fuss">Im Spiel: <span class="cmd">'+esc(CL_INFO[k][1])+'</span> · <button type="button" class="linkbtn" data-go="addons">Zum Download</button></p></div></section>';
+  }).join('');
+  view.innerHTML = h;
+  view.querySelectorAll('[data-sec]').forEach(function(b){ b.addEventListener('click', function(){ zuAbschnitt(b.dataset.sec); }); });
+}
+
 /* ---------- Router ---------- */
 view.addEventListener('click', function(e){ var b = e.target.closest('[data-go]'); if (b) location.hash = b.dataset.go; });
 function go(){
@@ -1074,9 +1123,10 @@ function go(){
   else if (h === 'berufe-allg') { route = { v:'berufe-allg' }; renderBerufeAllg(); }
   else if (h === 'begriffe') { route = { v:'begriffe' }; renderBegriffe(); }
   else if (h === 'addons') { route = { v:'addons' }; renderAddons(); document.title = 'siikkUI herunterladen · siikk-guide'; }
+  else if (h === 'changelog') { route = { v:'changelog' }; renderChangelog(); document.title = 'Changelogs · siikk-guide'; }
   else { route = { v:'start' }; renderStart(); }
-  if (route.v !== 'klasse' && route.v !== 'addons') document.title = 'siikk-guide';
-  var cr = { klasse: BYK[route.id] && BYK[route.id].name, volk: BYV[route.id] && BYV[route.id].name, voelker:'Völker', gebiete:'Leveln', 'berufe-allg':'Berufe', begriffe:'Begriffe', addons:'siikkUI Addon' }[route.v];
+  if (route.v !== 'klasse' && route.v !== 'addons' && route.v !== 'changelog') document.title = 'siikk-guide';
+  var cr = { klasse: BYK[route.id] && BYK[route.id].name, volk: BYV[route.id] && BYV[route.id].name, voelker:'Völker', gebiete:'Leveln', 'berufe-allg':'Berufe', begriffe:'Begriffe', addons:'siikkUI Addon', changelog:'Changelogs' }[route.v];
   document.getElementById('crumb').textContent = 'WoW: Forever' + (cr ? ' · ' + cr : ' · Klassen-Guide');
   renderSide();
   window.scrollTo(0, 0);
