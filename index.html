@@ -294,6 +294,109 @@ footer.foot{margin-top:2.5rem;padding-top:1rem;border-top:1px solid var(--line);
 .nav-gi .nav-sub{margin:.1rem 0 .3rem .4rem}
 @media (prefers-reduced-motion:reduce){.nav-gk .pfeil{transition:none}}
 </style>
+<style id="theme-grimoire">
+/* Grimoire-Stil: dunkler Einband, Gold, Pergamentseiten */
+@font-face{font-family:"Uncial Antiqua";src:url(fonts/uncialantiqua.woff) format("woff");font-display:swap}
+@font-face{font-family:"Alegreya";src:url(fonts/alegreya.woff) format("woff");font-weight:400 900;font-display:swap}
+@font-face{font-family:"Alegreya";src:url(fonts/alegreya-italic.woff) format("woff");font-weight:400 900;font-style:italic;font-display:swap}
+:root:not(#_){
+  --bg:#0d0905; --surface:#17100a; --sunk:#090603; --ink:#eadfc4; --muted:#ab9a7c; --line:#4d3b20;
+  --gold:#e3b84f; --gold-soft:#2c2111; --green:#9cc771; --green-soft:#1c2414; --ame:#c9a3f0; --ame-soft:#251b33; --ember:#ec9a5c; --ember-soft:#33200f;
+  --frame:#6e5226; --frame-hi:#b8913f; --title:#f2c443;
+  --cls:var(--clsraw); --mx:100%;
+  --f-title:"Uncial Antiqua","Cinzel",Georgia,serif;
+  --f-body:"Alegreya",Georgia,"Times New Roman",serif;
+  color-scheme:dark;
+}
+body{background:radial-gradient(ellipse 120% 70% at 50% 0%,#1d140a 0%,#0d0905 60%) fixed,#0d0905;color:var(--ink);font-family:var(--f-body);font-size:18px}
+body::before{background:#120c06}
+a{color:#e9c873}
+h1,h2{font-family:var(--f-title);font-weight:400;letter-spacing:.01em}
+h1{color:var(--title);text-shadow:0 2px 0 #000,0 0 18px rgba(242,196,67,.18)}
+h2{color:var(--title);text-shadow:0 1px 0 #000}
+.kap{color:var(--frame-hi);font-family:"Cinzel",Georgia,serif;letter-spacing:.18em}
+section.sec{border-top:0;position:relative}
+section.sec::before{content:"";position:absolute;left:0;right:0;top:0;height:1px;background:linear-gradient(90deg,transparent,var(--frame) 15%,var(--frame-hi) 50%,var(--frame) 85%,transparent)}
+section.sec:first-of-type::before{display:none}
+
+/* Kopfzeile und Leiste */
+.bar{background:linear-gradient(#1a120a,#120c06);border-bottom:1px solid var(--frame);box-shadow:0 2px 0 #000,0 6px 18px rgba(0,0,0,.5)}
+.bar .home b{color:var(--title);font-family:var(--f-title);font-weight:400;letter-spacing:.02em}
+.crumb{color:var(--muted)}
+.side{background:linear-gradient(90deg,#140d07,#110b06);border-right:1px solid var(--frame)}
+.side h4{color:var(--frame-hi);font-family:"Cinzel",Georgia,serif;letter-spacing:.2em}
+.nav-i{color:var(--ink)}
+.nav-i:hover{background:#21170c}
+.nav-i[aria-current="page"]{background:linear-gradient(90deg,#3a2a12,#22180c);color:#ffe7a6;box-shadow:inset 3px 0 0 var(--frame-hi),inset 0 0 0 1px #5a4220}
+.nav-sub .nav-i{color:var(--muted)}
+.nav-gk:hover{background:#21170c}
+
+/* Knöpfe wie im Spiel */
+.btn,.menu-btn,.tt-step,.linkbtn{background:linear-gradient(#2c1f0f,#1a1208);border:1px solid var(--frame-hi);color:#f1d792;font-family:"Cinzel",Georgia,serif;letter-spacing:.04em;box-shadow:inset 0 1px 0 rgba(255,220,140,.12),0 1px 2px rgba(0,0,0,.6)}
+.btn:hover,.menu-btn:hover,.tt-step:hover{background:linear-gradient(#3a2914,#22170b);color:#ffe7a6}
+.btn.ghost{background:#16100a;border-color:var(--frame);color:var(--muted)}
+.fchip,.chip{background:#16100a;border-color:var(--frame);color:var(--muted)}
+.chip b{color:var(--ink)}
+.fchip[aria-pressed="true"]{background:linear-gradient(#3a2914,#22170b);border-color:var(--frame-hi);color:#ffe7a6}
+.bar-ad,.btn.ame{background:linear-gradient(#5b3591,#3e2266);border-color:#a582d8}
+.filter input[type=search],.sk-bar select{background:#0f0a05;border-color:var(--frame);color:var(--ink)}
+
+/* Hinweisboxen */
+.tip,.warn,.grp{background:rgba(255,255,255,.03);border:1px solid var(--line);border-left-width:3px}
+.tip{border-left-color:var(--green)} .warn{border-left-color:var(--ember)} .grp{border-left-color:var(--ame)}
+
+/* Pergamentseiten mit goldenem Rahmen */
+.tt,.card,.tbl,.chead,.dl,.cbtn,.sk-btn,.ord,.promo,.sk-bar,.neu-eintrag,.dl-neu{
+  --surface:#f1e5c3; --bg:#e6d6aa; --sunk:#ddcb9b; --ink:#2b2012; --muted:#6a5534; --line:#c3a873;
+  --gold:#85601b; --gold-soft:#ead9ac; --green:#3b6b2a; --green-soft:#dfe5c2; --ame:#6a3a9a; --ame-soft:#e8dcd8; --ember:#9a3d10; --ember-soft:#f0d7bb;
+  --cls:color-mix(in srgb,var(--clsraw) 62%,#2b2012);
+  color:var(--ink);
+  background:radial-gradient(ellipse at 50% 40%,#f6ecd0 0%,#ecdcb1 55%,#dcc590 100%);
+  border:1px solid var(--frame-hi);
+  box-shadow:0 0 0 3px #1a1209,0 0 0 4px var(--frame),inset 0 0 36px rgba(120,80,20,.22),0 8px 22px rgba(0,0,0,.55);
+}
+:is(.tt,.card,.tbl,.chead,.dl,.cbtn,.sk-btn,.ord,.promo,.sk-bar,.neu-eintrag,.dl-neu) :is(.chip,.fchip){background:#e4d1a1;border-color:#b99a5f;color:#5d4a2c}
+:is(.tt,.card,.tbl,.chead,.dl,.cbtn,.sk-btn,.ord,.promo,.sk-bar,.neu-eintrag,.dl-neu) .chip b{color:#2b2012}
+:is(.tt,.card,.tbl,.chead,.dl,.cbtn,.sk-btn,.ord,.promo,.sk-bar,.neu-eintrag,.dl-neu) .fchip[aria-pressed="true"]{background:linear-gradient(#3a2914,#22170b);color:#ffe7a6;border-color:var(--frame-hi)}
+.tt h3,.card h3,.dl h3,.chead h1{font-family:"Cinzel",Georgia,serif;letter-spacing:.06em}
+.chead h1{color:var(--cls);text-shadow:none}
+.tbl th{background:#e2cf9f;color:var(--muted)}
+.cbtn:hover,.sk-btn:hover{border-color:#e9c873;box-shadow:0 0 0 3px #1a1209,0 0 0 4px var(--frame-hi),inset 0 0 36px rgba(120,80,20,.22),0 0 18px rgba(233,200,115,.35)}
+.cbtn b{color:color-mix(in srgb,var(--c,#2b2012) 70%,#2b2012)}
+.sk-btn[aria-pressed="true"]{background:radial-gradient(ellipse at 50% 40%,#fff4d6 0%,#f0dfb0 60%,#e2c98e 100%);border:2px solid var(--frame-hi)}
+.promo h3,.promo p{color:var(--ink)}
+
+/* Talentbaum: Reiter wie Buchzeichen, Tooltip wie im Spiel */
+.tt-head{border-bottom-color:var(--line)}
+.tt-tabs{background:#1a1209;border-bottom:1px solid var(--frame)}
+.tt-tabs button{color:#d9c393;font-family:"Cinzel",Georgia,serif;font-size:.8rem;letter-spacing:.03em}
+.tt-tabs button[aria-selected="true"]{background:radial-gradient(ellipse at 50% 30%,#f6ecd0,#e6d3a3);color:#2b2012;border-bottom-color:transparent;box-shadow:inset 0 1px 0 #fff3cf,inset 1px 0 0 var(--frame-hi),inset -1px 0 0 var(--frame-hi)}
+.tt-tabs span{background:#3a2a12;color:#f1d792}
+.tt-tabs button[aria-selected="true"] span{background:#2b2012;color:#f1d792}
+.tal .ico{border-color:#7a5c2a;box-shadow:0 1px 3px rgba(0,0,0,.45)}
+.tal.max .ico{border-color:#3b6b2a;box-shadow:0 0 0 2px #c9dba0}
+.tal.part .ico{border-color:#6a3a9a}
+.tal.locked{opacity:.42;filter:grayscale(.7)}
+.tal .rk{background:#1a1209;color:#f1d792;border-color:var(--frame-hi)}
+.tal.max .rk{color:#bfe39a;border-color:#3b6b2a}
+.tt-detail{background:linear-gradient(#e8d8ad,#dfcb98);border-top:1px solid var(--line)}
+.tt-legend{border-top-color:var(--line)}
+.tt-tip{--ink:#f2e8d0;--muted:#a59a86;color:#f2e8d0;background:linear-gradient(#0f1a2e,#0a1222);border:1px solid #7b8bb0;box-shadow:0 0 0 1px #000,0 8px 22px rgba(0,0,0,.6)}
+.tt-tip h4{color:#fff}
+.tt-tip .no{color:#ff6b5b}
+.tt-level output{font-family:var(--f-title);color:var(--cls)}
+
+/* Fähigkeitenliste und Reihenfolge */
+.abil{border-bottom-color:var(--line)}
+.ord small{color:var(--muted)}
+ol.steps li{border-bottom-color:var(--line)}
+footer.foot,.site-foot{color:var(--muted)}
+.site-foot{background:#120c06;border-top:1px solid var(--frame)}
+.site-foot a{color:var(--muted)}
+.scrim.on{background:rgba(0,0,0,.6)}
+::selection{background:#6b4f1d;color:#fff3cf}
+</style>
+
 
 <header class="bar">
   <button type="button" class="home" id="go-home" aria-label="Zur Startseite"><img id="bar-logo" alt=""><b>siikk-guide</b></button>
