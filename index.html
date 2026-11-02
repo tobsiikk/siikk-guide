@@ -852,7 +852,7 @@ function dlCard(d, top){
 }
 function feats(arr){ return '<div class="feat">' + arr.map(function(f){ return '<div class="card"><h3>'+esc(f[0])+'</h3><p>'+f[1]+'</p></div>'; }).join('') + '</div>'; }
 function c(x){ return '<span class="cmd">'+esc(x)+'</span>'; }
-var SHOT_NAME = { ui:'siikk-Oberfläche', dm:'siikk-Damagemeter', qh:'siikk-Questhilfe', ah:'siikk-Auktionshaus', sz:'siikk-Schadenszahlen', il:'siikk-Infoleiste' };
+var SHOT_NAME = { ui:'siikk-Oberfläche', dm:'siikk-Damagemeter', qh:'siikk-Questhilfe', ah:'siikk-Auktionshaus', sz:'siikk-Schadenszahlen', il:'siikk-Infoleiste', ms:'siikk-Minimapsammler', ly:'siikk-Layer', fh:'siikk-Farmhelfer' };
 function shot(k){ return '<figure class="ad-shot"><img src="bilder/addon-'+k+'.webp" width="1500" height="840" loading="lazy" alt="Beispielansicht '+SHOT_NAME[k]+' im Spiel"><figcaption>So sieht '+SHOT_NAME[k]+' ungefähr im Spiel aus (Beispielansicht, nachgebaut – Werte und Positionen sind Beispiele).</figcaption></figure>'; }
 function renderAddons(){
   var A = DATA.addon, h = '<div class="addon-hero"><img src="'+A.logo+'" alt="siikkUI – World of Warcraft Addon"><div class="kap" style="color:var(--ame)">Kostenlos · von Tobsiikk</div><h1>siikk-UI herunterladen</h1><p><b>siikk-UI</b> ist das Komplettpaket mit allen neun Addons im siikk-Design: die <b>siikk-Oberfläche</b> ersetzt die komplette Blizzard-Oberfläche, der <b>siikk-Damagemeter</b> misst Schaden, Heilung und Aggro, die <b>siikk-Questhilfe</b> zeigt Questziele mit Pfeil und Meterzahl, das <b>siikk-Auktionshaus</b> hilft beim Kaufen und Verkaufen, <b>siikk-Schadenszahlen</b> macht die Zahlen über deinen Gegnern schöner, die <b>siikk-Infoleiste</b> zeigt Ort, Gold, Haltbarkeit und Erfahrung auf einen Blick, und der <b>siikk-Minimapsammler</b> räumt alle Addon-Knöpfe an der Minimap in ein Klappmenü, <b>siikk-Layer</b> zeigt dir, auf welchem Layer du bist, und der <b>siikk-Farmhelfer</b> lässt Kräuter, Erze &amp; Co. in deinen Taschen leuchten. Jedes Addon gibt es auch einzeln, jedes hat seinen eigenen Knopf an der Minimap und lässt sich einzeln an- und ausschalten.</p>' +
@@ -941,7 +941,7 @@ function renderAddons(){
       ['Frei platzierbar', 'Einfach mit der Maus an ihren Platz ziehen. Auf Wunsch zusätzlich FPS, Latenz und Uhr – die zeigt die siikk-Oberfläche aber schon, deshalb sind sie anfangs aus.']
     ]) + table(['Befehl','Was er macht'], [[c('/il'), 'Einstellungen öffnen'], [c('/il an')+' / '+c('/il aus'), 'Leiste an oder aus'], [c('/il sperren'), 'Leiste festmachen (Shift + Ziehen verschiebt trotzdem)'], [c('/il reset'), 'Leiste zurück nach oben links'], [c('/il intro'), 'Einführung öffnen'], [c('/il neu'), 'Was ist neu?']]));
 
-  h += sec('ms', 'Addon 7', 'siikk-Minimapsammler – Ordnung an der Minimap', '<p>Viele Addons legen einen eigenen Knopf an die Minimap. Der Minimapsammler steckt sie alle in <b>einen einzigen Knopf</b>: ein Klick, und ein Klappmenü mit allen Addons öffnet sich. Läuft in <b>allen Spielversionen</b>.</p>' +
+  h += sec('ms', 'Addon 7', 'siikk-Minimapsammler – Ordnung an der Minimap', ''+shot('ms')+'<p>Viele Addons legen einen eigenen Knopf an die Minimap. Der Minimapsammler steckt sie alle in <b>einen einzigen Knopf</b>: ein Klick, und ein Klappmenü mit allen Addons öffnet sich. Läuft in <b>allen Spielversionen</b>.</p>' +
     feats([
       ['Ein Knopf für alle', 'Alle Addon-Knöpfe verschwinden von der Minimap und stehen im Klappmenü – mit Symbol und Namen, alphabetisch sortiert.'],
       ['Funktioniert wie vorher', 'Linksklick, Rechtsklick und Tooltip jedes Eintrags verhalten sich genau wie der ursprüngliche Knopf.'],
@@ -949,7 +949,7 @@ function renderAddons(){
       ['Erkennt fast alles', 'Alle Addons mit LibDBIcon (Questie, Details, DBM …), alle siikk-Addons und die meisten anderen runden Minimap-Knöpfe.']
     ]) + table(['Befehl','Was er macht'], [[c('/sammler'), 'Klappmenü öffnen'], [c('/sammler optionen'), 'Auswählen, welche Knöpfe eingesammelt werden'], [c('/sammler aus'), 'Alle Knöpfe zurück an die Minimap'], [c('/sammler intro'), 'Einführung öffnen']]));
 
-  h += sec('ly', 'Addon 8', 'siikk-Layer – auf welchem Layer bist du?', '<p>In WoW Forever gibt es keine festen Realms mehr – das Spiel teilt die Welt in mehrere Kopien, die <b>Layer</b>. siikk-Layer zeigt dir in einer kleinen Anzeige unter der Minimap, auf welchem Layer du gerade bist. Läuft in <b>TBC Anniversary, Classic und Forever</b>.</p>' +
+  h += sec('ly', 'Addon 8', 'siikk-Layer – auf welchem Layer bist du?', ''+shot('ly')+'<p>In WoW Forever gibt es keine festen Realms mehr – das Spiel teilt die Welt in mehrere Kopien, die <b>Layer</b>. siikk-Layer zeigt dir in einer kleinen Anzeige unter der Minimap, auf welchem Layer du gerade bist. Läuft in <b>TBC Anniversary, Classic und Forever</b>.</p>' +
     feats([
       ['Layer auf einen Blick', 'Die Anzeige zeigt die Layer-ID deiner Zone, z. B. „Layer 18853“. Sie steht fest, sobald zwei NPCs in deiner Nähe dieselbe Nummer liefern – einfach NPCs ins Ziel nehmen oder mit der Maus darüberfahren.'],
       ['Hinweis bei Layerwechsel', 'Wirst du auf einen anderen Layer geschoben, z. B. nach einer Gruppeneinladung, kommt ein Hinweis im Chat, ein Ton und die Anzeige leuchtet kurz grün.'],
@@ -957,9 +957,9 @@ function renderAddons(){
       ['Ehrlich gemessen', 'Die Nummer gilt immer für eine Zone; nach einem Zonenwechsel wird neu gemessen. In Dungeons und Schlachtfeldern gibt es keine Layer.']
     ]) + table(['Befehl','Was er macht'], [[c('/layer'), 'Layer und Gildenmitglieder im Chat'], [c('/layer optionen'), 'Einstellungen'], [c('/layer leiste'), 'Anzeige ein oder aus'], [c('/layer sperren'), 'Anzeige festmachen oder lösen'], [c('/layer reset'), 'Neu messen'], [c('/layer intro'), 'Einführung öffnen']]));
 
-  h += sec('fh', 'Addon 9', 'siikk-Farmhelfer – Farm-Gegenstände auf einen Blick', '<p>Kräuter, Erze &amp; Steine, Stoff, Leder, Kochzutaten &amp; Fisch, Elementar- und Verzauberkunst-Material <b>leuchten</b> in deinen Taschen und im Beutefenster – jede Sorte in ihrer eigenen Farbe. Läuft in <b>TBC Anniversary, Classic und Forever</b>.</p>' +
+  h += sec('fh', 'Addon 9', 'siikk-Farmhelfer – Farm-Gegenstände auf einen Blick', ''+shot('fh')+'<p>Kräuter, Erze &amp; Steine, Stoff, Leder, Kochzutaten &amp; Fisch, Elementar- und Verzauberkunst-Material <b>leuchten</b> in deinen Taschen und im Beutefenster – jede Sorte in ihrer eigenen Farbe. Läuft in <b>TBC Anniversary, Classic und Forever</b>.</p>' +
     feats([
-      ['Leuchten in Taschen &amp; Beute', 'Grün für Kräuter, Orange für Erze &amp; Steine, Hellblau für Stoff, Braun für Leder, Rot für Kochzutaten &amp; Fisch, Türkis für Elementar, Lila für Verzauberkunst – sanft pulsierend oder fest.'],
+      ['Leuchten in Taschen & Beute', 'Grün für Kräuter, Orange für Erze &amp; Steine, Hellblau für Stoff, Braun für Leder, Rot für Kochzutaten &amp; Fisch, Türkis für Elementar, Lila für Verzauberkunst – sanft pulsierend oder fest.'],
       ['Wofür ist das gut?', 'Im Tooltip steht, wofür der Gegenstand gebraucht wird, z. B. „Stoff – für Erste Hilfe &amp; Schneiderei“ oder „Zutat – für Kochen“.'],
       ['Hinweis beim Fund', 'Fährst du mit der Maus über ein Kraut, eine Erzader oder einen häutbaren Gegner, blinkt oben ein Hinweis mit dem Namen auf – mit kurzem Ton. Zum Finden auf der Minimap nutzt du Blizzards Kräuter- und Mineraliensuche.'],
       ['Alles einstellbar', 'Jede Sorte einzeln an/aus, Leuchten in Taschen und Beute, Tooltip-Zeile, Pulsieren, Hinweis und Ton.']
