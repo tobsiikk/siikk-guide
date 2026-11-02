@@ -1,0 +1,19 @@
+name: Zu CurseForge hochladen
+# Läuft, sobald curseforge/upload.json geändert wird (oder von Hand über „Run workflow“).
+on:
+  push:
+    branches: [main]
+    paths: ["curseforge/upload.json"]
+  workflow_dispatch:
+jobs:
+  hochladen:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Neue Versionen hochladen
+        env:
+          CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
+        run: python curseforge/hochladen.py
