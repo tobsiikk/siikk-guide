@@ -734,7 +734,7 @@ function renderVolk(v){
     var r = (k.voelker || []).filter(function(x){ return (x.volk||'').toLowerCase().indexOf(v.name.split(' ')[0].toLowerCase()) === 0; })[0];
     kb += '<button type="button" class="cbtn" data-go="'+k.id+'" style="--c:'+k.farbe+'">'+clsMedal(k, 56)+'<b>'+esc(k.name)+'</b><span>'+(r ? esc(r.bewertung) : '')+'</span></button>'; });
   kb += '</div>';
-  h += sec('kl', 'Klassen', 'Diese Klassen kann dein '+v.name.split(' ')[0]+' spielen', kb);
+  h += sec('kl', 'Klassen', 'Diese Klassen kann dein '+v.name.replace(/\s*\(.*\)$/, '')+' spielen', kb);
   view.innerHTML = h;
 }
 function renderVoelker(){
