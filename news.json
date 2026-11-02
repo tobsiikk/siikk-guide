@@ -3,32 +3,166 @@
   "hinweis": "Wird täglich um 18 Uhr automatisch aktualisiert.",
   "eintraege": [
     {
+      "id": "2026-11-02-updates-alle-vier-monate",
+      "datum": "2026-11-02",
+      "kat": "System",
+      "top": true,
+      "titel": "Große Updates etwa alle vier Monate",
+      "text": "Laut Designer Kris Zierhut (Interview mit IGN) soll Forever ungefähr alle vier Monate ein großes Update bekommen – also rund drei pro Jahr. Dazwischen sind kleinere Freischaltungen über einen Event-Kalender geplant; was genau kommt, ist noch nicht bekannt.",
+      "tipp": "Kein Grund zur Eile: Bei diesem Tempo hast du zwischen den Updates genug Zeit, in Ruhe zu leveln und Dungeons nachzuholen.",
+      "video": null,
+      "inhalt": [
+        {
+          "typ": "liste",
+          "titel": "Was bisher bekannt ist",
+          "punkte": [
+            "Großes Update etwa alle 17 Wochen (ca. drei pro Jahr) – ob das eine feste Regel oder nur ein Ziel ist, ist offen.",
+            "Kleinere Inhalte sollen ein, zwei oder drei Monate nach einem Patch über einen Event-Kalender freigeschaltet werden.",
+            "Die ersten Raids öffnen am 9. Dezember; das erste große Update wird laut IGN im Frühjahr 2027 erwartet – ein Datum hat Blizzard nicht bestätigt.",
+            "Angekündigt ohne Termin: weitere Raids und Dungeons, PvP-Updates, neue Quests für Stufe 1–60, Hardcore und ein überarbeiteter bekannter Raid.",
+            "Die Östlichen Königreiche und Kalimdor bleiben die Heimat, neue Hauptstädte sind nicht geplant.",
+            "Kurze Ausflüge nach Nordend oder Pandaria wurden nur als Idee erwähnt – nichts davon ist angekündigt."
+          ]
+        }
+      ],
+      "quellen": [
+        {
+          "name": "GamerFuzion (nach IGN)",
+          "url": "https://www.gamerfuzion.com/world-of-warcraft-forever-update-schedule-every-four-months-northrend-pandaria/"
+        },
+        {
+          "name": "PC Gamer",
+          "url": "https://www.pcgamer.com/games/world-of-warcraft/wow-forevers-update-schedule-will-be-a-little-more-laid-back-than-the-main-mmo/"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-02-keine-deutschen-server",
+      "datum": "2026-11-02",
+      "kat": "System",
+      "titel": "Keine deutschen Server – die Sprache entscheidet",
+      "text": "In Forever wählst du keinen einzelnen Server, sondern nur einen Servertyp; alle Spieler eines Typs teilen sich in Europa einen großen Mega-Server. Eigene deutsche Realms gibt es laut MeinMMO nicht – stattdessen werden die Welten nach der eingestellten Sprache aufgeteilt.",
+      "tipp": "Stell vor dem ersten Login Deutsch als bevorzugte Sprache ein, dann triffst du vor allem deutschsprachige Spieler.",
+      "video": null,
+      "inhalt": [
+        {
+          "typ": "liste",
+          "titel": "Das Wichtigste zur Serverwahl",
+          "punkte": [
+            "Der Servertyp (Normal, PvP, Rollenspiel, Rollenspiel-PvP) ist pro Charakter verbindlich – wechseln geht nicht, nur mit einem neuen Charakter.",
+            "In Schlachtfeldern triffst du auch Spieler anderer Servertypen.",
+            "Die bevorzugte Sprache lässt sich später in den Optionen ändern.",
+            "Charaktere haben Vor- und Nachnamen; die Kombination gilt über alle Servertypen hinweg und gehört nur dir.",
+            "Unpassende Namen können laut MeinMMO bis zum Verlust des Accounts führen."
+          ]
+        }
+      ],
+      "quellen": [
+        {
+          "name": "MeinMMO",
+          "url": "https://mein-mmo.de/wow-forever-wahl-des-servers-funktioniert/"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-02-layering-gruppen",
+      "datum": "2026-11-02",
+      "kat": "System",
+      "titel": "Layering: Beim Gruppenbeitritt entscheidest du selbst, wann du wechselst",
+      "text": "Im offiziellen Podcast hat Blizzard Änderungen am Layering für den Start erklärt. Wer einer Gruppe oder Gilde beitritt, bekommt künftig eine Abfrage mit Zeitfenster und wechselt erst dann in deren Welt – in der Beta passierte das sofort, was Blizzard als Fehler bezeichnet.",
+      "tipp": "Wenn du gerade mitten im Kampf bist, lass dir mit dem Wechsel ruhig Zeit, bis die Abfrage abläuft.",
+      "video": null,
+      "inhalt": [
+        {
+          "typ": "liste",
+          "titel": "Weitere Details aus dem Podcast",
+          "punkte": [
+            "Zonen oder kleine Zonengruppen teilen sich Layer; Blizzard kann das nach dem Start anpassen.",
+            "Spielerobergrenzen pro Zone sind einstellbar – im Westfall und im Brachland wurden sie in der Beta gesenkt.",
+            "Das Spiel versucht, dich zu Gruppe, Gilde und Spielern mit gleicher Spielsprache zu setzen.",
+            "Wer auf deiner Ignorieren-Liste steht, bleibt trotzdem in deiner Welt.",
+            "PvE- und PvP-Spieler können zum Start nicht zusammen in Gruppen spielen.",
+            "Während der Startwoche gibt es keine neue Podcast-Folge."
+          ]
+        }
+      ],
+      "quellen": [
+        {
+          "name": "MMOHuts",
+          "url": "https://mmohuts.com/news/wow-forever-podcast-details-layering-changes-ahead-of-november-launch"
+        }
+      ]
+    },
+    {
       "id": "2026-11-02-classic-oder-enhanced",
       "datum": "2026-11-02",
       "kat": "Start",
-      "top": true,
       "titel": "Classic oder Enhanced? Die Auswahl beim ersten Login erklärt",
       "text": "Beim ersten Einloggen fragt Forever, wie das Spiel aussehen soll: wie früher oder mit modernem Komfort. Wir zeigen, was sich unterscheidet – und warum du dich damit nicht festlegst.",
       "tipp": "Unsicher? Blizzard empfiehlt Enhanced. Jede Einstellung kannst du später im Spielmenü unter Optionen ändern.",
       "video": null,
       "inhalt": [
-        { "typ": "text", "titel": "Kurz erklärt", "text": "Die Voreinstellung legt nur fest, mit welchen Einstellungen du startest. Alles lässt sich später im Spielmenü unter Optionen ändern. Ob Charaktere in HD oder SD dargestellt werden, kannst du sogar für jeden Charakter einzeln wählen." },
-        { "typ": "tabelle", "titel": "Der Unterschied", "kopf": ["Einstellung", "Classic", "Enhanced"], "zeilen": [
-          ["Charaktermodelle", "Standard (SD)", "Hochauflösend (HD)"],
-          ["Questziele auf der Karte", "Aus", "An"],
-          ["Eine große Tasche", "Aus", "An"],
-          ["Transmog", "Aus", "An"],
-          ["Tastenbelegung A/D", "Drehen", "Seitwärts laufen"],
-          ["Anordnung der Oberfläche", "Klassisch", "Zentriert"]
-        ] },
-        { "typ": "liste", "titel": "Was passt zu dir?", "punkte": [
-          "Du willst das Gefühl von 2004: Nimm Classic. Quests suchst du selbst, Taschen sortierst du selbst, A/D dreht die Kamera.",
-          "Du spielst abends nur ein Stündchen: Nimm Enhanced. Questziele auf der Karte und eine große Tasche sparen viel Zeit.",
-          "Einzelne Dinge wie die HD-Modelle kannst du jederzeit dazuschalten – egal, womit du startest."
-        ] }
+        {
+          "typ": "text",
+          "titel": "Kurz erklärt",
+          "text": "Die Voreinstellung legt nur fest, mit welchen Einstellungen du startest. Alles lässt sich später im Spielmenü unter Optionen ändern. Ob Charaktere in HD oder SD dargestellt werden, kannst du sogar für jeden Charakter einzeln wählen."
+        },
+        {
+          "typ": "tabelle",
+          "titel": "Der Unterschied",
+          "kopf": [
+            "Einstellung",
+            "Classic",
+            "Enhanced"
+          ],
+          "zeilen": [
+            [
+              "Charaktermodelle",
+              "Standard (SD)",
+              "Hochauflösend (HD)"
+            ],
+            [
+              "Questziele auf der Karte",
+              "Aus",
+              "An"
+            ],
+            [
+              "Eine große Tasche",
+              "Aus",
+              "An"
+            ],
+            [
+              "Transmog",
+              "Aus",
+              "An"
+            ],
+            [
+              "Tastenbelegung A/D",
+              "Drehen",
+              "Seitwärts laufen"
+            ],
+            [
+              "Anordnung der Oberfläche",
+              "Klassisch",
+              "Zentriert"
+            ]
+          ]
+        },
+        {
+          "typ": "liste",
+          "titel": "Was passt zu dir?",
+          "punkte": [
+            "Du willst das Gefühl von 2004: Nimm Classic. Quests suchst du selbst, Taschen sortierst du selbst, A/D dreht die Kamera.",
+            "Du spielst abends nur ein Stündchen: Nimm Enhanced. Questziele auf der Karte und eine große Tasche sparen viel Zeit.",
+            "Einzelne Dinge wie die HD-Modelle kannst du jederzeit dazuschalten – egal, womit du startest."
+          ]
+        }
       ],
       "quellen": [
-        { "name": "GamerFuzion – Launch Guide: Classic vs Enhanced", "url": "https://www.gamerfuzion.com/world-of-warcraft-forever-launch-times-classic-vs-enhanced-preset-rulesets-hardcore/" }
+        {
+          "name": "GamerFuzion – Launch Guide: Classic vs Enhanced",
+          "url": "https://www.gamerfuzion.com/world-of-warcraft-forever-launch-times-classic-vs-enhanced-preset-rulesets-hardcore/"
+        }
       ]
     },
     {
@@ -41,8 +175,14 @@
       "video": null,
       "inhalt": [],
       "quellen": [
-        { "name": "Playnews – Startzeit", "url": "https://www.playnews.gg/en/release-dates/world-of-warcraft-forever-launch-time-11-p-m-on-4-november-names-from-27-october" },
-        { "name": "Warcraft Tavern – Beta-Infos", "url": "https://www.warcrafttavern.com/forever/guides/beta/" }
+        {
+          "name": "Playnews – Startzeit",
+          "url": "https://www.playnews.gg/en/release-dates/world-of-warcraft-forever-launch-time-11-p-m-on-4-november-names-from-27-october"
+        },
+        {
+          "name": "Warcraft Tavern – Beta-Infos",
+          "url": "https://www.warcrafttavern.com/forever/guides/beta/"
+        }
       ]
     },
     {
@@ -52,24 +192,83 @@
       "titel": "9 neue Dungeons von Stufe 13 bis 60",
       "text": "Den Anfang macht Hall of Thanes unter Eisenschmiede (13–18), den Abschluss Shaper’s Terrace im Krater von Un’Goro (58–60).",
       "tipp": "Hall of Thanes ist der erste neue Dungeon – ideal als Gruppenabend um Stufe 15.",
-      "video": { "youtube": "dZb8FNAU9uc", "kanal": "Quissy", "titel": "WoW Forever: All 9 New Dungeons, Locations & Levels" },
+      "video": {
+        "youtube": "dZb8FNAU9uc",
+        "kanal": "Quissy",
+        "titel": "WoW Forever: All 9 New Dungeons, Locations & Levels"
+      },
       "inhalt": [
-        { "typ": "tabelle", "titel": "Alle neuen Dungeons", "kopf": ["Dungeon", "Stufe", "Ort"], "zeilen": [
-          ["Hall of Thanes", "13–18", "Unter Eisenschmiede, Dun Morogh"],
-          ["Ruins of Lordaeron", "15–20", "Über Unterstadt, Tirisfal"],
-          ["Excavation Site", "24–29", "Sumpfland"],
-          ["City of Dalaran", "28–33", "Alteracgebirge"],
-          ["The Drowned City", "35–40", "Vor der Küste des Schlingendorntals"],
-          ["Krol’dok Stronghold", "40–45", "Riverglades"],
-          ["Alcaz Prison", "48–53", "Insel Alcaz, Düstermarschen"],
-          ["Blackmaw Hold", "55–60", "Azshara"],
-          ["Shaper’s Terrace", "58–60", "Krater von Un’Goro"]
-        ] },
-        { "typ": "text", "titel": "Gut zu wissen", "text": "Für Excavation Site stand in der Beta noch 26–31 – die Stufen können sich also leicht verschieben. Eine Dungeonsuche mit Teleport gibt es nicht, ihr müsst selbst hinlaufen." }
+        {
+          "typ": "tabelle",
+          "titel": "Alle neuen Dungeons",
+          "kopf": [
+            "Dungeon",
+            "Stufe",
+            "Ort"
+          ],
+          "zeilen": [
+            [
+              "Hall of Thanes",
+              "13–18",
+              "Unter Eisenschmiede, Dun Morogh"
+            ],
+            [
+              "Ruins of Lordaeron",
+              "15–20",
+              "Über Unterstadt, Tirisfal"
+            ],
+            [
+              "Excavation Site",
+              "24–29",
+              "Sumpfland"
+            ],
+            [
+              "City of Dalaran",
+              "28–33",
+              "Alteracgebirge"
+            ],
+            [
+              "The Drowned City",
+              "35–40",
+              "Vor der Küste des Schlingendorntals"
+            ],
+            [
+              "Krol’dok Stronghold",
+              "40–45",
+              "Riverglades"
+            ],
+            [
+              "Alcaz Prison",
+              "48–53",
+              "Insel Alcaz, Düstermarschen"
+            ],
+            [
+              "Blackmaw Hold",
+              "55–60",
+              "Azshara"
+            ],
+            [
+              "Shaper’s Terrace",
+              "58–60",
+              "Krater von Un’Goro"
+            ]
+          ]
+        },
+        {
+          "typ": "text",
+          "titel": "Gut zu wissen",
+          "text": "Für Excavation Site stand in der Beta noch 26–31 – die Stufen können sich also leicht verschieben. Eine Dungeonsuche mit Teleport gibt es nicht, ihr müsst selbst hinlaufen."
+        }
       ],
       "quellen": [
-        { "name": "Timesaver – Dungeons und XP-Änderungen", "url": "https://timesaver.gg/blog/wow-forever-leveling-explained-beta" },
-        { "name": "Video: Quissy auf YouTube", "url": "https://www.youtube.com/watch?v=dZb8FNAU9uc" }
+        {
+          "name": "Timesaver – Dungeons und XP-Änderungen",
+          "url": "https://timesaver.gg/blog/wow-forever-leveling-explained-beta"
+        },
+        {
+          "name": "Video: Quissy auf YouTube",
+          "url": "https://www.youtube.com/watch?v=dZb8FNAU9uc"
+        }
       ]
     },
     {
@@ -82,7 +281,10 @@
       "video": null,
       "inhalt": [],
       "quellen": [
-        { "name": "GamerFuzion – Launch Guide", "url": "https://www.gamerfuzion.com/world-of-warcraft-forever-launch-times-classic-vs-enhanced-preset-rulesets-hardcore/" }
+        {
+          "name": "GamerFuzion – Launch Guide",
+          "url": "https://www.gamerfuzion.com/world-of-warcraft-forever-launch-times-classic-vs-enhanced-preset-rulesets-hardcore/"
+        }
       ]
     },
     {
@@ -95,7 +297,10 @@
       "video": null,
       "inhalt": [],
       "quellen": [
-        { "name": "GamerFuzion – Launch Guide", "url": "https://www.gamerfuzion.com/world-of-warcraft-forever-launch-times-classic-vs-enhanced-preset-rulesets-hardcore/" }
+        {
+          "name": "GamerFuzion – Launch Guide",
+          "url": "https://www.gamerfuzion.com/world-of-warcraft-forever-launch-times-classic-vs-enhanced-preset-rulesets-hardcore/"
+        }
       ]
     },
     {
@@ -108,7 +313,10 @@
       "video": null,
       "inhalt": [],
       "quellen": [
-        { "name": "Timesaver – XP-Änderungen in der Beta", "url": "https://timesaver.gg/blog/wow-forever-leveling-explained-beta" }
+        {
+          "name": "Timesaver – XP-Änderungen in der Beta",
+          "url": "https://timesaver.gg/blog/wow-forever-leveling-explained-beta"
+        }
       ]
     },
     {
@@ -121,7 +329,10 @@
       "video": null,
       "inhalt": [],
       "quellen": [
-        { "name": "GamerFuzion – Launch Guide", "url": "https://www.gamerfuzion.com/world-of-warcraft-forever-launch-times-classic-vs-enhanced-preset-rulesets-hardcore/" }
+        {
+          "name": "GamerFuzion – Launch Guide",
+          "url": "https://www.gamerfuzion.com/world-of-warcraft-forever-launch-times-classic-vs-enhanced-preset-rulesets-hardcore/"
+        }
       ]
     },
     {
@@ -134,7 +345,10 @@
       "video": null,
       "inhalt": [],
       "quellen": [
-        { "name": "GamerFuzion – Launch Guide", "url": "https://www.gamerfuzion.com/world-of-warcraft-forever-launch-times-classic-vs-enhanced-preset-rulesets-hardcore/" }
+        {
+          "name": "GamerFuzion – Launch Guide",
+          "url": "https://www.gamerfuzion.com/world-of-warcraft-forever-launch-times-classic-vs-enhanced-preset-rulesets-hardcore/"
+        }
       ]
     }
   ]
