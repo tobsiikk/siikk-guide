@@ -1,6 +1,8 @@
 <!doctype html>
 <html lang="de">
 <head>
+<script>(function(){var l=(/[?&]lang=(\w\w)/.exec(location.search)||[])[1];try{l=l||localStorage.getItem('siikk-sprache')}catch(e){}if(l&&l!=='de')document.documentElement.classList.add('i18n-lade')})()</script>
+<style>.i18n-lade #view,.i18n-lade #side,.i18n-lade #crumb{visibility:hidden}</style>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>siikk-guide – WoW: Forever Klassen-Guide</title>
@@ -426,6 +428,18 @@ footer.foot,.site-foot{color:var(--muted)}
 .ad-shot{margin:1rem 0 1.2rem;border:1px solid var(--frame-hi);border-radius:6px;overflow:hidden;box-shadow:0 0 0 3px #1a1209,0 0 0 4px var(--frame),0 8px 22px rgba(0,0,0,.55);background:#000}
 .ad-shot img{display:block;width:100%;height:auto}
 .ad-shot figcaption{font-size:.82rem;color:var(--muted);padding:.4rem .7rem;background:#120c06;border-top:1px solid var(--frame)}
+
+/* Sprachumschalter */
+.sprache{position:relative;margin-left:auto}
+.sprache + .bar-ad{margin-left:0}
+.sprache-knopf{display:inline-flex;align-items:center;gap:.35rem;border:1px solid var(--frame);background:#16100a;color:#f1d792;border-radius:8px;padding:.32rem .6rem;font-family:var(--f-mono);font-size:.74rem;cursor:pointer}
+.sprache-knopf:hover{border-color:var(--frame-hi)}
+.sprache-liste{position:absolute;right:0;top:calc(100% + 6px);z-index:40;min-width:11rem;background:linear-gradient(#1d140a,#120c06);border:1px solid var(--frame-hi);border-radius:6px;box-shadow:0 0 0 2px #000,0 10px 24px rgba(0,0,0,.6);padding:.3rem}
+.sprache-liste button{display:flex;gap:.6rem;align-items:baseline;width:100%;text-align:left;border:0;background:none;color:var(--ink);padding:.45rem .6rem;border-radius:4px;cursor:pointer;font-family:var(--f-body);font-size:1rem}
+.sprache-liste button b{font-family:var(--f-mono);font-size:.72rem;color:var(--frame-hi);width:1.6rem}
+.sprache-liste button:hover{background:#2a1d0e}
+.sprache-liste button[aria-current="true"]{background:#3a2a12;color:#ffe7a6}
+@media (max-width:520px){.sprache-knopf span{display:none}}
 </style>
 <style id="theme-logo">
 /* Stil passend zum siikk-Logo: Bronze, Gold, lila Leuchten und Runenring */
@@ -1284,4 +1298,5 @@ go();
   suchen();
 })();
 </script>
+<script src="i18n.js"></script>
 </body></html>
