@@ -3,7 +3,7 @@
   "damagemeter":    { "name": "siikk-Damagemeter",       "id": null, "versionen": ["WoW Forever:neueste", "WoW Burning Crusade Classic:neueste", "WoW Classic:neueste", "WoW Retail:neueste"] },
   "auktionshaus":   { "name": "siikk-Auction House",     "id": null, "versionen": ["WoW Forever:neueste", "WoW Burning Crusade Classic:neueste", "WoW Classic:neueste"] },
   "schadenszahlen": { "name": "siikk-Damage Numbers",    "id": null, "versionen": ["WoW Forever:neueste", "WoW Burning Crusade Classic:neueste", "WoW Classic:neueste", "WoW Retail:neueste"] },
-  "infoleiste":     { "name": "siikk-Info Bar",          "id": null, "versionen": ["WoW Forever:neueste", "WoW Burning Crusade Classic:neueste", "WoW Classic:neueste", "WoW Retail:neueste"] },
+  "infoleiste":     { "name": "siikk-Info Bar",          "id": 1780250, "versionen": ["WoW Forever:neueste", "WoW Burning Crusade Classic:neueste", "WoW Classic:neueste", "WoW Retail:neueste"] },
   "minimapsammler": { "name": "siikk-Minimap Collector", "id": 1780255, "versionen": ["WoW Forever:neueste", "WoW Burning Crusade Classic:neueste", "WoW Classic:neueste", "WoW Retail:neueste"] },
   "layer":          { "name": "siikk-Layer",             "id": 1780223, "versionen": ["WoW Forever:neueste", "WoW Burning Crusade Classic:neueste", "WoW Classic:neueste"] }
 }
