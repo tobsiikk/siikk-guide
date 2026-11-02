@@ -5,5 +5,5 @@
   "schadenszahlen": { "name": "siikk-Damage Numbers",    "id": null, "versionen": ["WoW Forever:neueste", "WoW Burning Crusade Classic:neueste", "WoW Classic:neueste", "WoW Retail:neueste"] },
   "infoleiste":     { "name": "siikk-Info Bar",          "id": null, "versionen": ["WoW Forever:neueste", "WoW Burning Crusade Classic:neueste", "WoW Classic:neueste", "WoW Retail:neueste"] },
   "minimapsammler": { "name": "siikk-Minimap Collector", "id": null, "versionen": ["WoW Forever:neueste", "WoW Burning Crusade Classic:neueste", "WoW Classic:neueste", "WoW Retail:neueste"] },
-  "layer":          { "name": "siikk-Layer",             "id": null, "versionen": ["WoW Forever:neueste", "WoW Burning Crusade Classic:neueste", "WoW Classic:neueste"] }
+  "layer":          { "name": "siikk-Layer",             "id": 1780223, "versionen": ["WoW Forever:neueste", "WoW Burning Crusade Classic:neueste", "WoW Classic:neueste"] }
 }
