@@ -497,6 +497,60 @@ section.sec:first-of-type::after{display:none}
 .cbtn[style*="--c:#FFFFFF;"] b,.cbtn[style*="--c:#ffffff;"] b{color:#45413a!important}
 .cbtn[style*="--c:#FFFFFF;"] .medal,.cbtn[style*="--c:#ffffff;"] .medal{filter:drop-shadow(0 0 1px #000) drop-shadow(0 0 1px rgba(0,0,0,.8))}
 </style>
+<style id="news-style">
+/* Forever-News: schwebender Knopf, Startseiten-Leiste, Übersicht und Beitrag */
+.news-fab{position:fixed;right:1.1rem;bottom:1.1rem;z-index:60;display:inline-flex;align-items:center;gap:.55rem;min-height:48px;padding:.55rem 1.05rem .55rem .8rem;border-radius:999px;border:1px solid #c9a3f0;
+  background:linear-gradient(#6a3a9a,#3e2266);color:#fff;font-family:"Cinzel",Georgia,serif;font-size:.95rem;letter-spacing:.04em;cursor:pointer;
+  box-shadow:0 0 0 3px #15100a,0 0 18px rgba(155,85,255,.55),0 8px 22px rgba(0,0,0,.6);animation:news-puls 2.8s ease-in-out infinite}
+.news-fab:hover{filter:brightness(1.12)}
+.news-fab svg{width:1.3rem;height:1.3rem;flex:none}
+.news-fab .nf-zahl{min-width:1.4rem;height:1.4rem;padding:0 .35rem;border-radius:999px;background:#e3b84f;color:#1a0f2a;font-family:var(--f-mono);font-size:.75rem;font-weight:700;display:inline-flex;align-items:center;justify-content:center}
+.news-fab[hidden]{display:none}
+body{padding-bottom:4.5rem}
+@keyframes news-puls{0%,100%{box-shadow:0 0 0 3px #15100a,0 0 12px rgba(155,85,255,.4),0 8px 22px rgba(0,0,0,.6)}50%{box-shadow:0 0 0 3px #15100a,0 0 26px rgba(185,140,255,.8),0 8px 22px rgba(0,0,0,.6)}}
+@media (prefers-reduced-motion:reduce){.news-fab{animation:none}}
+@media (max-width:560px){.news-fab{right:.7rem;bottom:.7rem;font-size:.85rem}}
+.nw-leiste{margin:1.4rem 0;padding:1rem 1.1rem;border-radius:12px;border:1px solid #b98cff;background:linear-gradient(135deg,rgba(58,37,96,.85),rgba(24,16,9,.92) 75%);box-shadow:0 0 18px rgba(155,85,255,.22)}
+.nw-leiste-kopf{display:flex;flex-wrap:wrap;align-items:center;gap:.6rem 1rem;margin-bottom:.7rem}
+.nw-leiste-kopf h2{margin:0;font-size:1.35rem}
+.nw-leiste-kopf .btn{margin:0 0 0 auto}
+.nw-leiste-liste{display:grid;grid-template-columns:repeat(auto-fit,minmax(15rem,1fr));gap:.6rem}
+.nw-mini{display:flex;flex-direction:column;gap:.2rem;text-align:left;padding:.65rem .8rem;border-radius:8px;border:1px solid #5a4220;background:rgba(14,9,6,.75);color:#f3e6c8;cursor:pointer;font:inherit}
+.nw-mini:hover{border-color:#b98cff}
+.nw-mini small{font-family:var(--f-mono);font-size:.68rem;color:#c9a3f0;letter-spacing:.06em}
+.nw-mini b{font-family:"Cinzel",Georgia,serif;font-size:.95rem;line-height:1.3}
+.nw-stand{font-size:.85rem;color:var(--muted)}
+.nw-filter{display:flex;flex-wrap:wrap;gap:.45rem;margin:1rem 0 1.2rem}
+.nw-filter .fchip{min-height:40px;padding:.3rem .9rem;font-size:.8rem}
+.nw-filter .fchip[aria-pressed="true"]{background:#3a2560!important;border-color:#b98cff!important;color:#fff!important}
+.nw-top{display:grid;grid-template-columns:minmax(0,1fr);gap:.6rem;margin-bottom:1.3rem;cursor:pointer}
+.nw-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(19rem,1fr));gap:1.1rem}
+.nw-karte{display:flex;flex-direction:column;gap:.5rem;text-align:left;cursor:pointer;font:inherit;color:inherit;width:100%}
+.nw-karte,.nw-karte p{color:#2b2012!important}
+.nw-karte h3{margin:0;font-size:1.12rem;line-height:1.3;color:#2b2012!important;text-shadow:none!important}
+.nw-karte .nw-meta>span:not([class]),.nw-karte .nw-quelle{color:#4e4536!important}
+.nw-karte p{margin:0}
+.nw-meta{display:flex;flex-wrap:wrap;align-items:center;gap:.45rem;font-size:.8rem}
+.nw-kat{font-family:var(--f-mono);font-size:.68rem;letter-spacing:.08em;text-transform:uppercase;background:#653b98;color:#fff;border-radius:4px;padding:.1rem .45rem}
+.nw-video-tag{font-family:var(--f-mono);font-size:.68rem;color:#4b2873!important;font-weight:700}
+.nw-neu{font-family:var(--f-mono);font-size:.66rem;background:#e3b84f;color:#1a0f2a;border-radius:4px;padding:.08rem .35rem;font-weight:700}
+.nw-fuer{padding:.55rem .7rem;border-radius:6px;background:rgba(101,59,152,.13);border:1px solid rgba(101,59,152,.35);font-size:.92rem}
+.nw-fuer b{color:#4b2873!important}
+.nw-quelle{margin-top:auto;font-size:.8rem}
+.nw-artikel{max-width:52rem}
+.nw-artikel .nw-lead{font-size:1.12rem}
+.nw-video{position:relative;aspect-ratio:16/9;margin:1.2rem 0;border-radius:10px;overflow:hidden;border:1px solid #5a4220;background:linear-gradient(160deg,#24163a,#120c1d 65%,#0b0712);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:.7rem;text-align:center;padding:1rem}
+.nw-video iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.nw-video .nw-play{display:inline-flex;align-items:center;gap:.5rem;min-height:48px;padding:.5rem 1.2rem;border-radius:999px;border:1px solid #c9a3f0;background:rgba(185,140,255,.2);color:#fff;font-family:"Cinzel",Georgia,serif;cursor:pointer;font-size:1rem}
+.nw-video .nw-play svg{width:1.2rem;height:1.2rem}
+.nw-video small{color:#d9cde8;max-width:30rem;font-size:.78rem}
+.nw-video .nw-vt{color:#ebe2f4;font-size:.85rem}
+.nw-artikel .nw-fuer{margin:1.2rem 0;font-size:1rem}
+.nw-artikel .nw-fuer b{color:#e3b84f!important}
+.nw-artikel .nw-fuer{background:rgba(58,37,96,.6);border-color:#b98cff;color:#ebe2f4}
+.nw-quellen{margin-top:1.6rem;padding-top:1rem;border-top:1px solid var(--line);font-size:.9rem}
+.nw-quellen a{display:block;margin:.25rem 0}
+</style>
 <style id="logo-anim">
 /* Bewegtes Logo: funkelnde Augen und aufsteigender Qualm */
 .logo-anim{position:relative;display:inline-block;isolation:isolate;line-height:0;vertical-align:middle}
@@ -644,6 +698,8 @@ function navUnter(label, hash, sec, cur, svg){
 function renderSide(){
   var v = route.v, h = '';
   h += navItem('Startseite', 'start', GOLDICON('<path d="M14 32 32 16l18 16M20 28v20h24V28"/>'), v === 'start');
+  var nwn = typeof nwUngelesen === 'function' ? nwUngelesen() : 0;
+  h += '<button type="button" class="nav-i" data-go="news"'+(v === 'news' ? ' aria-current="page"' : '')+'>' + medal('<path d="M14 16h28v32H18a4 4 0 0 1-4-4z"/><path d="M42 26h8v18a4 4 0 0 1-4 4"/><path d="M20 24h14M20 32h14M20 40h8"/>', 'var(--ame)', 22) + '<span>Forever-News</span>' + (nwn ? '<span class="new">' + nwn + ' NEU</span>' : '') + '</button>';
   // Klassen – die geöffnete Klasse zeigt darunter ihre Kapitel
   var kl = '';
   K.forEach(function(k){
@@ -714,6 +770,7 @@ function renderStart(){
   var h = '<div class="hero"><div class="logo-anim"><div class="la-qualm" aria-hidden="true"></div><img src="'+DATA.logo+'" alt="siikk-guide – World of Warcraft Guide"><span class="la-auge l" aria-hidden="true"></span><span class="la-auge r" aria-hidden="true"></span><span class="la-funke f1" aria-hidden="true"></span><span class="la-funke f2" aria-hidden="true"></span><span class="la-funke f3" aria-hidden="true"></span></div>' +
     '<p>Der Klassen-Guide für <b>World of Warcraft: Forever</b>. Für jede Klasse: Talentbaum zum Durchklicken, Skill-Reihenfolge beim Leveln, alle Fähigkeiten erklärt, Ausrüstung, Crafts, Berufe und Völker.</p>' +
     '<div class="chips"><span class="chip">Start <b>5. Nov. 2026</b></span><span class="chip">Maximalstufe <b>60</b></span><span class="chip">Talentpunkte <b>51</b></span><span class="chip">Stand <b>'+esc(DATA.stand)+'</b></span></div></div>';
+  h += nwLeiste();
   h += '<h2 style="margin-top:1.6rem">Wähle deine Klasse</h2><div class="grid-btn g3">';
   K.forEach(function(k){ h += '<button type="button" class="cbtn" data-go="'+k.id+'" style="--c:'+k.farbe+';--cm:'+mixOf(k.farbe)+'">'+clsMedal(k, 64)+'<b>'+esc(k.name)+'</b><span>'+esc((k.rollen||[]).join(' · '))+'</span></button>'; });
   h += '</div>' + promo(false) + '<h2 style="margin-top:1.6rem">Wähle dein Volk</h2><div class="grid-btn g5">';
@@ -1222,6 +1279,88 @@ function renderChangelog(){
   view.querySelectorAll('[data-sec]').forEach(function(b){ b.addEventListener('click', function(){ zuAbschnitt(b.dataset.sec); }); });
 }
 
+/* ---------- Forever-News (news.json, wird täglich um 18 Uhr aktualisiert) ---------- */
+var NEWS = null, NEWS_KAT = 'Alle', NEWS_KEY = 'siikk-news-gesehen';
+function nwDatum(d){ var m = /^(\d{4})-(\d\d)-(\d\d)/.exec(d || ''); return m ? m[3] + '.' + m[2] + '.' + m[1] : (d || ''); }
+function nwListe(){ return NEWS && NEWS.eintraege ? NEWS.eintraege.slice().sort(function(a, b){ return (b.datum || '').localeCompare(a.datum || ''); }) : []; }
+function nwGesehen(){ try { return localStorage.getItem(NEWS_KEY) || ''; } catch (e) { return ''; } }
+function nwIstNeu(e){ var g = nwGesehen(); if (g) return (e.datum || '') > g; return (Date.now() - new Date(e.datum + 'T12:00:00').getTime()) < 3 * 864e5; }
+function nwUngelesen(){ return nwListe().filter(nwIstNeu).length; }
+function nwMerken(){ var l = nwListe(); if (!l.length) return; try { localStorage.setItem(NEWS_KEY, l[0].datum); } catch (e) {} }
+var NW_ICON = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 5h13v14H6a2 2 0 0 1-2-2z"/><path d="M17 9h3v8a2 2 0 0 1-2 2"/><path d="M8 9h5M8 13h5M8 16h3"/></svg>';
+var nwFab = document.createElement('button');
+nwFab.type = 'button'; nwFab.className = 'news-fab'; nwFab.id = 'news-fab'; nwFab.hidden = true;
+nwFab.addEventListener('click', function(){ location.hash = 'news'; });
+document.body.appendChild(nwFab);
+function newsKnopf(){
+  var n = nwUngelesen();
+  nwFab.innerHTML = NW_ICON + '<span>Forever-News</span>' + (n ? '<span class="nf-zahl" aria-label="' + n + ' neue Meldungen">' + n + '</span>' : '');
+  nwFab.hidden = !NEWS || route.v === 'news';
+}
+function newsLaden(){
+  fetch('news.json?t=' + Date.now(), { cache: 'no-store' }).then(function(r){ return r.ok ? r.json() : null; }).then(function(j){
+    if (!j || !j.eintraege) return;
+    NEWS = j;
+    if (route.v === 'news') go(); else if (route.v === 'start') renderStart();
+    renderSide(); newsKnopf();
+  }).catch(function(){});
+}
+function nwKarte(e){
+  return '<button type="button" class="card nw-karte" data-go="news-' + esc(e.id) + '"><span class="nw-meta"><span class="nw-kat">' + esc(e.kat) + '</span><span>' + esc(nwDatum(e.datum)) + '</span>' +
+    (e.video ? '<span class="nw-video-tag">▶ mit Video</span>' : '') + (nwIstNeu(e) ? '<span class="nw-neu">NEU</span>' : '') + '</span>' +
+    '<h3>' + esc(e.titel) + '</h3><p>' + esc(e.text) + '</p>' + (e.tipp ? '<p class="nw-fuer"><b>Für dich:</b> ' + esc(e.tipp) + '</p>' : '') +
+    (e.quellen && e.quellen.length ? '<span class="nw-quelle">Quelle: ' + esc(e.quellen[0].name) + '</span>' : '') + '</button>';
+}
+function nwLeiste(){
+  var l = nwListe().slice(0, 3); if (!l.length) return '';
+  return '<section class="nw-leiste" aria-label="Forever-News"><div class="nw-leiste-kopf"><div><div class="kap" style="color:#c9a3f0">Täglich aktualisiert</div><h2>Forever-News</h2></div>' +
+    '<button type="button" class="btn ame" data-go="news">Alle News</button></div><div class="nw-leiste-liste">' +
+    l.map(function(e){ return '<button type="button" class="nw-mini" data-go="news-' + esc(e.id) + '"><small>' + esc(e.kat) + ' · ' + esc(nwDatum(e.datum)) + (nwIstNeu(e) ? ' · NEU' : '') + '</small><b>' + esc(e.titel) + '</b></button>'; }).join('') + '</div></section>';
+}
+function renderNews(){
+  var h = '<div class="kap" style="color:var(--ame)">WoW Forever · auf Deutsch</div><h1>Forever-News</h1>' +
+    '<p>Alles Wichtige zu WoW Forever – kurz erklärt, mit Video und dem Tipp, was es für dich bedeutet.</p>';
+  if (!NEWS) { view.innerHTML = h + '<p class="nw-stand">News werden geladen …</p>'; return; }
+  h += '<p class="nw-stand">Wird jeden Tag um 18 Uhr aktualisiert · zuletzt: ' + esc(nwDatum(NEWS.stand)) + '</p>';
+  var alle = nwListe(), kats = ['Alle'];
+  alle.forEach(function(e){ if (kats.indexOf(e.kat) < 0) kats.push(e.kat); });
+  if (kats.indexOf(NEWS_KAT) < 0) NEWS_KAT = 'Alle';
+  h += '<div class="nw-filter" role="group" aria-label="Kategorie">' + kats.map(function(k){ return '<button type="button" class="fchip" data-nwk="' + esc(k) + '" aria-pressed="' + (k === NEWS_KAT) + '">' + esc(k) + '</button>'; }).join('') + '</div>';
+  var l = alle.filter(function(e){ return NEWS_KAT === 'Alle' || e.kat === NEWS_KAT; });
+  var top = NEWS_KAT === 'Alle' ? l.filter(function(e){ return e.top; })[0] : null;
+  if (top) { h += '<div class="nw-top">' + nwKarte(top).replace('class="card nw-karte"', 'class="card nw-karte" style="padding:1.2rem 1.3rem"').replace('<h3>', '<h3 style="font-size:1.5rem">') + '</div>'; l = l.filter(function(e){ return e !== top; }); }
+  h += l.length ? '<div class="nw-grid">' + l.map(nwKarte).join('') + '</div>' : '<p class="empty">In dieser Kategorie gibt es gerade nichts Neues.</p>';
+  view.innerHTML = h;
+  view.querySelectorAll('[data-nwk]').forEach(function(b){ b.addEventListener('click', function(){ NEWS_KAT = b.dataset.nwk; renderNews(); }); });
+  nwMerken();
+}
+function nwBlock(b){
+  var t = b.titel ? '<h2>' + esc(b.titel) + '</h2>' : '';
+  if (b.typ === 'liste') return t + list(b.punkte || []);
+  if (b.typ === 'tabelle') return t + table((b.kopf || []).map(esc), (b.zeilen || []).map(function(z){ return z.map(function(x, i){ return i ? esc(x) : '<b>' + esc(x) + '</b>'; }); }));
+  return t + '<p>' + esc(b.text || '') + '</p>';
+}
+function renderNewsArtikel(e){
+  var h = '<div class="nw-artikel"><button type="button" class="linkbtn" data-go="news">‹ Alle Forever-News</button>' +
+    '<div class="nw-meta" style="margin-top:1rem"><span class="nw-kat">' + esc(e.kat) + '</span><span>' + esc(nwDatum(e.datum)) + '</span></div>' +
+    '<h1>' + esc(e.titel) + '</h1><p class="nw-lead">' + esc(e.text) + '</p>';
+  if (e.video && /^[\w-]{6,20}$/.test(e.video.youtube || '')) {
+    h += '<div class="nw-video" data-yt="' + e.video.youtube + '"><span class="nw-vt">' + esc(e.video.titel || 'Video') + (e.video.kanal ? ' · ' + esc(e.video.kanal) : '') + '</span>' +
+      '<button type="button" class="nw-play"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>Video abspielen</button>' +
+      '<small>Beim Abspielen wird das Video von YouTube geladen. Dabei werden Daten an YouTube übertragen.</small></div>';
+  }
+  (e.inhalt || []).forEach(function(b){ h += nwBlock(b); });
+  if (e.tipp) h += '<p class="nw-fuer"><b>Für dich:</b> ' + esc(e.tipp) + '</p>';
+  if (e.quellen && e.quellen.length) h += '<div class="nw-quellen"><div class="kap">Quellen</div>' + e.quellen.map(function(q){ return /^https:\/\//.test(q.url || '') ? '<a href="' + esc(q.url) + '" target="_blank" rel="noopener">' + esc(q.name) + '</a>' : '<span>' + esc(q.name) + '</span>'; }).join('') + '</div>';
+  h += '</div>';
+  view.innerHTML = h;
+  var v = view.querySelector('.nw-video');
+  if (v) v.querySelector('.nw-play').addEventListener('click', function(){
+    v.innerHTML = '<iframe src="https://www.youtube-nocookie.com/embed/' + v.dataset.yt + '?autoplay=1" title="' + esc(e.video.titel || 'Video') + '" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>';
+  });
+  nwMerken();
+}
+
 /* ---------- Router ---------- */
 view.addEventListener('click', function(e){ var b = e.target.closest('[data-go]'); if (b) location.hash = b.dataset.go; });
 function go(){
@@ -1236,15 +1375,18 @@ function go(){
   else if (h === 'begriffe') { route = { v:'begriffe' }; renderBegriffe(); }
   else if (h === 'addons') { route = { v:'addons' }; renderAddons(); document.title = 'siikkUI herunterladen · siikk-guide'; }
   else if (h === 'changelog') { route = { v:'changelog' }; renderChangelog(); document.title = 'Changelogs · siikk-guide'; }
+  else if (h === 'news') { route = { v:'news' }; renderNews(); document.title = 'Forever-News · siikk-guide'; }
+  else if (h.indexOf('news-') === 0) { route = { v:'news', id:h.slice(5) }; var ne = nwListe().filter(function(x){ return x.id === route.id; })[0]; if (ne) { renderNewsArtikel(ne); document.title = ne.titel + ' · siikk-guide'; } else renderNews(); }
   else { route = { v:'start' }; renderStart(); }
-  if (route.v !== 'klasse' && route.v !== 'addons' && route.v !== 'changelog') document.title = 'siikk-guide';
-  var cr = { klasse: BYK[route.id] && BYK[route.id].name, volk: BYV[route.id] && BYV[route.id].name, voelker:'Völker', gebiete:'Leveln', 'berufe-allg':'Berufe', begriffe:'Begriffe', addons:'siikkUI Addon', changelog:'Changelogs' }[route.v];
+  if (route.v !== 'klasse' && route.v !== 'addons' && route.v !== 'changelog' && route.v !== 'news') document.title = 'siikk-guide';
+  var cr = { klasse: BYK[route.id] && BYK[route.id].name, volk: BYV[route.id] && BYV[route.id].name, voelker:'Völker', gebiete:'Leveln', 'berufe-allg':'Berufe', begriffe:'Begriffe', addons:'siikkUI Addon', changelog:'Changelogs', news:'Forever-News' }[route.v];
   document.getElementById('crumb').textContent = 'WoW: Forever' + (cr ? ' · ' + cr : ' · Klassen-Guide');
-  renderSide();
+  renderSide(); newsKnopf();
   window.scrollTo(0, 0);
 }
 window.addEventListener('hashchange', go);
 go();
+newsLaden();
 })();
 </script>
 <script id="logo-anim-js">

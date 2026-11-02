@@ -1,0 +1,141 @@
+{
+  "stand": "2026-11-02",
+  "hinweis": "Wird täglich um 18 Uhr automatisch aktualisiert.",
+  "eintraege": [
+    {
+      "id": "2026-11-02-classic-oder-enhanced",
+      "datum": "2026-11-02",
+      "kat": "Start",
+      "top": true,
+      "titel": "Classic oder Enhanced? Die Auswahl beim ersten Login erklärt",
+      "text": "Beim ersten Einloggen fragt Forever, wie das Spiel aussehen soll: wie früher oder mit modernem Komfort. Wir zeigen, was sich unterscheidet – und warum du dich damit nicht festlegst.",
+      "tipp": "Unsicher? Blizzard empfiehlt Enhanced. Jede Einstellung kannst du später im Spielmenü unter Optionen ändern.",
+      "video": null,
+      "inhalt": [
+        { "typ": "text", "titel": "Kurz erklärt", "text": "Die Voreinstellung legt nur fest, mit welchen Einstellungen du startest. Alles lässt sich später im Spielmenü unter Optionen ändern. Ob Charaktere in HD oder SD dargestellt werden, kannst du sogar für jeden Charakter einzeln wählen." },
+        { "typ": "tabelle", "titel": "Der Unterschied", "kopf": ["Einstellung", "Classic", "Enhanced"], "zeilen": [
+          ["Charaktermodelle", "Standard (SD)", "Hochauflösend (HD)"],
+          ["Questziele auf der Karte", "Aus", "An"],
+          ["Eine große Tasche", "Aus", "An"],
+          ["Transmog", "Aus", "An"],
+          ["Tastenbelegung A/D", "Drehen", "Seitwärts laufen"],
+          ["Anordnung der Oberfläche", "Klassisch", "Zentriert"]
+        ] },
+        { "typ": "liste", "titel": "Was passt zu dir?", "punkte": [
+          "Du willst das Gefühl von 2004: Nimm Classic. Quests suchst du selbst, Taschen sortierst du selbst, A/D dreht die Kamera.",
+          "Du spielst abends nur ein Stündchen: Nimm Enhanced. Questziele auf der Karte und eine große Tasche sparen viel Zeit.",
+          "Einzelne Dinge wie die HD-Modelle kannst du jederzeit dazuschalten – egal, womit du startest."
+        ] }
+      ],
+      "quellen": [
+        { "name": "GamerFuzion – Launch Guide: Classic vs Enhanced", "url": "https://www.gamerfuzion.com/world-of-warcraft-forever-launch-times-classic-vs-enhanced-preset-rulesets-hardcore/" }
+      ]
+    },
+    {
+      "id": "2026-11-02-serverstart",
+      "datum": "2026-11-02",
+      "kat": "Start",
+      "titel": "Forever startet in der Nacht auf Donnerstag",
+      "text": "Die Server öffnen am Donnerstag, 5. November, um 0:00 Uhr deutscher Zeit. Charaktere aus der Beta werden nicht übernommen – alle fangen bei Stufe 1 an.",
+      "tipp": "Spiel und Addons schon am Mittwochabend aktualisieren, dann kannst du pünktlich loslegen.",
+      "video": null,
+      "inhalt": [],
+      "quellen": [
+        { "name": "Playnews – Startzeit", "url": "https://www.playnews.gg/en/release-dates/world-of-warcraft-forever-launch-time-11-p-m-on-4-november-names-from-27-october" },
+        { "name": "Warcraft Tavern – Beta-Infos", "url": "https://www.warcrafttavern.com/forever/guides/beta/" }
+      ]
+    },
+    {
+      "id": "2026-11-02-neun-dungeons",
+      "datum": "2026-11-02",
+      "kat": "Dungeons",
+      "titel": "9 neue Dungeons von Stufe 13 bis 60",
+      "text": "Den Anfang macht Hall of Thanes unter Eisenschmiede (13–18), den Abschluss Shaper’s Terrace im Krater von Un’Goro (58–60).",
+      "tipp": "Hall of Thanes ist der erste neue Dungeon – ideal als Gruppenabend um Stufe 15.",
+      "video": { "youtube": "dZb8FNAU9uc", "kanal": "Quissy", "titel": "WoW Forever: All 9 New Dungeons, Locations & Levels" },
+      "inhalt": [
+        { "typ": "tabelle", "titel": "Alle neuen Dungeons", "kopf": ["Dungeon", "Stufe", "Ort"], "zeilen": [
+          ["Hall of Thanes", "13–18", "Unter Eisenschmiede, Dun Morogh"],
+          ["Ruins of Lordaeron", "15–20", "Über Unterstadt, Tirisfal"],
+          ["Excavation Site", "24–29", "Sumpfland"],
+          ["City of Dalaran", "28–33", "Alteracgebirge"],
+          ["The Drowned City", "35–40", "Vor der Küste des Schlingendorntals"],
+          ["Krol’dok Stronghold", "40–45", "Riverglades"],
+          ["Alcaz Prison", "48–53", "Insel Alcaz, Düstermarschen"],
+          ["Blackmaw Hold", "55–60", "Azshara"],
+          ["Shaper’s Terrace", "58–60", "Krater von Un’Goro"]
+        ] },
+        { "typ": "text", "titel": "Gut zu wissen", "text": "Für Excavation Site stand in der Beta noch 26–31 – die Stufen können sich also leicht verschieben. Eine Dungeonsuche mit Teleport gibt es nicht, ihr müsst selbst hinlaufen." }
+      ],
+      "quellen": [
+        { "name": "Timesaver – Dungeons und XP-Änderungen", "url": "https://timesaver.gg/blog/wow-forever-leveling-explained-beta" },
+        { "name": "Video: Quissy auf YouTube", "url": "https://www.youtube.com/watch?v=dZb8FNAU9uc" }
+      ]
+    },
+    {
+      "id": "2026-11-02-raids",
+      "datum": "2026-11-02",
+      "kat": "Raids",
+      "titel": "Erste Raids am 9. Dezember",
+      "text": "Barrow Deeps (10 Spieler), Hyjal Summit (20 Spieler) und Onyxias Hort (40 Spieler) öffnen am 9. Dezember.",
+      "tipp": "Gut fünf Wochen Zeit, um entspannt auf 60 zu kommen – kein Grund zur Hektik.",
+      "video": null,
+      "inhalt": [],
+      "quellen": [
+        { "name": "GamerFuzion – Launch Guide", "url": "https://www.gamerfuzion.com/world-of-warcraft-forever-launch-times-classic-vs-enhanced-preset-rulesets-hardcore/" }
+      ]
+    },
+    {
+      "id": "2026-11-02-servertypen",
+      "datum": "2026-11-02",
+      "kat": "Start",
+      "titel": "Hardcore-Server kommen später",
+      "text": "Zum Start gibt es Normal, PvP, Rollenspiel und Rollenspiel-PvP. Hardcore folgt nach dem Start, ein Datum gibt es noch nicht.",
+      "tipp": "Wer Hardcore spielen will, kann bis dahin auf einem normalen Server die Klasse kennenlernen.",
+      "video": null,
+      "inhalt": [],
+      "quellen": [
+        { "name": "GamerFuzion – Launch Guide", "url": "https://www.gamerfuzion.com/world-of-warcraft-forever-launch-times-classic-vs-enhanced-preset-rulesets-hardcore/" }
+      ]
+    },
+    {
+      "id": "2026-11-02-xp-dungeons",
+      "datum": "2026-11-02",
+      "kat": "System",
+      "titel": "Weniger Bonus-XP für Dungeonquests, mehr XP für Dungeon-Gegner",
+      "text": "In der Beta hat Blizzard den Erfahrungsbonus für Dungeonquests halbiert und dafür die XP von Gegnern in Dungeons um etwa 20 % erhöht. Ob es zum Start genau so bleibt, ist nicht bestätigt.",
+      "tipp": "Dungeons lohnen sich weiterhin – vor allem, wenn ihr sie komplett durchspielt statt nur die Quests abzuholen.",
+      "video": null,
+      "inhalt": [],
+      "quellen": [
+        { "name": "Timesaver – XP-Änderungen in der Beta", "url": "https://timesaver.gg/blog/wow-forever-leveling-explained-beta" }
+      ]
+    },
+    {
+      "id": "2026-11-02-darkspear-islands",
+      "datum": "2026-11-02",
+      "kat": "System",
+      "titel": "Neues Schlachtfeld: Darkspear Islands",
+      "text": "Forever bringt ein neues Schlachtfeld für 15 gegen 15 Spieler mit.",
+      "tipp": "Sobald es Erfahrungen gibt, ergänzen wir hier Karte und Taktik.",
+      "video": null,
+      "inhalt": [],
+      "quellen": [
+        { "name": "GamerFuzion – Launch Guide", "url": "https://www.gamerfuzion.com/world-of-warcraft-forever-launch-times-classic-vs-enhanced-preset-rulesets-hardcore/" }
+      ]
+    },
+    {
+      "id": "2026-11-02-skyborne",
+      "datum": "2026-11-02",
+      "kat": "System",
+      "titel": "Neue Rasse Skyborne startet auf Zephras",
+      "text": "Die neue Rasse Skyborne beginnt auf der Insel Zephras und levelt dort von Stufe 1 bis 12.",
+      "tipp": "Wohin es danach geht, ist noch offen – wir berichten, sobald es feststeht.",
+      "video": null,
+      "inhalt": [],
+      "quellen": [
+        { "name": "GamerFuzion – Launch Guide", "url": "https://www.gamerfuzion.com/world-of-warcraft-forever-launch-times-classic-vs-enhanced-preset-rulesets-hardcore/" }
+      ]
+    }
+  ]
+}
