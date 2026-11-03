@@ -1,12 +1,145 @@
 {
-  "stand": "2026-11-02",
+  "stand": "2026-11-03",
   "hinweis": "Wird täglich um 18 Uhr automatisch aktualisiert.",
   "eintraege": [
+    {
+      "id": "2026-11-03-klassen-update-vor-start",
+      "datum": "2026-11-03",
+      "kat": "Klassen",
+      "top": true,
+      "titel": "Großes Klassen-Update kurz vor dem Start",
+      "text": "Mit den Entwicklernotizen vom 2. November hat Blizzard fast jede Spezialisierung verändert. Besonders betroffen sind Schamanen: Lava Burst fällt ersatzlos weg, Riptide heilt nur noch über Zeit. Schurken und Krieger bekommen dagegen neue Fähigkeiten und Talente.",
+      "tipp": "Talente erst nach dem Login in Ruhe neu verteilen – viele Guides aus der Beta stimmen nicht mehr.",
+      "video": null,
+      "inhalt": [
+        {
+          "typ": "tabelle",
+          "titel": "Die wichtigsten Änderungen",
+          "kopf": [
+            "Klasse",
+            "Was sich ändert"
+          ],
+          "zeilen": [
+            [
+              "Schamane",
+              "Lava Burst entfernt, dafür Call of Thunder (+5 % kritische Trefferchance für Blitzschlag und Kettenblitzschlag)"
+            ],
+            [
+              "Schamane",
+              "Riptide heilt nur noch über Zeit, kostet rund 40 % weniger Mana, Abklingzeit 12 statt 6 Sekunden"
+            ],
+            [
+              "Schamane",
+              "Stormstrike: 150 % statt 100 % Waffenschaden, Abklingzeit 6 statt 8 Sekunden; Blitzschlag macht mehr Schaden"
+            ],
+            [
+              "Schurke",
+              "Neue Fähigkeit Shank ab Stufe 24; Gifte skalieren doppelt so stark mit Angriffskraft; neues 31-Punkte-Talent Death Mark"
+            ],
+            [
+              "Krieger",
+              "Slam: 15 statt 18 Sekunden Abklingzeit; Verteidigungshaltung erzeugt 80 % statt 30 % Bedrohung"
+            ],
+            [
+              "Krieger",
+              "Neue Talente Reckless Swings und Improved Whirlwind; Zweihandwaffen-Spezialisierung 2/4/6 % statt 1/2/3 %"
+            ]
+          ]
+        },
+        {
+          "typ": "text",
+          "titel": "Noch nicht offiziell",
+          "text": "Einige weitere Werte (z. B. Jäger-Buffs vom 3. November) stammen laut Tracker-Seiten aus den Spieldateien. Blizzard hat dazu noch keine eigenen Notizen veröffentlicht."
+        }
+      ],
+      "quellen": [
+        {
+          "name": "Blizzard-Forum – Entwicklernotizen (2. November)",
+          "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-november-2/2360696"
+        },
+        {
+          "name": "PC Games – Klassenänderungen",
+          "url": "https://www.pcgames.de/World-of-Warcraft-Spiel-42971/News/Forever-Klassenaenderungen-Balancing-Schamanen-Discord-gesperrt-1558750/"
+        },
+        {
+          "name": "ForeverChanges – Patchnotes",
+          "url": "https://foreverchanges.pro/patch-notes"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-03-mehr-schaden-respawns",
+      "datum": "2026-11-03",
+      "kat": "Patch",
+      "titel": "Mehr Schaden, schnellere Respawns, Training kostet rund 206 Gold",
+      "text": "Blizzard verabschiedet sich von den strengen Classic-Schadenswerten: Alle Klassen teilen mehr aus, dafür haben höherstufige Gegner mehr Leben. Zum Start erscheinen Gegner in vielen Gebieten schneller wieder, am schnellsten in den Startgebieten.",
+      "tipp": "Spar dir beim Leveln etwas Gold für den Lehrer auf – alle Klassenfähigkeiten bis Stufe 60 kosten zusammen etwa 206–207 Gold.",
+      "video": null,
+      "inhalt": [
+        {
+          "typ": "liste",
+          "titel": "Allgemeine Änderungen zum Start",
+          "punkte": [
+            "Klassen machen insgesamt mehr Schaden, höherstufige Gegner haben mehr Leben.",
+            "Training von Stufe 1 bis 60 kostet je nach Klasse 206–207 Gold (Hexenmeister-Grimoires nicht mitgerechnet).",
+            "Schnellere Respawns zum Start; in niedrigen Gebieten sollen sie später wieder langsamer werden.",
+            "Neue Zauber landen nicht mehr automatisch in der Aktionsleiste.",
+            "Neue Taschen werden nicht mehr automatisch angelegt – du musst sie selbst ausrüsten.",
+            "Wurzeleffekte aus Talenten (z. B. Frostbite, Entrapment) teilen sich jetzt abnehmende Wirkung."
+          ]
+        }
+      ],
+      "quellen": [
+        {
+          "name": "Output Lag",
+          "url": "https://outputlag.com/news/wow-forever-drops-classic-power-budgets-two-days-before-launch/"
+        },
+        {
+          "name": "Timesaver – Launch-Patchnotes",
+          "url": "https://timesaver.gg/blog/wow-forever-launch-patch-notes"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-03-wartung-vor-start",
+      "datum": "2026-11-03",
+      "kat": "Start",
+      "titel": "Lange Wartung am Mittwochabend vor dem Start",
+      "text": "Laut einem Hinweis im Battle.net-Launcher ist Forever am Mittwoch, 4. November, ab 19 Uhr deutscher Zeit wegen Wartung nicht erreichbar. Gegen Mitternacht soll es wieder losgehen – passend zur Startzeit.",
+      "tipp": "Lade Spiel-Updates schon vor 19 Uhr herunter, dann musst du um Mitternacht nur noch auf „Spielen“ drücken.",
+      "video": null,
+      "inhalt": [],
+      "quellen": [
+        {
+          "name": "Blizzard-Forum – Hinweis zur Wartung",
+          "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-unavailable-until-6-pm-est-on-nov-4th/2397379"
+        },
+        {
+          "name": "Wowhead",
+          "url": "https://www.wowhead.com/forever/news/long-maintenance-planned-ahead-of-wow-forever-launch-383695"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-03-schamanen-protest",
+      "datum": "2026-11-03",
+      "kat": "Klassen",
+      "titel": "Schamanen-Discord aus Protest gesperrt",
+      "text": "Laut PC Games haben die Moderatoren des Classic-Schamanen-Discords den Server gesperrt: Man kann beitreten, aber nichts mehr schreiben. Damit wollen sie offenbar Druck machen, damit Blizzard die Änderungen zurücknimmt. Eine Reaktion von Blizzard gibt es noch nicht.",
+      "tipp": "Wenn du Schamane spielen willst, probier die neuen Talente erst selbst aus, bevor du umplanst.",
+      "video": null,
+      "inhalt": [],
+      "quellen": [
+        {
+          "name": "PC Games",
+          "url": "https://www.pcgames.de/World-of-Warcraft-Spiel-42971/News/Forever-Klassenaenderungen-Balancing-Schamanen-Discord-gesperrt-1558750/"
+        }
+      ]
+    },
     {
       "id": "2026-11-02-updates-alle-vier-monate",
       "datum": "2026-11-02",
       "kat": "System",
-      "top": true,
       "titel": "Große Updates etwa alle vier Monate",
       "text": "Laut Designer Kris Zierhut (Interview mit IGN) soll Forever ungefähr alle vier Monate ein großes Update bekommen – also rund drei pro Jahr. Dazwischen sind kleinere Freischaltungen über einen Event-Kalender geplant; was genau kommt, ist noch nicht bekannt.",
       "tipp": "Kein Grund zur Eile: Bei diesem Tempo hast du zwischen den Updates genug Zeit, in Ruhe zu leveln und Dungeons nachzuholen.",
