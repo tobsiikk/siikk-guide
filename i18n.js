@@ -143,5 +143,5 @@
     return ziel.replace(NUM, function(z){ var j = zd.indexOf(z); while (j >= 0 && used[j]) j = zd.indexOf(z, j + 1); if (j < 0) return z; used[j] = 1; return '{' + j + '}'; });
   }
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', start); else start();
-  window.siikkSprache = lang;
+  window.siikkSprache = lang; window.siikkTr = function(s){ return tr(s); };
 })();
