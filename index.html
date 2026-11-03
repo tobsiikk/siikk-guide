@@ -552,6 +552,7 @@ body{padding-bottom:4.5rem}
 .nw-quellen a{display:block;margin:.25rem 0}
 </style>
 <style id="wow-icons">
+.tt-codebox{margin-top:.6rem;display:grid;gap:.3rem}.tt-codebox input{width:100%;font-family:var(--f-mono);font-size:.72rem;padding:.45rem .5rem;background:#1a1209;color:#f1d792;border:1px solid #7a5c2a;border-radius:6px}.tt-codebox small{font-size:.75rem;color:#5a4a2a}
 /* Auswahlfelder gut lesbar */
 select,.sk-sel select,select.sk-sel{color:#f1d792!important;background-color:#1a1209!important;-webkit-text-fill-color:#f1d792}
 select option,select optgroup{color:#f1d792;background-color:#1a1209}
@@ -1169,12 +1170,13 @@ function talentTree(k, host){
   var KEY = 'sg-tt-' + k.id;
   var st = load(KEY, null) || { lvl: 10, pts: {}, tree: 0, sel: null };
   if (!st.pts) st.pts = {};
+  if (!Array.isArray(st.seq)) st.seq = [];
   var sel = st.sel && BY[st.sel] ? st.sel : null;
   host.innerHTML =
     '<div class="tt"><div class="tt-head"><div class="tt-level"><label for="tt-lvl">Deine Stufe</label><output id="tt-lvl-out" for="tt-lvl">10</output>' +
     '<div class="tt-lvl-row"><button type="button" class="tt-step" id="tt-lm" aria-label="Eine Stufe runter">−</button><input type="range" id="tt-lvl" min="10" max="60" step="1" value="10"><button type="button" class="tt-step" id="tt-lp" aria-label="Eine Stufe hoch">+</button></div></div>' +
     '<div class="tt-sum"><div><span class="tt-k">Frei</span><b id="tt-free">1</b></div><div><span class="tt-k">Verteilt</span><b id="tt-spent">0</b></div><div><span class="tt-k">Aufteilung</span><b id="tt-split">0 / 0 / 0</b></div></div>' +
-    '<div class="tt-actions"><button type="button" class="btn" id="tt-rec">Guide-Empfehlung für diese Stufe</button><button type="button" class="btn ghost" id="tt-reset">Alles verlernen</button></div><p class="tt-warn" id="tt-warn" hidden></p></div>' +
+    '<div class="tt-actions"><button type="button" class="btn" id="tt-rec">Guide-Empfehlung für diese Stufe</button><button type="button" class="btn ghost" id="tt-reset">Alles verlernen</button><button type="button" class="btn ghost" id="tt-code" title="Code für das Addon siikk-Talentplaner">Code fürs Addon</button></div><div class="tt-codebox" id="tt-codebox" hidden><input type="text" id="tt-code-in" readonly aria-label="Talent-Code"><small id="tt-code-ok"></small></div><p class="tt-warn" id="tt-warn" hidden></p></div>' +
     '<div class="tt-tabs" role="tablist">' + trees.map(function(t, i){ return '<button type="button" role="tab" data-tree="'+i+'" aria-selected="false">'+esc(t.name)+' <span id="tt-cnt-'+i+'">0</span></button>'; }).join('') + '</div>' +
     '<div class="tt-grid" id="tt-grid"></div><div class="tt-tip" id="tt-tip" hidden></div>' +
     '<div class="tt-detail"><div class="tt-d-top"><span class="tt-d-ico" id="tt-d-ico"></span><div class="tt-d-name"><b id="tt-d-name">Talent antippen</b><span id="tt-d-meta">Tippe ein Talent an, um es zu sehen und Punkte zu setzen.</span></div>' +
@@ -1208,8 +1210,8 @@ function talentTree(k, host){
     return true;
   }
   function canRemove(t){ if (!r(t.id)) return false; var p = Object.assign({}, st.pts); p[t.id]--; if (!p[t.id]) delete p[t.id]; return valid(p); }
-  function add(t){ if (!canAdd(t)) return; st.pts[t.id] = r(t.id) + 1; persist(); render(); }
-  function rem(t){ if (!canRemove(t)) { warn('Erst Talente weiter unten im Baum entfernen, die diesen Punkt brauchen.'); return; } st.pts[t.id]--; if (!st.pts[t.id]) delete st.pts[t.id]; persist(); render(); }
+  function add(t){ if (!canAdd(t)) return; st.pts[t.id] = r(t.id) + 1; st.seq.push(t.id); persist(); render(); }
+  function rem(t){ if (!canRemove(t)) { warn('Erst Talente weiter unten im Baum entfernen, die diesen Punkt brauchen.'); return; } st.pts[t.id]--; if (!st.pts[t.id]) delete st.pts[t.id]; var li = st.seq.lastIndexOf(t.id); if (li >= 0) st.seq.splice(li, 1); persist(); render(); }
   function warn(m){ var el = $('tt-warn'); el.textContent = m; el.hidden = !m; }
   function persist(){ st.sel = sel; save(KEY, st); }
   function recFor(lvl){ var p = {}; ORDER.forEach(function(o){ if (o.stufe <= lvl && BY[o.talent]) p[o.talent] = (p[o.talent] || 0) + 1; }); return p; }
@@ -1279,12 +1281,20 @@ function talentTree(k, host){
   $('tt-plus').addEventListener('click', function(){ if (sel) add(BY[sel]); });
   $('tt-minus').addEventListener('click', function(){ if (sel) rem(BY[sel]); });
   host.querySelector('.tt-tabs').addEventListener('click', function(e){ var b = e.target.closest('[data-tree]'); if (!b) return; st.tree = +b.dataset.tree; persist(); render(); });
-  function setLevel(l, rec){ st.lvl = Math.max(10, Math.min(60, l)); if (rec) { st.pts = recFor(st.lvl); var nr = ORDER.filter(function(o){ return o.stufe === st.lvl; })[0]; if (nr && BY[nr.talent]) { sel = nr.talent; st.tree = BY[nr.talent]._tree; } } persist(); render(); }
+  function setLevel(l, rec){ st.lvl = Math.max(10, Math.min(60, l)); if (rec) { st.pts = recFor(st.lvl); st.seq = ORDER.filter(function(o){ return o.stufe <= st.lvl && BY[o.talent]; }).map(function(o){ return o.talent; }); var nr = ORDER.filter(function(o){ return o.stufe === st.lvl; })[0]; if (nr && BY[nr.talent]) { sel = nr.talent; st.tree = BY[nr.talent]._tree; } } persist(); render(); }
   rng.addEventListener('input', function(){ setLevel(+rng.value); });
   $('tt-lm').addEventListener('click', function(){ setLevel(st.lvl - 1); });
   $('tt-lp').addEventListener('click', function(){ setLevel(st.lvl + 1); });
   $('tt-rec').addEventListener('click', function(){ setLevel(st.lvl, true); });
-  $('tt-reset').addEventListener('click', function(){ st.pts = {}; persist(); render(); });
+  $('tt-reset').addEventListener('click', function(){ st.pts = {}; st.seq = []; persist(); render(); });
+  $('tt-code').addEventListener('click', function(){ var box = $('tt-codebox'), c = addonCode(); box.hidden = false; $('tt-code-in').value = c; $('tt-code-in').select(); var ok = function(){ $('tt-code-ok').textContent = 'Kopiert! Im Spiel: /tp import und mit Strg+V einfügen.'; }, nein = function(){ $('tt-code-ok').textContent = 'Markieren, kopieren und im Spiel mit /tp import einfügen.'; }; try { navigator.clipboard.writeText(c).then(ok, nein); } catch (e) { nein(); } });
+  function addonCode(){
+    var cnt = {}, seq = [];
+    st.seq.forEach(function(id){ if (BY[id] && (cnt[id]||0) < r(id)) { cnt[id] = (cnt[id]||0) + 1; seq.push(id); } });
+    var rest = Object.keys(st.pts).filter(function(id){ return BY[id] && (cnt[id]||0) < r(id); }).sort(function(a, b){ return BY[a].reihe - BY[b].reihe || BY[a]._tree - BY[b]._tree || BY[a].spalte - BY[b].spalte; });
+    rest.forEach(function(id){ while ((cnt[id]||0) < r(id)) { cnt[id] = (cnt[id]||0) + 1; seq.push(id); } });
+    return 'siikk1:' + k.id.toUpperCase() + ':' + seq.map(function(id){ var t = BY[id]; return '' + (t._tree + 1) + t.reihe + t.spalte; }).join('');
+  }
   window.addEventListener('resize', function(){ if (document.body.contains(grid)) render(); });
   TT = { setLevel: setLevel, useOrder: function(o, kern, id, user){
     setOrder(o, kern);
