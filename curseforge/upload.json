@@ -1,4 +1,12 @@
 {
   "hinweis": "Neue Versionen hier eintragen – bei jeder Änderung dieser Datei lädt GitHub die aufgeführten Dateien zu CurseForge hoch.",
-  "uploads": []
+  "uploads": [
+    {
+      "projekt": "infoleiste",
+      "datei": "downloads/siikk-Infoleiste_v1.4.zip",
+      "anzeige": "siikk-Info Bar v1.4",
+      "typ": "release",
+      "changelog": "v1.4\n- New: XP bonuses in the bar – Cozy Sleeping Bag (+1 % per stack), Well Fed from food (+5 % kill XP) and the camp tent, each with time left.\n- In the last minute the bonus glows orange and blinks, with a sound and a chat message – also when it has run out (can be turned off).\n- New: dungeon & raid check – when you enter and on a ready check you see whether a flask/elixir and buff food are active and for how long.\n- Choose what gets checked in /il (dungeon and raid separately). Check any time: /il check."
+    }
+  ]
 }
