@@ -2,11 +2,11 @@
   "hinweis": "Neue Versionen hier eintragen – bei jeder Änderung dieser Datei lädt GitHub die aufgeführten Dateien zu CurseForge hoch.",
   "uploads": [
     {
-      "projekt": "infoleiste",
-      "datei": "downloads/siikk-Infoleiste_v1.4.zip",
-      "anzeige": "siikk-Info Bar v1.4",
+      "projekt": "schadenszahlen",
+      "datei": "downloads/siikk-Schadenszahlen_v1.3.zip",
+      "anzeige": "siikk-Damage Numbers v1.3",
       "typ": "release",
-      "changelog": "v1.4\n- New: XP bonuses in the bar – Cozy Sleeping Bag (+1 % per stack), Well Fed from food (+5 % kill XP) and the camp tent, each with time left.\n- In the last minute the bonus glows orange and blinks, with a sound and a chat message – also when it has run out (can be turned off).\n- New: dungeon & raid check – when you enter and on a ready check you see whether a flask/elixir and buff food are active and for how long.\n- Choose what gets checked in /il (dungeon and raid separately). Check any time: /il check."
+      "changelog": "siikk-Damage Numbers 1.3 – more looks and motion patterns\n\n- Style presets with one click: siikk (default), Classic, Minimal, Epic, Comic, Retro/Pixel, Elegant and Explosive – every value can still be changed afterwards.\n- 10 fonts: Poppins plus Bangers, Russo One, Cinzel, Oswald, Press Start 2P (all SIL OFL) and the WoW fonts Friz Quadrata, Arial Narrow, Skurri, Morpheus. Font size, crit size, outline (none/thin/thick/extra thick) and shadow.\n- 7 motion patterns: Rise, Arc/Fountain, Fan, Stack/List, Sideways, Explosion, Fall – plus crit animations Pop, Shake, Pulse or None, speed and spread sliders.\n- Colors: per school of magic, one custom color, class color or rainbow; custom crit and healing colors (color picker).\n- Number format 12345 / 12,345 / 12.3k, optional spell icon next to the number, optional merging of hits (\"x3\"), limit for numbers on screen.\n- New settings window with tabs, \"Reset to defaults\" button, /sz stil <name> and /sz reset. Your existing settings are kept – nothing changes unless you want it to.\n- Fixed: the first /sz after login did not open the settings window."
     }
   ]
 }
