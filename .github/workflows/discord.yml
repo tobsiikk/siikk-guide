@@ -1,0 +1,31 @@
+name: Addon-Updates in Discord posten
+# Postet neue Versionen aus dem Changelog (DATA.addon.changelog in index.html) in den Discord-Channel.
+on:
+  push:
+    branches: [main]
+    paths: ["index.html"]
+  workflow_dispatch:
+    inputs:
+      test:
+        description: "Test: neuesten Changelog-Eintrag posten"
+        type: boolean
+        default: true
+jobs:
+  posten:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 50
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Neue Versionen posten
+        env:
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ inputs.test }}" = "true" ]; then
+            python discord/posten.py - --test
+          else
+            python discord/posten.py "${{ github.event.before }}"
+          fi
