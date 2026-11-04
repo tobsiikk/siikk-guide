@@ -65,7 +65,197 @@
           "name": "ForeverChanges – Patchnotes",
           "url": "https://foreverchanges.pro/patch-notes"
         }
-      ]
+      ],
+      "i18n": {
+        "en": {
+          "kat": "Classes",
+          "titel": "Big class update right before launch",
+          "text": "With the developer notes from November 2, Blizzard changed almost every specialization. Shamans are hit hardest: Lava Burst is removed without replacement, and Riptide now only heals over time. Rogues and warriors, on the other hand, get new abilities and talents.",
+          "tipp": "Wait until you log in and then reassign your talents calmly – many guides from the beta are no longer correct.",
+          "inhalt": [
+            {
+              "typ": "tabelle",
+              "titel": "The most important changes",
+              "kopf": [
+                "Class",
+                "What changes"
+              ],
+              "zeilen": [
+                [
+                  "Shaman",
+                  "Lava Burst removed, replaced by Call of Thunder (+5 % critical strike chance for Lightning Bolt and Chain Lightning)"
+                ],
+                [
+                  "Shaman",
+                  "Riptide now only heals over time, costs about 40 % less mana, cooldown 12 instead of 6 seconds"
+                ],
+                [
+                  "Shaman",
+                  "Stormstrike: 150 % instead of 100 % weapon damage, cooldown 6 instead of 8 seconds; Lightning Bolt deals more damage"
+                ],
+                [
+                  "Rogue",
+                  "New ability Shank from level 24; poisons scale twice as strongly with attack power; new 31-point talent Death Mark"
+                ],
+                [
+                  "Warrior",
+                  "Slam: 15 instead of 18 seconds cooldown; Defensive Stance generates 80 % instead of 30 % threat"
+                ],
+                [
+                  "Warrior",
+                  "New talents Reckless Swings and Improved Whirlwind; Two-Handed Weapon Specialization 2/4/6 % instead of 1/2/3 %"
+                ]
+              ]
+            },
+            {
+              "typ": "text",
+              "titel": "Not official yet",
+              "text": "Some further values (e.g. hunter buffs from November 3) come from the game files, according to tracker sites. Blizzard has not published its own notes on them yet."
+            }
+          ]
+        },
+        "fr": {
+          "kat": "Classes",
+          "titel": "Grande mise à jour des classes juste avant le lancement",
+          "text": "Avec les notes de développement du 2 novembre, Blizzard a modifié presque toutes les spécialisations. Les chamans sont les plus touchés : Lava Burst disparaît sans remplacement, Riptide ne soigne plus que dans la durée. Les voleurs et les guerriers, eux, reçoivent de nouvelles capacités et de nouveaux talents.",
+          "tipp": "Attends d'être connecté pour redistribuer tes talents tranquillement : beaucoup de guides issus de la bêta ne sont plus à jour.",
+          "inhalt": [
+            {
+              "typ": "tabelle",
+              "titel": "Les principaux changements",
+              "kopf": [
+                "Classe",
+                "Ce qui change"
+              ],
+              "zeilen": [
+                [
+                  "Chaman",
+                  "Lava Burst supprimé, remplacé par Call of Thunder (+5 % de chances de critique pour Éclair et Chaîne d'éclairs)"
+                ],
+                [
+                  "Chaman",
+                  "Riptide ne soigne plus que dans la durée, coûte environ 40 % de mana en moins, temps de recharge de 12 s au lieu de 6 s"
+                ],
+                [
+                  "Chaman",
+                  "Stormstrike : 150 % des dégâts d'arme au lieu de 100 %, temps de recharge de 6 s au lieu de 8 s ; Éclair inflige plus de dégâts"
+                ],
+                [
+                  "Voleur",
+                  "Nouvelle capacité Shank dès le niveau 24 ; les poisons profitent deux fois plus de la puissance d'attaque ; nouveau talent à 31 points Death Mark"
+                ],
+                [
+                  "Guerrier",
+                  "Slam : temps de recharge de 15 s au lieu de 18 s ; la posture défensive génère 80 % de menace au lieu de 30 %"
+                ],
+                [
+                  "Guerrier",
+                  "Nouveaux talents Reckless Swings et Improved Whirlwind ; spécialisation armes à deux mains 2/4/6 % au lieu de 1/2/3 %"
+                ]
+              ]
+            },
+            {
+              "typ": "text",
+              "titel": "Pas encore officiel",
+              "text": "Certaines autres valeurs (par ex. les buffs du chasseur du 3 novembre) proviennent des fichiers du jeu, d'après des sites de suivi. Blizzard n'a pas encore publié de notes à ce sujet."
+            }
+          ]
+        },
+        "es": {
+          "kat": "Clases",
+          "titel": "Gran actualización de clases justo antes del lanzamiento",
+          "text": "Con las notas de desarrollo del 2 de noviembre, Blizzard ha modificado casi todas las especializaciones. Los más afectados son los chamanes: Lava Burst desaparece sin sustituto y Riptide solo cura con el tiempo. Pícaros y guerreros, en cambio, reciben nuevas habilidades y talentos.",
+          "tipp": "Reparte los talentos con calma después de iniciar sesión: muchas guías de la beta ya no valen.",
+          "inhalt": [
+            {
+              "typ": "tabelle",
+              "titel": "Los cambios más importantes",
+              "kopf": [
+                "Clase",
+                "Qué cambia"
+              ],
+              "zeilen": [
+                [
+                  "Chamán",
+                  "Lava Burst eliminado; a cambio, Call of Thunder (+5 % de probabilidad de crítico para Descarga de relámpagos y Cadena de relámpagos)"
+                ],
+                [
+                  "Chamán",
+                  "Riptide solo cura con el tiempo, cuesta un 40 % menos de maná y su reutilización pasa de 6 a 12 segundos"
+                ],
+                [
+                  "Chamán",
+                  "Stormstrike: 150 % de daño de arma en lugar de 100 %, reutilización de 6 s en lugar de 8 s; Descarga de relámpagos hace más daño"
+                ],
+                [
+                  "Pícaro",
+                  "Nueva habilidad Shank desde el nivel 24; los venenos escalan el doble con el poder de ataque; nuevo talento de 31 puntos, Death Mark"
+                ],
+                [
+                  "Guerrero",
+                  "Slam: reutilización de 15 s en lugar de 18 s; la Actitud defensiva genera un 80 % de amenaza en lugar de un 30 %"
+                ],
+                [
+                  "Guerrero",
+                  "Nuevos talentos Reckless Swings e Improved Whirlwind; especialización en armas a dos manos 2/4/6 % en lugar de 1/2/3 %"
+                ]
+              ]
+            },
+            {
+              "typ": "text",
+              "titel": "Aún no es oficial",
+              "text": "Algunos valores más (por ejemplo, las mejoras al cazador del 3 de noviembre) provienen, según webs de seguimiento, de los archivos del juego. Blizzard todavía no ha publicado notas propias al respecto."
+            }
+          ]
+        },
+        "ru": {
+          "kat": "Классы",
+          "titel": "Масштабное обновление классов перед запуском",
+          "text": "В заметках разработчиков от 2 ноября Blizzard изменила почти все специализации. Сильнее всего досталось шаманам: Lava Burst убрали без замены, а Riptide теперь лечит только со временем. Разбойники и воины, наоборот, получают новые способности и таланты.",
+          "tipp": "Перераспределяйте таланты в спокойной обстановке уже после входа в игру — многие гайды из беты устарели.",
+          "inhalt": [
+            {
+              "typ": "tabelle",
+              "titel": "Главные изменения",
+              "kopf": [
+                "Класс",
+                "Что меняется"
+              ],
+              "zeilen": [
+                [
+                  "Шаман",
+                  "Lava Burst удалён, вместо него Call of Thunder (+5 % к шансу крита для Молнии и Цепной молнии)"
+                ],
+                [
+                  "Шаман",
+                  "Riptide лечит только со временем, стоит примерно на 40 % меньше маны, восстановление 12 вместо 6 секунд"
+                ],
+                [
+                  "Шаман",
+                  "Stormstrike: 150 % вместо 100 % урона оружием, восстановление 6 вместо 8 секунд; Молния наносит больше урона"
+                ],
+                [
+                  "Разбойник",
+                  "Новая способность Shank с 24-го уровня; яды вдвое сильнее масштабируются от силы атаки; новый талант Death Mark на 31 очко"
+                ],
+                [
+                  "Воин",
+                  "Slam: восстановление 15 вместо 18 секунд; Оборонительная стойка создаёт 80 % вместо 30 % угрозы"
+                ],
+                [
+                  "Воин",
+                  "Новые таланты Reckless Swings и Improved Whirlwind; специализация на двуручном оружии 2/4/6 % вместо 1/2/3 %"
+                ]
+              ]
+            },
+            {
+              "typ": "text",
+              "titel": "Пока не подтверждено официально",
+              "text": "Некоторые другие значения (например, усиления охотников от 3 ноября) по данным трекеров взяты из файлов игры. Собственных заметок по ним Blizzard пока не публиковала."
+            }
+          ]
+        }
+      }
     },
     {
       "id": "2026-11-03-mehr-schaden-respawns",
@@ -98,7 +288,89 @@
           "name": "Timesaver – Launch-Patchnotes",
           "url": "https://timesaver.gg/blog/wow-forever-launch-patch-notes"
         }
-      ]
+      ],
+      "i18n": {
+        "en": {
+          "kat": "Patch",
+          "titel": "More damage, faster respawns, training costs about 206 gold",
+          "text": "Blizzard is moving away from the strict Classic damage values: all classes deal more damage, but higher-level enemies have more health. At launch, enemies respawn faster in many zones, fastest of all in the starting zones.",
+          "tipp": "Save some gold for your trainer while leveling – all class abilities up to level 60 cost about 206–207 gold in total.",
+          "inhalt": [
+            {
+              "typ": "liste",
+              "titel": "General changes at launch",
+              "punkte": [
+                "Classes deal more damage overall, higher-level enemies have more health.",
+                "Training from level 1 to 60 costs 206–207 gold depending on the class (warlock grimoires not included).",
+                "Faster respawns at launch; in low-level zones they are supposed to slow down again later.",
+                "New spells are no longer placed on your action bar automatically.",
+                "New bags are no longer equipped automatically – you have to equip them yourself.",
+                "Root effects from talents (e.g. Frostbite, Entrapment) now share diminishing returns."
+              ]
+            }
+          ]
+        },
+        "fr": {
+          "kat": "Patch",
+          "titel": "Plus de dégâts, respawns plus rapides, l'entraînement coûte environ 206 pièces d'or",
+          "text": "Blizzard abandonne les valeurs de dégâts strictes de Classic : toutes les classes infligent plus de dégâts, mais les ennemis de niveau supérieur ont plus de vie. Au lancement, les ennemis réapparaissent plus vite dans de nombreuses zones, surtout dans les zones de départ.",
+          "tipp": "Garde un peu d'or de côté pour le maître de classe pendant le leveling : toutes les capacités de classe jusqu'au niveau 60 coûtent environ 206 à 207 pièces d'or au total.",
+          "inhalt": [
+            {
+              "typ": "liste",
+              "titel": "Changements généraux au lancement",
+              "punkte": [
+                "Les classes infligent globalement plus de dégâts, les ennemis de niveau supérieur ont plus de vie.",
+                "L'entraînement du niveau 1 au 60 coûte 206 à 207 pièces d'or selon la classe (grimoires de démoniste non inclus).",
+                "Respawns plus rapides au lancement ; dans les zones de bas niveau, ils doivent redevenir plus lents par la suite.",
+                "Les nouveaux sorts ne sont plus placés automatiquement dans la barre d'action.",
+                "Les nouveaux sacs ne sont plus équipés automatiquement : tu dois les équiper toi-même.",
+                "Les effets d'immobilisation issus des talents (par ex. Frostbite, Entrapment) partagent désormais des rendements décroissants."
+              ]
+            }
+          ]
+        },
+        "es": {
+          "kat": "Parche",
+          "titel": "Más daño, reapariciones más rápidas y entrenar cuesta unas 206 de oro",
+          "text": "Blizzard se despide de los estrictos valores de daño de Classic: todas las clases hacen más daño, pero los enemigos de nivel superior tienen más vida. Al inicio, los enemigos reaparecen más rápido en muchas zonas, sobre todo en las zonas iniciales.",
+          "tipp": "Ve ahorrando algo de oro mientras subes de nivel para el instructor: todas las habilidades de clase hasta el nivel 60 cuestan en total unas 206-207 de oro.",
+          "inhalt": [
+            {
+              "typ": "liste",
+              "titel": "Cambios generales del lanzamiento",
+              "punkte": [
+                "Las clases hacen más daño en general y los enemigos de nivel superior tienen más vida.",
+                "Entrenar del nivel 1 al 60 cuesta entre 206 y 207 de oro según la clase (sin contar los grimorios de brujo).",
+                "Reapariciones más rápidas al inicio; en las zonas de nivel bajo se ralentizarán de nuevo más adelante.",
+                "Los hechizos nuevos ya no se colocan automáticamente en la barra de acción.",
+                "Las bolsas nuevas ya no se equipan automáticamente: tendrás que equiparlas tú.",
+                "Los efectos de inmovilización de talentos (p. ej., Frostbite, Entrapment) ahora comparten rendimientos decrecientes."
+              ]
+            }
+          ]
+        },
+        "ru": {
+          "kat": "Патч",
+          "titel": "Больше урона, быстрее респавн, обучение стоит около 206 золотых",
+          "text": "Blizzard отходит от строгих классических значений урона: все классы теперь бьют сильнее, зато у противников более высоких уровней больше здоровья. На старте враги во многих зонах возрождаются быстрее, а быстрее всего — в стартовых зонах.",
+          "tipp": "Откладывайте при прокачке немного золота на учителя — все умения класса до 60-го уровня стоят в сумме около 206–207 золотых.",
+          "inhalt": [
+            {
+              "typ": "liste",
+              "titel": "Общие изменения на старте",
+              "punkte": [
+                "Классы в целом наносят больше урона, у противников высоких уровней больше здоровья.",
+                "Обучение с 1-го по 60-й уровень стоит 206–207 золотых в зависимости от класса (гримуары колдуна не считаются).",
+                "На старте респавн быстрее; в низкоуровневых зонах позже он должен снова замедлиться.",
+                "Новые заклинания больше не попадают на панель команд автоматически.",
+                "Новые сумки больше не надеваются автоматически — экипировать их нужно самому.",
+                "Эффекты обездвиживания из талантов (например, Frostbite, Entrapment) теперь имеют общее убывание эффективности."
+              ]
+            }
+          ]
+        }
+      }
     },
     {
       "id": "2026-11-03-wartung-vor-start",
@@ -118,7 +390,37 @@
           "name": "Wowhead",
           "url": "https://www.wowhead.com/forever/news/long-maintenance-planned-ahead-of-wow-forever-launch-383695"
         }
-      ]
+      ],
+      "i18n": {
+        "en": {
+          "kat": "Launch",
+          "titel": "Long maintenance on Wednesday evening before launch",
+          "text": "According to a notice in the Battle.net launcher, Forever is unavailable for maintenance on Wednesday, November 4, from 7 pm German time. It is supposed to be back around midnight – right on time for launch.",
+          "tipp": "Download game updates before 7 pm, then at midnight you only have to click “Play”.",
+          "inhalt": []
+        },
+        "fr": {
+          "kat": "Lancement",
+          "titel": "Longue maintenance mercredi soir avant le lancement",
+          "text": "D'après un message dans le lanceur Battle.net, Forever sera inaccessible mercredi 4 novembre à partir de 19 h (heure allemande) pour cause de maintenance. Le retour est prévu vers minuit, pile à l'heure du lancement.",
+          "tipp": "Télécharge les mises à jour du jeu avant 19 h, comme ça tu n'auras plus qu'à cliquer sur « Jouer » à minuit.",
+          "inhalt": []
+        },
+        "es": {
+          "kat": "Lanzamiento",
+          "titel": "Mantenimiento largo el miércoles por la noche, antes del lanzamiento",
+          "text": "Según un aviso del lanzador de Battle.net, Forever no estará disponible el miércoles 4 de noviembre a partir de las 19:00 (hora alemana) por mantenimiento. Debería volver hacia medianoche, justo a la hora del lanzamiento.",
+          "tipp": "Descarga las actualizaciones del juego antes de las 19:00 y a medianoche solo tendrás que pulsar «Jugar».",
+          "inhalt": []
+        },
+        "ru": {
+          "kat": "Запуск",
+          "titel": "Долгие технические работы в среду вечером перед запуском",
+          "text": "Согласно уведомлению в лаунчере Battle.net, в среду, 4 ноября, с 19:00 по немецкому времени Forever будет недоступна из-за технических работ. Около полуночи она должна заработать — как раз к времени старта.",
+          "tipp": "Скачайте обновления игры до 19:00, тогда в полночь останется только нажать «Играть».",
+          "inhalt": []
+        }
+      }
     },
     {
       "id": "2026-11-03-schamanen-protest",
@@ -134,7 +436,37 @@
           "name": "PC Games",
           "url": "https://www.pcgames.de/World-of-Warcraft-Spiel-42971/News/Forever-Klassenaenderungen-Balancing-Schamanen-Discord-gesperrt-1558750/"
         }
-      ]
+      ],
+      "i18n": {
+        "en": {
+          "kat": "Classes",
+          "titel": "Shaman Discord locked in protest",
+          "text": "According to PC Games, the moderators of the Classic shaman Discord have locked the server: you can join, but you can no longer write. Apparently they want to put pressure on Blizzard to reverse the changes. Blizzard has not responded yet.",
+          "tipp": "If you want to play a shaman, try the new talents yourself first before changing your plans.",
+          "inhalt": []
+        },
+        "fr": {
+          "kat": "Classes",
+          "titel": "Discord des chamans fermé en signe de protestation",
+          "text": "Selon PC Games, les modérateurs du Discord des chamans Classic ont verrouillé le serveur : on peut le rejoindre, mais plus rien n'y est écrit. Ils veulent apparemment faire pression sur Blizzard pour qu'il annule les changements. Blizzard n'a pas encore réagi.",
+          "tipp": "Si tu veux jouer chaman, teste d'abord les nouveaux talents toi-même avant de tout replanifier.",
+          "inhalt": []
+        },
+        "es": {
+          "kat": "Clases",
+          "titel": "El Discord de chamanes, bloqueado en señal de protesta",
+          "text": "Según PC Games, los moderadores del Discord de chamanes de Classic han bloqueado el servidor: se puede entrar, pero ya no se puede escribir. Al parecer quieren presionar a Blizzard para que revierta los cambios. Blizzard aún no ha reaccionado.",
+          "tipp": "Si quieres jugar chamán, prueba tú mismo los nuevos talentos antes de replantearte nada.",
+          "inhalt": []
+        },
+        "ru": {
+          "kat": "Классы",
+          "titel": "Дискорд шаманов закрыт в знак протеста",
+          "text": "По данным PC Games, модераторы дискорда шаманов Classic закрыли сервер: зайти можно, а писать — нет. Судя по всему, так они хотят надавить на Blizzard, чтобы та отменила изменения. Реакции Blizzard пока нет.",
+          "tipp": "Если хотите играть за шамана, сначала сами попробуйте новые таланты, а потом уже перестраивайте планы.",
+          "inhalt": []
+        }
+      }
     },
     {
       "id": "2026-11-02-updates-alle-vier-monate",
@@ -167,7 +499,89 @@
           "name": "PC Gamer",
           "url": "https://www.pcgamer.com/games/world-of-warcraft/wow-forevers-update-schedule-will-be-a-little-more-laid-back-than-the-main-mmo/"
         }
-      ]
+      ],
+      "i18n": {
+        "en": {
+          "kat": "System",
+          "titel": "Big updates about every four months",
+          "text": "According to designer Kris Zierhut (interview with IGN), Forever is supposed to get a big update roughly every four months – so about three per year. In between, smaller unlocks are planned via an event calendar; what exactly will come is not known yet.",
+          "tipp": "No need to rush: at this pace you have enough time between updates to level calmly and catch up on dungeons.",
+          "inhalt": [
+            {
+              "typ": "liste",
+              "titel": "What is known so far",
+              "punkte": [
+                "A big update about every 17 weeks (about three per year) – whether that is a fixed rule or just a goal is open.",
+                "Smaller content is supposed to be unlocked one, two or three months after a patch via an event calendar.",
+                "The first raids open on December 9; according to IGN the first big update is expected in spring 2027 – Blizzard has not confirmed a date.",
+                "Announced without a date: more raids and dungeons, PvP updates, new quests for levels 1–60, Hardcore and a reworked well-known raid.",
+                "The Eastern Kingdoms and Kalimdor remain home, no new capital cities are planned.",
+                "Short trips to Northrend or Pandaria were only mentioned as an idea – none of it has been announced."
+              ]
+            }
+          ]
+        },
+        "fr": {
+          "kat": "Système",
+          "titel": "De grosses mises à jour environ tous les quatre mois",
+          "text": "D'après le designer Kris Zierhut (interview avec IGN), Forever doit recevoir une grosse mise à jour environ tous les quatre mois, soit à peu près trois par an. Entre-temps, des déblocages plus petits sont prévus via un calendrier d'événements ; on ne sait pas encore ce qui viendra exactement.",
+          "tipp": "Pas de panique : à ce rythme, tu as largement le temps de level tranquillement et de rattraper les donjons entre les mises à jour.",
+          "inhalt": [
+            {
+              "typ": "liste",
+              "titel": "Ce que l'on sait pour l'instant",
+              "punkte": [
+                "Une grosse mise à jour toutes les 17 semaines environ (à peu près trois par an) : on ne sait pas s'il s'agit d'une règle fixe ou seulement d'un objectif.",
+                "Des contenus plus petits doivent être débloqués un, deux ou trois mois après un patch via un calendrier d'événements.",
+                "Les premiers raids ouvrent le 9 décembre ; selon IGN, la première grosse mise à jour est attendue au printemps 2027, mais Blizzard n'a confirmé aucune date.",
+                "Annoncés sans date : d'autres raids et donjons, des mises à jour JcJ, de nouvelles quêtes pour les niveaux 1 à 60, le Hardcore et un raid connu remanié.",
+                "Les Royaumes de l'est et Kalimdor restent le terrain de jeu, aucune nouvelle capitale n'est prévue.",
+                "De courtes escapades en Norfendre ou à Pandaria n'ont été évoquées que comme idée : rien n'a été annoncé."
+              ]
+            }
+          ]
+        },
+        "es": {
+          "kat": "Sistema",
+          "titel": "Grandes actualizaciones aproximadamente cada cuatro meses",
+          "text": "Según el diseñador Kris Zierhut (entrevista con IGN), Forever recibirá una gran actualización más o menos cada cuatro meses, es decir, unas tres al año. Entre medias hay previstos desbloqueos menores mediante un calendario de eventos; aún no se sabe qué llegará exactamente.",
+          "tipp": "No hay prisa: a este ritmo tendrás tiempo de sobra entre actualizaciones para subir de nivel con calma y ponerte al día con las mazmorras.",
+          "inhalt": [
+            {
+              "typ": "liste",
+              "titel": "Lo que se sabe hasta ahora",
+              "punkte": [
+                "Gran actualización cada 17 semanas aproximadamente (unas tres al año); no está claro si es una regla fija o solo un objetivo.",
+                "El contenido menor se desbloqueará uno, dos o tres meses después de un parche mediante un calendario de eventos.",
+                "Las primeras bandas abren el 9 de diciembre; según IGN, la primera gran actualización se espera para la primavera de 2027, aunque Blizzard no ha confirmado fecha.",
+                "Anunciado sin fecha: más bandas y mazmorras, actualizaciones de JcJ, nuevas misiones para los niveles 1-60, Hardcore y una banda conocida rehecha.",
+                "Los Reinos del Este y Kalimdor seguirán siendo el hogar; no se planean nuevas capitales.",
+                "Las breves escapadas a Rasganorte o Pandaria solo se mencionaron como idea; no hay nada anunciado."
+              ]
+            }
+          ]
+        },
+        "ru": {
+          "kat": "Система",
+          "titel": "Крупные обновления примерно раз в четыре месяца",
+          "text": "По словам дизайнера Криса Зирхута (интервью IGN), Forever будет получать крупное обновление примерно раз в четыре месяца — то есть около трёх в год. В промежутках планируются небольшие разблокировки через календарь событий; что именно появится, пока неизвестно.",
+          "tipp": "Спешить некуда: при таком темпе между обновлениями хватит времени спокойно качаться и наверстать подземелья.",
+          "inhalt": [
+            {
+              "typ": "liste",
+              "titel": "Что известно на данный момент",
+              "punkte": [
+                "Крупное обновление примерно раз в 17 недель (около трёх в год) — правило это или просто цель, неизвестно.",
+                "Небольшой контент должен открываться через календарь событий спустя один, два или три месяца после патча.",
+                "Первые рейды откроются 9 декабря; первое крупное обновление, по данным IGN, ожидается весной 2027 года — дату Blizzard не подтверждала.",
+                "Анонсировано без сроков: новые рейды и подземелья, обновления PvP, новые задания для уровней 1–60, хардкор и переработанный известный рейд.",
+                "Домом останутся Восточные королевства и Калимдор, новые столицы не планируются.",
+                "Короткие вылазки в Нордскол или Пандарию упоминались лишь как идея — ничего из этого не анонсировано."
+              ]
+            }
+          ]
+        }
+      }
     },
     {
       "id": "2026-11-02-keine-deutschen-server",
@@ -195,7 +609,85 @@
           "name": "MeinMMO",
           "url": "https://mein-mmo.de/wow-forever-wahl-des-servers-funktioniert/"
         }
-      ]
+      ],
+      "i18n": {
+        "en": {
+          "kat": "System",
+          "titel": "No German servers – your language decides",
+          "text": "In Forever you don't pick a single server, only a server type; in Europe, all players of a type share one big mega-server. According to MeinMMO there are no separate German realms – instead, the worlds are split by the language you have set.",
+          "tipp": "Set your preferred language before your first login, then you'll mostly meet players who speak it.",
+          "inhalt": [
+            {
+              "typ": "liste",
+              "titel": "The essentials about choosing a server",
+              "punkte": [
+                "The server type (Normal, PvP, Roleplay, Roleplay PvP) is fixed per character – you can't switch, only with a new character.",
+                "In battlegrounds you also meet players from other server types.",
+                "The preferred language can be changed later in the options.",
+                "Characters have first and last names; the combination applies across all server types and belongs only to you.",
+                "According to MeinMMO, inappropriate names can even lead to losing your account."
+              ]
+            }
+          ]
+        },
+        "fr": {
+          "kat": "Système",
+          "titel": "Pas de serveurs allemands : c'est la langue qui décide",
+          "text": "Dans Forever, tu ne choisis pas un serveur précis, seulement un type de serveur ; tous les joueurs d'un même type en Europe partagent un grand méga-serveur. Selon MeinMMO, il n'y a pas de royaumes allemands dédiés : les mondes sont répartis selon la langue choisie.",
+          "tipp": "Avant ta première connexion, règle ta langue préférée sur le français : tu croiseras ainsi surtout des joueurs francophones.",
+          "inhalt": [
+            {
+              "typ": "liste",
+              "titel": "L'essentiel sur le choix du serveur",
+              "punkte": [
+                "Le type de serveur (Normal, JcJ, Jeu de rôle, Jeu de rôle JcJ) est définitif pour chaque personnage : impossible d'en changer, seulement de créer un nouveau personnage.",
+                "Dans les champs de bataille, tu croises aussi des joueurs d'autres types de serveurs.",
+                "La langue préférée peut être modifiée plus tard dans les options.",
+                "Les personnages ont un prénom et un nom ; la combinaison est valable sur tous les types de serveurs et t'appartient.",
+                "Selon MeinMMO, les noms inappropriés peuvent aller jusqu'à entraîner la perte du compte."
+              ]
+            }
+          ]
+        },
+        "es": {
+          "kat": "Sistema",
+          "titel": "Sin servidores alemanes: manda el idioma",
+          "text": "En Forever no eliges un servidor concreto, sino solo un tipo de servidor; todos los jugadores de un mismo tipo comparten un gran megaservidor en Europa. Según MeinMMO, no hay reinos alemanes propios: los mundos se dividen según el idioma configurado.",
+          "tipp": "Antes de iniciar sesión por primera vez, configura el alemán como idioma preferido y te cruzarás sobre todo con jugadores germanohablantes.",
+          "inhalt": [
+            {
+              "typ": "liste",
+              "titel": "Lo esencial sobre la elección de servidor",
+              "punkte": [
+                "El tipo de servidor (Normal, JcJ, Rol, Rol JcJ) es definitivo para cada personaje: no se puede cambiar, solo crear un personaje nuevo.",
+                "En los campos de batalla te encontrarás también con jugadores de otros tipos de servidor.",
+                "El idioma preferido se puede cambiar más tarde en las opciones.",
+                "Los personajes tienen nombre y apellido; la combinación es válida en todos los tipos de servidor y es solo tuya.",
+                "Según MeinMMO, los nombres inapropiados pueden acarrear incluso la pérdida de la cuenta."
+              ]
+            }
+          ]
+        },
+        "ru": {
+          "kat": "Система",
+          "titel": "Немецких серверов нет — всё решает язык",
+          "text": "В Forever вы выбираете не отдельный сервер, а только тип сервера; все игроки одного типа в Европе делят один большой мегасервер. Отдельных немецких игровых миров, по данным MeinMMO, не будет — вместо этого миры делятся по выбранному языку.",
+          "tipp": "Перед первым входом выберите немецкий в качестве предпочитаемого языка, тогда вы будете встречать в основном немецкоговорящих игроков.",
+          "inhalt": [
+            {
+              "typ": "liste",
+              "titel": "Главное о выборе сервера",
+              "punkte": [
+                "Тип сервера (обычный, PvP, ролевой, ролевой PvP) привязан к персонажу — сменить его нельзя, только создать нового персонажа.",
+                "На полях боя вы встретите и игроков с других типов серверов.",
+                "Предпочитаемый язык можно позже изменить в настройках.",
+                "У персонажей есть имя и фамилия; сочетание уникально для всех типов серверов и принадлежит только вам.",
+                "Неподобающие имена, по данным MeinMMO, могут привести к потере аккаунта."
+              ]
+            }
+          ]
+        }
+      }
     },
     {
       "id": "2026-11-02-layering-gruppen",
@@ -224,7 +716,89 @@
           "name": "MMOHuts",
           "url": "https://mmohuts.com/news/wow-forever-podcast-details-layering-changes-ahead-of-november-launch"
         }
-      ]
+      ],
+      "i18n": {
+        "en": {
+          "kat": "System",
+          "titel": "Layering: when joining a group, you decide when to switch",
+          "text": "In the official podcast, Blizzard explained changes to layering for launch. When you join a group or guild, you'll now get a prompt with a time window and only switch to their world then – in the beta this happened instantly, which Blizzard calls a bug.",
+          "tipp": "If you're in the middle of a fight, feel free to wait with the switch until the prompt runs out.",
+          "inhalt": [
+            {
+              "typ": "liste",
+              "titel": "More details from the podcast",
+              "punkte": [
+                "Zones or small groups of zones share layers; Blizzard can adjust this after launch.",
+                "Player caps per zone are adjustable – in Westfall and the Barrens they were lowered in the beta.",
+                "The game tries to put you together with your group, guild and players with the same game language.",
+                "Players on your ignore list still stay in your world.",
+                "PvE and PvP players can't group up together at launch.",
+                "There won't be a new podcast episode during launch week."
+              ]
+            }
+          ]
+        },
+        "fr": {
+          "kat": "Système",
+          "titel": "Layering : en rejoignant un groupe, tu décides toi-même quand tu changes de couche",
+          "text": "Dans le podcast officiel, Blizzard a expliqué les changements apportés au layering pour le lancement. Quand on rejoint un groupe ou une guilde, une demande avec une fenêtre de temps apparaîtra désormais, et on ne change de monde qu'ensuite. Dans la bêta, cela se faisait immédiatement, ce que Blizzard qualifie de bug.",
+          "tipp": "Si tu es en plein combat, prends ton temps pour changer de couche, jusqu'à l'expiration de la demande.",
+          "inhalt": [
+            {
+              "typ": "liste",
+              "titel": "Autres détails du podcast",
+              "punkte": [
+                "Les zones ou petits groupes de zones partagent des layers ; Blizzard peut ajuster cela après le lancement.",
+                "Les plafonds de joueurs par zone sont réglables : dans la Marche de l'Ouest et Les Tarides, ils ont été abaissés pendant la bêta.",
+                "Le jeu essaie de te placer avec ton groupe, ta guilde et les joueurs qui parlent la même langue.",
+                "Les joueurs de ta liste d'ignorés restent quand même dans ton monde.",
+                "Les joueurs JcE et JcJ ne peuvent pas jouer ensemble en groupe au lancement.",
+                "Il n'y aura pas de nouvel épisode du podcast pendant la semaine du lancement."
+              ]
+            }
+          ]
+        },
+        "es": {
+          "kat": "Sistema",
+          "titel": "Layering: al unirte a un grupo decides tú cuándo cambiar",
+          "text": "En el pódcast oficial, Blizzard explicó los cambios al layering para el lanzamiento. Quien se una a un grupo o hermandad recibirá un aviso con un margen de tiempo y solo entonces pasará a su mundo; en la beta ocurría al instante, algo que Blizzard califica de error.",
+          "tipp": "Si estás en pleno combate, tómate tu tiempo para cambiar hasta que caduque el aviso.",
+          "inhalt": [
+            {
+              "typ": "liste",
+              "titel": "Más detalles del pódcast",
+              "punkte": [
+                "Las zonas o pequeños grupos de zonas comparten layer; Blizzard puede ajustarlo después del lanzamiento.",
+                "Los límites de jugadores por zona son configurables: en la beta se redujeron en Páramos de Poniente y Los Baldíos.",
+                "El juego intenta colocarte con tu grupo, tu hermandad y jugadores con tu mismo idioma de juego.",
+                "Quien esté en tu lista de ignorados seguirá estando en tu mundo.",
+                "Los jugadores JcE y JcJ no pueden formar grupo juntos al inicio.",
+                "Durante la semana del lanzamiento no habrá episodio nuevo del pódcast."
+              ]
+            }
+          ]
+        },
+        "ru": {
+          "kat": "Система",
+          "titel": "Layering: при вступлении в группу вы сами решаете, когда переходить",
+          "text": "В официальном подкасте Blizzard объяснила изменения в layering к запуску. Тот, кто вступает в группу или гильдию, теперь получает запрос с временным окном и переходит в их мир только после него — в бете это происходило сразу, и Blizzard назвала это ошибкой.",
+          "tipp": "Если вы в разгаре боя, не торопитесь с переходом, пока запрос не истечёт.",
+          "inhalt": [
+            {
+              "typ": "liste",
+              "titel": "Другие подробности из подкаста",
+              "punkte": [
+                "Зоны или небольшие группы зон делят общие слои; после запуска Blizzard может это изменить.",
+                "Лимиты игроков в каждой зоне настраиваются — в Западном Крае и Бесплодных землях их снизили ещё в бете.",
+                "Игра старается поместить вас к группе, гильдии и игрокам с тем же языком игры.",
+                "Игроки из вашего списка игнорируемых всё равно остаются в вашем мире.",
+                "PvE- и PvP-игроки на старте не могут играть вместе в группах.",
+                "В течение первой недели после запуска нового выпуска подкаста не будет."
+              ]
+            }
+          ]
+        }
+      }
     },
     {
       "id": "2026-11-02-classic-oder-enhanced",
@@ -296,7 +870,261 @@
           "name": "GamerFuzion – Launch Guide: Classic vs Enhanced",
           "url": "https://www.gamerfuzion.com/world-of-warcraft-forever-launch-times-classic-vs-enhanced-preset-rulesets-hardcore/"
         }
-      ]
+      ],
+      "i18n": {
+        "en": {
+          "kat": "Launch",
+          "titel": "Classic or Enhanced? The choice at your first login explained",
+          "text": "When you log in for the first time, Forever asks how the game should look: like back then or with modern comfort. We show what's different – and why this doesn't lock you in.",
+          "tipp": "Not sure? Blizzard recommends Enhanced. You can change every setting later in the game menu under Options.",
+          "inhalt": [
+            {
+              "typ": "text",
+              "titel": "In short",
+              "text": "The preset only decides which settings you start with. Everything can be changed later in the game menu under Options. You can even choose HD or SD models separately for each character."
+            },
+            {
+              "typ": "tabelle",
+              "titel": "The difference",
+              "kopf": [
+                "Setting",
+                "Classic",
+                "Enhanced"
+              ],
+              "zeilen": [
+                [
+                  "Character models",
+                  "Standard (SD)",
+                  "High definition (HD)"
+                ],
+                [
+                  "Quest objectives on the map",
+                  "Off",
+                  "On"
+                ],
+                [
+                  "One big bag",
+                  "Off",
+                  "On"
+                ],
+                [
+                  "Transmog",
+                  "Off",
+                  "On"
+                ],
+                [
+                  "A/D key bindings",
+                  "Turn",
+                  "Strafe"
+                ],
+                [
+                  "Interface layout",
+                  "Classic",
+                  "Centered"
+                ]
+              ]
+            },
+            {
+              "typ": "liste",
+              "titel": "What suits you?",
+              "punkte": [
+                "You want the 2004 feeling: pick Classic. You find quests yourself, sort your bags yourself, and A/D turns the camera.",
+                "You only play for an hour in the evening: pick Enhanced. Quest objectives on the map and one big bag save a lot of time.",
+                "You can switch on single things like the HD models at any time – no matter what you start with."
+              ]
+            }
+          ]
+        },
+        "fr": {
+          "kat": "Lancement",
+          "titel": "Classic ou Enhanced ? Le choix à la première connexion expliqué",
+          "text": "À la première connexion, Forever te demande à quoi doit ressembler le jeu : comme à l'époque ou avec le confort moderne. On t'explique les différences, et pourquoi ce choix ne t'enferme pas.",
+          "tipp": "Un doute ? Blizzard recommande Enhanced. Tu pourras modifier chaque réglage plus tard dans le menu du jeu, sous Options.",
+          "inhalt": [
+            {
+              "typ": "text",
+              "titel": "En bref",
+              "text": "Ce préréglage détermine seulement avec quels réglages tu démarres. Tout peut être modifié plus tard dans le menu du jeu, sous Options. Tu peux même choisir pour chaque personnage s'il est affiché en HD ou en SD."
+            },
+            {
+              "typ": "tabelle",
+              "titel": "La différence",
+              "kopf": [
+                "Réglage",
+                "Classic",
+                "Enhanced"
+              ],
+              "zeilen": [
+                [
+                  "Modèles de personnages",
+                  "Standard (SD)",
+                  "Haute définition (HD)"
+                ],
+                [
+                  "Objectifs de quête sur la carte",
+                  "Désactivé",
+                  "Activé"
+                ],
+                [
+                  "Un seul grand sac",
+                  "Désactivé",
+                  "Activé"
+                ],
+                [
+                  "Transmog",
+                  "Désactivé",
+                  "Activé"
+                ],
+                [
+                  "Touches A/D",
+                  "Tourner",
+                  "Marcher latéralement"
+                ],
+                [
+                  "Disposition de l'interface",
+                  "Classique",
+                  "Centrée"
+                ]
+              ]
+            },
+            {
+              "typ": "liste",
+              "titel": "Qu'est-ce qui te convient ?",
+              "punkte": [
+                "Tu veux retrouver la sensation de 2004 : prends Classic. Tu cherches les quêtes toi-même, tu tries tes sacs toi-même, A/D fait tourner la caméra.",
+                "Tu ne joues qu'une petite heure le soir : prends Enhanced. Les objectifs de quête sur la carte et un grand sac font gagner beaucoup de temps.",
+                "Certaines options comme les modèles HD peuvent être activées à tout moment, quel que soit ton choix de départ."
+              ]
+            }
+          ]
+        },
+        "es": {
+          "kat": "Lanzamiento",
+          "titel": "¿Classic o Enhanced? La elección del primer inicio de sesión, explicada",
+          "text": "En el primer inicio de sesión, Forever te pregunta cómo quieres que sea el juego: como antes o con comodidades modernas. Te mostramos qué cambia y por qué no te compromete a nada.",
+          "tipp": "¿Dudas? Blizzard recomienda Enhanced. Puedes cambiar cualquier ajuste más tarde en el menú del juego, en Opciones.",
+          "inhalt": [
+            {
+              "typ": "text",
+              "titel": "Explicación rápida",
+              "text": "El preajuste solo determina con qué configuración empiezas. Todo se puede cambiar después en el menú del juego, en Opciones. Incluso puedes elegir por personaje si se muestran en HD o en SD."
+            },
+            {
+              "typ": "tabelle",
+              "titel": "La diferencia",
+              "kopf": [
+                "Ajuste",
+                "Classic",
+                "Enhanced"
+              ],
+              "zeilen": [
+                [
+                  "Modelos de personaje",
+                  "Estándar (SD)",
+                  "Alta definición (HD)"
+                ],
+                [
+                  "Objetivos de misión en el mapa",
+                  "No",
+                  "Sí"
+                ],
+                [
+                  "Una sola bolsa grande",
+                  "No",
+                  "Sí"
+                ],
+                [
+                  "Transfiguración",
+                  "No",
+                  "Sí"
+                ],
+                [
+                  "Teclas A/D",
+                  "Girar",
+                  "Moverse lateralmente"
+                ],
+                [
+                  "Disposición de la interfaz",
+                  "Clásica",
+                  "Centrada"
+                ]
+              ]
+            },
+            {
+              "typ": "liste",
+              "titel": "¿Qué te conviene?",
+              "punkte": [
+                "Quieres la sensación de 2004: elige Classic. Buscas las misiones tú mismo, ordenas las bolsas tú mismo y A/D gira la cámara.",
+                "Solo juegas una horita por la noche: elige Enhanced. Los objetivos de misión en el mapa y una bolsa grande ahorran mucho tiempo.",
+                "Puedes activar cosas sueltas, como los modelos HD, cuando quieras, empieces con lo que empieces."
+              ]
+            }
+          ]
+        },
+        "ru": {
+          "kat": "Запуск",
+          "titel": "Classic или Enhanced? Разбираем выбор при первом входе",
+          "text": "При первом входе Forever спрашивает, как должна выглядеть игра: как раньше или с современными удобствами. Показываем, чем они отличаются, и почему этот выбор вас ни к чему не обязывает.",
+          "tipp": "Не уверены? Blizzard рекомендует Enhanced. Любую настройку можно позже изменить в игровом меню в разделе «Настройки».",
+          "inhalt": [
+            {
+              "typ": "text",
+              "titel": "Коротко",
+              "text": "Предустановка лишь определяет, с какими настройками вы начнёте. Всё можно позже изменить в игровом меню в разделе «Настройки». Отображение персонажей в HD или SD можно даже выбирать отдельно для каждого персонажа."
+            },
+            {
+              "typ": "tabelle",
+              "titel": "В чём разница",
+              "kopf": [
+                "Настройка",
+                "Classic",
+                "Enhanced"
+              ],
+              "zeilen": [
+                [
+                  "Модели персонажей",
+                  "Стандартные (SD)",
+                  "Высокое разрешение (HD)"
+                ],
+                [
+                  "Цели заданий на карте",
+                  "Выкл.",
+                  "Вкл."
+                ],
+                [
+                  "Одна большая сумка",
+                  "Выкл.",
+                  "Вкл."
+                ],
+                [
+                  "Трансмогрификация",
+                  "Выкл.",
+                  "Вкл."
+                ],
+                [
+                  "Клавиши A/D",
+                  "Поворот",
+                  "Движение боком"
+                ],
+                [
+                  "Расположение интерфейса",
+                  "Классическое",
+                  "По центру"
+                ]
+              ]
+            },
+            {
+              "typ": "liste",
+              "titel": "Что подойдёт вам?",
+              "punkte": [
+                "Хотите ощущения 2004 года: берите Classic. Задания ищете сами, сумки сортируете сами, A/D поворачивают камеру.",
+                "Играете вечером всего часок: берите Enhanced. Цели заданий на карте и одна большая сумка экономят много времени.",
+                "Отдельные вещи вроде HD-моделей можно включить в любой момент — независимо от того, с чего вы начали."
+              ]
+            }
+          ]
+        }
+      }
     },
     {
       "id": "2026-11-02-serverstart",
@@ -316,7 +1144,37 @@
           "name": "Warcraft Tavern – Beta-Infos",
           "url": "https://www.warcrafttavern.com/forever/guides/beta/"
         }
-      ]
+      ],
+      "i18n": {
+        "en": {
+          "kat": "Launch",
+          "titel": "Forever launches in the night to Thursday",
+          "text": "The servers open on Thursday, November 5, at 0:00 German time (CET). Characters from the beta are not carried over – everyone starts at level 1.",
+          "tipp": "Update the game and your addons on Wednesday evening, then you can start right on time.",
+          "inhalt": []
+        },
+        "fr": {
+          "kat": "Lancement",
+          "titel": "Forever démarre dans la nuit de mercredi à jeudi",
+          "text": "Les serveurs ouvrent jeudi 5 novembre à 0 h 00, heure allemande. Les personnages de la bêta ne sont pas conservés : tout le monde repart du niveau 1.",
+          "tipp": "Mets à jour le jeu et tes addons dès mercredi soir pour pouvoir te lancer pile à l'heure.",
+          "inhalt": []
+        },
+        "es": {
+          "kat": "Lanzamiento",
+          "titel": "Forever arranca en la madrugada del jueves",
+          "text": "Los servidores abren el jueves 5 de noviembre a las 0:00, hora alemana. Los personajes de la beta no se conservan: todos empiezan en el nivel 1.",
+          "tipp": "Actualiza el juego y los addons el miércoles por la noche para poder empezar puntual.",
+          "inhalt": []
+        },
+        "ru": {
+          "kat": "Запуск",
+          "titel": "Forever стартует в ночь на четверг",
+          "text": "Серверы откроются в четверг, 5 ноября, в 0:00 по немецкому времени. Персонажи из беты не переносятся — все начинают с 1-го уровня.",
+          "tipp": "Обновите игру и аддоны уже в среду вечером, тогда сможете начать вовремя.",
+          "inhalt": []
+        }
+      }
     },
     {
       "id": "2026-11-02-neun-dungeons",
@@ -402,7 +1260,289 @@
           "name": "Video: Quissy auf YouTube",
           "url": "https://www.youtube.com/watch?v=dZb8FNAU9uc"
         }
-      ]
+      ],
+      "i18n": {
+        "en": {
+          "kat": "Dungeons",
+          "titel": "9 new dungeons from level 13 to 60",
+          "text": "First up is Hall of Thanes beneath Ironforge (13–18), last is Shaper’s Terrace in Un’Goro Crater (58–60).",
+          "tipp": "Hall of Thanes is the first new dungeon – ideal for a group evening around level 15.",
+          "inhalt": [
+            {
+              "typ": "tabelle",
+              "titel": "All new dungeons",
+              "kopf": [
+                "Dungeon",
+                "Level",
+                "Location"
+              ],
+              "zeilen": [
+                [
+                  "Hall of Thanes",
+                  "13–18",
+                  "Beneath Ironforge, Dun Morogh"
+                ],
+                [
+                  "Ruins of Lordaeron",
+                  "15–20",
+                  "Above the Undercity, Tirisfal"
+                ],
+                [
+                  "Excavation Site",
+                  "24–29",
+                  "Wetlands"
+                ],
+                [
+                  "City of Dalaran",
+                  "28–33",
+                  "Alterac Mountains"
+                ],
+                [
+                  "The Drowned City",
+                  "35–40",
+                  "Off the coast of Stranglethorn Vale"
+                ],
+                [
+                  "Krol’dok Stronghold",
+                  "40–45",
+                  "Riverglades"
+                ],
+                [
+                  "Alcaz Prison",
+                  "48–53",
+                  "Alcaz Island, Dustwallow Marsh"
+                ],
+                [
+                  "Blackmaw Hold",
+                  "55–60",
+                  "Azshara"
+                ],
+                [
+                  "Shaper’s Terrace",
+                  "58–60",
+                  "Un’Goro Crater"
+                ]
+              ]
+            },
+            {
+              "typ": "text",
+              "titel": "Good to know",
+              "text": "In the beta, Excavation Site was still listed as 26–31 – so the levels may shift slightly. There is no dungeon finder with teleport, you have to walk there yourselves."
+            }
+          ],
+          "video_titel": "WoW Forever: All 9 New Dungeons, Locations & Levels"
+        },
+        "fr": {
+          "kat": "Donjons",
+          "titel": "9 nouveaux donjons du niveau 13 au 60",
+          "text": "Hall of Thanes sous Forgefer (13-18) ouvre la marche, Shaper's Terrace dans le cratère d'Un'Goro (58-60) la termine.",
+          "tipp": "Hall of Thanes est le premier nouveau donjon : idéal pour une soirée en groupe vers le niveau 15.",
+          "inhalt": [
+            {
+              "typ": "tabelle",
+              "titel": "Tous les nouveaux donjons",
+              "kopf": [
+                "Donjon",
+                "Niveau",
+                "Lieu"
+              ],
+              "zeilen": [
+                [
+                  "Hall of Thanes",
+                  "13-18",
+                  "Sous Forgefer, Dun Morogh"
+                ],
+                [
+                  "Ruins of Lordaeron",
+                  "15-20",
+                  "Au-dessus de Fossoyeuse, Tirisfal"
+                ],
+                [
+                  "Excavation Site",
+                  "24-29",
+                  "Marais des Chagrins"
+                ],
+                [
+                  "City of Dalaran",
+                  "28-33",
+                  "Montagnes d'Alterac"
+                ],
+                [
+                  "The Drowned City",
+                  "35-40",
+                  "Au large de la vallée de Strangleronce"
+                ],
+                [
+                  "Krol'dok Stronghold",
+                  "40-45",
+                  "Riverglades"
+                ],
+                [
+                  "Alcaz Prison",
+                  "48-53",
+                  "Île d'Alcaz, Marécage d'Âprefange"
+                ],
+                [
+                  "Blackmaw Hold",
+                  "55-60",
+                  "Azshara"
+                ],
+                [
+                  "Shaper's Terrace",
+                  "58-60",
+                  "Cratère d'Un'Goro"
+                ]
+              ]
+            },
+            {
+              "typ": "text",
+              "titel": "Bon à savoir",
+              "text": "Dans la bêta, Excavation Site était encore indiqué à 26-31 : les niveaux peuvent donc légèrement changer. Il n'y a pas de recherche de donjon avec téléportation, il faut s'y rendre soi-même."
+            }
+          ],
+          "video_titel": "WoW Forever: All 9 New Dungeons, Locations & Levels"
+        },
+        "es": {
+          "kat": "Mazmorras",
+          "titel": "9 mazmorras nuevas del nivel 13 al 60",
+          "text": "La primera es Hall of Thanes, bajo Forjaz (13-18), y la última, Shaper’s Terrace, en el Cráter de Un’Goro (58-60).",
+          "tipp": "Hall of Thanes es la primera mazmorra nueva: ideal para una noche en grupo hacia el nivel 15.",
+          "inhalt": [
+            {
+              "typ": "tabelle",
+              "titel": "Todas las mazmorras nuevas",
+              "kopf": [
+                "Mazmorra",
+                "Nivel",
+                "Ubicación"
+              ],
+              "zeilen": [
+                [
+                  "Hall of Thanes",
+                  "13-18",
+                  "Bajo Forjaz, Dun Morogh"
+                ],
+                [
+                  "Ruins of Lordaeron",
+                  "15-20",
+                  "Sobre Entrañas, Claros de Tirisfal"
+                ],
+                [
+                  "Excavation Site",
+                  "24-29",
+                  "Humedales"
+                ],
+                [
+                  "City of Dalaran",
+                  "28-33",
+                  "Montañas de Alterac"
+                ],
+                [
+                  "The Drowned City",
+                  "35-40",
+                  "Frente a la costa de la Vega de Tuercespina"
+                ],
+                [
+                  "Krol’dok Stronghold",
+                  "40-45",
+                  "Riverglades"
+                ],
+                [
+                  "Alcaz Prison",
+                  "48-53",
+                  "Isla de Alcaz, Marjal Revolcafango"
+                ],
+                [
+                  "Blackmaw Hold",
+                  "55-60",
+                  "Azshara"
+                ],
+                [
+                  "Shaper’s Terrace",
+                  "58-60",
+                  "Cráter de Un’Goro"
+                ]
+              ]
+            },
+            {
+              "typ": "text",
+              "titel": "Conviene saber",
+              "text": "En la beta, Excavation Site figuraba aún como 26-31, así que los niveles pueden variar ligeramente. No hay buscador de mazmorras con teletransporte: tendréis que ir andando."
+            }
+          ],
+          "video_titel": "WoW Forever: las 9 mazmorras nuevas, ubicaciones y niveles"
+        },
+        "ru": {
+          "kat": "Подземелья",
+          "titel": "9 новых подземелий с 13-го по 60-й уровень",
+          "text": "Первым идёт Hall of Thanes под Стальгорном (13–18), последним — Shaper’s Terrace в кратере Ун’Горо (58–60).",
+          "tipp": "Hall of Thanes — первое новое подземелье, отличный вариант для вечера с группой около 15-го уровня.",
+          "inhalt": [
+            {
+              "typ": "tabelle",
+              "titel": "Все новые подземелья",
+              "kopf": [
+                "Подземелье",
+                "Уровень",
+                "Расположение"
+              ],
+              "zeilen": [
+                [
+                  "Hall of Thanes",
+                  "13–18",
+                  "Под Стальгорном, Дун Морог"
+                ],
+                [
+                  "Ruins of Lordaeron",
+                  "15–20",
+                  "Над Подгородом, Тирисфальские леса"
+                ],
+                [
+                  "Excavation Site",
+                  "24–29",
+                  "Болотина"
+                ],
+                [
+                  "City of Dalaran",
+                  "28–33",
+                  "Альтеракские горы"
+                ],
+                [
+                  "The Drowned City",
+                  "35–40",
+                  "У побережья Тернистой долины"
+                ],
+                [
+                  "Krol’dok Stronghold",
+                  "40–45",
+                  "Riverglades"
+                ],
+                [
+                  "Alcaz Prison",
+                  "48–53",
+                  "Остров Альказ, Пылевые топи"
+                ],
+                [
+                  "Blackmaw Hold",
+                  "55–60",
+                  "Азшара"
+                ],
+                [
+                  "Shaper’s Terrace",
+                  "58–60",
+                  "Кратер Ун’Горо"
+                ]
+              ]
+            },
+            {
+              "typ": "text",
+              "titel": "Полезно знать",
+              "text": "Для Excavation Site в бете было указано 26–31, так что уровни могут немного сдвинуться. Поиска подземелий с телепортом нет — добираться придётся самим."
+            }
+          ],
+          "video_titel": "WoW Forever: All 9 New Dungeons, Locations & Levels"
+        }
+      }
     },
     {
       "id": "2026-11-02-raids",
@@ -418,7 +1558,37 @@
           "name": "GamerFuzion – Launch Guide",
           "url": "https://www.gamerfuzion.com/world-of-warcraft-forever-launch-times-classic-vs-enhanced-preset-rulesets-hardcore/"
         }
-      ]
+      ],
+      "i18n": {
+        "en": {
+          "kat": "Raids",
+          "titel": "First raids on December 9",
+          "text": "Barrow Deeps (10 players), Hyjal Summit (20 players) and Onyxia’s Lair (40 players) open on December 9.",
+          "tipp": "A good five weeks to reach 60 at a relaxed pace – no reason to rush.",
+          "inhalt": []
+        },
+        "fr": {
+          "kat": "Raids",
+          "titel": "Premiers raids le 9 décembre",
+          "text": "Barrow Deeps (10 joueurs), Hyjal Summit (20 joueurs) et le Repaire d'Onyxia (40 joueurs) ouvrent le 9 décembre.",
+          "tipp": "Tu as bien cinq semaines pour atteindre le niveau 60 sans stress : inutile de te presser.",
+          "inhalt": []
+        },
+        "es": {
+          "kat": "Bandas",
+          "titel": "Primeras bandas el 9 de diciembre",
+          "text": "Barrow Deeps (10 jugadores), Hyjal Summit (20 jugadores) y la Guarida de Onyxia (40 jugadores) abren el 9 de diciembre.",
+          "tipp": "Tienes más de cinco semanas para llegar al 60 sin agobios: no hay motivo para ir con prisas.",
+          "inhalt": []
+        },
+        "ru": {
+          "kat": "Рейды",
+          "titel": "Первые рейды — 9 декабря",
+          "text": "Barrow Deeps (10 игроков), Hyjal Summit (20 игроков) и Логово Ониксии (40 игроков) откроются 9 декабря.",
+          "tipp": "Больше пяти недель, чтобы спокойно докачаться до 60-го уровня — поводов для спешки нет.",
+          "inhalt": []
+        }
+      }
     },
     {
       "id": "2026-11-02-servertypen",
@@ -434,7 +1604,37 @@
           "name": "GamerFuzion – Launch Guide",
           "url": "https://www.gamerfuzion.com/world-of-warcraft-forever-launch-times-classic-vs-enhanced-preset-rulesets-hardcore/"
         }
-      ]
+      ],
+      "i18n": {
+        "en": {
+          "kat": "Launch",
+          "titel": "Hardcore servers come later",
+          "text": "At launch there are Normal, PvP, Roleplay and Roleplay PvP. Hardcore follows after launch, there is no date yet.",
+          "tipp": "If you want to play Hardcore, you can get to know your class on a normal server until then.",
+          "inhalt": []
+        },
+        "fr": {
+          "kat": "Lancement",
+          "titel": "Les serveurs Hardcore arriveront plus tard",
+          "text": "Au lancement, il y aura Normal, JcJ, Jeu de rôle et Jeu de rôle JcJ. Le Hardcore suivra après le lancement, sans date pour l'instant.",
+          "tipp": "Si tu veux jouer Hardcore, tu peux d'ici là apprendre à connaître ta classe sur un serveur normal.",
+          "inhalt": []
+        },
+        "es": {
+          "kat": "Lanzamiento",
+          "titel": "Los servidores Hardcore llegarán más tarde",
+          "text": "Al inicio habrá Normal, JcJ, Rol y Rol JcJ. Hardcore llegará después del lanzamiento, todavía sin fecha.",
+          "tipp": "Si quieres jugar Hardcore, mientras tanto puedes ir conociendo la clase en un servidor normal.",
+          "inhalt": []
+        },
+        "ru": {
+          "kat": "Запуск",
+          "titel": "Хардкорные серверы появятся позже",
+          "text": "На старте будут обычные, PvP, ролевые и ролевые PvP-серверы. Хардкор появится после запуска, даты пока нет.",
+          "tipp": "Если хотите играть в хардкоре, до тех пор можно освоить класс на обычном сервере.",
+          "inhalt": []
+        }
+      }
     },
     {
       "id": "2026-11-02-xp-dungeons",
@@ -450,7 +1650,37 @@
           "name": "Timesaver – XP-Änderungen in der Beta",
           "url": "https://timesaver.gg/blog/wow-forever-leveling-explained-beta"
         }
-      ]
+      ],
+      "i18n": {
+        "en": {
+          "kat": "System",
+          "titel": "Less bonus XP for dungeon quests, more XP for dungeon enemies",
+          "text": "In the beta, Blizzard halved the experience bonus for dungeon quests and in return raised the XP from enemies in dungeons by about 20 %. Whether it stays exactly like that at launch is not confirmed.",
+          "tipp": "Dungeons are still worth it – especially if you clear them completely instead of just picking up the quests.",
+          "inhalt": []
+        },
+        "fr": {
+          "kat": "Système",
+          "titel": "Moins d'XP bonus pour les quêtes de donjon, plus d'XP pour les ennemis de donjon",
+          "text": "Dans la bêta, Blizzard a réduit de moitié le bonus d'expérience des quêtes de donjon et augmenté en échange d'environ 20 % l'XP des ennemis en donjon. On ne sait pas si cela restera tel quel au lancement.",
+          "tipp": "Les donjons restent rentables, surtout si vous les finissez en entier plutôt que de seulement récupérer les quêtes.",
+          "inhalt": []
+        },
+        "es": {
+          "kat": "Sistema",
+          "titel": "Menos XP de bonificación por misiones de mazmorra, más XP por enemigos de mazmorra",
+          "text": "En la beta, Blizzard redujo a la mitad la bonificación de experiencia de las misiones de mazmorra y, a cambio, subió un 20 % aproximadamente la XP de los enemigos dentro de las mazmorras. No está confirmado que se mantenga así en el lanzamiento.",
+          "tipp": "Las mazmorras siguen mereciendo la pena, sobre todo si las completáis enteras en vez de limitaros a recoger las misiones.",
+          "inhalt": []
+        },
+        "ru": {
+          "kat": "Система",
+          "titel": "Меньше бонусного опыта за задания подземелий, больше опыта за их монстров",
+          "text": "В бете Blizzard вдвое уменьшила бонус к опыту за задания подземелий и взамен примерно на 20 % повысила опыт за врагов в подземельях. Останется ли так на старте, не подтверждено.",
+          "tipp": "Подземелья по-прежнему выгодны — особенно если проходить их целиком, а не просто брать задания.",
+          "inhalt": []
+        }
+      }
     },
     {
       "id": "2026-11-02-darkspear-islands",
@@ -466,7 +1696,37 @@
           "name": "GamerFuzion – Launch Guide",
           "url": "https://www.gamerfuzion.com/world-of-warcraft-forever-launch-times-classic-vs-enhanced-preset-rulesets-hardcore/"
         }
-      ]
+      ],
+      "i18n": {
+        "en": {
+          "kat": "System",
+          "titel": "New battleground: Darkspear Islands",
+          "text": "Forever brings a new battleground for 15 versus 15 players.",
+          "tipp": "As soon as there is experience with it, we'll add the map and tactics here.",
+          "inhalt": []
+        },
+        "fr": {
+          "kat": "Système",
+          "titel": "Nouveau champ de bataille : Darkspear Islands",
+          "text": "Forever apporte un nouveau champ de bataille en 15 contre 15.",
+          "tipp": "Dès qu'on aura de l'expérience, on ajoutera ici la carte et les tactiques.",
+          "inhalt": []
+        },
+        "es": {
+          "kat": "Sistema",
+          "titel": "Nuevo campo de batalla: Darkspear Islands",
+          "text": "Forever incluye un nuevo campo de batalla para 15 contra 15 jugadores.",
+          "tipp": "En cuanto haya experiencias, añadiremos aquí el mapa y la táctica.",
+          "inhalt": []
+        },
+        "ru": {
+          "kat": "Система",
+          "titel": "Новое поле боя: Darkspear Islands",
+          "text": "В Forever появится новое поле боя для 15 на 15 игроков.",
+          "tipp": "Как только появится опыт игры, мы добавим сюда карту и тактику.",
+          "inhalt": []
+        }
+      }
     },
     {
       "id": "2026-11-02-skyborne",
@@ -482,7 +1742,37 @@
           "name": "GamerFuzion – Launch Guide",
           "url": "https://www.gamerfuzion.com/world-of-warcraft-forever-launch-times-classic-vs-enhanced-preset-rulesets-hardcore/"
         }
-      ]
+      ],
+      "i18n": {
+        "en": {
+          "kat": "System",
+          "titel": "New race Skyborne starts on Zephras",
+          "text": "The new race Skyborne begins on the island of Zephras and levels there from 1 to 12.",
+          "tipp": "Where it goes after that is still open – we'll report as soon as it's known.",
+          "inhalt": []
+        },
+        "fr": {
+          "kat": "Système",
+          "titel": "La nouvelle race Skyborne débute à Zephras",
+          "text": "La nouvelle race Skyborne commence sur l'île de Zephras et y level du niveau 1 au 12.",
+          "tipp": "On ne sait pas encore où ils iront ensuite : on vous tiendra au courant dès que ce sera décidé.",
+          "inhalt": []
+        },
+        "es": {
+          "kat": "Sistema",
+          "titel": "La nueva raza, los Skyborne, empieza en Zephras",
+          "text": "La nueva raza, los Skyborne, comienza en la isla de Zephras y sube allí del nivel 1 al 12.",
+          "tipp": "Adónde se va después aún no está claro; os lo contaremos en cuanto se sepa.",
+          "inhalt": []
+        },
+        "ru": {
+          "kat": "Система",
+          "titel": "Новая раса Skyborne стартует на Zephras",
+          "text": "Новая раса Skyborne начинает на острове Zephras и качается там с 1-го по 12-й уровень.",
+          "tipp": "Куда отправляться дальше, пока неясно — расскажем, как только это станет известно.",
+          "inhalt": []
+        }
+      }
     }
   ]
 }

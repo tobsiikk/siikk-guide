@@ -1368,9 +1368,34 @@ function renderChangelog(){
   view.querySelectorAll('[data-sec]').forEach(function(b){ b.addEventListener('click', function(){ zuAbschnitt(b.dataset.sec); }); });
 }
 
-/* ---------- Forever-News (news.json, wird täglich um 18 Uhr aktualisiert) ---------- */
+/* ---------- Forever-News (news.json, wird täglich gegen 8 Uhr morgens aktualisiert) ---------- */
 var NEWS = null, NEWS_KAT = 'Alle', NEWS_KEY = 'siikk-news-gesehen';
-function nwDatum(d){ var m = /^(\d{4})-(\d\d)-(\d\d)/.exec(d || ''); return m ? m[3] + '.' + m[2] + '.' + m[1] : (d || ''); }
+/* News in der gewählten Sprache: jede Meldung trägt ihre Übersetzungen in e.i18n[sprache];
+   die Bedienelemente stehen in NW_T. Übersetzte Bereiche bekommen data-i18n-aus, damit i18n.js nichts doppelt ersetzt. */
+var NW_L = (function(){ var m = /[?&]lang=(\w\w)/.exec(location.search), l = m && m[1]; if (!l) { try { l = localStorage.getItem('siikk-sprache'); } catch (e) {} } return /^(en|fr|es|ru)$/.test(l || '') ? l : 'de'; })();
+var NW_T = {
+  en: { 'Forever-News':'Forever News', 'Täglich aktualisiert':'Updated daily', 'Alle News':'All news', 'WoW Forever · auf Deutsch':'WoW Forever · news', 'Alles Wichtige zu WoW Forever – kurz erklärt, mit Video und dem Tipp, was es für dich bedeutet.':'Everything important about WoW Forever – explained briefly, with video and a tip on what it means for you.', 'News werden geladen …':'Loading news …', 'Wird täglich gegen 8 Uhr morgens aktualisiert · zuletzt:':'Updated every morning around 8 am (CET) · last update:', 'Alle':'All', 'In dieser Kategorie gibt es gerade nichts Neues.':'Nothing new in this category right now.', 'Für dich:':'For you:', 'Quelle:':'Source:', '▶ mit Video':'▶ with video', 'NEU':'NEW', '‹ Alle Forever-News':'‹ All Forever News', 'Video abspielen':'Play video', 'Beim Abspielen wird das Video von YouTube geladen. Dabei werden Daten an YouTube übertragen.':'When you play it, the video is loaded from YouTube. Data is transferred to YouTube in the process.', 'Quellen':'Sources', 'neue Meldungen':'new posts', 'Kategorie':'Category' },
+  fr: { 'Forever-News':'Actus Forever', 'Täglich aktualisiert':'Mis à jour chaque jour', 'Alle News':'Toutes les actus', 'WoW Forever · auf Deutsch':'WoW Forever · actus', 'Alles Wichtige zu WoW Forever – kurz erklärt, mit Video und dem Tipp, was es für dich bedeutet.':'Tout l’essentiel sur WoW Forever – expliqué en bref, avec vidéo et un conseil sur ce que ça change pour toi.', 'News werden geladen …':'Chargement des actus …', 'Wird täglich gegen 8 Uhr morgens aktualisiert · zuletzt:':'Mis à jour chaque matin vers 8 h · dernière mise à jour :', 'Alle':'Toutes', 'In dieser Kategorie gibt es gerade nichts Neues.':'Rien de neuf dans cette catégorie pour le moment.', 'Für dich:':'Pour toi :', 'Quelle:':'Source :', '▶ mit Video':'▶ avec vidéo', 'NEU':'NOUVEAU', '‹ Alle Forever-News':'‹ Toutes les actus Forever', 'Video abspielen':'Lire la vidéo', 'Beim Abspielen wird das Video von YouTube geladen. Dabei werden Daten an YouTube übertragen.':'En lançant la lecture, la vidéo est chargée depuis YouTube. Des données sont alors transmises à YouTube.', 'Quellen':'Sources', 'neue Meldungen':'nouvelles actus', 'Kategorie':'Catégorie' },
+  es: { 'Forever-News':'Noticias de Forever', 'Täglich aktualisiert':'Actualizado a diario', 'Alle News':'Todas las noticias', 'WoW Forever · auf Deutsch':'WoW Forever · noticias', 'Alles Wichtige zu WoW Forever – kurz erklärt, mit Video und dem Tipp, was es für dich bedeutet.':'Todo lo importante de WoW Forever – explicado en breve, con vídeo y un consejo sobre lo que significa para ti.', 'News werden geladen …':'Cargando noticias …', 'Wird täglich gegen 8 Uhr morgens aktualisiert · zuletzt:':'Se actualiza cada mañana hacia las 8:00 · última vez:', 'Alle':'Todas', 'In dieser Kategorie gibt es gerade nichts Neues.':'Ahora mismo no hay nada nuevo en esta categoría.', 'Für dich:':'Para ti:', 'Quelle:':'Fuente:', '▶ mit Video':'▶ con vídeo', 'NEU':'NUEVO', '‹ Alle Forever-News':'‹ Todas las noticias de Forever', 'Video abspielen':'Reproducir vídeo', 'Beim Abspielen wird das Video von YouTube geladen. Dabei werden Daten an YouTube übertragen.':'Al reproducirlo, el vídeo se carga desde YouTube y se transmiten datos a YouTube.', 'Quellen':'Fuentes', 'neue Meldungen':'noticias nuevas', 'Kategorie':'Categoría' },
+  ru: { 'Forever-News':'Новости Forever', 'Täglich aktualisiert':'Обновляется ежедневно', 'Alle News':'Все новости', 'WoW Forever · auf Deutsch':'WoW Forever · новости', 'Alles Wichtige zu WoW Forever – kurz erklärt, mit Video und dem Tipp, was es für dich bedeutet.':'Всё важное о WoW Forever – коротко, с видео и советом, что это значит для тебя.', 'News werden geladen …':'Загрузка новостей …', 'Wird täglich gegen 8 Uhr morgens aktualisiert · zuletzt:':'Обновляется каждое утро около 8:00 (CET) · последнее обновление:', 'Alle':'Все', 'In dieser Kategorie gibt es gerade nichts Neues.':'В этой категории пока нет ничего нового.', 'Für dich:':'Для тебя:', 'Quelle:':'Источник:', '▶ mit Video':'▶ с видео', 'NEU':'НОВОЕ', '‹ Alle Forever-News':'‹ Все новости Forever', 'Video abspielen':'Смотреть видео', 'Beim Abspielen wird das Video von YouTube geladen. Dabei werden Daten an YouTube übertragen.':'При воспроизведении видео загружается с YouTube, и данные передаются YouTube.', 'Quellen':'Источники', 'neue Meldungen':'новых сообщений', 'Kategorie':'Категория' }
+};
+function nt(s){ var t = NW_T[NW_L]; return (t && t[s]) || s; }
+var NW_AUS = NW_L === 'de' ? '' : ' data-i18n-aus';
+function nwSprache(j){
+  if (NW_L === 'de') return j;
+  j.eintraege = j.eintraege.map(function(e){
+    var u = e.i18n && e.i18n[NW_L]; if (!u) return e;
+    var x = Object.assign({}, e, u);
+    if (u.video_titel && e.video) x.video = Object.assign({}, e.video, { titel: u.video_titel });
+    return x;
+  });
+  return j;
+}
+function nwDatum(d){
+  var m = /^(\d{4})-(\d\d)-(\d\d)/.exec(d || ''); if (!m) return d || '';
+  if (NW_L === 'en') { try { return new Date(+m[1], +m[2] - 1, +m[3]).toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' }); } catch (e) {} }
+  return m[3] + '.' + m[2] + '.' + m[1];
+}
 function nwListe(){ return NEWS && NEWS.eintraege ? NEWS.eintraege.slice().sort(function(a, b){ return (b.datum || '').localeCompare(a.datum || ''); }) : []; }
 function nwGesehen(){ try { return localStorage.getItem(NEWS_KEY) || ''; } catch (e) { return ''; } }
 function nwIstNeu(e){ var g = nwGesehen(); if (g) return (e.datum || '') > g; return (Date.now() - new Date(e.datum + 'T12:00:00').getTime()) < 3 * 864e5; }
@@ -1378,48 +1403,48 @@ function nwUngelesen(){ return nwListe().filter(nwIstNeu).length; }
 function nwMerken(){ var l = nwListe(); if (!l.length) return; try { localStorage.setItem(NEWS_KEY, l[0].datum); } catch (e) {} }
 var NW_ICON = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 5h13v14H6a2 2 0 0 1-2-2z"/><path d="M17 9h3v8a2 2 0 0 1-2 2"/><path d="M8 9h5M8 13h5M8 16h3"/></svg>';
 var nwFab = document.createElement('button');
-nwFab.type = 'button'; nwFab.className = 'news-fab'; nwFab.id = 'news-fab'; nwFab.hidden = true;
+nwFab.type = 'button'; nwFab.className = 'news-fab'; nwFab.id = 'news-fab'; nwFab.hidden = true; if (NW_AUS) nwFab.setAttribute('data-i18n-aus', '');
 nwFab.addEventListener('click', function(){ location.hash = 'news'; });
 document.body.appendChild(nwFab);
 function newsKnopf(){
   var n = nwUngelesen();
-  nwFab.innerHTML = NW_ICON + '<span>Forever-News</span>' + (n ? '<span class="nf-zahl" aria-label="' + n + ' neue Meldungen">' + n + '</span>' : '');
+  nwFab.innerHTML = NW_ICON + '<span>' + nt('Forever-News') + '</span>' + (n ? '<span class="nf-zahl" aria-label="' + n + ' ' + nt('neue Meldungen') + '">' + n + '</span>' : '');
   nwFab.hidden = !NEWS || route.v === 'news';
 }
 function newsLaden(){
   fetch('news.json?t=' + Date.now(), { cache: 'no-store' }).then(function(r){ return r.ok ? r.json() : null; }).then(function(j){
     if (!j || !j.eintraege) return;
-    NEWS = j;
+    NEWS = nwSprache(j);
     if (route.v === 'news') go(); else if (route.v === 'start') renderStart();
     renderSide(); newsKnopf();
   }).catch(function(){});
 }
 function nwKarte(e){
-  return '<button type="button" class="card nw-karte" data-go="news-' + esc(e.id) + '"><span class="nw-meta"><span class="nw-kat">' + esc(e.kat) + '</span><span>' + esc(nwDatum(e.datum)) + '</span>' +
-    (e.video ? '<span class="nw-video-tag">▶ mit Video</span>' : '') + (nwIstNeu(e) ? '<span class="nw-neu">NEU</span>' : '') + '</span>' +
-    '<h3>' + esc(e.titel) + '</h3><p>' + esc(e.text) + '</p>' + (e.tipp ? '<p class="nw-fuer"><b>Für dich:</b> ' + esc(e.tipp) + '</p>' : '') +
-    (e.quellen && e.quellen.length ? '<span class="nw-quelle">Quelle: ' + esc(e.quellen[0].name) + '</span>' : '') + '</button>';
+  return '<button type="button" class="card nw-karte" data-go="news-' + esc(e.id) + '"' + NW_AUS + '><span class="nw-meta"><span class="nw-kat">' + esc(e.kat) + '</span><span>' + esc(nwDatum(e.datum)) + '</span>' +
+    (e.video ? '<span class="nw-video-tag">' + nt('▶ mit Video') + '</span>' : '') + (nwIstNeu(e) ? '<span class="nw-neu">' + nt('NEU') + '</span>' : '') + '</span>' +
+    '<h3>' + esc(e.titel) + '</h3><p>' + esc(e.text) + '</p>' + (e.tipp ? '<p class="nw-fuer"><b>' + nt('Für dich:') + '</b> ' + esc(e.tipp) + '</p>' : '') +
+    (e.quellen && e.quellen.length ? '<span class="nw-quelle">' + nt('Quelle:') + ' ' + esc(e.quellen[0].name) + '</span>' : '') + '</button>';
 }
 function nwLeiste(){
   var l = nwListe().slice(0, 3); if (!l.length) return '';
-  return '<section class="nw-leiste" aria-label="Forever-News"><div class="nw-leiste-kopf"><div><div class="kap" style="color:#c9a3f0">Täglich aktualisiert</div><h2>Forever-News</h2></div>' +
-    '<button type="button" class="btn ame" data-go="news">Alle News</button></div><div class="nw-leiste-liste">' +
-    l.map(function(e){ return '<button type="button" class="nw-mini" data-go="news-' + esc(e.id) + '"><small>' + esc(e.kat) + ' · ' + esc(nwDatum(e.datum)) + (nwIstNeu(e) ? ' · NEU' : '') + '</small><b>' + esc(e.titel) + '</b></button>'; }).join('') + '</div></section>';
+  return '<section class="nw-leiste" aria-label="' + nt('Forever-News') + '"' + NW_AUS + '><div class="nw-leiste-kopf"><div><div class="kap" style="color:#c9a3f0">' + nt('Täglich aktualisiert') + '</div><h2>' + nt('Forever-News') + '</h2></div>' +
+    '<button type="button" class="btn ame" data-go="news">' + nt('Alle News') + '</button></div><div class="nw-leiste-liste">' +
+    l.map(function(e){ return '<button type="button" class="nw-mini" data-go="news-' + esc(e.id) + '"><small>' + esc(e.kat) + ' · ' + esc(nwDatum(e.datum)) + (nwIstNeu(e) ? ' · ' + nt('NEU') : '') + '</small><b>' + esc(e.titel) + '</b></button>'; }).join('') + '</div></section>';
 }
 function renderNews(){
-  var h = '<div class="kap" style="color:var(--ame)">WoW Forever · auf Deutsch</div><h1>Forever-News</h1>' +
-    '<p>Alles Wichtige zu WoW Forever – kurz erklärt, mit Video und dem Tipp, was es für dich bedeutet.</p>';
-  if (!NEWS) { view.innerHTML = h + '<p class="nw-stand">News werden geladen …</p>'; return; }
-  h += '<p class="nw-stand">Wird jeden Tag um 18 Uhr aktualisiert · zuletzt: ' + esc(nwDatum(NEWS.stand)) + '</p>';
+  var h = '<div' + NW_AUS + '><div class="kap" style="color:var(--ame)">' + nt('WoW Forever · auf Deutsch') + '</div><h1>' + nt('Forever-News') + '</h1>' +
+    '<p>' + nt('Alles Wichtige zu WoW Forever – kurz erklärt, mit Video und dem Tipp, was es für dich bedeutet.') + '</p>';
+  if (!NEWS) { view.innerHTML = h + '<p class="nw-stand">' + nt('News werden geladen …') + '</p></div>'; return; }
+  h += '<p class="nw-stand">' + nt('Wird täglich gegen 8 Uhr morgens aktualisiert · zuletzt:') + ' ' + esc(nwDatum(NEWS.stand)) + '</p>';
   var alle = nwListe(), kats = ['Alle'];
   alle.forEach(function(e){ if (kats.indexOf(e.kat) < 0) kats.push(e.kat); });
   if (kats.indexOf(NEWS_KAT) < 0) NEWS_KAT = 'Alle';
-  h += '<div class="nw-filter" role="group" aria-label="Kategorie">' + kats.map(function(k){ return '<button type="button" class="fchip" data-nwk="' + esc(k) + '" aria-pressed="' + (k === NEWS_KAT) + '">' + esc(k) + '</button>'; }).join('') + '</div>';
+  h += '<div class="nw-filter" role="group" aria-label="' + nt('Kategorie') + '">' + kats.map(function(k){ return '<button type="button" class="fchip" data-nwk="' + esc(k) + '" aria-pressed="' + (k === NEWS_KAT) + '">' + esc(k === 'Alle' ? nt('Alle') : k) + '</button>'; }).join('') + '</div>';
   var l = alle.filter(function(e){ return NEWS_KAT === 'Alle' || e.kat === NEWS_KAT; });
   var top = NEWS_KAT === 'Alle' ? l.filter(function(e){ return e.top; })[0] : null;
   if (top) { h += '<div class="nw-top">' + nwKarte(top).replace('class="card nw-karte"', 'class="card nw-karte" style="padding:1.2rem 1.3rem"').replace('<h3>', '<h3 style="font-size:1.5rem">') + '</div>'; l = l.filter(function(e){ return e !== top; }); }
-  h += l.length ? '<div class="nw-grid">' + l.map(nwKarte).join('') + '</div>' : '<p class="empty">In dieser Kategorie gibt es gerade nichts Neues.</p>';
-  view.innerHTML = h;
+  h += l.length ? '<div class="nw-grid">' + l.map(nwKarte).join('') + '</div>' : '<p class="empty">' + nt('In dieser Kategorie gibt es gerade nichts Neues.') + '</p>';
+  view.innerHTML = h + '</div>';
   view.querySelectorAll('[data-nwk]').forEach(function(b){ b.addEventListener('click', function(){ NEWS_KAT = b.dataset.nwk; renderNews(); }); });
   nwMerken();
 }
@@ -1430,17 +1455,17 @@ function nwBlock(b){
   return t + '<p>' + esc(b.text || '') + '</p>';
 }
 function renderNewsArtikel(e){
-  var h = '<div class="nw-artikel"><button type="button" class="linkbtn" data-go="news">‹ Alle Forever-News</button>' +
+  var h = '<div class="nw-artikel"' + NW_AUS + '><button type="button" class="linkbtn" data-go="news">' + nt('‹ Alle Forever-News') + '</button>' +
     '<div class="nw-meta" style="margin-top:1rem"><span class="nw-kat">' + esc(e.kat) + '</span><span>' + esc(nwDatum(e.datum)) + '</span></div>' +
     '<h1>' + esc(e.titel) + '</h1><p class="nw-lead">' + esc(e.text) + '</p>';
   if (e.video && /^[\w-]{6,20}$/.test(e.video.youtube || '')) {
     h += '<div class="nw-video" data-yt="' + e.video.youtube + '"><span class="nw-vt">' + esc(e.video.titel || 'Video') + (e.video.kanal ? ' · ' + esc(e.video.kanal) : '') + '</span>' +
-      '<button type="button" class="nw-play"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>Video abspielen</button>' +
-      '<small>Beim Abspielen wird das Video von YouTube geladen. Dabei werden Daten an YouTube übertragen.</small></div>';
+      '<button type="button" class="nw-play"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>' + nt('Video abspielen') + '</button>' +
+      '<small>' + nt('Beim Abspielen wird das Video von YouTube geladen. Dabei werden Daten an YouTube übertragen.') + '</small></div>';
   }
   (e.inhalt || []).forEach(function(b){ h += nwBlock(b); });
-  if (e.tipp) h += '<p class="nw-fuer"><b>Für dich:</b> ' + esc(e.tipp) + '</p>';
-  if (e.quellen && e.quellen.length) h += '<div class="nw-quellen"><div class="kap">Quellen</div>' + e.quellen.map(function(q){ return /^https:\/\//.test(q.url || '') ? '<a href="' + esc(q.url) + '" target="_blank" rel="noopener">' + esc(q.name) + '</a>' : '<span>' + esc(q.name) + '</span>'; }).join('') + '</div>';
+  if (e.tipp) h += '<p class="nw-fuer"><b>' + nt('Für dich:') + '</b> ' + esc(e.tipp) + '</p>';
+  if (e.quellen && e.quellen.length) h += '<div class="nw-quellen"><div class="kap">' + nt('Quellen') + '</div>' + e.quellen.map(function(q){ return /^https:\/\//.test(q.url || '') ? '<a href="' + esc(q.url) + '" target="_blank" rel="noopener">' + esc(q.name) + '</a>' : '<span>' + esc(q.name) + '</span>'; }).join('') + '</div>';
   h += '</div>';
   view.innerHTML = h;
   var v = view.querySelector('.nw-video');
