@@ -553,7 +553,11 @@ body{padding-bottom:4.5rem}
 .nw-quellen a{display:block;margin:.25rem 0}
 </style>
 <style id="wow-icons">
-.site-foot .besucher{display:inline-flex;align-items:center;gap:.35rem;color:#f1d792;font-variant-numeric:tabular-nums}.site-foot .besucher b{color:#f6e3a8}
+@media (max-width:420px){.bar{column-gap:.3rem!important;gap:.3rem!important}.bar .home b{font-size:.9rem}.bar .menu-btn{padding:.3rem .45rem;letter-spacing:0}.bar .sprache-knopf{padding:.3rem .4rem}.bar .bar-ad{padding:.3rem .45rem}}
+@media (max-width:360px){.bar .home b{font-size:.8rem}.bar .besucher svg{display:none}}
+.bar .besucher{display:inline-flex;align-items:center;gap:.35rem;flex:none;margin-left:auto;padding:.3rem .65rem;border:1px solid rgba(201,162,74,.55);border-radius:999px;background:rgba(18,13,8,.55);color:#d9c393;font-size:.82rem;line-height:1;white-space:nowrap;font-variant-numeric:tabular-nums}.bar .besucher[hidden]{display:none}.bar .besucher b{color:#f6e3a8;font-weight:700}.bar .besucher svg{flex:none}
+.bar .besucher + .sprache{margin-left:.5rem}
+@media (max-width:640px){.bar .bar-ad .t{display:none}.bar .bar-ad{padding:.32rem .55rem}.bar .besucher .t{display:none}.bar .besucher{padding:.2rem .1rem;border:0;background:none;gap:.2rem;font-size:.75rem}.bar .besucher + .sprache{margin-left:.3rem}}
 #s-talente .sk-bar,#s-reihenfolge .sk-bar,.sk-bar{background:#120d08!important;background-image:none!important;border-color:#7a5c2a!important;color:#efe2c2}
 .sk-bar label,.sk-bar span{color:#b39a62!important}
 .sk-bar .btn{background:#2a1f12!important;color:#f1d792!important;border-color:#8a6a2e!important}
@@ -638,6 +642,7 @@ img.wic.rac{width:1.9rem;height:1.9rem;border-radius:6px;border:1px solid #7a5c2
 <header class="bar">
   <button type="button" class="home" id="go-home" aria-label="Zur Startseite"><img id="bar-logo" alt=""><b>siikk-guide</b></button>
   <span class="crumb" id="crumb">WoW: Forever · Klassen-Guide</span>
+  <span class="besucher" title="Besucher bisher" id="besucher" hidden><svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/></svg><b id="besucher-n"></b> <span class="t">Besucher</span></span>
   <button type="button" class="bar-ad" id="bar-ad" data-go="addons"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11M7 10l5 5 5-5M5 20h14"/></svg><span class="t">siikkUI Addon</span></button>
   <button type="button" class="menu-btn" id="menu-btn" aria-expanded="false" aria-controls="side">Kategorien</button>
 </header>
@@ -646,7 +651,7 @@ img.wic.rac{width:1.9rem;height:1.9rem;border-radius:6px;border:1px solid #7a5c2
   <aside class="side" id="side" aria-label="Kategorien"></aside>
   <main id="main"><div class="page" id="view"></div></main>
 </div>
-<footer class="site-foot"><span>siikk-guide.de · Fan-Projekt, nicht mit Blizzard Entertainment verbunden · Spiel-Icons © Blizzard Entertainment</span><span class="besucher" id="besucher" hidden><svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/></svg><b id="besucher-n"></b> <span>Besucher bisher</span></span><a href="impressum.html">Impressum</a><a href="datenschutz.html">Datenschutz</a></footer>
+<footer class="site-foot"><span>siikk-guide.de · Fan-Projekt, nicht mit Blizzard Entertainment verbunden · Spiel-Icons © Blizzard Entertainment</span><a href="impressum.html">Impressum</a><a href="datenschutz.html">Datenschutz</a></footer>
 <script>(function(){var best=0;function zeig(d){if(!d||d.count==null)return;var n=Number(String(d.count).replace(/[^0-9]/g,""));if(!n||n<=best)return;best=n;document.getElementById("besucher-n").textContent=n.toLocaleString(document.documentElement.lang||"de");document.getElementById("besucher").hidden=false;}function hol(u){try{fetch(u,{cache:"no-cache"}).then(function(r){return r.ok?r.json():null}).then(zeig).catch(function(){});}catch(e){}}hol("besucher.json");hol("https://siikk-guide.goatcounter.com/counter/TOTAL.json");})();</script>
 
 <script>
