@@ -1,0 +1,28 @@
+name: Besucherzahl holen
+# Holt alle 3 Stunden die Gesamtzahl von GoatCounter und legt sie als besucher.json auf die Seite.
+# So sehen auch Besucher mit Werbeblocker die Zahl.
+on:
+  schedule:
+    - cron: "23 */3 * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  holen:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Zahl abrufen
+        run: |
+          set -e
+          d=$(curl -fsS https://siikk-guide.goatcounter.com/counter/TOTAL.json)
+          n=$(echo "$d" | python3 -c 'import sys,json,re;print(re.sub(r"[^0-9]","",json.load(sys.stdin)["count"]))')
+          [ -n "$n" ] || exit 0
+          printf '{"count":%s}\n' "$n" > besucher.json
+          if git diff --quiet -- besucher.json 2>/dev/null && git ls-files --error-unmatch besucher.json >/dev/null 2>&1; then echo "unverändert"; exit 0; fi
+          git config user.name "siikk-bot"
+          git config user.email "siikk-bot@users.noreply.github.com"
+          git add besucher.json
+          git commit -m "Besucherzahl: $n"
+          git pull --rebase -q origin main
+          git push -q
