@@ -22,7 +22,7 @@ jobs:
           python-version: "3.12"
       - name: Neue Versionen posten
         env:
-          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK || secrets.DISCORD_WEBHOOK_URL || secrets.discord_webhook || vars.DISCORD_WEBHOOK }}
         run: |
           if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ inputs.test }}" = "true" ]; then
             python discord/posten.py - --test
