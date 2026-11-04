@@ -2,11 +2,11 @@
   "hinweis": "Neue Versionen hier eintragen – bei jeder Änderung dieser Datei lädt GitHub die aufgeführten Dateien zu CurseForge hoch.",
   "uploads": [
     {
-      "projekt": "infoleiste",
-      "datei": "downloads/siikk-Infoleiste_v1.5.zip",
-      "anzeige": "siikk-Info Bar v1.5",
+      "projekt": "schadenszahlen",
+      "datei": "downloads/siikk-Schadenszahlen_v1.4.zip",
+      "anzeige": "siikk-Damage Numbers v1.4",
       "typ": "release",
-      "changelog": "siikk-Info Bar 1.5\n\n- Gold in the bar now shows gold, silver and copper in full – no need to hover over it."
+      "changelog": "siikk-Damage Numbers 1.4 – fix for WoW Forever\n\n- Fixed: in WoW Forever the message \"siikkSZ has been blocked\" appeared at login. Like Midnight, Forever locks the combat log for addons; siikk no longer requests it there.\n- In Forever (as in Midnight) siikk replaces the font of Blizzard's damage numbers (font and size under /sz). Own numbers with colors and crit glow are available in Anniversary and Classic."
     }
   ]
 }
