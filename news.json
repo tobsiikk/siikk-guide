@@ -1,12 +1,181 @@
 {
-  "stand": "2026-11-03",
+  "stand": "2026-11-05",
   "hinweis": "Wird täglich gegen 8 Uhr morgens automatisch aktualisiert.",
   "eintraege": [
+    {
+      "id": "2026-11-05-forever-gestartet",
+      "datum": "2026-11-05",
+      "kat": "Start",
+      "top": true,
+      "titel": "WoW Forever ist gestartet – Server pünktlich online",
+      "text": "In der Nacht auf Donnerstag um 0 Uhr (MEZ) sind die Server von WoW Forever nach einer mehrstündigen Wartung online gegangen. Laut ersten Berichten von Fragster und Kantan.News gab es zum Start Warteschlangen von teils über 2.000 Spielern, die aber schnell kürzer wurden; einige Spieler flogen in den ersten Minuten aus der Charakterauswahl. Auf PvP-Servern begrenzt Blizzard vorübergehend die Charaktererstellung pro Fraktion, um Horde und Allianz im Gleichgewicht zu halten.",
+      "tipp": "Bekommst du beim Login einen Fehler, starte das Spiel neu und stell dich erneut an – das hat laut Spielerberichten meist geholfen.",
+      "video": null,
+      "inhalt": [
+        {
+          "typ": "liste",
+          "titel": "Das Wichtigste zum Start",
+          "punkte": [
+            "Start am 5. November um 0:00 Uhr MEZ, vorher Wartung ab 19 Uhr am Mittwochabend.",
+            "Warteschlangen zu Beginn teils über 2.000 Plätze, laut Berichten schnell kürzer.",
+            "Vereinzelte Verbindungsabbrüche in der Charakterauswahl und kurzzeitige Fehler beim Zugriff auf Regelsätze (laut Spielerberichten, nicht von Blizzard bestätigt).",
+            "Fraktionslimits auf PvP-Servern sind vorübergehend und sollen gelockert werden, sobald sich die Spielerzahlen eingependelt haben.",
+            "Gamepad-Steuerung ist laut PC Games Hardware noch als Beta gekennzeichnet; für den Chat brauchst du weiterhin eine Tastatur.",
+            "Alte, nicht angepasste Addons können Abstürze oder Anzeigefehler verursachen."
+          ]
+        }
+      ],
+      "quellen": [
+        {
+          "name": "Fragster – WoW Forever ist gestartet",
+          "url": "https://www.fragster.de/wow-forever-ist-gestartet-die-tore-nach-azeroth-sind-offen/"
+        },
+        {
+          "name": "PC Games Hardware – Release-Live-Ticker",
+          "url": "https://www.pcgameshardware.de/World-of-Warcraft-Forever-Spiel-78891/News/Release-Live-Ticker-Serverstatus-Updates-1559000/"
+        },
+        {
+          "name": "Kantan.News – Forever servers launched",
+          "url": "https://kantan.news/news/world-of-warcraft-forever-servers-launched-a-high-demand-return-to-azeroth"
+        }
+      ],
+      "i18n": {
+        "en": {
+          "kat": "Launch",
+          "titel": "WoW Forever has launched – servers online on time",
+          "text": "WoW Forever's servers went live at midnight CET on Thursday night after a maintenance lasting several hours. According to early reports from Fragster and Kantan.News, queues at launch sometimes exceeded 2,000 players but shrank quickly; some players were disconnected from character select in the first minutes. On PvP realms, Blizzard temporarily limits character creation per faction to keep Horde and Alliance balanced.",
+          "tipp": "If you get an error at login, restart the game and queue again – according to player reports, that usually helped.",
+          "inhalt": [
+            {
+              "typ": "liste",
+              "titel": "Launch at a glance",
+              "punkte": [
+                "Launch on November 5 at 00:00 CET, preceded by maintenance from 7 PM on Wednesday evening.",
+                "Queues initially over 2,000 in places, shrinking quickly according to reports.",
+                "Occasional disconnects at character select and brief errors accessing rulesets (according to player reports, not confirmed by Blizzard).",
+                "Faction limits on PvP realms are temporary and are supposed to be relaxed once population numbers settle.",
+                "According to PC Games Hardware, gamepad controls are still labeled beta; you still need a keyboard for chat.",
+                "Old, non-updated addons can cause crashes or display errors."
+              ]
+            }
+          ]
+        },
+        "fr": {
+          "kat": "Lancement",
+          "titel": "WoW Forever est lancé – serveurs en ligne à l'heure",
+          "text": "Les serveurs de WoW Forever ont ouvert jeudi à minuit (heure de Paris) après une maintenance de plusieurs heures. D'après les premiers retours de Fragster et Kantan.News, les files d'attente dépassaient parfois 2 000 joueurs au lancement mais se sont vite réduites ; certains joueurs ont été déconnectés de l'écran de sélection des personnages dans les premières minutes. Sur les serveurs JcJ, Blizzard limite temporairement la création de personnages par faction pour garder la Horde et l'Alliance équilibrées.",
+          "tipp": "Si tu as une erreur à la connexion, relance le jeu et remets-toi dans la file – selon les joueurs, ça a généralement suffi.",
+          "inhalt": [
+            {
+              "typ": "liste",
+              "titel": "L'essentiel du lancement",
+              "punkte": [
+                "Lancement le 5 novembre à 0 h (heure de Paris), précédé d'une maintenance dès 19 h mercredi soir.",
+                "Files d'attente de plus de 2 000 places par endroits au début, rapidement réduites selon les retours.",
+                "Déconnexions ponctuelles à la sélection des personnages et brèves erreurs d'accès aux règles de serveur (selon des joueurs, non confirmé par Blizzard).",
+                "Les limites de faction sur les serveurs JcJ sont temporaires et doivent être assouplies une fois la population stabilisée.",
+                "Selon PC Games Hardware, le support manette est toujours indiqué comme bêta ; il faut encore un clavier pour le chat.",
+                "Les anciens addons non mis à jour peuvent provoquer des plantages ou des erreurs d'affichage."
+              ]
+            }
+          ]
+        },
+        "es": {
+          "kat": "Lanzamiento",
+          "titel": "WoW Forever ya está disponible – servidores en línea puntualmente",
+          "text": "Los servidores de WoW Forever se abrieron el jueves a medianoche (hora peninsular) tras un mantenimiento de varias horas. Según los primeros informes de Fragster y Kantan.News, las colas superaron a veces los 2000 jugadores en el lanzamiento, aunque se redujeron rápido; algunos jugadores fueron desconectados de la selección de personaje en los primeros minutos. En los reinos JcJ, Blizzard limita temporalmente la creación de personajes por facción para mantener equilibradas a la Horda y la Alianza.",
+          "tipp": "Si te sale un error al conectar, reinicia el juego y vuelve a la cola: según los jugadores, eso solía bastar.",
+          "inhalt": [
+            {
+              "typ": "liste",
+              "titel": "Lo esencial del lanzamiento",
+              "punkte": [
+                "Lanzamiento el 5 de noviembre a las 0:00 (CET), con mantenimiento previo desde las 19:00 del miércoles.",
+                "Colas de más de 2000 puestos en algunos reinos al principio, que se redujeron rápido según los informes.",
+                "Desconexiones puntuales en la selección de personaje y errores breves al acceder a los tipos de reino (según jugadores, sin confirmar por Blizzard).",
+                "Los límites de facción en reinos JcJ son temporales y se relajarán cuando la población se estabilice.",
+                "Según PC Games Hardware, el soporte para mando sigue marcado como beta; para el chat aún necesitas teclado.",
+                "Los addons antiguos sin actualizar pueden causar cierres o errores visuales."
+              ]
+            }
+          ]
+        },
+        "ru": {
+          "kat": "Запуск",
+          "titel": "WoW Forever запущен – серверы открылись вовремя",
+          "text": "Серверы WoW Forever открылись в ночь на четверг в 0:00 по центральноевропейскому времени после многочасового техобслуживания. По первым сообщениям Fragster и Kantan.News, очереди на старте местами превышали 2000 игроков, но быстро сократились; некоторых игроков в первые минуты выбрасывало с экрана выбора персонажа. На PvP-серверах Blizzard временно ограничивает создание персонажей по фракциям, чтобы сохранить баланс Орды и Альянса.",
+          "tipp": "Если при входе выскакивает ошибка, перезапусти игру и встань в очередь заново – по отзывам игроков, обычно это помогало.",
+          "inhalt": [
+            {
+              "typ": "liste",
+              "titel": "Главное о запуске",
+              "punkte": [
+                "Запуск 5 ноября в 0:00 CET, перед этим техобслуживание с 19:00 в среду вечером.",
+                "Очереди поначалу местами больше 2000 мест, по сообщениям быстро сократились.",
+                "Отдельные разрывы соединения на выборе персонажа и кратковременные ошибки доступа к типам серверов (по сообщениям игроков, Blizzard не подтверждала).",
+                "Ограничения по фракциям на PvP-серверах временные и будут ослаблены, когда численность стабилизируется.",
+                "По данным PC Games Hardware, поддержка геймпада всё ещё помечена как бета; для чата по-прежнему нужна клавиатура.",
+                "Старые необновлённые аддоны могут вызывать вылеты или ошибки отображения."
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "2026-11-05-legendaer-taldramir",
+      "datum": "2026-11-05",
+      "kat": "Patch",
+      "titel": "Erste Legendary enthüllt: Taldramir, the Whispering Wood",
+      "text": "Blizzard hat am 4. November in einem Twitch-Stream die erste legendäre Waffe von WoW Forever gezeigt: Taldramir, the Whispering Wood, einen Zweihand-Stab mit deutlichem Druiden-Thema. Wie man ihn bekommt, für welche Klassen er gedacht ist und welche Werte er hat, hat Blizzard laut Wowhead noch nicht verraten. Zuschauer des Streams konnten zum Ende per Twitch-Drop das Spielzeug Pouch of Violet Dust bekommen – die Aktion ist laut Wowhead inzwischen vorbei.",
+      "tipp": "Kein Grund zur Eile: Bevor Details zur Herstellung feststehen, musst du nichts vorbereiten oder horten.",
+      "video": null,
+      "inhalt": [],
+      "quellen": [
+        {
+          "name": "Wowhead – Taldramir revealed",
+          "url": "https://www.wowhead.com/forever/news/taldramir-the-whispering-wood-revealed-as-wow-forever-legendary-383747"
+        },
+        {
+          "name": "Wowhead – Twitch-Drop Pouch of Violet Dust",
+          "url": "https://www.wowhead.com/forever/news/secret-twitch-drop-awards-pouch-of-violet-dust-toy-in-wow-forever-383748"
+        }
+      ],
+      "i18n": {
+        "en": {
+          "kat": "Patch",
+          "titel": "First Legendary revealed: Taldramir, the Whispering Wood",
+          "text": "On November 4, Blizzard showed WoW Forever's first legendary weapon in a Twitch stream: Taldramir, the Whispering Wood, a two-handed staff with a clear druid theme. According to Wowhead, Blizzard hasn't yet revealed how to obtain it, which classes it is meant for, or its stats. Stream viewers could get the Pouch of Violet Dust toy via a Twitch Drop at the end – according to Wowhead, that promotion is now over.",
+          "tipp": "No need to rush: until crafting details are known, there's nothing to prepare or hoard.",
+          "inhalt": []
+        },
+        "fr": {
+          "kat": "Patch",
+          "titel": "Premier légendaire dévoilé : Taldramir, the Whispering Wood",
+          "text": "Le 4 novembre, Blizzard a présenté sur Twitch la première arme légendaire de WoW Forever : Taldramir, the Whispering Wood, un bâton à deux mains au thème clairement druidique. D'après Wowhead, Blizzard n'a pas encore dévoilé comment l'obtenir, à quelles classes il est destiné ni ses statistiques. Les spectateurs du stream pouvaient obtenir à la fin le jouet Pouch of Violet Dust via un Twitch Drop – selon Wowhead, l'opération est désormais terminée.",
+          "tipp": "Pas besoin de te presser : tant que les détails de fabrication ne sont pas connus, inutile de préparer ou d'accumuler quoi que ce soit.",
+          "inhalt": []
+        },
+        "es": {
+          "kat": "Parche",
+          "titel": "Primera legendaria revelada: Taldramir, the Whispering Wood",
+          "text": "El 4 de noviembre, Blizzard mostró en un directo de Twitch la primera arma legendaria de WoW Forever: Taldramir, the Whispering Wood, un bastón a dos manos con una clara temática de druida. Según Wowhead, Blizzard aún no ha revelado cómo conseguirlo, para qué clases está pensado ni sus estadísticas. Los espectadores del directo podían obtener al final el juguete Pouch of Violet Dust mediante un Twitch Drop; según Wowhead, la promoción ya ha terminado.",
+          "tipp": "Sin prisas: hasta que se conozcan los detalles de fabricación, no hace falta preparar ni acumular nada.",
+          "inhalt": []
+        },
+        "ru": {
+          "kat": "Патч",
+          "titel": "Показан первый легендарный предмет: Taldramir, the Whispering Wood",
+          "text": "4 ноября Blizzard показала на трансляции в Twitch первое легендарное оружие WoW Forever: Taldramir, the Whispering Wood – двуручный посох с явной друидской тематикой. По данным Wowhead, Blizzard пока не раскрыла, как его получить, для каких классов он предназначен и какие у него характеристики. Зрители трансляции в конце могли получить игрушку Pouch of Violet Dust через Twitch Drops – по данным Wowhead, акция уже завершилась.",
+          "tipp": "Спешить некуда: пока нет деталей о создании, ничего готовить или копить не нужно.",
+          "inhalt": []
+        }
+      }
+    },
     {
       "id": "2026-11-03-klassen-update-vor-start",
       "datum": "2026-11-03",
       "kat": "Klassen",
-      "top": true,
       "titel": "Großes Klassen-Update kurz vor dem Start",
       "text": "Mit den Entwicklernotizen vom 2. November hat Blizzard fast jede Spezialisierung verändert. Besonders betroffen sind Schamanen: Lava Burst fällt ersatzlos weg, Riptide heilt nur noch über Zeit. Schurken und Krieger bekommen dagegen neue Fähigkeiten und Talente.",
       "tipp": "Talente erst nach dem Login in Ruhe neu verteilen – viele Guides aus der Beta stimmen nicht mehr.",
