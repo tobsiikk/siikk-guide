@@ -1,12 +1,142 @@
 {
-  "stand": "2026-11-05",
+  "stand": "2026-11-06",
   "hinweis": "Wird täglich gegen 8 Uhr morgens automatisch aktualisiert.",
   "eintraege": [
+    {
+      "id": "2026-11-06-hotfixes-5-november",
+      "datum": "2026-11-06",
+      "kat": "Patch",
+      "top": true,
+      "titel": "Erste Hotfixes nach dem Start: Respawns, Zephras und Läufer der Ebenen",
+      "text": "Blizzard hat am 5. November die ersten Hotfixes seit dem Start von WoW Forever eingespielt. Sie beheben vor allem Respawn-Probleme bei Questzielen, bringen einen Druidenlehrer und Berufstaschen auf die Zephras-Insel und verhindern, dass Tauren auf Schlachtfeldern schon vor dem Start Stapel von Läufer der Ebenen sammeln. Laut Blizzard wird die Liste mit weiteren Hotfixes ergänzt.",
+      "tipp": "Wollte gestern ein Questziel in Durotar oder den Sümpfen des Elends nicht auftauchen, probier es jetzt einfach noch mal.",
+      "video": null,
+      "inhalt": [
+        {
+          "typ": "liste",
+          "titel": "Die Hotfixes im Überblick",
+          "punkte": [
+            "Durotar: Yarrog Baneshadow erscheint nicht mehr zu langsam wieder.",
+            "Zephras-Insel: Lotheluum Starbreeze bildet jetzt auch Druiden aus.",
+            "Zephras-Insel: Die Händler für Handwerksbedarf verkaufen wieder Lehrlingstaschen für Berufe.",
+            "Düstermarschen: Einige Murlocs erscheinen nicht mehr zu schnell wieder.",
+            "Sümpfe des Elends: Pelluk erscheint jetzt zuverlässig.",
+            "Quest „Escorting Erland“: Deathstalker Erland erscheint deutlich schneller wieder.",
+            "Quest „The Sisterhood of Elune“: fehlerhafter Text korrigiert.",
+            "Milde Gewürze bringen beim Händler nur noch 1 Kupfer statt 2.",
+            "Schlachtfelder: Läufer der Ebenen (Tauren) lässt sich in der Vorbereitungsphase nicht mehr stapeln; wer eine Flagge trägt, verliert die Stapel."
+          ]
+        }
+      ],
+      "quellen": [
+        {
+          "name": "Blizzard – WoW: Forever Hotfixes, 5. November 2026",
+          "url": "https://news.blizzard.com/en-gb/article/24315281/wow-forever-hotfixes-november-5-2026"
+        },
+        {
+          "name": "Icy Veins – WoW Forever Hotfixes, November 5th",
+          "url": "https://www.icy-veins.com/wow-forever/news/enemy-spawns-items-plainsrunning-fixes-wow-forever-hotfixes-november-5th/"
+        }
+      ],
+      "i18n": {
+        "en": {
+          "kat": "Patch",
+          "titel": "First hotfixes after launch: spawns, Zephras and Plainsrunning",
+          "text": "On November 5, Blizzard released the first hotfixes since WoW Forever went live. They mostly fix respawn issues for quest targets, add a Druid trainer and profession bags on Zephras Isle, and stop Tauren from building up Plainsrunning stacks in battlegrounds before the start. Blizzard says the list will be extended as further hotfixes go out.",
+          "tipp": "If a quest target in Durotar or the Swamp of Sorrows wouldn't show up yesterday, simply try again now.",
+          "inhalt": [
+            {
+              "typ": "liste",
+              "titel": "The hotfixes at a glance",
+              "punkte": [
+                "Durotar: Yarrog Baneshadow no longer respawns too slowly.",
+                "Zephras Isle: Lotheluum Starbreeze now trains Druids as well.",
+                "Zephras Isle: Trade supply vendors sell apprentice profession bags again.",
+                "Dustwallow Marsh: Some murlocs no longer respawn too quickly.",
+                "Swamp of Sorrows: Pelluk now spawns reliably.",
+                "Quest “Escorting Erland”: Deathstalker Erland respawns much faster.",
+                "Quest “The Sisterhood of Elune”: incorrect text fixed.",
+                "Mild Spices now sell to vendors for 1 copper instead of 2.",
+                "Battlegrounds: Plainsrunning (Tauren) can no longer be stacked during the preparation phase; carrying a flag removes your stacks."
+              ]
+            }
+          ]
+        },
+        "fr": {
+          "kat": "Patch",
+          "titel": "Premiers correctifs après le lancement : réapparitions, Zephras et Plainsrunning",
+          "text": "Le 5 novembre, Blizzard a déployé les premiers correctifs depuis la sortie de WoW Forever. Ils corrigent surtout des problèmes de réapparition de cibles de quête, ajoutent un maître des druides et des sacs de métier sur l'île de Zephras, et empêchent les Taurens de cumuler Plainsrunning en champ de bataille avant le début. Selon Blizzard, la liste sera complétée au fil des prochains correctifs.",
+          "tipp": "Si une cible de quête à Durotar ou dans le Marais des Chagrins ne voulait pas apparaître hier, réessayez maintenant.",
+          "inhalt": [
+            {
+              "typ": "liste",
+              "titel": "Les correctifs en bref",
+              "punkte": [
+                "Durotar : Yarrog Baneshadow ne réapparaît plus trop lentement.",
+                "Île de Zephras : Lotheluum Starbreeze forme désormais aussi les druides.",
+                "Île de Zephras : les vendeurs de fournitures d'artisanat vendent de nouveau les sacs de métier d'apprenti.",
+                "Marécage d'Âprefange : certains murlocs ne réapparaissent plus trop vite.",
+                "Marais des Chagrins : Pelluk apparaît désormais de façon fiable.",
+                "Quête « Escorting Erland » : Deathstalker Erland réapparaît beaucoup plus vite.",
+                "Quête « The Sisterhood of Elune » : texte erroné corrigé.",
+                "Les Épices douces se revendent désormais 1 pièce de cuivre au lieu de 2.",
+                "Champs de bataille : Plainsrunning (Taurens) ne se cumule plus pendant la phase de préparation ; porter un drapeau retire les cumuls."
+              ]
+            }
+          ]
+        },
+        "es": {
+          "kat": "Parche",
+          "titel": "Primeras correcciones tras el lanzamiento: reapariciones, Zephras y Plainsrunning",
+          "text": "El 5 de noviembre, Blizzard publicó las primeras correcciones desde que WoW Forever salió. Sobre todo arreglan problemas de reaparición de objetivos de misión, añaden un instructor de druidas y bolsas de profesión en la isla de Zephras e impiden que los tauren acumulen Plainsrunning en los campos de batalla antes del inicio. Según Blizzard, la lista se ampliará con próximas correcciones.",
+          "tipp": "Si ayer un objetivo de misión en Durotar o el Pantano de las Penas no aparecía, vuelve a intentarlo ahora.",
+          "inhalt": [
+            {
+              "typ": "liste",
+              "titel": "Las correcciones de un vistazo",
+              "punkte": [
+                "Durotar: Yarrog Baneshadow ya no reaparece demasiado lento.",
+                "Isla de Zephras: Lotheluum Starbreeze ahora también entrena a druidas.",
+                "Isla de Zephras: los vendedores de suministros de comercio vuelven a vender bolsas de profesión de aprendiz.",
+                "Marjal Revolcafango: algunos múrlocs ya no reaparecen demasiado rápido.",
+                "Pantano de las Penas: Pelluk ahora aparece de forma fiable.",
+                "Misión «Escorting Erland»: Deathstalker Erland reaparece mucho más rápido.",
+                "Misión «The Sisterhood of Elune»: texto incorrecto corregido.",
+                "Las Especias suaves se venden ahora por 1 cobre en lugar de 2.",
+                "Campos de batalla: Plainsrunning (tauren) ya no se acumula durante la fase de preparación; llevar una bandera elimina las acumulaciones."
+              ]
+            }
+          ]
+        },
+        "ru": {
+          "kat": "Патч",
+          "titel": "Первые хотфиксы после запуска: респаун, Зефрас и Plainsrunning",
+          "text": "5 ноября Blizzard выпустила первые хотфиксы с момента запуска WoW Forever. В основном они исправляют проблемы с респауном квестовых целей, добавляют учителя друидов и сумки для профессий на острове Зефрас, а также не дают тауренам набирать стаки Plainsrunning на полях боя до начала матча. По словам Blizzard, список будет дополняться по мере выхода новых хотфиксов.",
+          "tipp": "Если вчера квестовая цель в Дуротаре или Болоте Печали не появлялась — попробуйте снова сейчас.",
+          "inhalt": [
+            {
+              "typ": "liste",
+              "titel": "Хотфиксы вкратце",
+              "punkte": [
+                "Дуротар: Yarrog Baneshadow больше не возрождается слишком медленно.",
+                "Остров Зефрас: Lotheluum Starbreeze теперь обучает и друидов.",
+                "Остров Зефрас: торговцы ремесленными товарами снова продают сумки ученика для профессий.",
+                "Пылевые топи: некоторые мурлоки больше не возрождаются слишком быстро.",
+                "Болото Печали: Pelluk теперь появляется стабильно.",
+                "Задание «Escorting Erland»: Deathstalker Erland возрождается гораздо быстрее.",
+                "Задание «The Sisterhood of Elune»: исправлен ошибочный текст.",
+                "Мягкие специи теперь продаются торговцу за 1 медяк вместо 2.",
+                "Поля боя: Plainsrunning (таурены) больше не стакается в фазе подготовки; при переносе флага стаки снимаются."
+              ]
+            }
+          ]
+        }
+      }
+    },
     {
       "id": "2026-11-05-forever-gestartet",
       "datum": "2026-11-05",
       "kat": "Start",
-      "top": true,
       "titel": "WoW Forever ist gestartet – Server pünktlich online",
       "text": "In der Nacht auf Donnerstag um 0 Uhr (MEZ) sind die Server von WoW Forever nach einer mehrstündigen Wartung online gegangen. Laut ersten Berichten von Fragster und Kantan.News gab es zum Start Warteschlangen von teils über 2.000 Spielern, die aber schnell kürzer wurden; einige Spieler flogen in den ersten Minuten aus der Charakterauswahl. Auf PvP-Servern begrenzt Blizzard vorübergehend die Charaktererstellung pro Fraktion, um Horde und Allianz im Gleichgewicht zu halten.",
       "tipp": "Bekommst du beim Login einen Fehler, starte das Spiel neu und stell dich erneut an – das hat laut Spielerberichten meist geholfen.",
