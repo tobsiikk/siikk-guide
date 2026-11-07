@@ -2,25 +2,18 @@
   "hinweis": "Neue Versionen hier eintragen – bei jeder Änderung dieser Datei lädt GitHub die aufgeführten Dateien zu CurseForge hoch.",
   "uploads": [
     {
-      "projekt": "infoleiste",
-      "datei": "downloads/siikk-Infoleiste_v1.9.zip",
-      "anzeige": "siikk-Info Bar v1.9",
-      "typ": "release",
-      "changelog": "siikk-Info Bar 1.9\n\n- New: adjustable font size – /schrift (or /fontsize) opens a window with one slider for all siikk addons and one per addon (70–160 %)."
-    },
-    {
-      "projekt": "schadenszahlen",
-      "datei": "downloads/siikk-Schadenszahlen_v1.6.zip",
-      "anzeige": "siikk-Damage Numbers v1.6",
-      "typ": "release",
-      "changelog": "siikk-Damage Numbers 1.6\n\n- New: adjustable font size – /schrift (or /fontsize) opens a window with one slider for all siikk addons and one per addon (70–160 %). Applies to the settings windows – the size of the damage numbers is still set under /sz."
-    },
-    {
       "projekt": "layer",
-      "datei": "downloads/siikk-Layer_v1.2.zip",
-      "anzeige": "siikk-Layer v1.2",
+      "datei": "downloads/siikk-Layer_v1.3.zip",
+      "anzeige": "siikk-Layer v1.3",
       "typ": "release",
-      "changelog": "siikk-Layer 1.2\n\n- New: adjustable font size – /schrift (or /fontsize) opens a window with one slider for all siikk addons and one per addon (70–160 %)."
+      "changelog": "siikk-Layer 1.3\n\n- Group fix: anyone from your group who is visible nearby now always counts as on your layer – even if an old report says otherwise.\n- After an invite the layer is measured twice (3 s and 20 s), old group reports are dropped and fresh ones requested.\n- Reports are no longer lost when two come in quick succession; old reports expire after 5 minutes."
+    },
+    {
+      "projekt": "infoleiste",
+      "datei": "downloads/siikk-Infoleiste_v2.0.zip",
+      "anzeige": "siikk-Info Bar v2.0",
+      "typ": "release",
+      "changelog": "siikk-Info Bar 2.0\n\n- XP bonuses: the sleeping bag now always lasts 2 hours, remaining time shown in hours (e.g. 1:45:00).\n- Warlocks: Demon Armor / Demon Skin shows in the tooltip with 30 minutes and a warning 1 minute before it expires."
     }
   ]
 }
