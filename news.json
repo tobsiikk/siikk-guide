@@ -1,12 +1,359 @@
 {
-  "stand": "2026-11-06",
+  "stand": "2026-11-07",
   "hinweis": "Wird täglich gegen 8 Uhr morgens automatisch aktualisiert.",
   "eintraege": [
+    {
+      "id": "2026-11-07-hotfixes-6-november",
+      "datum": "2026-11-07",
+      "kat": "Patch",
+      "top": true,
+      "titel": "Hotfixes vom 6. November: Klassenfehler, Dungeons und Quests repariert",
+      "text": "Blizzard hat am 6. November eine zweite, deutlich größere Runde Hotfixes für WoW Forever eingespielt. Behoben wurden unter anderem Fehler bei Druiden, Magiern, Schurken und Hexenmeistern, hängende Gegner in Blackmaw Hold und The Drowned City sowie zahlreiche Quest-Probleme. Der Leerwandler bekommt etwas mehr Leben, und Lederverarbeiter brauchen für das Gerbgestell nur noch Fertigkeit 125.",
+      "tipp": "Hattest du Probleme mit Questgegenständen in den Flussauen oder bei „Vorsha the Lasher“, versuch es jetzt noch einmal.",
+      "video": null,
+      "inhalt": [
+        {
+          "typ": "liste",
+          "titel": "Klassen und Völker",
+          "punkte": [
+            "Druide: Erblühen* (Bloom) heilt das Ziel jetzt richtig; Tooltips von Bärengestalt, Verheeren und Rasche Heilung korrigiert.",
+            "Magier: Arkanschlag hält jetzt korrekt 18 Sek.; der Zauber „Research“ geht nach dem Neu-Einloggen nicht mehr verloren.",
+            "Schurke: Shank zeigt Rang 1 und 2 sowie mit Boot Knife die richtige Zahl an Combopunkten.",
+            "Hexenmeister: Leerwandler mit rund 40 Grundleben mehr auf allen Stufen; Seelenabsaugung* verstärkt Peinigung* nicht mehr fälschlich.",
+            "Krieger: Tooltip von Reckless Swings erwähnt jetzt, dass es Gore Drinker auslöst.",
+            "Vermächtnis-Talent „The Quick and the Dead“ funktioniert wieder zuverlässig; der Cooldown Manager zeigt Kontrolleffekte richtig an.",
+            "Nachtelf: Druiden in Schattenmimik können nicht mehr Verheeren und Anspringen nutzen.",
+            "Orc: Befehlsgewalt verstärkt einige Fähigkeiten von Hexenmeister-Dämonen nicht mehr zu stark."
+          ]
+        },
+        {
+          "typ": "liste",
+          "titel": "Dungeons, Welt und Berufe",
+          "punkte": [
+            "Maraudon: Zaetars Geist erscheint wieder nach dem Sieg über Prinzessin Theradras.",
+            "Blackmaw Hold und The Drowned City: Gegner brechen den Kampf nicht mehr grundlos ab; das Portal zu The Drowned City bringt dich wieder hinein.",
+            "Dun Morogh: Die Troggs im Steinbruch Grol'bolar erscheinen nicht mehr zu schnell wieder; Teldrassil: einige Peitscher sind nicht mehr immun gegen Naturschaden.",
+            "Lederverarbeitung: Das Gerbgestell (Tanning Rack) braucht nur noch Fertigkeit 125 (vorher 140).",
+            "Gegenstand Searing Dagger wird nur noch von Zaubern mit Schaden ausgelöst.",
+            "Quests: u. a. „Vorsha the Lasher“, „Rediscovering the Light“ und „Ammo for Rumbleshot“ repariert; Questgegenstände in den Flussauen werden in der Gruppe geteilt; Damp Note fällt häufiger.",
+            "Andere Spieler und ihre Ziele sind auf große Entfernung besser sichtbar; der Friseur in Donnerfels ist nicht mehr zu dunkel."
+          ]
+        }
+      ],
+      "quellen": [
+        {
+          "name": "Blizzard – WoW: Forever Hotfixes, 6. November 2026",
+          "url": "https://news.blizzard.com/en-gb/article/24315281/wow-forever-hotfixes-november-6-2026"
+        },
+        {
+          "name": "MeinMMO – WoW Forever Hotfixes vom 6. November",
+          "url": "https://mein-mmo.de/wow-forever-hotfixes-5-6-november-2026-patch-notes/"
+        }
+      ],
+      "i18n": {
+        "en": {
+          "kat": "Patch",
+          "titel": "Hotfixes of November 6: class bugs, dungeons and quests fixed",
+          "text": "On November 6, Blizzard deployed a second, much larger round of hotfixes for WoW Forever. Among other things, it fixes bugs for Druids, Mages, Rogues and Warlocks, enemies resetting in Blackmaw Hold and The Drowned City, and many quest issues. The Voidwalker gets a bit more health, and Leatherworkers now only need skill 125 for the Tanning Rack.",
+          "tipp": "If you had trouble with quest items in Riverglades or with \"Vorsha the Lasher\", give it another try now.",
+          "inhalt": [
+            {
+              "typ": "liste",
+              "titel": "Classes and races",
+              "punkte": [
+                "Druid: Bloom now heals the target correctly; tooltips of Bear Form, Ravage and Swiftmend fixed.",
+                "Mage: Arcane Blast now correctly lasts 18 sec.; the Research spell is no longer lost after relogging.",
+                "Rogue: Shank shows Rank 1 and 2 and, with Boot Knife, the correct number of combo points.",
+                "Warlock: Voidwalker has about 40 more base health at all levels; Soul Siphon no longer incorrectly boosts Wrack.",
+                "Warrior: the Reckless Swings tooltip now mentions that it activates Gore Drinker.",
+                "The legacy talent \"The Quick and the Dead\" works reliably again; the Cooldown Manager shows crowd control correctly.",
+                "Night Elf: Druids in Shadowmeld can no longer use Ravage and Pounce.",
+                "Orc: Command no longer boosts some Warlock demon abilities too much."
+              ]
+            },
+            {
+              "typ": "liste",
+              "titel": "Dungeons, world and professions",
+              "punkte": [
+                "Maraudon: Zaetar's Spirit spawns again after defeating Princess Theradras.",
+                "Blackmaw Hold and The Drowned City: enemies no longer disengage for no reason; the portal to The Drowned City takes you inside again.",
+                "Dun Morogh: the troggs in Grol'bolar Quarry no longer respawn too quickly; Teldrassil: some lashers are no longer immune to nature damage.",
+                "Leatherworking: the Tanning Rack now only requires skill 125 (was 140).",
+                "The Searing Dagger item is now only triggered by spells that deal damage.",
+                "Quests: \"Vorsha the Lasher\", \"Rediscovering the Light\" and \"Ammo for Rumbleshot\" fixed, among others; quest items in Riverglades are shared in groups; Damp Note drops more often.",
+                "Other players and their targets are more visible at long distances; the Thunder Bluff barbershop is no longer too dark."
+              ]
+            }
+          ]
+        },
+        "fr": {
+          "kat": "Patch",
+          "titel": "Correctifs du 6 novembre : bugs de classes, donjons et quêtes réparés",
+          "text": "Le 6 novembre, Blizzard a déployé une deuxième vague de correctifs, bien plus importante, pour WoW Forever. Elle corrige entre autres des bugs chez les druides, mages, voleurs et démonistes, des monstres qui se réinitialisaient dans Blackmaw Hold et The Drowned City, ainsi que de nombreux problèmes de quêtes. Le marcheur du Vide gagne un peu de vie, et les travailleurs du cuir n'ont plus besoin que d'une compétence de 125 pour le Tanning Rack.",
+          "tipp": "Si tu avais des soucis avec des objets de quête dans les Riverglades ou avec « Vorsha the Lasher », réessaie maintenant.",
+          "inhalt": [
+            {
+              "typ": "liste",
+              "titel": "Classes et races",
+              "punkte": [
+                "Druide : Floraison soigne désormais correctement la cible ; infobulles de Forme d'ours, Ravager et Prompte guérison corrigées.",
+                "Mage : Déflagration des arcanes dure bien 18 s ; le sort « Research » n'est plus perdu après une reconnexion.",
+                "Voleur : Shank affiche les rangs 1 et 2 et, avec Boot Knife, le bon nombre de points de combo.",
+                "Démoniste : le marcheur du Vide a environ 40 points de vie de base en plus à tous les niveaux ; Siphon d'âme n'augmente plus Supplice par erreur.",
+                "Guerrier : l'infobulle de Reckless Swings indique désormais qu'il active Gore Drinker.",
+                "Le talent d'héritage « The Quick and the Dead » fonctionne de nouveau de façon fiable ; le Cooldown Manager affiche correctement les contrôles.",
+                "Elfe de la nuit : les druides en Camouflage dans l'ombre ne peuvent plus utiliser Ravager et Traquenard.",
+                "Orc : Commandement ne renforce plus trop certaines techniques des démons de démoniste."
+              ]
+            },
+            {
+              "typ": "liste",
+              "titel": "Donjons, monde et métiers",
+              "punkte": [
+                "Maraudon : l'esprit de Zaetar réapparaît après la victoire sur la princesse Theradras.",
+                "Blackmaw Hold et The Drowned City : les monstres n'abandonnent plus le combat sans raison ; le portail de The Drowned City vous téléporte de nouveau à l'intérieur.",
+                "Dun Morogh : les troggs de la carrière de Grol'bolar ne réapparaissent plus trop vite ; Teldrassil : certains fouetteurs ne sont plus insensibles aux dégâts de nature.",
+                "Travail du cuir : le Tanning Rack ne demande plus qu'une compétence de 125 (au lieu de 140).",
+                "L'objet Searing Dagger ne se déclenche plus qu'avec des sorts infligeant des dégâts.",
+                "Quêtes : « Vorsha the Lasher », « Rediscovering the Light » et « Ammo for Rumbleshot » entre autres corrigées ; les objets de quête des Riverglades sont partagés en groupe ; la Damp Note tombe plus souvent.",
+                "Les autres joueurs et leurs cibles sont mieux visibles à grande distance ; le salon de coiffure des Pitons-du-Tonnerre n'est plus trop sombre."
+              ]
+            }
+          ]
+        },
+        "es": {
+          "kat": "Parche",
+          "titel": "Correcciones del 6 de noviembre: errores de clases, mazmorras y misiones arreglados",
+          "text": "El 6 de noviembre, Blizzard aplicó una segunda ronda de correcciones, mucho más grande, para WoW Forever. Corrige, entre otras cosas, errores de druidas, magos, pícaros y brujos, enemigos que se reiniciaban en Blackmaw Hold y The Drowned City y numerosos problemas de misiones. El abisario recibe algo más de salud y los peleteros solo necesitan habilidad 125 para el Tanning Rack.",
+          "tipp": "Si tuviste problemas con objetos de misión en Riverglades o con «Vorsha the Lasher», inténtalo de nuevo ahora.",
+          "inhalt": [
+            {
+              "typ": "liste",
+              "titel": "Clases y razas",
+              "punkte": [
+                "Druida: Florecimiento ahora sana correctamente al objetivo; descripciones de Forma de oso, Devastar y Alivio presto corregidas.",
+                "Mago: Explosión Arcana dura correctamente 18 s; el hechizo «Research» ya no se pierde al volver a conectarse.",
+                "Pícaro: Shank muestra los rangos 1 y 2 y, con Boot Knife, el número correcto de puntos de combo.",
+                "Brujo: el abisario tiene unos 40 puntos de salud base más en todos los niveles; Succionar alma ya no potencia Tormento por error.",
+                "Guerrero: la descripción de Reckless Swings ahora indica que activa Gore Drinker.",
+                "El talento de legado «The Quick and the Dead» vuelve a funcionar de forma fiable; el Cooldown Manager muestra bien los efectos de control.",
+                "Elfo de la noche: los druidas en Fusión de las Sombras ya no pueden usar Devastar y Abalanzarse.",
+                "Orco: Mando ya no potencia demasiado algunas habilidades de los demonios de brujo."
+              ]
+            },
+            {
+              "typ": "liste",
+              "titel": "Mazmorras, mundo y profesiones",
+              "punkte": [
+                "Maraudon: el espíritu de Zaetar vuelve a aparecer tras derrotar a la princesa Theradras.",
+                "Blackmaw Hold y The Drowned City: los enemigos ya no abandonan el combate sin motivo; el portal de The Drowned City vuelve a llevarte dentro.",
+                "Dun Morogh: los troggs de la cantera de Grol'bolar ya no reaparecen demasiado rápido; Teldrassil: algunos azotadores ya no son inmunes al daño de naturaleza.",
+                "Peletería: el Tanning Rack solo requiere habilidad 125 (antes 140).",
+                "El objeto Searing Dagger solo se activa con hechizos que infligen daño.",
+                "Misiones: arregladas, entre otras, «Vorsha the Lasher», «Rediscovering the Light» y «Ammo for Rumbleshot»; los objetos de misión de Riverglades se comparten en grupo; la Damp Note cae más a menudo.",
+                "Los demás jugadores y sus objetivos se ven mejor a gran distancia; la barbería de Cima del Trueno ya no está demasiado oscura."
+              ]
+            }
+          ]
+        },
+        "ru": {
+          "kat": "Патч",
+          "titel": "Хотфиксы от 6 ноября: исправлены ошибки классов, подземелий и заданий",
+          "text": "6 ноября Blizzard выпустила вторую, гораздо более крупную порцию хотфиксов для WoW Forever. Среди прочего исправлены ошибки друидов, магов, разбойников и чернокнижников, сброс боя у противников в Blackmaw Hold и The Drowned City, а также многие проблемы с заданиями. Демон Бездны получил немного больше здоровья, а кожевникам для Tanning Rack теперь нужен навык всего 125.",
+          "tipp": "Если у тебя были проблемы с предметами для заданий в Riverglades или с «Vorsha the Lasher», попробуй ещё раз.",
+          "inhalt": [
+            {
+              "typ": "liste",
+              "titel": "Классы и расы",
+              "punkte": [
+                "Друид: Цветение теперь правильно исцеляет цель; исправлены подсказки Облика медведя, Накинуться и Быстрого восстановления.",
+                "Маг: Чародейская вспышка теперь правильно длится 18 сек.; заклинание «Research» больше не пропадает после повторного входа.",
+                "Разбойник: Shank показывает ранги 1 и 2, а с Boot Knife – правильное число приёмов серии.",
+                "Чернокнижник: у демона Бездны примерно на 40 больше базового здоровья на всех уровнях; Вытягивание души больше не усиливает Истязание по ошибке.",
+                "Воин: подсказка Reckless Swings теперь сообщает, что он активирует Gore Drinker.",
+                "Наследственный талант «The Quick and the Dead» снова работает надёжно; Cooldown Manager правильно показывает эффекты контроля.",
+                "Ночной эльф: друиды в Слиться с тенью больше не могут применять Накинуться и Наскок.",
+                "Орк: Командование больше не усиливает слишком сильно некоторые способности демонов чернокнижника."
+              ]
+            },
+            {
+              "typ": "liste",
+              "titel": "Подземелья, мир и профессии",
+              "punkte": [
+                "Мародон: дух Зейтара снова появляется после победы над принцессой Терадрас.",
+                "Blackmaw Hold и The Drowned City: противники больше не выходят из боя без причины; портал в The Drowned City снова переносит внутрь.",
+                "Дун Морог: трогги в карьере Грол'болар больше не возрождаются слишком быстро; Тельдрассил: некоторые плеточники больше не неуязвимы к урону от сил природы.",
+                "Кожевничество: для Tanning Rack теперь нужен навык 125 (раньше 140).",
+                "Предмет Searing Dagger теперь срабатывает только от заклинаний, наносящих урон.",
+                "Задания: исправлены, среди прочих, «Vorsha the Lasher», «Rediscovering the Light» и «Ammo for Rumbleshot»; предметы для заданий в Riverglades делятся в группе; Damp Note выпадает чаще.",
+                "Другие игроки и их цели лучше видны на больших расстояниях; парикмахерская в Громовом Утёсе больше не слишком тёмная."
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "2026-11-07-rekordstart",
+      "datum": "2026-11-07",
+      "kat": "Start",
+      "titel": "Blizzard: WoW Forever ist der größte Start der WoW-Geschichte",
+      "text": "Blizzard meldet zwei Rekorde für den Start von WoW Forever: so viele gleichzeitig spielende Spieler wie noch nie bei einem WoW-Start und die meisten Rückkehrer der WoW-Geschichte. Konkrete Zahlen nennt Blizzard nicht. Bei den Spielern bedankte sich das Team mit „This is all because of you, the players.“",
+      "tipp": "Viel los heißt auch volle Startgebiete – wer abends keine Lust auf Gedränge hat, levelt einfach zu ruhigeren Zeiten.",
+      "video": null,
+      "inhalt": [],
+      "quellen": [
+        {
+          "name": "Wowhead – WoW: Forever Makes History with Biggest Launch Ever",
+          "url": "https://www.wowhead.com/forever/news/wow-forever-makes-history-with-biggest-launch-ever-383798"
+        }
+      ],
+      "i18n": {
+        "en": {
+          "kat": "Launch",
+          "titel": "Blizzard: WoW Forever is the biggest launch in WoW history",
+          "text": "Blizzard reports two records for the launch of WoW Forever: the highest number of concurrent players ever at a WoW launch and the most returning players in WoW history. Blizzard did not give specific numbers. The team thanked players with \"This is all because of you, the players.\"",
+          "tipp": "Lots of players also means crowded starting zones – if you don't fancy the crush in the evening, just level at quieter times.",
+          "inhalt": []
+        },
+        "fr": {
+          "kat": "Lancement",
+          "titel": "Blizzard : WoW Forever est le plus gros lancement de l'histoire de WoW",
+          "text": "Blizzard annonce deux records pour le lancement de WoW Forever : le plus grand nombre de joueurs connectés simultanément lors d'un lancement de WoW et le plus grand nombre de joueurs de retour de l'histoire du jeu. Blizzard ne donne pas de chiffres précis. L'équipe a remercié les joueurs : « This is all because of you, the players. »",
+          "tipp": "Beaucoup de monde veut aussi dire des zones de départ bondées – si tu n'aimes pas la foule le soir, monte de niveau à des heures plus calmes.",
+          "inhalt": []
+        },
+        "es": {
+          "kat": "Lanzamiento",
+          "titel": "Blizzard: WoW Forever es el mayor lanzamiento de la historia de WoW",
+          "text": "Blizzard anuncia dos récords en el lanzamiento de WoW Forever: el mayor número de jugadores simultáneos en un lanzamiento de WoW y la mayor cantidad de jugadores que regresan en la historia del juego. Blizzard no da cifras concretas. El equipo agradeció a los jugadores con «This is all because of you, the players.»",
+          "tipp": "Mucha gente también significa zonas iniciales abarrotadas: si no te apetece el gentío por la noche, sube de nivel en horas más tranquilas.",
+          "inhalt": []
+        },
+        "ru": {
+          "kat": "Запуск",
+          "titel": "Blizzard: WoW Forever – крупнейший запуск в истории WoW",
+          "text": "Blizzard сообщает о двух рекордах запуска WoW Forever: наибольшее число одновременно играющих на старте WoW и больше всего вернувшихся игроков за всю историю игры. Конкретных цифр Blizzard не называет. Команда поблагодарила игроков словами «This is all because of you, the players.»",
+          "tipp": "Много игроков – это ещё и переполненные стартовые зоны: если вечером не хочется толкотни, качайся в более спокойное время.",
+          "inhalt": []
+        }
+      }
+    },
+    {
+      "id": "2026-11-07-ui-entwicklernotizen",
+      "datum": "2026-11-07",
+      "kat": "System",
+      "titel": "Entwicklernotizen ergänzt: kleine Verbesserungen an Oberfläche und Bedienung",
+      "text": "Laut Wowhead hat Blizzard die Entwicklernotizen zu WoW Forever um Änderungen an Oberfläche und Barrierefreiheit erweitert. Dazu gehören ein Swing-Timer, der auch auf Entfernung sichtbar bleibt, Hinweise auf die Herkunftstasche bei kombinierten Taschen und klickbare Debuff-Symbole auf Namensplaketten.",
+      "tipp": "Nutzt du kombinierte Taschen, achte auf die Hintergründe der Plätze – so siehst du schnell, in welcher Tasche etwas liegt.",
+      "video": null,
+      "inhalt": [
+        {
+          "typ": "liste",
+          "titel": "Die Änderungen",
+          "punkte": [
+            "Der Swing-Timer bleibt unabhängig von der Entfernung sichtbar, bis der Schlag fertig ist.",
+            "Bei kombinierten Taschen zeigt der Hintergrund jedes Platzes, zu welcher Tasche er gehört.",
+            "Namensplaketten zeigen Elite-Gegner wieder richtig an; Debuff-Symbole darauf kann man durchklicken.",
+            "Zauberbuch und Talentfenster öffnen auf derselben Höhe wie andere Fenster; der Kampfmodus des Zauberbuchs ist kleiner.",
+            "Die PvP-Anzeigetafel wurde überarbeitet; wer am Ehre-Limit einen Spieler tötet, sieht keinen Ehre-Gewinn mehr.",
+            "Im Tastenbelegungsmenü wird beim Überfahren einer Belegung der passende Aktionsleisten-Knopf hervorgehoben."
+          ]
+        }
+      ],
+      "quellen": [
+        {
+          "name": "Wowhead – WoW: Forever Development Notes Updated – UI and Accessibility",
+          "url": "https://www.wowhead.com/forever/news/wow-forever-development-notes-updated-ui-and-accessibility-updates-383741"
+        }
+      ],
+      "i18n": {
+        "en": {
+          "kat": "System",
+          "titel": "Development notes updated: small UI and usability improvements",
+          "text": "According to Wowhead, Blizzard has expanded the WoW Forever development notes with UI and accessibility changes. These include a swing timer that stays visible at range, hints showing the source bag when bags are combined, and click-through debuff icons on nameplates.",
+          "tipp": "If you use combined bags, watch the slot backgrounds – they show at a glance which bag an item is in.",
+          "inhalt": [
+            {
+              "typ": "liste",
+              "titel": "The changes",
+              "punkte": [
+                "The swing timer stays visible regardless of distance until the swing finishes.",
+                "With combined bags, each slot's background shows which bag it belongs to.",
+                "Nameplates show elite enemies correctly again; debuff icons on them can be clicked through.",
+                "The spellbook and talent frames open at the same height as other panels; the spellbook's combat mode is smaller.",
+                "The PvP scoreboard was updated; killing a player at the honor cap no longer shows honor gained.",
+                "In the keybinds menu, hovering over a binding highlights the matching action bar button."
+              ]
+            }
+          ]
+        },
+        "fr": {
+          "kat": "Système",
+          "titel": "Notes de développement complétées : petites améliorations de l'interface et de l'ergonomie",
+          "text": "Selon Wowhead, Blizzard a complété les notes de développement de WoW Forever avec des changements d'interface et d'accessibilité. On y trouve un minuteur de frappe qui reste visible à distance, l'indication du sac d'origine avec les sacs combinés et des icônes d'affaiblissement cliquables à travers sur les barres de nom.",
+          "tipp": "Si tu utilises les sacs combinés, regarde le fond des emplacements – tu vois tout de suite dans quel sac se trouve un objet.",
+          "inhalt": [
+            {
+              "typ": "liste",
+              "titel": "Les changements",
+              "punkte": [
+                "Le minuteur de frappe reste visible quelle que soit la distance jusqu'à la fin du coup.",
+                "Avec les sacs combinés, le fond de chaque emplacement indique à quel sac il appartient.",
+                "Les barres de nom affichent de nouveau correctement les ennemis élites ; on peut cliquer à travers leurs icônes d'affaiblissement.",
+                "Le grimoire et la fenêtre des talents s'ouvrent à la même hauteur que les autres fenêtres ; le mode combat du grimoire est plus petit.",
+                "Le tableau des scores JcJ a été revu ; tuer un joueur au plafond d'honneur n'affiche plus de gain d'honneur.",
+                "Dans le menu des raccourcis, survoler un raccourci met en évidence le bouton correspondant de la barre d'action."
+              ]
+            }
+          ]
+        },
+        "es": {
+          "kat": "Sistema",
+          "titel": "Notas de desarrollo ampliadas: pequeñas mejoras de interfaz y manejo",
+          "text": "Según Wowhead, Blizzard ha ampliado las notas de desarrollo de WoW Forever con cambios de interfaz y accesibilidad. Entre ellos hay un temporizador de golpe que sigue visible a distancia, indicaciones de la bolsa de origen con las bolsas combinadas e iconos de perjuicios en las placas de nombre que se pueden atravesar con clics.",
+          "tipp": "Si usas bolsas combinadas, fíjate en el fondo de las casillas: así ves enseguida en qué bolsa está cada cosa.",
+          "inhalt": [
+            {
+              "typ": "liste",
+              "titel": "Los cambios",
+              "punkte": [
+                "El temporizador de golpe sigue visible sin importar la distancia hasta que termina el golpe.",
+                "Con bolsas combinadas, el fondo de cada casilla muestra a qué bolsa pertenece.",
+                "Las placas de nombre vuelven a mostrar bien a los enemigos élite; sus iconos de perjuicios se pueden atravesar con clics.",
+                "El libro de hechizos y la ventana de talentos se abren a la misma altura que otras ventanas; el modo de combate del libro de hechizos es más pequeño.",
+                "Se actualizó el marcador JcJ; matar a un jugador con el tope de honor ya no muestra honor ganado.",
+                "En el menú de atajos, al pasar el ratón sobre un atajo se resalta el botón correspondiente de la barra de acción."
+              ]
+            }
+          ]
+        },
+        "ru": {
+          "kat": "Система",
+          "titel": "Заметки разработчиков дополнены: небольшие улучшения интерфейса и управления",
+          "text": "По данным Wowhead, Blizzard дополнила заметки разработчиков WoW Forever изменениями интерфейса и доступности. Среди них – таймер замаха, который виден и на расстоянии, подсказки о сумке-источнике при объединённых сумках и иконки дебаффов на индикаторах здоровья, сквозь которые можно кликать.",
+          "tipp": "Если пользуешься объединёнными сумками, смотри на фон ячеек – так сразу видно, в какой сумке лежит предмет.",
+          "inhalt": [
+            {
+              "typ": "liste",
+              "titel": "Изменения",
+              "punkte": [
+                "Таймер замаха остаётся видимым независимо от расстояния, пока удар не завершится.",
+                "При объединённых сумках фон каждой ячейки показывает, к какой сумке она относится.",
+                "Индикаторы здоровья снова правильно показывают элитных противников; сквозь иконки дебаффов на них можно кликать.",
+                "Книга заклинаний и окно талантов открываются на той же высоте, что и другие окна; боевой режим книги заклинаний стал меньше.",
+                "Обновлена таблица результатов PvP; при убийстве игрока на лимите чести полученная честь больше не показывается.",
+                "В меню назначения клавиш при наведении на привязку подсвечивается соответствующая кнопка на панели команд."
+              ]
+            }
+          ]
+        }
+      }
+    },
     {
       "id": "2026-11-06-hotfixes-5-november",
       "datum": "2026-11-06",
       "kat": "Patch",
-      "top": true,
       "titel": "Erste Hotfixes nach dem Start: Respawns, Zephras und Läufer der Ebenen",
       "text": "Blizzard hat am 5. November die ersten Hotfixes seit dem Start von WoW Forever eingespielt. Sie beheben vor allem Respawn-Probleme bei Questzielen, bringen einen Druidenlehrer und Berufstaschen auf die Zephras-Insel und verhindern, dass Tauren auf Schlachtfeldern schon vor dem Start Stapel von Läufer der Ebenen sammeln. Laut Blizzard wird die Liste mit weiteren Hotfixes ergänzt.",
       "tipp": "Wollte gestern ein Questziel in Durotar oder den Sümpfen des Elends nicht auftauchen, probier es jetzt einfach noch mal.",
