@@ -3,10 +3,24 @@
   "uploads": [
     {
       "projekt": "infoleiste",
-      "datei": "downloads/siikk-Infoleiste_v1.8.zip",
-      "anzeige": "siikk-Info Bar v1.8",
+      "datei": "downloads/siikk-Infoleiste_v1.9.zip",
+      "anzeige": "siikk-Info Bar v1.9",
       "typ": "release",
-      "changelog": "siikk-Info Bar 1.8\n\n- WoW Forever: XP bonuses (sleeping bag, food, tent) are now detected – Forever reports itself like Retail, so the bar skipped them before.\n- The experience tooltip shows active XP bonuses with remaining time and the total bonus."
+      "changelog": "siikk-Info Bar 1.9\n\n- New: adjustable font size – /schrift (or /fontsize) opens a window with one slider for all siikk addons and one per addon (70–160 %)."
+    },
+    {
+      "projekt": "schadenszahlen",
+      "datei": "downloads/siikk-Schadenszahlen_v1.6.zip",
+      "anzeige": "siikk-Damage Numbers v1.6",
+      "typ": "release",
+      "changelog": "siikk-Damage Numbers 1.6\n\n- New: adjustable font size – /schrift (or /fontsize) opens a window with one slider for all siikk addons and one per addon (70–160 %). Applies to the settings windows – the size of the damage numbers is still set under /sz."
+    },
+    {
+      "projekt": "layer",
+      "datei": "downloads/siikk-Layer_v1.2.zip",
+      "anzeige": "siikk-Layer v1.2",
+      "typ": "release",
+      "changelog": "siikk-Layer 1.2\n\n- New: adjustable font size – /schrift (or /fontsize) opens a window with one slider for all siikk addons and one per addon (70–160 %)."
     }
   ]
 }
