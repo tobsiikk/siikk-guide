@@ -3,24 +3,10 @@
   "uploads": [
     {
       "projekt": "infoleiste",
-      "datei": "downloads/siikk-Infoleiste_v1.7.zip",
-      "anzeige": "siikk-Info Bar v1.7",
+      "datei": "downloads/siikk-Infoleiste_v1.8.zip",
+      "anzeige": "siikk-Info Bar v1.8",
       "typ": "release",
-      "changelog": "siikk-Info Bar 1.7\n\n- New: bar size adjustable (60–160 %) – slider under /il or directly with /il groesse 120.\n- Gold in the bar now always shows gold, silver and copper – even if a value is 0."
-    },
-    {
-      "projekt": "schadenszahlen",
-      "datei": "downloads/siikk-Schadenszahlen_v1.5.zip",
-      "anzeige": "siikk-Damage Numbers v1.5",
-      "typ": "release",
-      "changelog": "siikk-Damage Numbers 1.5 – WoW Forever\n\n- Forever locks both the combat log and the font of Blizzard's damage numbers for addons. The addon now changes nothing in Forever (no more \"has been blocked\" message) and explains this under /sz. Full features in Anniversary and Classic.\n- Should Blizzard still block something, siikk names the exact function in chat."
-    },
-    {
-      "projekt": "layer",
-      "datei": "downloads/siikk-Layer_v1.1.zip",
-      "anzeige": "siikk-Layer v1.1",
-      "typ": "release",
-      "changelog": "siikk-Layer 1.1\n\n- Fixed: in WoW Forever the message \"siikkLayer has been blocked\" appeared. Forever locks the combat log for addons – there the layer is now detected via target, mouseover and nameplates only."
+      "changelog": "siikk-Info Bar 1.8\n\n- WoW Forever: XP bonuses (sleeping bag, food, tent) are now detected – Forever reports itself like Retail, so the bar skipped them before.\n- The experience tooltip shows active XP bonuses with remaining time and the total bonus."
     }
   ]
 }
