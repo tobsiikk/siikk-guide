@@ -1,12 +1,382 @@
 {
-  "stand": "2026-11-07",
+  "stand": "2026-11-08",
   "hinweis": "Wird täglich gegen 8 Uhr morgens automatisch aktualisiert.",
   "eintraege": [
+    {
+      "id": "2026-11-08-klassen-tuning-10-november",
+      "datum": "2026-11-08",
+      "kat": "Klassen",
+      "top": true,
+      "titel": "Blizzard kündigt erste Klassenanpassungen für den 10. November an",
+      "text": "Community-Manager Kaivax hat für Dienstag, den 10. November, die ersten Klassen-Hotfixes nach dem Start angekündigt. Begleiter von Jägern und der Leerwandler sollen als Tank mehr aushalten, Gebrechen-Hexenmeister sollen ihre DoTs neben Peinigung* wieder nutzen und für Verstärkungs-Schamanen soll Stärke der wichtigste Wert werden. Genaue Zahlen nennt Blizzard noch nicht.",
+      "tipp": "Spielst du Verstärkung, heb beim Leveln schon jetzt Ausrüstung mit Stärke und Angriffskraft auf – genau das empfiehlt Blizzard.",
+      "video": null,
+      "inhalt": [
+        {
+          "typ": "liste",
+          "titel": "Was Blizzard plant",
+          "punkte": [
+            "Jäger-Begleiter und Leerwandler: Sie halten als Tank zu wenig aus. Ihre Werte sollen so angepasst werden, dass sie etwa so stark sind wie in Classic Era.",
+            "Gebrechen-Hexenmeister: Nur Peinigung* zu kanalisieren lohnt sich derzeit mehr als zusätzlich Verderbnis, Lebensentzug und Omen der Pein. Das soll sich ändern, ohne den Gesamtschaden zu verändern.",
+            "Verstärkungs-Schamanen: Stärke soll wichtiger werden als Intelligenz und Zaubermacht, damit sie keine Stoffrüstung für Magier und Hexenmeister mehr bevorzugen.",
+            "Weitere Anpassungen sind laut Blizzard an kommenden Dienstagen möglich, falls nötig."
+          ]
+        }
+      ],
+      "quellen": [
+        {
+          "name": "Blizzard – Class Tuning Incoming – 10. November (Bluepost von Kaivax)",
+          "url": "https://www.bluetracker.gg/wow/topic/eu-en/640100-class-tuning-incoming-10-november/"
+        },
+        {
+          "name": "Warcraft Tavern – Class Tuning Coming for Shamans, Warlocks & Hunter Pets in WoW Forever",
+          "url": "https://www.warcrafttavern.com/forever/news/class-tuning-coming-for-shamans-warlocks-hunter-pets-in-wow-forever/"
+        },
+        {
+          "name": "Icy Veins – First Class Tuning Pass Coming to WoW Forever – November 10th",
+          "url": "https://www.icy-veins.com/wow-forever/news/first-class-tuning-pass-coming-to-wow-forever-november-10th/"
+        }
+      ],
+      "i18n": {
+        "en": {
+          "kat": "Classes",
+          "titel": "Blizzard announces first class tuning for November 10",
+          "text": "Community Manager Kaivax has announced the first class hotfixes since launch for Tuesday, November 10. Hunter pets and the Voidwalker should hold up better as tanks, Affliction Warlocks should want to use their DoTs alongside Wrack again, and Strength should become the best stat for Enhancement Shamans. Blizzard hasn't shared exact numbers yet.",
+          "tipp": "If you play Enhancement, start keeping Strength and Attack Power gear while leveling – that's exactly what Blizzard recommends.",
+          "inhalt": [
+            {
+              "typ": "liste",
+              "titel": "What Blizzard has planned",
+              "punkte": [
+                "Hunter pets and Voidwalkers: they're too fragile as tanks. Their stats will be adjusted so they are roughly as effective as in Classic Era.",
+                "Affliction Warlocks: channeling Wrack alone is currently better than also casting Corruption, Siphon Life and Bane of Agony. This will change without altering total damage.",
+                "Enhancement Shamans: Strength should become more valuable than Intellect and Spell Power, so they no longer prefer cloth gear meant for Mages and Warlocks.",
+                "According to Blizzard, further changes are possible on upcoming Tuesdays if needed."
+              ]
+            }
+          ]
+        },
+        "fr": {
+          "kat": "Classes",
+          "titel": "Blizzard annonce les premiers ajustements de classes pour le 10 novembre",
+          "text": "Le community manager Kaivax a annoncé les premiers correctifs de classes depuis le lancement pour le mardi 10 novembre. Les familiers de chasseur et le marcheur du Vide doivent mieux tenir en tant que tanks, les démonistes Affliction doivent de nouveau avoir intérêt à utiliser leurs DoT en plus de Supplice, et la Force doit devenir la meilleure caractéristique des chamans Amélioration. Blizzard n'a pas encore donné de chiffres précis.",
+          "tipp": "Si tu joues Amélioration, garde dès maintenant l'équipement Force et puissance d'attaque pendant le leveling – c'est exactement ce que conseille Blizzard.",
+          "inhalt": [
+            {
+              "typ": "liste",
+              "titel": "Ce que Blizzard prévoit",
+              "punkte": [
+                "Familiers de chasseur et marcheurs du Vide : ils sont trop fragiles en tant que tanks. Leurs caractéristiques seront ajustées pour être à peu près aussi efficaces qu'en Classic Era.",
+                "Démonistes Affliction : canaliser uniquement Supplice rapporte actuellement plus que d'ajouter Corruption, Siphon de vie et Fléau d'agonie. Cela va changer sans modifier les dégâts totaux.",
+                "Chamans Amélioration : la Force doit devenir plus importante que l'Intelligence et la puissance des sorts, pour qu'ils ne préfèrent plus l'équipement en tissu des mages et démonistes.",
+                "Selon Blizzard, d'autres ajustements sont possibles les mardis suivants si nécessaire."
+              ]
+            }
+          ]
+        },
+        "es": {
+          "kat": "Clases",
+          "titel": "Blizzard anuncia los primeros ajustes de clases para el 10 de noviembre",
+          "text": "El community manager Kaivax ha anunciado los primeros hotfixes de clases desde el lanzamiento para el martes 10 de noviembre. Las mascotas de cazador y el abisario deberían aguantar más como tanques, los brujos de Aflicción deberían volver a usar sus DoTs junto a Tormento y la Fuerza debería convertirse en el mejor atributo para los chamanes de Mejora. Blizzard aún no ha dado cifras concretas.",
+          "tipp": "Si juegas Mejora, guarda ya mientras subes de nivel equipo con Fuerza y poder de ataque: es justo lo que recomienda Blizzard.",
+          "inhalt": [
+            {
+              "typ": "liste",
+              "titel": "Lo que planea Blizzard",
+              "punkte": [
+                "Mascotas de cazador y abisarios: aguantan demasiado poco como tanques. Sus atributos se ajustarán para que sean más o menos tan eficaces como en Classic Era.",
+                "Brujos de Aflicción: ahora mismo compensa más canalizar solo Tormento que lanzar además Corrupción, Succionar vida y Perdición de agonía. Esto cambiará sin alterar el daño total.",
+                "Chamanes de Mejora: la Fuerza debería valer más que el Intelecto y el poder con hechizos, para que dejen de preferir el equipo de tela de magos y brujos.",
+                "Según Blizzard, habrá más ajustes en próximos martes si hace falta."
+              ]
+            }
+          ]
+        },
+        "ru": {
+          "kat": "Классы",
+          "titel": "Blizzard анонсировала первые изменения классов на 10 ноября",
+          "text": "Комьюнити-менеджер Kaivax анонсировал первые хотфиксы классов после запуска на вторник, 10 ноября. Питомцы охотников и демон Бездны должны лучше держать удар в роли танка, колдунам «Колдовства» снова должно быть выгодно использовать доты вместе с «Истязанием», а для шаманов «Совершенствования» главной характеристикой должна стать сила. Точных цифр Blizzard пока не называет.",
+          "tipp": "Если играешь за «Совершенствование», уже сейчас собирай при прокачке экипировку с силой и силой атаки — именно это советует Blizzard.",
+          "inhalt": [
+            {
+              "typ": "liste",
+              "titel": "Что планирует Blizzard",
+              "punkte": [
+                "Питомцы охотников и демоны Бездны: в роли танка они слишком хрупкие. Их характеристики изменят, чтобы они были примерно так же эффективны, как в Classic Era.",
+                "Колдуны «Колдовства»: сейчас выгоднее просто поддерживать «Истязание», чем дополнительно накладывать «Порчу», «Вытягивание жизни» и «Порчу агонии». Это изменят, не меняя общий урон.",
+                "Шаманы «Совершенствования»: сила должна стать ценнее интеллекта и силы заклинаний, чтобы они больше не предпочитали тканевую экипировку магов и колдунов.",
+                "По словам Blizzard, при необходимости новые правки возможны и в следующие вторники."
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "2026-11-08-weltersten-stufe-60",
+      "datum": "2026-11-08",
+      "kat": "Start",
+      "titel": "Weltersten auf Stufe 60 nach knapp 52 Stunden",
+      "text": "Laut Wowhead haben fünf Spieler um den Streamer Jokerd als Erste Stufe 60 in WoW Forever erreicht – gemeinsam und nach knapp 52 Stunden Spielzeit seit dem Start. Die Gruppe bestand aus einem Paladin, einem Schamanen und drei Magiern: Der Paladin sammelte Gegnergruppen, die Magier räumten sie mit Arkane Explosion ab.",
+      "tipp": "Kein Grund zur Eile: Forever bleibt – genieße das Leveln in deinem eigenen Tempo.",
+      "video": null,
+      "inhalt": [],
+      "quellen": [
+        {
+          "name": "Wowhead – World First Level 60s in WoW: Forever in Less Than Three Days",
+          "url": "https://www.wowhead.com/forever/news/world-first-level-60s-in-wow-forever-in-less-than-three-days-383797"
+        },
+        {
+          "name": "Warcraft Tavern – World First Level 60s in WoW Forever: Paladin, Shaman & 3 Mages",
+          "url": "https://www.warcrafttavern.com/forever/news/world-first-level-60s-in-wow-forever-paladin-shaman-3-mages/"
+        }
+      ],
+      "i18n": {
+        "en": {
+          "kat": "Launch",
+          "titel": "World first level 60s after just under 52 hours",
+          "text": "According to Wowhead, five players led by streamer Jokerd were the first to reach level 60 in WoW Forever – together, after just under 52 hours of play since launch. The group was a Paladin, a Shaman and three Mages: the Paladin pulled packs of mobs and the Mages cleared them with Arcane Explosion.",
+          "tipp": "No need to rush: Forever is here to stay – enjoy leveling at your own pace.",
+          "inhalt": []
+        },
+        "fr": {
+          "kat": "Lancement",
+          "titel": "Premiers niveaux 60 mondiaux après un peu moins de 52 heures",
+          "text": "Selon Wowhead, cinq joueurs menés par le streamer Jokerd ont été les premiers à atteindre le niveau 60 dans WoW Forever – ensemble, après un peu moins de 52 heures de jeu depuis le lancement. Le groupe comptait un paladin, un chaman et trois mages : le paladin rassemblait les groupes de monstres et les mages les éliminaient avec Explosion des Arcanes.",
+          "tipp": "Rien ne presse : Forever est là pour durer – profite du leveling à ton rythme.",
+          "inhalt": []
+        },
+        "es": {
+          "kat": "Lanzamiento",
+          "titel": "Primeros nivel 60 del mundo tras casi 52 horas",
+          "text": "Según Wowhead, cinco jugadores liderados por el streamer Jokerd fueron los primeros en llegar al nivel 60 en WoW Forever, juntos y tras casi 52 horas de juego desde el lanzamiento. El grupo era un paladín, un chamán y tres magos: el paladín juntaba grupos de enemigos y los magos los eliminaban con Deflagración Arcana.",
+          "tipp": "No hay prisa: Forever ha venido para quedarse, disfruta subiendo de nivel a tu ritmo.",
+          "inhalt": []
+        },
+        "ru": {
+          "kat": "Запуск",
+          "titel": "Первые в мире 60-е уровни — почти за 52 часа",
+          "text": "По данным Wowhead, пятеро игроков во главе со стримером Jokerd первыми достигли 60 уровня в WoW Forever — вместе, почти за 52 часа игры с момента запуска. В группе были паладин, шаман и три мага: паладин собирал группы мобов, а маги уничтожали их «Чародейским взрывом».",
+          "tipp": "Спешить некуда: Forever — это надолго, качайся в своём темпе.",
+          "inhalt": []
+        }
+      }
+    },
+    {
+      "id": "2026-11-08-kein-gold-quests-stufe-60",
+      "datum": "2026-11-08",
+      "kat": "System",
+      "titel": "Quests auf Stufe 60 geben kein Gold mehr – laut Entwickler Absicht",
+      "text": "In Classic Era bekommt man für Quests auf Höchststufe Gold statt Erfahrung – in WoW Forever gibt es laut Wowhead auf Stufe 60 kein Extra-Gold mehr. Jokerd berichtet, ein Entwickler habe ihm gesagt, das sei beabsichtigt und eine wöchentliche Quest könne stattdessen zufällig viel Gold geben. Offiziell bestätigt hat Blizzard das noch nicht.",
+      "tipp": "Gib Quests, die du bald abschließen kannst, lieber noch vor Stufe 60 ab – dann bekommst du wenigstens die Erfahrung.",
+      "video": null,
+      "inhalt": [],
+      "quellen": [
+        {
+          "name": "Wowhead – Quests Can Give No Gold at Level 60 in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/news/quests-give-no-gold-at-level-60-in-wow-forever-intentional-change-according-to-383803"
+        }
+      ],
+      "i18n": {
+        "en": {
+          "kat": "System",
+          "titel": "Quests at level 60 no longer give gold – intentional, according to a developer",
+          "text": "In Classic Era, quests at max level reward gold instead of experience – according to Wowhead, there's no bonus gold at level 60 in WoW Forever. Jokerd says a developer told him this is intentional and that a weekly quest might give a random amount of gold instead. Blizzard has not officially confirmed this yet.",
+          "tipp": "Turn in quests you can finish soon before you hit level 60 – at least you'll get the experience.",
+          "inhalt": []
+        },
+        "fr": {
+          "kat": "Système",
+          "titel": "Les quêtes au niveau 60 ne donnent plus d'or – volontaire selon un développeur",
+          "text": "Dans Classic Era, les quêtes au niveau maximum rapportent de l'or au lieu de l'expérience – selon Wowhead, il n'y a plus d'or bonus au niveau 60 dans WoW Forever. Jokerd affirme qu'un développeur lui a dit que c'était voulu et qu'une quête hebdomadaire pourrait à la place donner une somme d'or aléatoire. Blizzard ne l'a pas encore confirmé officiellement.",
+          "tipp": "Rends les quêtes que tu peux bientôt terminer avant d'atteindre le niveau 60 – tu auras au moins l'expérience.",
+          "inhalt": []
+        },
+        "es": {
+          "kat": "Sistema",
+          "titel": "Las misiones a nivel 60 ya no dan oro: es intencionado, según un desarrollador",
+          "text": "En Classic Era, las misiones al nivel máximo dan oro en lugar de experiencia; según Wowhead, en WoW Forever ya no hay oro extra a nivel 60. Jokerd cuenta que un desarrollador le dijo que es intencionado y que una misión semanal podría dar en su lugar una cantidad aleatoria de oro. Blizzard aún no lo ha confirmado oficialmente.",
+          "tipp": "Entrega las misiones que puedas terminar pronto antes de llegar al nivel 60: al menos te llevarás la experiencia.",
+          "inhalt": []
+        },
+        "ru": {
+          "kat": "Система",
+          "titel": "Задания на 60 уровне больше не дают золото — по словам разработчика, так задумано",
+          "text": "В Classic Era задания на максимальном уровне дают золото вместо опыта, но в WoW Forever, по данным Wowhead, на 60 уровне бонусного золота нет. Jokerd рассказывает, что разработчик назвал это намеренным изменением и сказал, что взамен еженедельное задание может давать случайное количество золота. Официально Blizzard это пока не подтвердила.",
+          "tipp": "Сдавай задания, которые скоро сможешь выполнить, ещё до 60 уровня — так ты хотя бы получишь опыт.",
+          "inhalt": []
+        }
+      }
+    },
+    {
+      "id": "2026-11-08-auktionshaus-mindestgebuehr",
+      "datum": "2026-11-08",
+      "kat": "System",
+      "titel": "Auktionshaus: Mindestgebühr von 1 Silber soll auf 1 Kupfer sinken",
+      "text": "Im Auktionshaus von WoW Forever kostet derzeit jedes Angebot mindestens 1 Silber Gebühr – auch für billige Waren, bei denen eigentlich nur wenige Kupfer fällig wären. Laut Wowhead hat Blizzard-Designer Kris Zierhut in einem Interview angekündigt, dass die Mindestgebühr wieder auf 1 Kupfer sinkt. Einen Termin gibt es noch nicht.",
+      "tipp": "Bis zur Änderung lohnt sich billiger Kram eher beim Händler – die 1 Silber sind weg, wenn nichts verkauft wird.",
+      "video": null,
+      "inhalt": [
+        {
+          "typ": "tabelle",
+          "titel": "Normale Gebühr (nach der Änderung)",
+          "kopf": [
+            "Laufzeit",
+            "Gebühr"
+          ],
+          "zeilen": [
+            [
+              "2 Stunden",
+              "5 % des Händlerpreises"
+            ],
+            [
+              "8 Stunden",
+              "20 % des Händlerpreises"
+            ],
+            [
+              "24 Stunden",
+              "60 % des Händlerpreises"
+            ]
+          ]
+        }
+      ],
+      "quellen": [
+        {
+          "name": "Wowhead – Minimum Deposit on AH Being Reduced to 1 Copper Soon in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/news/minimum-deposit-on-ah-being-reduced-to-1-copper-soon-in-wow-forever-383786"
+        },
+        {
+          "name": "Wowhead – Minimum Deposit of 1 Silver Required to List Items on Auction House",
+          "url": "https://www.wowhead.com/forever/news/minimum-deposit-of-1-silver-required-to-list-items-at-auction-house-in-wow-383774"
+        }
+      ],
+      "i18n": {
+        "en": {
+          "kat": "System",
+          "titel": "Auction House: 1 silver minimum deposit to drop to 1 copper",
+          "text": "In WoW Forever's Auction House, every listing currently costs at least 1 silver in deposit – even for cheap items that should only cost a few copper. According to Wowhead, Blizzard designer Kris Zierhut said in an interview that the minimum deposit will go back down to 1 copper. There's no date yet.",
+          "tipp": "Until the change, cheap junk is better sold to a vendor – the 1 silver is lost if nothing sells.",
+          "inhalt": [
+            {
+              "typ": "tabelle",
+              "titel": "Normal deposit (after the change)",
+              "kopf": [
+                "Duration",
+                "Deposit"
+              ],
+              "zeilen": [
+                [
+                  "2 hours",
+                  "5% of vendor price"
+                ],
+                [
+                  "8 hours",
+                  "20% of vendor price"
+                ],
+                [
+                  "24 hours",
+                  "60% of vendor price"
+                ]
+              ]
+            }
+          ]
+        },
+        "fr": {
+          "kat": "Système",
+          "titel": "Hôtel des ventes : le dépôt minimum de 1 argent va passer à 1 cuivre",
+          "text": "À l'hôtel des ventes de WoW Forever, chaque mise en vente coûte actuellement au moins 1 pièce d'argent de dépôt – même pour des objets bon marché qui ne devraient coûter que quelques pièces de cuivre. Selon Wowhead, le designer de Blizzard Kris Zierhut a annoncé dans une interview que le dépôt minimum reviendra à 1 cuivre. Aucune date n'a encore été donnée.",
+          "tipp": "En attendant, vends plutôt les objets bon marché au marchand – la pièce d'argent est perdue si rien ne se vend.",
+          "inhalt": [
+            {
+              "typ": "tabelle",
+              "titel": "Dépôt normal (après le changement)",
+              "kopf": [
+                "Durée",
+                "Dépôt"
+              ],
+              "zeilen": [
+                [
+                  "2 heures",
+                  "5 % du prix marchand"
+                ],
+                [
+                  "8 heures",
+                  "20 % du prix marchand"
+                ],
+                [
+                  "24 heures",
+                  "60 % du prix marchand"
+                ]
+              ]
+            }
+          ]
+        },
+        "es": {
+          "kat": "Sistema",
+          "titel": "Casa de subastas: el depósito mínimo de 1 de plata bajará a 1 de cobre",
+          "text": "En la casa de subastas de WoW Forever, cada anuncio cuesta ahora al menos 1 de plata de depósito, incluso para objetos baratos que solo deberían costar unos pocos cobres. Según Wowhead, el diseñador de Blizzard Kris Zierhut anunció en una entrevista que el depósito mínimo volverá a ser de 1 de cobre. Aún no hay fecha.",
+          "tipp": "Hasta el cambio, mejor vende las cosas baratas al vendedor: la plata se pierde si no se vende nada.",
+          "inhalt": [
+            {
+              "typ": "tabelle",
+              "titel": "Depósito normal (tras el cambio)",
+              "kopf": [
+                "Duración",
+                "Depósito"
+              ],
+              "zeilen": [
+                [
+                  "2 horas",
+                  "5 % del precio de venta"
+                ],
+                [
+                  "8 horas",
+                  "20 % del precio de venta"
+                ],
+                [
+                  "24 horas",
+                  "60 % del precio de venta"
+                ]
+              ]
+            }
+          ]
+        },
+        "ru": {
+          "kat": "Система",
+          "titel": "Аукцион: минимальный залог в 1 серебро снизят до 1 меди",
+          "text": "Сейчас на аукционе WoW Forever за каждый лот берётся залог не меньше 1 серебряной монеты — даже за дешёвые вещи, за которые должно быть всего несколько медяков. По данным Wowhead, дизайнер Blizzard Kris Zierhut сообщил в интервью, что минимальный залог снова снизят до 1 меди. Даты пока нет.",
+          "tipp": "До изменения дешёвые вещи лучше продавать торговцу — серебро пропадёт, если лот не купят.",
+          "inhalt": [
+            {
+              "typ": "tabelle",
+              "titel": "Обычный залог (после изменения)",
+              "kopf": [
+                "Длительность",
+                "Залог"
+              ],
+              "zeilen": [
+                [
+                  "2 часа",
+                  "5% цены у торговца"
+                ],
+                [
+                  "8 часов",
+                  "20% цены у торговца"
+                ],
+                [
+                  "24 часа",
+                  "60% цены у торговца"
+                ]
+              ]
+            }
+          ]
+        }
+      }
+    },
     {
       "id": "2026-11-07-hotfixes-6-november",
       "datum": "2026-11-07",
       "kat": "Patch",
-      "top": true,
       "titel": "Hotfixes vom 6. November: Klassenfehler, Dungeons und Quests repariert",
       "text": "Blizzard hat am 6. November eine zweite, deutlich größere Runde Hotfixes für WoW Forever eingespielt. Behoben wurden unter anderem Fehler bei Druiden, Magiern, Schurken und Hexenmeistern, hängende Gegner in Blackmaw Hold und The Drowned City sowie zahlreiche Quest-Probleme. Der Leerwandler bekommt etwas mehr Leben, und Lederverarbeiter brauchen für das Gerbgestell nur noch Fertigkeit 125.",
       "tipp": "Hattest du Probleme mit Questgegenständen in den Flussauen oder bei „Vorsha the Lasher“, versuch es jetzt noch einmal.",
