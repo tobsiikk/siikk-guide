@@ -1,12 +1,117 @@
 {
-  "stand": "2026-11-08",
+  "stand": "2026-11-09",
   "hinweis": "Wird täglich gegen 8 Uhr morgens automatisch aktualisiert.",
   "eintraege": [
+    {
+      "id": "2026-11-09-dungeon-xp-50-prozent",
+      "datum": "2026-11-09",
+      "kat": "System",
+      "top": true,
+      "titel": "Hotfix: Dungeon-Gegner geben 50 % mehr Erfahrung",
+      "text": "Blizzard hat am Sonntagabend, 8. November, per Hotfix die Erfahrung für getötete Gegner in Dungeons um 50 % erhöht. Laut Community-Manager Kaivax sollen sich Dungeon-Runs dadurch lohnender anfühlen. In der Beta war die Gegner-XP in Dungeons stark gesenkt worden.",
+      "tipp": "Wer gern in Gruppe levelt, kann jetzt ruhig mehr Dungeons mitnehmen – die Quests vorher trotzdem einsammeln.",
+      "video": null,
+      "inhalt": [
+        {
+          "typ": "liste",
+          "titel": "Das Wichtigste",
+          "punkte": [
+            "Hotfix vom 8. November, live seit etwa 20:05 Uhr deutscher Zeit.",
+            "Gegner in Dungeons geben 50 % mehr Erfahrung beim Töten.",
+            "Laut Blizzard-Post betrifft die Änderung nur die Gegner – zur Erfahrung aus Dungeon-Quests sagt er nichts.",
+            "Ziel laut Blizzard: Dungeon-Runs sollen sich lohnender anfühlen."
+          ]
+        }
+      ],
+      "quellen": [
+        {
+          "name": "Blizzard – Dungeon Enemy XP Increased – 8. November (Bluepost von Kaivax)",
+          "url": "https://www.bluetracker.gg/wow/topic/eu-en/640598-dungeon-enemy-xp-increased-8-november/"
+        },
+        {
+          "name": "Blizzard – Dungeon Enemy XP Increased – November 8 (US-Bluepost)",
+          "url": "https://www.bluetracker.gg/wow/topic/us-en/2406595-dungeon-enemy-xp-increased-november-8/"
+        }
+      ],
+      "i18n": {
+        "en": {
+          "kat": "System",
+          "titel": "Hotfix: dungeon enemies give 50% more experience",
+          "text": "On Sunday evening, November 8, Blizzard hotfixed kill experience in dungeons up by 50%. According to Community Manager Kaivax, this should make dungeon runs feel more rewarding. During the beta, enemy XP in dungeons had been cut heavily.",
+          "tipp": "If you like levelling in groups, feel free to run more dungeons now – but still pick up the quests first.",
+          "inhalt": [
+            {
+              "typ": "liste",
+              "titel": "Key points",
+              "punkte": [
+                "Hotfix from November 8, live since about 20:05 CET.",
+                "Enemies in dungeons give 50% more experience when killed.",
+                "According to the Blizzard post, the change is about enemies only – nothing is said about dungeon quest XP.",
+                "Blizzard's goal: dungeon runs should feel more rewarding."
+              ]
+            }
+          ]
+        },
+        "fr": {
+          "kat": "Système",
+          "titel": "Correctif : les ennemis de donjon donnent 50 % d'expérience en plus",
+          "text": "Dimanche soir, 8 novembre, Blizzard a augmenté par correctif de 50 % l'expérience gagnée en tuant des ennemis en donjon. Selon le community manager Kaivax, les donjons doivent ainsi paraître plus gratifiants. Pendant la bêta, l'XP des ennemis en donjon avait été fortement réduite.",
+          "tipp": "Si vous aimez monter de niveau en groupe, n'hésitez plus à enchaîner les donjons – mais récupérez d'abord les quêtes.",
+          "inhalt": [
+            {
+              "typ": "liste",
+              "titel": "L'essentiel",
+              "punkte": [
+                "Correctif du 8 novembre, en ligne depuis environ 20h05 (heure de Paris).",
+                "Les ennemis en donjon donnent 50 % d'expérience en plus quand on les tue.",
+                "Selon le message de Blizzard, seul l'XP des ennemis est concerné – rien n'est dit sur l'XP des quêtes de donjon.",
+                "Objectif de Blizzard : rendre les donjons plus gratifiants."
+              ]
+            }
+          ]
+        },
+        "es": {
+          "kat": "Sistema",
+          "titel": "Hotfix: los enemigos de mazmorra dan un 50 % más de experiencia",
+          "text": "El domingo por la noche, 8 de noviembre, Blizzard aumentó mediante un hotfix un 50 % la experiencia por matar enemigos en mazmorras. Según el community manager Kaivax, así las mazmorras deberían sentirse más gratificantes. Durante la beta, la experiencia de los enemigos de mazmorra se había reducido mucho.",
+          "tipp": "Si te gusta subir de nivel en grupo, ahora puedes hacer más mazmorras sin problema, pero recoge antes las misiones.",
+          "inhalt": [
+            {
+              "typ": "liste",
+              "titel": "Lo más importante",
+              "punkte": [
+                "Hotfix del 8 de noviembre, activo desde las 20:05 aprox. (hora peninsular).",
+                "Los enemigos de mazmorra dan un 50 % más de experiencia al morir.",
+                "Según el mensaje de Blizzard, el cambio afecta solo a los enemigos; no dice nada sobre la experiencia de las misiones de mazmorra.",
+                "Objetivo de Blizzard: que las mazmorras resulten más gratificantes."
+              ]
+            }
+          ]
+        },
+        "ru": {
+          "kat": "Система",
+          "titel": "Хотфикс: противники в подземельях дают на 50% больше опыта",
+          "text": "В воскресенье вечером, 8 ноября, Blizzard хотфиксом увеличила опыт за убийство противников в подземельях на 50%. По словам комьюнити-менеджера Kaivax, так походы в подземелья должны ощущаться более выгодными. Во время беты опыт за противников в подземельях сильно урезали.",
+          "tipp": "Если любите качаться в группе, теперь смело ходите в подземелья чаще – но задания всё равно берите заранее.",
+          "inhalt": [
+            {
+              "typ": "liste",
+              "titel": "Главное",
+              "punkte": [
+                "Хотфикс от 8 ноября, работает примерно с 20:05 по центральноевропейскому времени.",
+                "Противники в подземельях дают на 50% больше опыта за убийство.",
+                "Судя по сообщению Blizzard, изменение касается только противников – об опыте за задания подземелий ничего не сказано.",
+                "Цель Blizzard: сделать походы в подземелья более выгодными."
+              ]
+            }
+          ]
+        }
+      }
+    },
     {
       "id": "2026-11-08-klassen-tuning-10-november",
       "datum": "2026-11-08",
       "kat": "Klassen",
-      "top": true,
       "titel": "Blizzard kündigt erste Klassenanpassungen für den 10. November an",
       "text": "Community-Manager Kaivax hat für Dienstag, den 10. November, die ersten Klassen-Hotfixes nach dem Start angekündigt. Begleiter von Jägern und der Leerwandler sollen als Tank mehr aushalten, Gebrechen-Hexenmeister sollen ihre DoTs neben Peinigung* wieder nutzen und für Verstärkungs-Schamanen soll Stärke der wichtigste Wert werden. Genaue Zahlen nennt Blizzard noch nicht.",
       "tipp": "Spielst du Verstärkung, heb beim Leveln schon jetzt Ausrüstung mit Stärke und Angriffskraft auf – genau das empfiehlt Blizzard.",
