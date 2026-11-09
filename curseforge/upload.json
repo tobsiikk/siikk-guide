@@ -10,10 +10,10 @@
     },
     {
       "projekt": "infoleiste",
-      "datei": "downloads/siikk-Infoleiste_v2.0.zip",
-      "anzeige": "siikk-Info Bar v2.0",
+      "datei": "downloads/siikk-Infoleiste_v4.0.zip",
+      "anzeige": "siikk-Info Bar v4.0",
       "typ": "release",
-      "changelog": "siikk-Info Bar 2.0\n\n- XP bonuses: the sleeping bag now always lasts 2 hours, remaining time shown in hours (e.g. 1:45:00).\n- Warlocks: Demon Armor / Demon Skin shows in the tooltip with 30 minutes and a warning 1 minute before it expires."
+      "changelog": "siikk-Info Bar 4.0\n\n- New: class display for all 9 classes. Depending on your class, the centre of the bar shows your important class buffs with a timer and your reagents with a count – e.g. Mage with Arcane Intellect, armor, water and runes, Shaman with totem timers and Ankh, Hunter with ammo and pet, Rogue with poisons.\n- The icons are clickable: left-click recasts the buff or uses the item, right-click creates it (e.g. water or mana gem). When something runs out, only its own time blinks red.\n- Your class is asked on first start and can be changed with /il klasse or in the options, per character. Every single display can be switched off there.\n- Includes everything since 2.0: separate XP bonuses (sleeping bag, food, tent, campfire) with timers in the centre, refresh detection, timers keep counting in combat, Warlock soul shard / soulstone / healthstone tabs, thinner XP bar, new left order (level, bags, durability, gold)."
     }
   ]
 }
