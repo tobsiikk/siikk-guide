@@ -2,18 +2,11 @@
   "hinweis": "Neue Versionen hier eintragen – bei jeder Änderung dieser Datei lädt GitHub die aufgeführten Dateien zu CurseForge hoch.",
   "uploads": [
     {
-      "projekt": "layer",
-      "datei": "downloads/siikk-Layer_v1.3.zip",
-      "anzeige": "siikk-Layer v1.3",
-      "typ": "release",
-      "changelog": "siikk-Layer 1.3\n\n- Group fix: anyone from your group who is visible nearby now always counts as on your layer – even if an old report says otherwise.\n- After an invite the layer is measured twice (3 s and 20 s), old group reports are dropped and fresh ones requested.\n- Reports are no longer lost when two come in quick succession; old reports expire after 5 minutes."
-    },
-    {
       "projekt": "infoleiste",
-      "datei": "downloads/siikk-Infoleiste_v4.0.zip",
-      "anzeige": "siikk-Info Bar v4.0",
+      "datei": "downloads/siikk-Infoleiste_v4.1.zip",
+      "anzeige": "siikk-Info Bar v4.1",
       "typ": "release",
-      "changelog": "siikk-Info Bar 4.0\n\n- New: class display for all 9 classes. Depending on your class, the centre of the bar shows your important class buffs with a timer and your reagents with a count – e.g. Mage with Arcane Intellect, armor, water and runes, Shaman with totem timers and Ankh, Hunter with ammo and pet, Rogue with poisons.\n- The icons are clickable: left-click recasts the buff or uses the item, right-click creates it (e.g. water or mana gem). When something runs out, only its own time blinks red.\n- Your class is asked on first start and can be changed with /il klasse or in the options, per character. Every single display can be switched off there.\n- Includes everything since 2.0: separate XP bonuses (sleeping bag, food, tent, campfire) with timers in the centre, refresh detection, timers keep counting in combat, Warlock soul shard / soulstone / healthstone tabs, thinner XP bar, new left order (level, bags, durability, gold)."
+      "changelog": "siikk-Info Bar 4.1\n\n- Warlock: Shadow Trance proc built in, no extra addon needed. When Nightfall procs, a large pulsing Shadow Bolt icon with a 10-second timer appears. It disappears after your next Shadow Bolt.\n- Under /il proc (or in the options under \"Shadow Trance proc ...\") you can move the icon, change its size (32-160 px) and choose one of 5 sounds or turn the sound off."
     }
   ]
 }
