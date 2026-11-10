@@ -1,12 +1,421 @@
 {
-  "stand": "2026-11-09",
+  "stand": "2026-11-10",
   "hinweis": "Wird täglich gegen 8 Uhr morgens automatisch aktualisiert.",
   "eintraege": [
+    {
+      "id": "2026-11-10-hotfixes-9-november",
+      "datum": "2026-11-10",
+      "kat": "Patch",
+      "top": true,
+      "titel": "Hotfixes vom 9. November: viele Klassenfehler behoben, The Drowned City entschärft",
+      "text": "Blizzard hat in der Nacht auf den 10. November eine große Runde Hotfixes eingespielt. Behoben wurden Fehler bei fast allen Klassen, in mehreren Dungeons und bei zahlreichen Quests; The Drowned City machte bisher etwa 30 % zu viel Schaden. Außerdem sollen überfüllte Gebiete weniger voll sein. Die angekündigten Klassenanpassungen (Jäger-Begleiter, Leerwandler, Gebrechen, Verstärkung) sind darin noch nicht enthalten.",
+      "tipp": "Hast du die Hexenmeister-Quest für das Teufelsross schon erledigt, beschwöre es einmal – dann bekommst du die fehlende Lehrlings-Reitfertigkeit.",
+      "video": null,
+      "inhalt": [
+        {
+          "typ": "liste",
+          "titel": "Klassen",
+          "punkte": [
+            "Hexenmeister: Verbrennen gibt es nur noch für Zerstörung. Die Quest „Teufelsross beschwören“ gibt jetzt die richtige Reitfertigkeit.",
+            "Magier: Die Chance von Arkane Konzentration verteilt sich jetzt auf das Wirken und die einzelnen Geschosse. Flammenstoß verbraucht am Boden keinen Freizauber mehr.",
+            "Priester: Furchtzauberschutz beendet die Schattengestalt nicht mehr; Seele der Macht bleibt auf dem Verbündeten.",
+            "Schamane: Blitzüberladung macht bei Blitzschlag wieder den richtigen Schaden.",
+            "Druide, Paladin, Jäger und Krieger: mehrere Fehler bei Wilder Kampf, Weihe, Siegeln, Begleiter-Familien und der Abklingzeit-Anzeige behoben."
+          ]
+        },
+        {
+          "typ": "liste",
+          "titel": "Dungeons",
+          "punkte": [
+            "The Drowned City: Gegner machten etwa 30 % zu viel Schaden – behoben. Deathless Marrow hat 25 % weniger Leben, einige seiner Angriffe wurden abgeschwächt.",
+            "Schwarzfelstiefen: Die Thronsaal-Türen öffnen sich nach einem Wipe bei Imperator Thaurissan wieder.",
+            "Tiefschwarze Grotte: Fehler behoben, durch den man sich nach dem Tod nicht freilassen konnte.",
+            "The Shaper's Terrace und Alcaz Prison: Mehrere Bosse lassen jetzt Beute fallen.",
+            "In Stratholme kann man nicht mehr aufsitzen."
+          ]
+        },
+        {
+          "typ": "liste",
+          "titel": "Welt, Gegenstände und Völker",
+          "punkte": [
+            "Überfüllte Gebiete sollen weniger voll sein, auf PvP-Servern stärker.",
+            "Tauren: Kultivierung geht erst nach dem fertigen Zaubern in die Abklingzeit.",
+            "Berduns treues Gewehr hat keine zufälligen Werte mehr und ist nicht mehr beim Anlegen gebunden.",
+            "Viele Quests repariert, einige lassen sich jetzt in der Gruppe teilen.",
+            "Warsongschlucht: Eine unsichtbare Wand auf dem Dach der Allianz-Basis wurde entfernt."
+          ]
+        }
+      ],
+      "quellen": [
+        {
+          "name": "Blizzard – WoW: Forever Hotfixes – November 9, 2026",
+          "url": "https://news.blizzard.com/en-us/article/24315281/wow-forever-hotfixes-november-9-2026"
+        },
+        {
+          "name": "Icy Veins – Many Class Fixes, Dungeon Adjustments, Item and Quest Improvements (Hotfixes 9. November)",
+          "url": "https://www.icy-veins.com/wow-forever/news/many-class-fixes-dungeon-adjustments-item-and-quest-improvements-wow-forever-hotffixes-november-9th/"
+        },
+        {
+          "name": "MeinMMO – WoW Forever: Hotfixes vom 10. November 2026",
+          "url": "https://mein-mmo.de/wow-forever-hotfixes-10-november-2026-patch-notes/"
+        }
+      ],
+      "i18n": {
+        "en": {
+          "kat": "Patch",
+          "titel": "Hotfixes from November 9: many class bugs fixed, The Drowned City toned down",
+          "text": "Blizzard deployed a large round of hotfixes overnight into November 10. Bugs were fixed for almost every class, in several dungeons and in many quests; The Drowned City was dealing about 30% too much damage. Congested zones should also be less crowded. The announced class tuning (hunter pets, Voidwalker, Affliction, Enhancement) is not part of this yet.",
+          "tipp": "If you already finished the warlock Felsteed quest, summon it once – that grants the missing apprentice riding skill.",
+          "inhalt": [
+            {
+              "typ": "liste",
+              "titel": "Classes",
+              "punkte": [
+                "Warlock: Incinerate is now Destruction-only. The Summon Felsteed quest now grants the correct riding skill.",
+                "Mage: The Arcane Concentration chance is now split between the cast and the individual missiles. Flamestrike's ground effect no longer consumes Clearcasting.",
+                "Priest: Fear Ward no longer cancels Shadowform; Power Infusion stays on the ally.",
+                "Shaman: Lightning Overload deals the correct damage with Lightning Bolt again.",
+                "Druid, Paladin, Hunter and Warrior: several bugs fixed for Feral, Consecration, Seals, pet families and the cooldown display."
+              ]
+            },
+            {
+              "typ": "liste",
+              "titel": "Dungeons",
+              "punkte": [
+                "The Drowned City: enemies dealt about 30% too much damage – fixed. Deathless Marrow has 25% less health, and some of its attacks were weakened.",
+                "Blackrock Depths: the throne room doors open again after a wipe on Emperor Thaurissan.",
+                "Blackfathom Deeps: fixed a bug that prevented releasing after death.",
+                "The Shaper's Terrace and Alcaz Prison: several bosses now drop loot.",
+                "You can no longer mount inside Stratholme."
+              ]
+            },
+            {
+              "typ": "liste",
+              "titel": "World, items and races",
+              "punkte": [
+                "Congested zones should be less crowded, more so on PvP realms.",
+                "Tauren: Cultivation only goes on cooldown after the cast completes.",
+                "Berdun's Trusty Rifle no longer has random stats and is no longer Bind on Equip.",
+                "Many quests fixed, some can now be shared in a party.",
+                "Warsong Gulch: an invisible wall on the Alliance base roof was removed."
+              ]
+            }
+          ]
+        },
+        "fr": {
+          "kat": "Patch",
+          "titel": "Correctifs du 9 novembre : nombreux bugs de classes corrigés, The Drowned City adoucie",
+          "text": "Blizzard a déployé une grosse vague de correctifs dans la nuit du 9 au 10 novembre. Des bugs ont été corrigés pour presque toutes les classes, dans plusieurs donjons et dans de nombreuses quêtes ; The Drowned City infligeait environ 30 % de dégâts en trop. Les zones surpeuplées devraient aussi être moins chargées. Les ajustements de classes annoncés (familiers de chasseur, marcheur du Vide, Affliction, Amélioration) n'en font pas encore partie.",
+          "tipp": "Si tu as déjà terminé la quête du destrier corrompu du démoniste, invoque-le une fois : tu obtiens alors la compétence de monte d'apprenti manquante.",
+          "inhalt": [
+            {
+              "typ": "liste",
+              "titel": "Classes",
+              "punkte": [
+                "Démoniste : Incinérer est désormais réservé à Destruction. La quête « Invocation du destrier corrompu » donne maintenant la bonne compétence de monte.",
+                "Mage : la chance d'Arcanes concentrées est maintenant répartie entre l'incantation et chaque projectile. L'effet au sol de Choc de flammes ne consomme plus Idées claires.",
+                "Prêtre : Gardien de peur n'annule plus Forme d'Ombre ; Infusion de puissance reste sur l'allié.",
+                "Chaman : Surcharge de foudre inflige de nouveau les bons dégâts avec Éclair.",
+                "Druide, paladin, chasseur et guerrier : plusieurs bugs corrigés pour Farouche, Consécration, les sceaux, les familles de familiers et l'affichage des temps de recharge."
+              ]
+            },
+            {
+              "typ": "liste",
+              "titel": "Donjons",
+              "punkte": [
+                "The Drowned City : les ennemis infligeaient environ 30 % de dégâts en trop – corrigé. Deathless Marrow a 25 % de points de vie en moins et certaines de ses attaques ont été affaiblies.",
+                "Profondeurs de Rochenoire : les portes de la salle du trône se rouvrent après un wipe sur l'empereur Thaurissan.",
+                "Profondeurs de Brassenoire : correction d'un bug qui empêchait de libérer son esprit après la mort.",
+                "The Shaper's Terrace et Alcaz Prison : plusieurs boss donnent maintenant du butin.",
+                "On ne peut plus monter sur sa monture dans Stratholme."
+              ]
+            },
+            {
+              "typ": "liste",
+              "titel": "Monde, objets et races",
+              "punkte": [
+                "Les zones surpeuplées devraient être moins chargées, surtout sur les royaumes JcJ.",
+                "Tauren : Culture ne se met en recharge qu'une fois l'incantation terminée.",
+                "Le Fusil fidèle de Berdun n'a plus de statistiques aléatoires et n'est plus lié quand équipé.",
+                "De nombreuses quêtes corrigées, certaines peuvent maintenant être partagées en groupe.",
+                "Goulet des Chanteguerres : un mur invisible sur le toit de la base de l'Alliance a été retiré."
+              ]
+            }
+          ]
+        },
+        "es": {
+          "kat": "Parche",
+          "titel": "Hotfixes del 9 de noviembre: muchos errores de clases corregidos, The Drowned City suavizada",
+          "text": "Blizzard aplicó una gran ronda de hotfixes en la noche del 9 al 10 de noviembre. Se corrigieron errores de casi todas las clases, de varias mazmorras y de muchas misiones; The Drowned City hacía alrededor de un 30 % de daño de más. Además, las zonas saturadas deberían estar menos llenas. Los ajustes de clases anunciados (mascotas de cazador, abisario, Aflicción, Mejora) aún no están incluidos.",
+          "tipp": "Si ya completaste la misión del corcel vil del brujo, invócalo una vez: así obtienes la habilidad de equitación de aprendiz que te faltaba.",
+          "inhalt": [
+            {
+              "typ": "liste",
+              "titel": "Clases",
+              "punkte": [
+                "Brujo: Incinerar ahora es solo para Destrucción. La misión «Invocar corcel vil» ya otorga la habilidad de equitación correcta.",
+                "Mago: La probabilidad de Concentración Arcana ahora se reparte entre el lanzamiento y cada proyectil. El efecto en el suelo de Fogonazo ya no consume Claridad mental.",
+                "Sacerdote: Custodia de miedo ya no cancela Forma de las Sombras; Infusión de poder se mantiene en el aliado.",
+                "Chamán: Sobrecarga de relámpagos vuelve a hacer el daño correcto con Descarga de relámpagos.",
+                "Druida, paladín, cazador y guerrero: varios errores corregidos en Feral, Consagración, Sellos, familias de mascotas y la visualización de tiempos de reutilización."
+              ]
+            },
+            {
+              "typ": "liste",
+              "titel": "Mazmorras",
+              "punkte": [
+                "The Drowned City: los enemigos hacían alrededor de un 30 % de daño de más – corregido. Deathless Marrow tiene un 25 % menos de salud y algunos de sus ataques se debilitaron.",
+                "Profundidades de Roca Negra: las puertas de la sala del trono vuelven a abrirse tras un wipe contra el emperador Thaurissan.",
+                "Cavernas de Brazanegra: corregido un error que impedía liberar el espíritu tras morir.",
+                "The Shaper's Terrace y Alcaz Prison: varios jefes ahora sueltan botín.",
+                "Ya no se puede montar dentro de Stratholme."
+              ]
+            },
+            {
+              "typ": "liste",
+              "titel": "Mundo, objetos y razas",
+              "punkte": [
+                "Las zonas saturadas deberían estar menos llenas, sobre todo en reinos JcJ.",
+                "Tauren: Cultivo solo entra en reutilización tras completar el lanzamiento.",
+                "El Rifle fiel de Berdun ya no tiene estadísticas aleatorias y ya no se liga al equiparlo.",
+                "Muchas misiones corregidas; algunas ahora se pueden compartir en grupo.",
+                "Garganta Grito de Guerra: se eliminó un muro invisible en el tejado de la base de la Alianza."
+              ]
+            }
+          ]
+        },
+        "ru": {
+          "kat": "Патч",
+          "titel": "Хотфиксы от 9 ноября: исправлено много ошибок классов, The Drowned City стал легче",
+          "text": "В ночь на 10 ноября Blizzard выпустила большую порцию хотфиксов. Исправлены ошибки почти у всех классов, в нескольких подземельях и во многих заданиях; в The Drowned City противники наносили примерно на 30 % больше урона, чем нужно. Кроме того, перегруженные зоны должны стать менее людными. Анонсированные изменения классов (питомцы охотников, демон Бездны, Колдовство, Совершенствование) в эти хотфиксы пока не вошли.",
+          "tipp": "Если ты уже выполнил задание чернокнижника на коня Скверны, призови его один раз – так ты получишь недостающий навык верховой езды ученика.",
+          "inhalt": [
+            {
+              "typ": "liste",
+              "titel": "Классы",
+              "punkte": [
+                "Чернокнижник: Испепеление теперь доступно только Разрушению. Задание «Призыв коня Скверны» теперь даёт правильный навык верховой езды.",
+                "Маг: шанс Мысленной сосредоточенности теперь распределяется между произнесением и отдельными снарядами. Наземный эффект Огненного столба больше не расходует Ясность мысли.",
+                "Жрец: Защита от страха больше не снимает Облик Тьмы; Придание сил остаётся на союзнике.",
+                "Шаман: Перегрузка молнией снова наносит правильный урон с Молнией.",
+                "Друид, паладин, охотник и воин: исправлено несколько ошибок с Силой зверя, Освящением, печатями, семействами питомцев и отображением восстановления."
+              ]
+            },
+            {
+              "typ": "liste",
+              "titel": "Подземелья",
+              "punkte": [
+                "The Drowned City: противники наносили примерно на 30 % больше урона – исправлено. У Deathless Marrow на 25 % меньше здоровья, некоторые его атаки ослаблены.",
+                "Глубины Черной горы: двери тронного зала снова открываются после вайпа на императоре Тауриссане.",
+                "Непроглядная Пучина: исправлена ошибка, из-за которой нельзя было отпустить дух после смерти.",
+                "The Shaper's Terrace и Alcaz Prison: несколько боссов теперь оставляют добычу.",
+                "В Стратхольме больше нельзя садиться на транспорт."
+              ]
+            },
+            {
+              "typ": "liste",
+              "titel": "Мир, предметы и расы",
+              "punkte": [
+                "Перегруженные зоны должны стать менее людными, на PvP-серверах – заметнее.",
+                "Таурены: Возделывание уходит на восстановление только после завершения произнесения.",
+                "Верное ружьё Бердуна больше не имеет случайных характеристик и не становится персональным при надевании.",
+                "Исправлено много заданий, некоторыми теперь можно делиться в группе.",
+                "Ущелье Песни Войны: убрана невидимая стена на крыше базы Альянса."
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "2026-11-10-dunkelmond-jahrmarkt-elwynn",
+      "datum": "2026-11-10",
+      "kat": "Events",
+      "titel": "Der Dunkelmond-Jahrmarkt ist zum ersten Mal da – im Wald von Elwynn",
+      "text": "Seit Montag, dem 9. November, steht der Dunkelmond-Jahrmarkt zum ersten Mal in WoW Forever im Wald von Elwynn bei Goldhain; laut Ingame-Kalender bleibt er eine Woche. Laut MeinMMO (keine Blizzard-Angabe) wechselt er danach monatlich zwischen Elwynn und Mulgore, der nächste Termin wäre der 7. Dezember. Laut Wowhead wirken die Weltbuffs wie Sayges Wahrsagung in Forever nicht in Raids, in der offenen Welt aber schon.",
+      "tipp": "Hol dir bei Sayge einen Buff fürs Questen – für Raids musst du ihn in Forever nicht mehr farmen.",
+      "video": null,
+      "inhalt": [
+        {
+          "typ": "tabelle",
+          "titel": "Termine laut MeinMMO (noch nicht von Blizzard bestätigt)",
+          "kopf": [
+            "Start",
+            "Ort"
+          ],
+          "zeilen": [
+            [
+              "9. November 2026",
+              "Wald von Elwynn"
+            ],
+            [
+              "7. Dezember 2026",
+              "Mulgore"
+            ],
+            [
+              "4. Januar 2027",
+              "Wald von Elwynn"
+            ],
+            [
+              "8. Februar 2027",
+              "Mulgore"
+            ]
+          ]
+        }
+      ],
+      "quellen": [
+        {
+          "name": "Wowhead – The Darkmoon Faire is Coming To Elwynn Forest First in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/news/the-darkmoon-faire-is-coming-to-elwynn-forest-first-in-wow-forever-383802"
+        },
+        {
+          "name": "MeinMMO – WoW Forever: Dunkelmond-Jahrmarkt erstmals gestartet",
+          "url": "https://mein-mmo.de/wow-forever-dunkelmond-jahrmarkt/"
+        }
+      ],
+      "i18n": {
+        "en": {
+          "kat": "Events",
+          "titel": "The Darkmoon Faire arrives for the first time – in Elwynn Forest",
+          "text": "Since Monday, November 9, the Darkmoon Faire is set up for the first time in WoW Forever in Elwynn Forest near Goldshire; according to the in-game calendar it stays for one week. According to MeinMMO (not a Blizzard statement), it then alternates monthly between Elwynn and Mulgore, with the next date being December 7. According to Wowhead, world buffs such as Sayge's fortune don't work in raids in Forever, but they do in the open world.",
+          "tipp": "Grab a buff from Sayge for questing – in Forever you no longer need to farm it for raids.",
+          "inhalt": [
+            {
+              "typ": "tabelle",
+              "titel": "Dates according to MeinMMO (not yet confirmed by Blizzard)",
+              "kopf": [
+                "Start",
+                "Location"
+              ],
+              "zeilen": [
+                [
+                  "November 9, 2026",
+                  "Elwynn Forest"
+                ],
+                [
+                  "December 7, 2026",
+                  "Mulgore"
+                ],
+                [
+                  "January 4, 2027",
+                  "Elwynn Forest"
+                ],
+                [
+                  "February 8, 2027",
+                  "Mulgore"
+                ]
+              ]
+            }
+          ]
+        },
+        "fr": {
+          "kat": "Événements",
+          "titel": "La foire de Sombrelune arrive pour la première fois – dans la forêt d'Elwynn",
+          "text": "Depuis le lundi 9 novembre, la foire de Sombrelune est installée pour la première fois dans WoW Forever, dans la forêt d'Elwynn près de Comté-de-l'Or ; selon le calendrier en jeu, elle reste une semaine. Selon MeinMMO (pas une info de Blizzard), elle alterne ensuite chaque mois entre Elwynn et Mulgore, la prochaine date étant le 7 décembre. Selon Wowhead, les buffs mondiaux comme la bonne aventure de Sayge ne fonctionnent pas en raid dans Forever, mais bien en monde ouvert.",
+          "tipp": "Prends un buff chez Sayge pour quêter – dans Forever, plus besoin de le farmer pour les raids.",
+          "inhalt": [
+            {
+              "typ": "tabelle",
+              "titel": "Dates selon MeinMMO (pas encore confirmées par Blizzard)",
+              "kopf": [
+                "Début",
+                "Lieu"
+              ],
+              "zeilen": [
+                [
+                  "9 novembre 2026",
+                  "Forêt d'Elwynn"
+                ],
+                [
+                  "7 décembre 2026",
+                  "Mulgore"
+                ],
+                [
+                  "4 janvier 2027",
+                  "Forêt d'Elwynn"
+                ],
+                [
+                  "8 février 2027",
+                  "Mulgore"
+                ]
+              ]
+            }
+          ]
+        },
+        "es": {
+          "kat": "Eventos",
+          "titel": "La Feria de la Luna Negra llega por primera vez – al Bosque de Elwynn",
+          "text": "Desde el lunes 9 de noviembre, la Feria de la Luna Negra está por primera vez en WoW Forever, en el Bosque de Elwynn junto a Villadorada; según el calendario del juego, se queda una semana. Según MeinMMO (no es un dato de Blizzard), después se alterna cada mes entre Elwynn y Mulgore, y la próxima fecha sería el 7 de diciembre. Según Wowhead, los bufos de mundo como la fortuna de Sayge no funcionan en bandas en Forever, pero sí en el mundo abierto.",
+          "tipp": "Consigue un bufo de Sayge para hacer misiones; en Forever ya no tienes que farmearlo para las bandas.",
+          "inhalt": [
+            {
+              "typ": "tabelle",
+              "titel": "Fechas según MeinMMO (aún no confirmadas por Blizzard)",
+              "kopf": [
+                "Inicio",
+                "Lugar"
+              ],
+              "zeilen": [
+                [
+                  "9 de noviembre de 2026",
+                  "Bosque de Elwynn"
+                ],
+                [
+                  "7 de diciembre de 2026",
+                  "Mulgore"
+                ],
+                [
+                  "4 de enero de 2027",
+                  "Bosque de Elwynn"
+                ],
+                [
+                  "8 de febrero de 2027",
+                  "Mulgore"
+                ]
+              ]
+            }
+          ]
+        },
+        "ru": {
+          "kat": "События",
+          "titel": "Ярмарка Новолуния впервые приехала – в Элвиннский лес",
+          "text": "С понедельника, 9 ноября, Ярмарка Новолуния впервые проходит в WoW Forever – в Элвиннском лесу у Златоземья; по внутриигровому календарю она продлится неделю. По данным MeinMMO (не информация Blizzard), дальше она каждый месяц чередуется между Элвинном и Мулгором, следующая дата – 7 декабря. По данным Wowhead, мировые баффы вроде предсказания Сайге в Forever не действуют в рейдах, но работают в открытом мире.",
+          "tipp": "Возьми у Сайге бафф для выполнения заданий – в Forever его больше не нужно фармить ради рейдов.",
+          "inhalt": [
+            {
+              "typ": "tabelle",
+              "titel": "Даты по данным MeinMMO (Blizzard пока не подтвердила)",
+              "kopf": [
+                "Начало",
+                "Место"
+              ],
+              "zeilen": [
+                [
+                  "9 ноября 2026",
+                  "Элвиннский лес"
+                ],
+                [
+                  "7 декабря 2026",
+                  "Мулгор"
+                ],
+                [
+                  "4 января 2027",
+                  "Элвиннский лес"
+                ],
+                [
+                  "8 февраля 2027",
+                  "Мулгор"
+                ]
+              ]
+            }
+          ]
+        }
+      }
+    },
     {
       "id": "2026-11-09-dungeon-xp-50-prozent",
       "datum": "2026-11-09",
       "kat": "System",
-      "top": true,
       "titel": "Hotfix: Dungeon-Gegner geben 50 % mehr Erfahrung",
       "text": "Blizzard hat am Sonntagabend, 8. November, per Hotfix die Erfahrung für getötete Gegner in Dungeons um 50 % erhöht. Laut Community-Manager Kaivax sollen sich Dungeon-Runs dadurch lohnender anfühlen. In der Beta war die Gegner-XP in Dungeons stark gesenkt worden.",
       "tipp": "Wer gern in Gruppe levelt, kann jetzt ruhig mehr Dungeons mitnehmen – die Quests vorher trotzdem einsammeln.",
