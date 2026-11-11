@@ -1,12 +1,511 @@
 {
-  "stand": "2026-11-10",
+  "stand": "2026-11-11",
   "hinweis": "Wird täglich gegen 8 Uhr morgens automatisch aktualisiert.",
   "eintraege": [
+    {
+      "id": "2026-11-11-hotfixes-10-november-klassen",
+      "datum": "2026-11-11",
+      "kat": "Klassen",
+      "top": true,
+      "titel": "Hotfixes vom 10. November: Klassen-Tuning ist live – Verstärkung abgeschwächt, Gebrechen umgebaut",
+      "text": "Blizzard hat am 10. November die angekündigten Klassenanpassungen eingespielt. Verstärkungs-Schamanen verlieren Schaden über Sturmschlag und Intelligenz, Gebrechen-Hexenmeister profitieren beim Kanalisieren von Peinigung* jetzt von ihren DoTs, und alle Hexenmeister-Dämonen haben rund 15 % mehr Leben. Jäger-Begleiter hatten wegen eines Fehlers 150 % ihres normalen Lebens – jetzt sind es 115 %.",
+      "tipp": "Spielst du Verstärkung, setz jetzt erst recht auf Stärke und Angriffskraft statt Intelligenz – Geistige Gewandtheit* wandelt nur noch 33/66/100 % um.",
+      "video": null,
+      "inhalt": [
+        {
+          "typ": "tabelle",
+          "titel": "Die wichtigsten Klassenänderungen",
+          "kopf": [
+            "Klasse",
+            "Änderung"
+          ],
+          "zeilen": [
+            [
+              "Schamane (Verstärkung)",
+              "Sturmschlag macht nur noch 100 % Waffenschaden (vorher 150 %), Abklingzeit 8 statt 6 Sek."
+            ],
+            [
+              "Schamane (Verstärkung)",
+              "Geistige Gewandtheit* wandelt nur noch 33/66/100 % der Intelligenz in Angriffskraft um (vorher 50/100/150 %)."
+            ],
+            [
+              "Schamane",
+              "Jede Aufladung der Waffe des Mahlstroms senkt Zauberzeit und Manakosten auf allen Rängen um 20 %. Waffenverzauberungen und Waffen-Totems wirken jetzt gleichzeitig."
+            ],
+            [
+              "Hexenmeister (Gebrechen)",
+              "Peinigung* macht 30 % weniger Schaden, lässt beim Kanalisieren aber Verderbnis, Lebensentzug und Omen der Pein doppelt so schnell ticken."
+            ],
+            [
+              "Hexenmeister (Gebrechen)",
+              "Seelenabsaugung* verstärkt Blutsauger, Seelendieb und Peinigung* um 4/8/12 % je aktivem Verderbnis, Lebensentzug und Omen der Pein (höchstens 36 %)."
+            ],
+            [
+              "Hexenmeister",
+              "Wichtel, Leerwandler, Sukkubus und Inkubus haben rund 15 % mehr Grundleben; der Feuerblitz des Wichtels macht auf den ersten 4 Rängen mehr Schaden."
+            ],
+            [
+              "Jäger",
+              "Begleiter haben 115 % statt fälschlich 150 % ihres normalen Lebens. Arkaner Schuss und Falke beschwören kosten 11 % des Grundmanas; der Falke macht etwa 80 % mehr Nahkampfschaden."
+            ],
+            [
+              "Druide (Wiederherstellung)",
+              "Schnelligkeit der Natur macht auch Wildwuchs zum Sofortzauber."
+            ],
+            [
+              "Krieger (Waffen)",
+              "Weitreichende Stöße verliert keine Aufladungen mehr, wenn kein zweites Ziel getroffen wird."
+            ]
+          ]
+        }
+      ],
+      "quellen": [
+        {
+          "name": "Blizzard – WoW: Forever Hotfixes – 10. November 2026",
+          "url": "https://news.blizzard.com/en-us/article/24315281/wow-forever-hotfixes-november-10-2026"
+        },
+        {
+          "name": "Wowhead – Warlock and Hunter Class Tuning Now Live in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/news/warlock-and-hunter-class-tuning-now-live-in-wow-forever-383826"
+        },
+        {
+          "name": "MeinMMO – WoW Forever: Hotfixes vom 10. November 2026",
+          "url": "https://mein-mmo.de/wow-forever-hotfixes-10-november-2026-patch-notes/"
+        }
+      ],
+      "i18n": {
+        "en": {
+          "kat": "Classes",
+          "titel": "Hotfixes of November 10: class tuning is live – Enhancement nerfed, Affliction reworked",
+          "text": "On November 10, Blizzard deployed the announced class changes. Enhancement shamans lose damage via Stormstrike and Intellect, Affliction warlocks now benefit from their DoTs while channeling Wrack*, and all warlock demons have about 15% more health. Due to a bug, hunter pets had 150% of their normal health – now it is 115%.",
+          "tipp": "If you play Enhancement, go for Strength and Attack Power instead of Intellect even more now – Mental Dexterity* only converts 33/66/100%.",
+          "inhalt": [
+            {
+              "typ": "tabelle",
+              "titel": "The most important class changes",
+              "kopf": [
+                "Class",
+                "Change"
+              ],
+              "zeilen": [
+                [
+                  "Shaman (Enhancement)",
+                  "Stormstrike now deals only 100% weapon damage (was 150%), cooldown 8 instead of 6 sec."
+                ],
+                [
+                  "Shaman (Enhancement)",
+                  "Mental Dexterity* now converts only 33/66/100% of Intellect into Attack Power (was 50/100/150%)."
+                ],
+                [
+                  "Shaman",
+                  "Each Maelstrom Weapon charge reduces cast time and mana cost by 20% at all ranks. Weapon imbues and weapon totems now work at the same time."
+                ],
+                [
+                  "Warlock (Affliction)",
+                  "Wrack* deals 30% less damage, but while channeling it makes Corruption, Siphon Life and Bane of Agony tick twice as fast."
+                ],
+                [
+                  "Warlock (Affliction)",
+                  "Soul Siphon* increases Drain Life, Drain Soul and Wrack* by 4/8/12% per active Corruption, Siphon Life and Bane of Agony (up to 36%)."
+                ],
+                [
+                  "Warlock",
+                  "Imp, Voidwalker, Succubus and Incubus have about 15% more base health; the Imp's Firebolt deals more damage at its first 4 ranks."
+                ],
+                [
+                  "Hunter",
+                  "Pets have 115% instead of an erroneous 150% of their normal health. Arcane Shot and Summon Hawk cost 11% of base mana; the hawk deals about 80% more melee damage."
+                ],
+                [
+                  "Druid (Restoration)",
+                  "Nature's Swiftness now also makes Wild Growth instant."
+                ],
+                [
+                  "Warrior (Arms)",
+                  "Sweeping Strikes no longer loses charges when no second target is hit."
+                ]
+              ]
+            }
+          ]
+        },
+        "fr": {
+          "kat": "Classes",
+          "titel": "Correctifs du 10 novembre : l'équilibrage des classes est en ligne – Amélioration affaibli, Affliction remanié",
+          "text": "Le 10 novembre, Blizzard a déployé les ajustements de classes annoncés. Les chamans Amélioration perdent des dégâts via Frappe-tempête et l'Intelligence, les démonistes Affliction profitent désormais de leurs DoT en canalisant Supplice*, et tous les démons du démoniste ont environ 15 % de vie en plus. À cause d'un bug, les familiers de chasseur avaient 150 % de leur vie normale – c'est désormais 115 %.",
+          "tipp": "Si vous jouez Amélioration, misez encore plus sur la Force et la puissance d'attaque plutôt que sur l'Intelligence – Dextérité mentale* ne convertit plus que 33/66/100 %.",
+          "inhalt": [
+            {
+              "typ": "tabelle",
+              "titel": "Les principaux changements de classes",
+              "kopf": [
+                "Classe",
+                "Changement"
+              ],
+              "zeilen": [
+                [
+                  "Chaman (Amélioration)",
+                  "Frappe-tempête n'inflige plus que 100 % des dégâts de l'arme (contre 150 %), recharge de 8 s au lieu de 6 s."
+                ],
+                [
+                  "Chaman (Amélioration)",
+                  "Dextérité mentale* ne convertit plus que 33/66/100 % de l'Intelligence en puissance d'attaque (contre 50/100/150 %)."
+                ],
+                [
+                  "Chaman",
+                  "Chaque charge d'Arme du Maelström réduit de 20 % le temps d'incantation et le coût en mana à tous les rangs. Les enchantements d'arme et les totems d'arme fonctionnent désormais en même temps."
+                ],
+                [
+                  "Démoniste (Affliction)",
+                  "Supplice* inflige 30 % de dégâts en moins, mais pendant la canalisation Corruption, Siphon de vie et Fléau d'agonie font effet deux fois plus vite."
+                ],
+                [
+                  "Démoniste (Affliction)",
+                  "Siphon d'âme* renforce Drain de vie, Drain d'âme et Supplice* de 4/8/12 % par Corruption, Siphon de vie et Fléau d'agonie actif (36 % maximum)."
+                ],
+                [
+                  "Démoniste",
+                  "Diablotin, Marcheur du Vide, Succube et Incube ont environ 15 % de vie de base en plus ; l'Éclair de feu du Diablotin inflige plus de dégâts sur ses 4 premiers rangs."
+                ],
+                [
+                  "Chasseur",
+                  "Les familiers ont 115 % au lieu de 150 % (bug) de leur vie normale. Tir des arcanes et Invocation d'un faucon coûtent 11 % du mana de base ; le faucon inflige environ 80 % de dégâts de mêlée en plus."
+                ],
+                [
+                  "Druide (Restauration)",
+                  "Rapidité de la nature rend aussi Croissance sauvage instantanée."
+                ],
+                [
+                  "Guerrier (Armes)",
+                  "Attaques circulaires ne perd plus de charges si aucune seconde cible n'est touchée."
+                ]
+              ]
+            }
+          ]
+        },
+        "es": {
+          "kat": "Clases",
+          "titel": "Correcciones del 10 de noviembre: el ajuste de clases ya está activo – Mejora debilitado, Aflicción rediseñado",
+          "text": "El 10 de noviembre, Blizzard aplicó los ajustes de clase anunciados. Los chamanes Mejora pierden daño con Golpe de tormenta y el Intelecto, los brujos Aflicción ahora se benefician de sus DoT al canalizar Tormento*, y todos los demonios del brujo tienen alrededor de un 15 % más de salud. Por un error, las mascotas de cazador tenían el 150 % de su salud normal; ahora es el 115 %.",
+          "tipp": "Si juegas Mejora, apuesta aún más por Fuerza y poder de ataque en vez de Intelecto: Destreza mental* ya solo convierte un 33/66/100 %.",
+          "inhalt": [
+            {
+              "typ": "tabelle",
+              "titel": "Los cambios de clase más importantes",
+              "kopf": [
+                "Clase",
+                "Cambio"
+              ],
+              "zeilen": [
+                [
+                  "Chamán (Mejora)",
+                  "Golpe de tormenta ahora solo inflige el 100 % del daño del arma (antes 150 %), reutilización de 8 s en vez de 6 s."
+                ],
+                [
+                  "Chamán (Mejora)",
+                  "Destreza mental* ahora solo convierte el 33/66/100 % del Intelecto en poder de ataque (antes 50/100/150 %)."
+                ],
+                [
+                  "Chamán",
+                  "Cada carga de Arma vorágine reduce un 20 % el tiempo de lanzamiento y el coste de maná en todos los rangos. Las imbuiciones de arma y los tótems de arma ahora funcionan a la vez."
+                ],
+                [
+                  "Brujo (Aflicción)",
+                  "Tormento* inflige un 30 % menos de daño, pero al canalizarlo Corrupción, Succionar vida y Perdición de agonía hacen efecto el doble de rápido."
+                ],
+                [
+                  "Brujo (Aflicción)",
+                  "Succionar alma* potencia Drenar vida, Drenar alma y Tormento* un 4/8/12 % por cada Corrupción, Succionar vida y Perdición de agonía activos (máximo 36 %)."
+                ],
+                [
+                  "Brujo",
+                  "Diablillo, Abisario, Súcubo e Íncubo tienen alrededor de un 15 % más de salud base; la Descarga de fuego del Diablillo inflige más daño en sus 4 primeros rangos."
+                ],
+                [
+                  "Cazador",
+                  "Las mascotas tienen el 115 % de su salud normal en vez del 150 % por error. Disparo Arcano e Invocar halcón cuestan el 11 % del maná base; el halcón inflige alrededor de un 80 % más de daño cuerpo a cuerpo."
+                ],
+                [
+                  "Druida (Restauración)",
+                  "Presteza de la naturaleza también hace instantáneo Crecimiento salvaje."
+                ],
+                [
+                  "Guerrero (Armas)",
+                  "Golpes de barrido ya no pierde cargas si no golpea a un segundo objetivo."
+                ]
+              ]
+            }
+          ]
+        },
+        "ru": {
+          "kat": "Классы",
+          "titel": "Хотфиксы от 10 ноября: балансировка классов вышла – Совершенствование ослаблено, Колдовство переработано",
+          "text": "10 ноября Blizzard внесла анонсированные изменения классов. Шаманы «Совершенствования» теряют урон через Удар бури и интеллект, чернокнижники «Колдовства» теперь получают выгоду от своих DoT при поддержке Истязания*, а у всех демонов чернокнижника примерно на 15 % больше здоровья. Из-за ошибки у питомцев охотника было 150 % обычного здоровья – теперь 115 %.",
+          "tipp": "Если играете за Совершенствование, тем более делайте ставку на силу и силу атаки вместо интеллекта – Ловкость ума* теперь конвертирует лишь 33/66/100 %.",
+          "inhalt": [
+            {
+              "typ": "tabelle",
+              "titel": "Главные изменения классов",
+              "kopf": [
+                "Класс",
+                "Изменение"
+              ],
+              "zeilen": [
+                [
+                  "Шаман (Совершенствование)",
+                  "Удар бури наносит лишь 100 % урона оружием (было 150 %), восстановление 8 сек. вместо 6."
+                ],
+                [
+                  "Шаман (Совершенствование)",
+                  "Ловкость ума* конвертирует лишь 33/66/100 % интеллекта в силу атаки (было 50/100/150 %)."
+                ],
+                [
+                  "Шаман",
+                  "Каждый заряд Оружия Водоворота на всех рангах сокращает время произнесения и стоимость маны на 20 %. Чары оружия и тотемы оружия теперь действуют одновременно."
+                ],
+                [
+                  "Чернокнижник (Колдовство)",
+                  "Истязание* наносит на 30 % меньше урона, но во время поддержки Порча, Вытягивание жизни и Порча агонии срабатывают вдвое быстрее."
+                ],
+                [
+                  "Чернокнижник (Колдовство)",
+                  "Вытягивание души* усиливает Похищение жизни, Похищение души и Истязание* на 4/8/12 % за каждую активную Порчу, Вытягивание жизни и Порчу агонии (не более 36 %)."
+                ],
+                [
+                  "Чернокнижник",
+                  "У беса, демона Бездны, суккуба и инкуба примерно на 15 % больше базового здоровья; Огненная стрела беса на первых 4 рангах наносит больше урона."
+                ],
+                [
+                  "Охотник",
+                  "У питомцев 115 % обычного здоровья вместо ошибочных 150 %. Чародейский выстрел и Призыв ястреба стоят 11 % базовой маны; ястреб наносит примерно на 80 % больше урона в ближнем бою."
+                ],
+                [
+                  "Друид (Исцеление)",
+                  "Природная стремительность теперь делает мгновенным и Буйный рост."
+                ],
+                [
+                  "Воин (Оружие)",
+                  "Размашистые удары больше не теряют заряды, если вторая цель не задета."
+                ]
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "2026-11-11-quest-gold-auktionshaus-berufe",
+      "datum": "2026-11-11",
+      "kat": "System",
+      "titel": "Quests ab Stufe 48 geben jetzt Gold – Auktionshaus-Gebühr sinkt auf 1 Kupfer",
+      "text": "Mit den Hotfixes vom 10. November geben die meisten Quests ab Stufe 48 zusätzlich Gold. Blizzard stellt in den Notizen klar, dass Quests auf Stufe 60 in WoW Forever nicht in Gold umgewandelt werden. Außerdem kostet ein Angebot im Auktionshaus wie angekündigt nur noch mindestens 1 Kupfer statt 1 Silber, und mehrere Berufe wurden verbessert.",
+      "tipp": "Billigen Kram kannst du jetzt wieder ohne Risiko ins Auktionshaus stellen – und Quests ab Stufe 48 lohnen sich auch fürs Goldsäckel.",
+      "video": null,
+      "inhalt": [
+        {
+          "typ": "liste",
+          "titel": "Gold und Auktionshaus",
+          "punkte": [
+            "Die meisten Quests ab Stufe 48 geben jetzt zusätzlich Gold.",
+            "Auf Stufe 60 gibt es weiterhin kein Gold statt Erfahrung – laut Blizzard so gewollt.",
+            "Mindestgebühr im Auktionshaus: 1 Kupfer statt 1 Silber.",
+            "Behoben: Ungelesene Post wirkte bei allen so, als käme sie vom Auktionshaus Sturmwind; manche Post kam schon nach etwa 2 statt nach 60 Minuten an."
+          ]
+        },
+        {
+          "typ": "liste",
+          "titel": "Berufe",
+          "punkte": [
+            "Schmiedekunst: Der Grobe Schleifstein gibt jetzt bis Fertigkeit 90 Punkte (vorher 75).",
+            "Kochkunst: Das Journeyman Campfire Kit lässt sich schon ab Kochkunst 90 aufstellen (vorher 140).",
+            "Ingenieurskunst: Eisengranaten kosten beim Händler 1 Silber 25 Kupfer statt 5 Silber; Swiftstrike Shot und Swiftfeather Arrow sind nicht mehr beim Aufheben gebunden.",
+            "Verzauberkunst: Die Stiefel- und Armschienen-Verzauberungen „Geringe Willenskraft“ geben jetzt wirklich Willenskraft.",
+            "Angeln: Angelgestelle geben wieder zuverlässig Köder; andere „Keine Beute“-Fehler untersucht Blizzard noch."
+          ]
+        },
+        {
+          "typ": "liste",
+          "titel": "Sonstiges",
+          "punkte": [
+            "Alle Volks-Reittiere vom Händler sind jetzt beim Aufheben gebunden.",
+            "Nach dem Tod landest du nicht mehr auf dem falschen Friedhof.",
+            "Die Bewohner von Pyrewood erscheinen wie geplant in der Morgen- und Abenddämmerung.",
+            "Mehr Gegner bzw. Questgegenstände für „Poison Tips“ (Flussauen*) und „Worgen in the Woods“ (Dämmerwald)."
+          ]
+        }
+      ],
+      "quellen": [
+        {
+          "name": "Blizzard – WoW: Forever Hotfixes – 10. November 2026",
+          "url": "https://news.blizzard.com/en-us/article/24315281/wow-forever-hotfixes-november-10-2026"
+        },
+        {
+          "name": "MeinMMO – WoW Forever: Hotfixes vom 10. November 2026",
+          "url": "https://mein-mmo.de/wow-forever-hotfixes-10-november-2026-patch-notes/"
+        }
+      ],
+      "i18n": {
+        "en": {
+          "kat": "System",
+          "titel": "Quests from level 48 now give gold – auction house deposit drops to 1 copper",
+          "text": "With the November 10 hotfixes, most quests from level 48 on additionally reward gold. Blizzard clarifies in the notes that level 60 quests are not converted into gold in WoW Forever. In addition, as announced, an auction house listing now costs at least 1 copper instead of 1 silver, and several professions were improved.",
+          "tipp": "You can list cheap stuff on the auction house again without risk – and quests from level 48 on now fill your purse as well.",
+          "inhalt": [
+            {
+              "typ": "liste",
+              "titel": "Gold and auction house",
+              "punkte": [
+                "Most quests from level 48 on now additionally reward gold.",
+                "At level 60 there is still no gold instead of experience – intended, according to Blizzard.",
+                "Minimum auction house deposit: 1 copper instead of 1 silver.",
+                "Fixed: unread mail looked to everyone as if it came from the Stormwind Auction House; some mail arrived after about 2 instead of 60 minutes."
+              ]
+            },
+            {
+              "typ": "liste",
+              "titel": "Professions",
+              "punkte": [
+                "Blacksmithing: Coarse Grinding Stone now gives skill-ups up to 90 (was 75).",
+                "Cooking: the Journeyman Campfire Kit can be placed from Cooking 90 (was 140).",
+                "Engineering: Iron Grenades cost 1 silver 25 copper at the vendor instead of 5 silver; Swiftstrike Shot and Swiftfeather Arrow are no longer Bind on Pickup.",
+                "Enchanting: the Lesser Spirit boot and bracer enchants now really grant Spirit.",
+                "Fishing: Fishing Racks reliably give lures again; Blizzard is still investigating other \"There is no loot\" bugs."
+              ]
+            },
+            {
+              "typ": "liste",
+              "titel": "Other",
+              "punkte": [
+                "All racial mounts from vendors are now Bind on Pickup.",
+                "You no longer end up at the wrong graveyard after dying.",
+                "The residents of Pyrewood appear at dawn and dusk as intended.",
+                "More enemies or quest items for \"Poison Tips\" (Riverglades*) and \"Worgen in the Woods\" (Duskwood)."
+              ]
+            }
+          ]
+        },
+        "fr": {
+          "kat": "Système",
+          "titel": "Les quêtes à partir du niveau 48 donnent de l'or – le dépôt à l'hôtel des ventes passe à 1 cuivre",
+          "text": "Avec les correctifs du 10 novembre, la plupart des quêtes à partir du niveau 48 rapportent aussi de l'or. Blizzard précise dans les notes que les quêtes de niveau 60 ne sont pas converties en or dans WoW Forever. De plus, comme annoncé, une mise en vente à l'hôtel des ventes coûte désormais au minimum 1 pièce de cuivre au lieu de 1 pièce d'argent, et plusieurs métiers ont été améliorés.",
+          "tipp": "Vous pouvez de nouveau mettre en vente des objets bon marché sans risque – et les quêtes à partir du niveau 48 remplissent aussi votre bourse.",
+          "inhalt": [
+            {
+              "typ": "liste",
+              "titel": "Or et hôtel des ventes",
+              "punkte": [
+                "La plupart des quêtes à partir du niveau 48 rapportent désormais aussi de l'or.",
+                "Au niveau 60, toujours pas d'or à la place de l'expérience – voulu, selon Blizzard.",
+                "Dépôt minimum à l'hôtel des ventes : 1 cuivre au lieu de 1 argent.",
+                "Corrigé : le courrier non lu semblait pour tous venir de l'hôtel des ventes de Hurlevent ; certains courriers arrivaient après environ 2 minutes au lieu de 60."
+              ]
+            },
+            {
+              "typ": "liste",
+              "titel": "Métiers",
+              "punkte": [
+                "Forge : la Pierre à aiguiser grossière fait progresser jusqu'à 90 (contre 75).",
+                "Cuisine : le Journeyman Campfire Kit peut être posé dès Cuisine 90 (contre 140).",
+                "Ingénierie : les Grenades en fer coûtent 1 argent 25 cuivre chez le marchand au lieu de 5 argent ; Swiftstrike Shot et Swiftfeather Arrow ne sont plus liés quand ramassés.",
+                "Enchantement : les enchantements de bottes et de brassards « Esprit inférieur » donnent désormais vraiment de l'Esprit.",
+                "Pêche : les Râteliers de pêche donnent de nouveau des appâts de façon fiable ; Blizzard enquête encore sur d'autres bugs « Il n'y a pas de butin »."
+              ]
+            },
+            {
+              "typ": "liste",
+              "titel": "Divers",
+              "punkte": [
+                "Toutes les montures raciales des marchands sont désormais liées quand ramassées.",
+                "Après la mort, vous n'arrivez plus au mauvais cimetière.",
+                "Les habitants de Pyrewood apparaissent à l'aube et au crépuscule comme prévu.",
+                "Plus d'ennemis ou d'objets de quête pour « Poison Tips » (Riverglades*) et « Worgen in the Woods » (Bois de la Pénombre)."
+              ]
+            }
+          ]
+        },
+        "es": {
+          "kat": "Sistema",
+          "titel": "Las misiones desde el nivel 48 dan oro – el depósito de la casa de subastas baja a 1 de cobre",
+          "text": "Con las correcciones del 10 de noviembre, la mayoría de las misiones a partir del nivel 48 dan además oro. Blizzard aclara en las notas que en WoW Forever las misiones de nivel 60 no se convierten en oro. Además, como se anunció, publicar en la casa de subastas cuesta ahora como mínimo 1 de cobre en vez de 1 de plata, y se mejoraron varias profesiones.",
+          "tipp": "Ya puedes volver a poner cosas baratas en la casa de subastas sin riesgo, y las misiones desde el nivel 48 también llenan tu bolsa.",
+          "inhalt": [
+            {
+              "typ": "liste",
+              "titel": "Oro y casa de subastas",
+              "punkte": [
+                "La mayoría de las misiones a partir del nivel 48 dan ahora además oro.",
+                "A nivel 60 sigue sin haber oro en lugar de experiencia; según Blizzard, es intencionado.",
+                "Depósito mínimo en la casa de subastas: 1 de cobre en vez de 1 de plata.",
+                "Corregido: el correo sin leer parecía para todos venir de la casa de subastas de Ventormenta; algunos correos llegaban tras unos 2 minutos en vez de 60."
+              ]
+            },
+            {
+              "typ": "liste",
+              "titel": "Profesiones",
+              "punkte": [
+                "Herrería: la Piedra de afilar gruesa da ahora puntos de habilidad hasta 90 (antes 75).",
+                "Cocina: el Journeyman Campfire Kit se puede colocar desde Cocina 90 (antes 140).",
+                "Ingeniería: las Granadas de hierro cuestan 1 de plata 25 de cobre en el vendedor en vez de 5 de plata; Swiftstrike Shot y Swiftfeather Arrow ya no se ligan al recogerlos.",
+                "Encantamiento: los encantamientos de botas y brazales «Espíritu inferior» ahora dan Espíritu de verdad.",
+                "Pesca: los Soportes de pesca vuelven a dar cebos de forma fiable; Blizzard aún investiga otros errores de «No hay botín»."
+              ]
+            },
+            {
+              "typ": "liste",
+              "titel": "Otros",
+              "punkte": [
+                "Todas las monturas raciales de los vendedores se ligan ahora al recogerlas.",
+                "Al morir ya no acabas en el cementerio equivocado.",
+                "Los habitantes de Pyrewood aparecen al amanecer y al anochecer como estaba previsto.",
+                "Más enemigos u objetos de misión para «Poison Tips» (Riverglades*) y «Worgen in the Woods» (Bosque del Ocaso)."
+              ]
+            }
+          ]
+        },
+        "ru": {
+          "kat": "Система",
+          "titel": "Задания с 48 уровня теперь дают золото – залог на аукционе снижен до 1 медяка",
+          "text": "С хотфиксами от 10 ноября большинство заданий с 48 уровня дополнительно дают золото. Blizzard уточняет в заметках, что задания на 60 уровне в WoW Forever не конвертируются в золото. Кроме того, как и было объявлено, выставление лота на аукцион теперь стоит минимум 1 медяк вместо 1 серебряной, а несколько профессий улучшены.",
+          "tipp": "Дешёвые вещи снова можно без риска выставлять на аукцион – а задания с 48 уровня теперь пополняют и кошелёк.",
+          "inhalt": [
+            {
+              "typ": "liste",
+              "titel": "Золото и аукцион",
+              "punkte": [
+                "Большинство заданий с 48 уровня теперь дополнительно дают золото.",
+                "На 60 уровне золота вместо опыта по-прежнему нет – по словам Blizzard, так задумано.",
+                "Минимальный залог на аукционе: 1 медяк вместо 1 серебряной.",
+                "Исправлено: непрочитанная почта у всех выглядела так, будто пришла от аукциона Штормграда; часть писем приходила примерно через 2 минуты вместо 60."
+              ]
+            },
+            {
+              "typ": "liste",
+              "titel": "Профессии",
+              "punkte": [
+                "Кузнечное дело: Грубый точильный камень теперь даёт очки навыка до 90 (было 75).",
+                "Кулинария: Journeyman Campfire Kit можно поставить уже с навыком кулинарии 90 (было 140).",
+                "Инженерное дело: Железные гранаты стоят у торговца 1 серебряную 25 медных вместо 5 серебряных; Swiftstrike Shot и Swiftfeather Arrow больше не становятся персональными при поднятии.",
+                "Наложение чар: чары для обуви и наручей «Слабый дух» теперь действительно дают дух.",
+                "Рыбная ловля: рыболовные стойки снова надёжно дают наживку; другие ошибки «Добычи нет» Blizzard ещё изучает."
+              ]
+            },
+            {
+              "typ": "liste",
+              "titel": "Прочее",
+              "punkte": [
+                "Все расовые транспортные средства у торговцев теперь становятся персональными при поднятии.",
+                "После смерти вы больше не попадаете на неправильное кладбище.",
+                "Жители Пайрвуда появляются на рассвете и в сумерках, как задумано.",
+                "Больше противников или предметов для заданий «Poison Tips» (Riverglades*) и «Worgen in the Woods» (Сумеречный лес)."
+              ]
+            }
+          ]
+        }
+      }
+    },
     {
       "id": "2026-11-10-hotfixes-9-november",
       "datum": "2026-11-10",
       "kat": "Patch",
-      "top": true,
       "titel": "Hotfixes vom 9. November: viele Klassenfehler behoben, The Drowned City entschärft",
       "text": "Blizzard hat in der Nacht auf den 10. November eine große Runde Hotfixes eingespielt. Behoben wurden Fehler bei fast allen Klassen, in mehreren Dungeons und bei zahlreichen Quests; The Drowned City machte bisher etwa 30 % zu viel Schaden. Außerdem sollen überfüllte Gebiete weniger voll sein. Die angekündigten Klassenanpassungen (Jäger-Begleiter, Leerwandler, Gebrechen, Verstärkung) sind darin noch nicht enthalten.",
       "tipp": "Hast du die Hexenmeister-Quest für das Teufelsross schon erledigt, beschwöre es einmal – dann bekommst du die fehlende Lehrlings-Reitfertigkeit.",
