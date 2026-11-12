@@ -1,12 +1,412 @@
 {
-  "stand": "2026-11-11",
+  "stand": "2026-11-12",
   "hinweis": "Wird täglich gegen 8 Uhr morgens automatisch aktualisiert.",
   "eintraege": [
+    {
+      "id": "2026-11-12-hotfixes-11-november",
+      "datum": "2026-11-12",
+      "kat": "Patch",
+      "top": true,
+      "titel": "Hotfixes vom 11. November: größere Schneider-Taschen, Flussauen entschärft, Richturteil zählt als Fernkampf",
+      "text": "Blizzard hat am 11. November die nächste Runde Hotfixes eingespielt. Mehrere Stofftaschen aus der Schneiderei waren versehentlich zu klein und haben jetzt mehr Plätze, brauchen dafür aber einen Stoffballen mehr. In den Flussauen* (Riverglades) machen einige Zwielicht-Gegner deutlich weniger Schaden, und das Richturteil des Paladins gilt jetzt als Fernkampfangriff.",
+      "tipp": "Für Twinks lohnen sich jetzt Green und Red Woolen Bag: Sie haben jetzt 10 Plätze und kosten nur einen Ballen Wollstoff mehr.",
+      "video": null,
+      "inhalt": [
+        {
+          "typ": "tabelle",
+          "titel": "Schneiderei: Taschen mit mehr Plätzen",
+          "kopf": [
+            "Tasche",
+            "Material",
+            "Plätze"
+          ],
+          "zeilen": [
+            [
+              "Red Mageweave Bag",
+              "5 Ballen Magiestoff (vorher 4)",
+              "14"
+            ],
+            [
+              "Green Silk Pack",
+              "5 Ballen Seidenstoff (vorher 4)",
+              "12"
+            ],
+            [
+              "Black Silk Pack",
+              "6 Ballen Seidenstoff (vorher 5)",
+              "12"
+            ],
+            [
+              "Green Woolen Bag",
+              "5 Ballen Wollstoff (vorher 4)",
+              "10"
+            ],
+            [
+              "Red Woolen Bag",
+              "5 Ballen Wollstoff (vorher 4)",
+              "10"
+            ]
+          ]
+        },
+        {
+          "typ": "liste",
+          "titel": "Klassen",
+          "punkte": [
+            "Paladin: Richturteil gilt jetzt als Fernkampfangriff – es nutzt die Fernkampf-Trefferchance und löst keine Nahkampf-Effekte von Gegenständen mehr aus.",
+            "Paladin (Vergeltung): Unsealed Fury erzeugt keine zusätzlichen Echos mehr durch Angriffe des Totems des Windzorns.",
+            "Priester: Zwielichtfokus wirkt jetzt auch in Schattengestalt; Gnome können Confounding Flash in Schattengestalt nutzen.",
+            "Jäger: Salve löst keine Procs mehr aus und bricht ab, wenn du dich bewegst.",
+            "Druide (Wilder Kampf): Rend and Tear wirkt jetzt auch auf die Blutung von Anspringen.",
+            "Schamane: Totem der Flammenzunge Rang 2 funktioniert wieder."
+          ]
+        },
+        {
+          "typ": "liste",
+          "titel": "Welt, Gegner und Sonstiges",
+          "punkte": [
+            "Flussauen*: Smash des Twilight Enforcer und Executioner Morg machen weniger Schaden; Mark of Flames des Twilight Forgemaster erhöht den Schaden nur noch um 50 statt um 1000.",
+            "Shen'dralar*: In den benannten Gebieten kann man wieder aufsitzen.",
+            "Quests repariert: „Scarlet Diversions“ (Westliche Pestländer), „The Giant in the Den“ (Arathihochland) und „Freedom for All Creatures“ (Feralas).",
+            "Gegenstände: Bloody Claws of Attack geben jetzt +1 auf Faustwaffen; Earthen Silk Slippers geben nicht mehr zu viel Zauberschaden.",
+            "Die Gegenstandswiederherstellung des Kundendienstes ist vorübergehend abgeschaltet, weil Blizzard einen schweren Fehler untersucht."
+          ]
+        }
+      ],
+      "quellen": [
+        {
+          "name": "Blizzard – WoW: Forever Hotfixes – 11. November 2026",
+          "url": "https://worldofwarcraft.blizzard.com/en-us/news/24315281"
+        },
+        {
+          "name": "Blizzard-Forum – WoW: Forever Hotfixes – November 11, 2026",
+          "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-11-2026/2403040"
+        },
+        {
+          "name": "Warcraft Tavern – Riverglades Mob Nerfs: WoW Forever Hotfixes for November 11",
+          "url": "https://www.warcrafttavern.com/forever/news/riverglades-mob-nerfs-wow-forever-hotfixes-for-november-11/"
+        }
+      ],
+      "i18n": {
+        "en": {
+          "kat": "Patch",
+          "titel": "November 11 hotfixes: bigger tailoring bags, Riverglades toned down, Judgement counts as ranged",
+          "text": "Blizzard deployed the next round of hotfixes on November 11. Several tailoring cloth bags were accidentally too small and now have more slots, but need one more bolt of cloth. In the Riverglades, some Twilight enemies deal much less damage, and the Paladin's Judgement now counts as a ranged attack.",
+          "tipp": "Green and Red Woolen Bag are now worth it for alts: they have 10 slots and cost just one extra bolt of wool.",
+          "inhalt": [
+            {
+              "typ": "tabelle",
+              "titel": "Tailoring: bags with more slots",
+              "kopf": [
+                "Bag",
+                "Materials",
+                "Slots"
+              ],
+              "zeilen": [
+                [
+                  "Red Mageweave Bag",
+                  "5 Bolts of Mageweave (was 4)",
+                  "14"
+                ],
+                [
+                  "Green Silk Pack",
+                  "5 Bolts of Silk Cloth (was 4)",
+                  "12"
+                ],
+                [
+                  "Black Silk Pack",
+                  "6 Bolts of Silk Cloth (was 5)",
+                  "12"
+                ],
+                [
+                  "Green Woolen Bag",
+                  "5 Bolts of Woolen Cloth (was 4)",
+                  "10"
+                ],
+                [
+                  "Red Woolen Bag",
+                  "5 Bolts of Woolen Cloth (was 4)",
+                  "10"
+                ]
+              ]
+            },
+            {
+              "typ": "liste",
+              "titel": "Classes",
+              "punkte": [
+                "Paladin: Judgement now counts as a ranged attack – it uses ranged hit chance and no longer triggers melee item effects.",
+                "Paladin (Retribution): Unsealed Fury no longer creates extra echoes from Windfury Totem attacks.",
+                "Priest: Twilight Focus now also works in Shadowform; Gnomes can use Confounding Flash in Shadowform.",
+                "Hunter: Volley no longer triggers procs and stops when you move.",
+                "Druid (Feral): Rend and Tear now also affects the Pounce bleed.",
+                "Shaman: Flametongue Totem Rank 2 works again."
+              ]
+            },
+            {
+              "typ": "liste",
+              "titel": "World, enemies and more",
+              "punkte": [
+                "Riverglades: Twilight Enforcer's Smash and Executioner Morg deal less damage; Twilight Forgemaster's Mark of Flames now increases damage by 50 instead of 1000.",
+                "Shen'dralar: you can mount up again in the named areas.",
+                "Quests fixed: \"Scarlet Diversions\" (Western Plaguelands), \"The Giant in the Den\" (Arathi Highlands) and \"Freedom for All Creatures\" (Feralas).",
+                "Items: Bloody Claws of Attack now grant +1 Fist Weapons; Earthen Silk Slippers no longer give too much spell damage.",
+                "Customer support's item restoration is temporarily disabled while Blizzard investigates a critical bug."
+              ]
+            }
+          ]
+        },
+        "fr": {
+          "kat": "Patch",
+          "titel": "Correctifs du 11 novembre : sacs de couture plus grands, Riverglades adoucis, Jugement compte comme attaque à distance",
+          "text": "Blizzard a déployé une nouvelle vague de correctifs le 11 novembre. Plusieurs sacs en tissu de couture étaient trop petits par erreur : ils ont maintenant plus d'emplacements, mais demandent un rouleau de tissu de plus. Dans les Riverglades, certains ennemis du Crépuscule infligent bien moins de dégâts, et le Jugement du paladin compte désormais comme une attaque à distance.",
+          "tipp": "Pour les rerolls, les Green et Red Woolen Bag valent maintenant le coup : 10 emplacements pour un seul rouleau de laine en plus.",
+          "inhalt": [
+            {
+              "typ": "tabelle",
+              "titel": "Couture : sacs avec plus d'emplacements",
+              "kopf": [
+                "Sac",
+                "Composants",
+                "Emplacements"
+              ],
+              "zeilen": [
+                [
+                  "Red Mageweave Bag",
+                  "5 rouleaux de tisse-mage (avant 4)",
+                  "14"
+                ],
+                [
+                  "Green Silk Pack",
+                  "5 rouleaux d'étoffe de soie (avant 4)",
+                  "12"
+                ],
+                [
+                  "Black Silk Pack",
+                  "6 rouleaux d'étoffe de soie (avant 5)",
+                  "12"
+                ],
+                [
+                  "Green Woolen Bag",
+                  "5 rouleaux d'étoffe de laine (avant 4)",
+                  "10"
+                ],
+                [
+                  "Red Woolen Bag",
+                  "5 rouleaux d'étoffe de laine (avant 4)",
+                  "10"
+                ]
+              ]
+            },
+            {
+              "typ": "liste",
+              "titel": "Classes",
+              "punkte": [
+                "Paladin : Jugement compte désormais comme une attaque à distance – il utilise le toucher à distance et ne déclenche plus les effets d'objets de mêlée.",
+                "Paladin (Vindicte) : Unsealed Fury ne crée plus d'échos supplémentaires via les attaques du Totem Furie-des-vents.",
+                "Prêtre : Focalisation crépusculaire fonctionne aussi en Forme d'Ombre ; les gnomes peuvent utiliser Confounding Flash en Forme d'Ombre.",
+                "Chasseur : Salve ne déclenche plus d'effets et s'interrompt quand vous bougez.",
+                "Druide (Combat farouche) : Rend and Tear affecte aussi le saignement de Traquenard.",
+                "Chaman : le Totem Langue de feu rang 2 fonctionne de nouveau."
+              ]
+            },
+            {
+              "typ": "liste",
+              "titel": "Monde, ennemis et divers",
+              "punkte": [
+                "Riverglades : le Smash du Twilight Enforcer et Executioner Morg font moins de dégâts ; Mark of Flames du Twilight Forgemaster n'augmente plus les dégâts que de 50 au lieu de 1000.",
+                "Shen'dralar : on peut de nouveau monter sur sa monture dans les zones nommées.",
+                "Quêtes corrigées : « Scarlet Diversions » (Maleterres de l'Ouest), « The Giant in the Den » (Hautes-terres d'Arathi) et « Freedom for All Creatures » (Féralas).",
+                "Objets : Bloody Claws of Attack donnent maintenant +1 en armes de pugilat ; Earthen Silk Slippers ne donnent plus trop de dégâts des sorts.",
+                "La restauration d'objets du support client est temporairement désactivée pendant que Blizzard examine un bug critique."
+              ]
+            }
+          ]
+        },
+        "es": {
+          "kat": "Parche",
+          "titel": "Hotfixes del 11 de noviembre: bolsas de sastrería más grandes, Riverglades suavizado y Sentencia cuenta como ataque a distancia",
+          "text": "Blizzard aplicó el 11 de noviembre la siguiente tanda de hotfixes. Varias bolsas de tela de sastrería eran demasiado pequeñas por error y ahora tienen más casillas, aunque piden un rollo de tela más. En Riverglades, algunos enemigos Crepusculares hacen mucho menos daño, y la Sentencia del paladín cuenta ahora como ataque a distancia.",
+          "tipp": "Para alters ahora merecen la pena la Green y la Red Woolen Bag: 10 casillas por solo un rollo de lana más.",
+          "inhalt": [
+            {
+              "typ": "tabelle",
+              "titel": "Sastrería: bolsas con más casillas",
+              "kopf": [
+                "Bolsa",
+                "Materiales",
+                "Casillas"
+              ],
+              "zeilen": [
+                [
+                  "Red Mageweave Bag",
+                  "5 rollos de tejido de mago (antes 4)",
+                  "14"
+                ],
+                [
+                  "Green Silk Pack",
+                  "5 rollos de paño de seda (antes 4)",
+                  "12"
+                ],
+                [
+                  "Black Silk Pack",
+                  "6 rollos de paño de seda (antes 5)",
+                  "12"
+                ],
+                [
+                  "Green Woolen Bag",
+                  "5 rollos de paño de lana (antes 4)",
+                  "10"
+                ],
+                [
+                  "Red Woolen Bag",
+                  "5 rollos de paño de lana (antes 4)",
+                  "10"
+                ]
+              ]
+            },
+            {
+              "typ": "liste",
+              "titel": "Clases",
+              "punkte": [
+                "Paladín: Sentencia cuenta ahora como ataque a distancia; usa la probabilidad de golpe a distancia y ya no activa efectos de objetos cuerpo a cuerpo.",
+                "Paladín (Reprensión): Unsealed Fury ya no genera ecos adicionales con los ataques del Tótem Viento Furioso.",
+                "Sacerdote: Enfoque crepuscular funciona también en Forma de las Sombras; los gnomos pueden usar Confounding Flash en Forma de las Sombras.",
+                "Cazador: Descarga ya no activa procs y se interrumpe al moverte.",
+                "Druida (Combate feral): Rend and Tear afecta ahora también al sangrado de Abalanzarse.",
+                "Chamán: el Tótem Lengua de Fuego rango 2 vuelve a funcionar."
+              ]
+            },
+            {
+              "typ": "liste",
+              "titel": "Mundo, enemigos y otros",
+              "punkte": [
+                "Riverglades: el Smash del Twilight Enforcer y Executioner Morg hacen menos daño; Mark of Flames del Twilight Forgemaster aumenta el daño solo en 50 en lugar de 1000.",
+                "Shen'dralar: vuelves a poder montar en las zonas con nombre.",
+                "Misiones arregladas: «Scarlet Diversions» (Tierras de la Peste del Oeste), «The Giant in the Den» (Tierras Altas de Arathi) y «Freedom for All Creatures» (Feralas).",
+                "Objetos: Bloody Claws of Attack dan ahora +1 a armas de puño; Earthen Silk Slippers ya no dan demasiado daño con hechizos.",
+                "La restauración de objetos del soporte al cliente está desactivada temporalmente mientras Blizzard investiga un error crítico."
+              ]
+            }
+          ]
+        },
+        "ru": {
+          "kat": "Патч",
+          "titel": "Хотфиксы от 11 ноября: сумки портных больше, Riverglades ослаблены, Правосудие считается дальней атакой",
+          "text": "11 ноября Blizzard установила очередную порцию хотфиксов. Несколько тканевых сумок из портняжного дела по ошибке были слишком маленькими – теперь в них больше ячеек, но нужен на один рулон ткани больше. В Riverglades некоторые противники из Сумеречного Молота наносят заметно меньше урона, а Правосудие паладина теперь считается дальней атакой.",
+          "tipp": "Для твинков теперь выгодны Green и Red Woolen Bag: 10 ячеек всего за один лишний рулон шерсти.",
+          "inhalt": [
+            {
+              "typ": "tabelle",
+              "titel": "Портняжное дело: сумки с большим числом ячеек",
+              "kopf": [
+                "Сумка",
+                "Материалы",
+                "Ячейки"
+              ],
+              "zeilen": [
+                [
+                  "Red Mageweave Bag",
+                  "5 рулонов магической ткани (было 4)",
+                  "14"
+                ],
+                [
+                  "Green Silk Pack",
+                  "5 рулонов шёлка (было 4)",
+                  "12"
+                ],
+                [
+                  "Black Silk Pack",
+                  "6 рулонов шёлка (было 5)",
+                  "12"
+                ],
+                [
+                  "Green Woolen Bag",
+                  "5 рулонов шерсти (было 4)",
+                  "10"
+                ],
+                [
+                  "Red Woolen Bag",
+                  "5 рулонов шерсти (было 4)",
+                  "10"
+                ]
+              ]
+            },
+            {
+              "typ": "liste",
+              "titel": "Классы",
+              "punkte": [
+                "Паладин: Правосудие теперь считается дальней атакой – использует шанс попадания дальнего боя и больше не срабатывает на эффекты предметов ближнего боя.",
+                "Паладин (Воздаяние): Unsealed Fury больше не создаёт лишних «эхо» от атак Тотема неистовства ветра.",
+                "Жрец: Сумеречное сосредоточение теперь работает и в Облике Тьмы; гномы могут использовать Confounding Flash в Облике Тьмы.",
+                "Охотник: Град стрел больше не вызывает срабатывания эффектов и прерывается при движении.",
+                "Друид (Сила зверя): Rend and Tear теперь действует и на кровотечение от Наскока.",
+                "Шаман: Тотем языка пламени 2-го ранга снова работает."
+              ]
+            },
+            {
+              "typ": "liste",
+              "titel": "Мир, противники и прочее",
+              "punkte": [
+                "Riverglades: Smash у Twilight Enforcer и Executioner Morg наносят меньше урона; Mark of Flames у Twilight Forgemaster увеличивает урон лишь на 50 вместо 1000.",
+                "Shen'dralar: в названных областях снова можно садиться на средство передвижения.",
+                "Исправлены задания «Scarlet Diversions» (Западные Чумные земли), «The Giant in the Den» (Нагорье Арати) и «Freedom for All Creatures» (Фералас).",
+                "Предметы: Bloody Claws of Attack теперь дают +1 к кистевому оружию; Earthen Silk Slippers больше не дают лишнего урона от заклинаний.",
+                "Восстановление предметов через поддержку временно отключено – Blizzard изучает критическую ошибку."
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "2026-11-12-auktionshaus-gebuehr-verschoben",
+      "datum": "2026-11-12",
+      "kat": "System",
+      "titel": "Auktionshaus-Gebühr: 1 Kupfer kommt erst mit der Wartung am 17. November",
+      "text": "Die Senkung der Mindestgebühr im Auktionshaus von 1 Silber auf 1 Kupfer stand schon in den Hotfixes vom 10. November. Laut Community-Manager Kaivax im Blizzard-Forum hat Blizzard die Auktionshaus-Änderungen aber vorübergehend wieder entfernt. Sie sollen mit der wöchentlichen Wartung am 17. November live gehen.",
+      "tipp": "Billigen Kleinkram bis zur Wartung am 17. November lieber beim Händler verkaufen, statt ihn ins Auktionshaus zu stellen.",
+      "video": null,
+      "inhalt": [],
+      "quellen": [
+        {
+          "name": "Blizzard-Forum – Kaivax zu den Auktionshaus-Änderungen (12. November 2026)",
+          "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-11-2026/2403040/7"
+        }
+      ],
+      "i18n": {
+        "en": {
+          "kat": "System",
+          "titel": "Auction house deposit: 1 copper only arrives with the November 17 maintenance",
+          "text": "Lowering the minimum auction house deposit from 1 silver to 1 copper was already part of the November 10 hotfixes. According to community manager Kaivax on the Blizzard forums, however, Blizzard has temporarily removed the auction house changes again. They are set to go live with the weekly maintenance on November 17.",
+          "tipp": "Until the November 17 maintenance, better sell cheap junk to a vendor instead of listing it on the auction house.",
+          "inhalt": []
+        },
+        "fr": {
+          "kat": "Système",
+          "titel": "Dépôt à l'hôtel des ventes : le 1 cuivre n'arrive qu'avec la maintenance du 17 novembre",
+          "text": "La baisse du dépôt minimum à l'hôtel des ventes de 1 argent à 1 cuivre figurait déjà dans les correctifs du 10 novembre. Selon le community manager Kaivax sur les forums Blizzard, Blizzard a toutefois retiré temporairement ces changements. Ils doivent arriver avec la maintenance hebdomadaire du 17 novembre.",
+          "tipp": "D'ici la maintenance du 17 novembre, vendez plutôt vos petites babioles au marchand au lieu de les mettre à l'hôtel des ventes.",
+          "inhalt": []
+        },
+        "es": {
+          "kat": "Sistema",
+          "titel": "Depósito de la casa de subastas: el 1 de cobre llega con el mantenimiento del 17 de noviembre",
+          "text": "La rebaja del depósito mínimo de la casa de subastas de 1 de plata a 1 de cobre ya figuraba en los hotfixes del 10 de noviembre. Sin embargo, según el community manager Kaivax en los foros de Blizzard, Blizzard ha retirado temporalmente los cambios de la casa de subastas. Se activarán con el mantenimiento semanal del 17 de noviembre.",
+          "tipp": "Hasta el mantenimiento del 17 de noviembre, mejor vende la morralla barata al vendedor en vez de subastarla.",
+          "inhalt": []
+        },
+        "ru": {
+          "kat": "Система",
+          "titel": "Залог на аукционе: 1 медяк появится только с обслуживанием 17 ноября",
+          "text": "Снижение минимального залога на аукционе с 1 серебряной до 1 медной монеты уже было в хотфиксах от 10 ноября. Однако, по словам комьюнити-менеджера Kaivax на форуме Blizzard, изменения аукциона временно убраны. Они должны заработать с еженедельным обслуживанием 17 ноября.",
+          "tipp": "До обслуживания 17 ноября дешёвую мелочь лучше продавать торговцу, а не выставлять на аукцион.",
+          "inhalt": []
+        }
+      }
+    },
     {
       "id": "2026-11-11-hotfixes-10-november-klassen",
       "datum": "2026-11-11",
       "kat": "Klassen",
-      "top": true,
       "titel": "Hotfixes vom 10. November: Klassen-Tuning ist live – Verstärkung abgeschwächt, Gebrechen umgebaut",
       "text": "Blizzard hat am 10. November die angekündigten Klassenanpassungen eingespielt. Verstärkungs-Schamanen verlieren Schaden über Sturmschlag und Intelligenz, Gebrechen-Hexenmeister profitieren beim Kanalisieren von Peinigung* jetzt von ihren DoTs, und alle Hexenmeister-Dämonen haben rund 15 % mehr Leben. Jäger-Begleiter hatten wegen eines Fehlers 150 % ihres normalen Lebens – jetzt sind es 115 %.",
       "tipp": "Spielst du Verstärkung, setz jetzt erst recht auf Stärke und Angriffskraft statt Intelligenz – Geistige Gewandtheit* wandelt nur noch 33/66/100 % um.",
