@@ -1,12 +1,632 @@
 {
-  "stand": "2026-11-12",
+  "stand": "2026-11-13",
   "hinweis": "Wird täglich gegen 8 Uhr morgens automatisch aktualisiert.",
   "eintraege": [
+    {
+      "id": "2026-11-13-schamane-hotfix-live",
+      "datum": "2026-11-13",
+      "kat": "Klassen",
+      "top": true,
+      "titel": "Schamanen-Änderungen erst seit 12. November live – Waffe des Mahlstroms löst seltener aus",
+      "text": "Laut Community-Manager Kaivax im Blizzard-Forum sind die angekündigten Schamanen-Änderungen wegen einer Verzögerung erst am 12. November um 10:45 Uhr Pazifikzeit (19:45 Uhr deutscher Zeit) in allen Regionen live gegangen. Verstärkungs-Schamanen machen damit weniger Schaden mit Sturmschlag, und die Waffe des Mahlstroms löst je nach Rang nur noch 6- bis 10-mal pro Minute aus statt pauschal 20-mal.",
+      "tipp": "Als Verstärkungs-Schamane jetzt Stärke und Angriffskraft vor Intelligenz sammeln und eine langsame Zweihandwaffe nutzen – damit ist die Chance auf Aufladungen pro Schlag am höchsten.",
+      "video": null,
+      "inhalt": [
+        {
+          "typ": "tabelle",
+          "titel": "Was sich für Schamanen geändert hat",
+          "kopf": [
+            "Fähigkeit",
+            "Jetzt",
+            "Vorher"
+          ],
+          "zeilen": [
+            [
+              "Sturmschlag",
+              "100 % Waffenschaden, 8 Sek. Abklingzeit",
+              "150 %, 6 Sek."
+            ],
+            [
+              "Geistige Gewandtheit*",
+              "33/66/100 % der Intelligenz als Angriffskraft",
+              "50/100/150 %"
+            ],
+            [
+              "Waffe des Mahlstroms (Wirkung)",
+              "20 % weniger Zauberzeit und Manakosten je Aufladung auf jedem Rang",
+              "4/8/12/16/20 % je Rang"
+            ],
+            [
+              "Waffe des Mahlstroms (Auslösung)",
+              "6/7/8/9/10-mal pro Minute je nach Rang",
+              "20-mal pro Minute auf jedem Rang"
+            ],
+            [
+              "Waffenverzauberungen und Waffen-Totems",
+              "wirken gleichzeitig (z. B. Waffe des Windzorns und Totem des Windzorns)",
+              "nicht gleichzeitig"
+            ]
+          ]
+        },
+        {
+          "typ": "liste",
+          "titel": "Gut zu wissen",
+          "punkte": [
+            "Der Tooltip der Waffe des Mahlstroms zeigt jetzt die Chance pro Schlag passend zur Geschwindigkeit deiner Waffenhand-Waffe.",
+            "Blizzards Beispiel mit 5 Talentpunkten: 60 % pro Schlag mit einer Waffe mit Tempo 3,6, aber nur 33 % mit Tempo 2,0.",
+            "Die Änderungen standen schon in den Hotfix-Notizen vom 10. November, waren aber erst am 12. November überall aktiv."
+          ]
+        }
+      ],
+      "quellen": [
+        {
+          "name": "Blizzard-Forum – Kaivax: Schamanen-Hotfixes live (12. November 2026)",
+          "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-11-2026/2403040/9"
+        },
+        {
+          "name": "Wowhead Blue Tracker – WoW: Forever Hotfixes, 11. November 2026",
+          "url": "https://www.wowhead.com/blue-tracker/topic/us/wow-forever-hotfixes-november-11-2026-2403040"
+        }
+      ],
+      "i18n": {
+        "en": {
+          "kat": "Classes",
+          "titel": "Shaman changes only live since November 12 – Maelstrom Weapon procs less often",
+          "text": "According to community manager Kaivax on the Blizzard forums, the announced Shaman changes only went live in all regions on November 12 at 10:45 a.m. Pacific time due to a deployment delay. Enhancement Shamans now deal less damage with Stormstrike, and Maelstrom Weapon procs only 6 to 10 times per minute depending on rank instead of a flat 20 times.",
+          "tipp": "As an Enhancement Shaman, prioritize Strength and Attack Power over Intellect and use a slow two-hander – that gives you the highest chance per swing to gain charges.",
+          "inhalt": [
+            {
+              "typ": "tabelle",
+              "titel": "What changed for Shamans",
+              "kopf": [
+                "Ability",
+                "Now",
+                "Before"
+              ],
+              "zeilen": [
+                [
+                  "Stormstrike",
+                  "100% weapon damage, 8 sec. cooldown",
+                  "150%, 6 sec."
+                ],
+                [
+                  "Mental Dexterity*",
+                  "33/66/100% of Intellect as Attack Power",
+                  "50/100/150%"
+                ],
+                [
+                  "Maelstrom Weapon (effect)",
+                  "20% less cast time and mana cost per charge at every rank",
+                  "4/8/12/16/20% per rank"
+                ],
+                [
+                  "Maelstrom Weapon (proc rate)",
+                  "6/7/8/9/10 times per minute depending on rank",
+                  "20 times per minute at every rank"
+                ],
+                [
+                  "Weapon imbues and weapon totems",
+                  "work at the same time (e.g. Windfury Weapon and Windfury Totem)",
+                  "not at the same time"
+                ]
+              ]
+            },
+            {
+              "typ": "liste",
+              "titel": "Good to know",
+              "punkte": [
+                "The Maelstrom Weapon tooltip now shows the chance per swing based on your main-hand weapon speed.",
+                "Blizzard's example with 5 talent points: 60% per swing with a 3.6-speed weapon, but only 33% with a 2.0-speed weapon.",
+                "The changes were already in the November 10 hotfix notes but were only active everywhere on November 12."
+              ]
+            }
+          ]
+        },
+        "fr": {
+          "kat": "Classes",
+          "titel": "Changements du Chaman actifs seulement depuis le 12 novembre – Arme du Maelström se déclenche moins souvent",
+          "text": "Selon le community manager Kaivax sur les forums Blizzard, les changements annoncés pour le Chaman ne sont arrivés dans toutes les régions que le 12 novembre à 10h45 heure du Pacifique, à cause d'un retard de déploiement. Les Chamans Amélioration font donc moins de dégâts avec Frappe-tempête, et Arme du Maelström ne se déclenche plus que 6 à 10 fois par minute selon le rang, au lieu de 20 fois pour tous.",
+          "tipp": "En Chaman Amélioration, privilégiez la Force et la puissance d'attaque plutôt que l'Intelligence, et jouez une arme à deux mains lente – c'est ce qui donne la meilleure chance de charge par coup.",
+          "inhalt": [
+            {
+              "typ": "tabelle",
+              "titel": "Ce qui change pour les Chamans",
+              "kopf": [
+                "Technique",
+                "Maintenant",
+                "Avant"
+              ],
+              "zeilen": [
+                [
+                  "Frappe-tempête",
+                  "100 % des dégâts de l'arme, 8 s de recharge",
+                  "150 %, 6 s"
+                ],
+                [
+                  "Dextérité mentale*",
+                  "33/66/100 % de l'Intelligence en puissance d'attaque",
+                  "50/100/150 %"
+                ],
+                [
+                  "Arme du Maelström (effet)",
+                  "20 % de temps d'incantation et de coût en mana en moins par charge, à tous les rangs",
+                  "4/8/12/16/20 % selon le rang"
+                ],
+                [
+                  "Arme du Maelström (déclenchement)",
+                  "6/7/8/9/10 fois par minute selon le rang",
+                  "20 fois par minute à tous les rangs"
+                ],
+                [
+                  "Enchantements d'arme et totems d'arme",
+                  "fonctionnent en même temps (p. ex. Arme Furie-des-vents et Totem Furie-des-vents)",
+                  "pas en même temps"
+                ]
+              ]
+            },
+            {
+              "typ": "liste",
+              "titel": "Bon à savoir",
+              "punkte": [
+                "L'infobulle d'Arme du Maelström affiche maintenant la chance par coup selon la vitesse de votre arme en main droite.",
+                "Exemple de Blizzard avec 5 points de talent : 60 % par coup avec une arme de vitesse 3,6, mais seulement 33 % avec une vitesse 2,0.",
+                "Ces changements figuraient déjà dans les notes de correctifs du 10 novembre, mais n'étaient actifs partout que le 12 novembre."
+              ]
+            }
+          ]
+        },
+        "es": {
+          "kat": "Clases",
+          "titel": "Los cambios del chamán solo están activos desde el 12 de noviembre: Arma vorágine se activa con menos frecuencia",
+          "text": "Según el community manager Kaivax en los foros de Blizzard, los cambios anunciados para el chamán no se activaron en todas las regiones hasta el 12 de noviembre a las 10:45 hora del Pacífico, por un retraso en el despliegue. Los chamanes de Mejora hacen ahora menos daño con Golpe de tormenta, y Arma vorágine se activa solo de 6 a 10 veces por minuto según el rango, en lugar de 20 veces fijas.",
+          "tipp": "Como chamán de Mejora, prioriza Fuerza y poder de ataque por encima de Intelecto y usa un arma de dos manos lenta: así tienes la mayor probabilidad de carga por golpe.",
+          "inhalt": [
+            {
+              "typ": "tabelle",
+              "titel": "Qué ha cambiado para los chamanes",
+              "kopf": [
+                "Habilidad",
+                "Ahora",
+                "Antes"
+              ],
+              "zeilen": [
+                [
+                  "Golpe de tormenta",
+                  "100 % del daño del arma, 8 s de reutilización",
+                  "150 %, 6 s"
+                ],
+                [
+                  "Destreza mental*",
+                  "33/66/100 % del Intelecto como poder de ataque",
+                  "50/100/150 %"
+                ],
+                [
+                  "Arma vorágine (efecto)",
+                  "20 % menos de tiempo de lanzamiento y coste de maná por carga en todos los rangos",
+                  "4/8/12/16/20 % según el rango"
+                ],
+                [
+                  "Arma vorágine (activación)",
+                  "6/7/8/9/10 veces por minuto según el rango",
+                  "20 veces por minuto en todos los rangos"
+                ],
+                [
+                  "Imbuiciones de arma y tótems de arma",
+                  "funcionan a la vez (p. ej. Arma Viento Furioso y Tótem Viento Furioso)",
+                  "no a la vez"
+                ]
+              ]
+            },
+            {
+              "typ": "liste",
+              "titel": "Conviene saber",
+              "punkte": [
+                "La descripción de Arma vorágine muestra ahora la probabilidad por golpe según la velocidad de tu arma de mano principal.",
+                "Ejemplo de Blizzard con 5 puntos de talento: 60 % por golpe con un arma de velocidad 3,6, pero solo 33 % con velocidad 2,0.",
+                "Los cambios ya figuraban en las notas de hotfixes del 10 de noviembre, pero no estuvieron activos en todas partes hasta el 12 de noviembre."
+              ]
+            }
+          ]
+        },
+        "ru": {
+          "kat": "Классы",
+          "titel": "Изменения шаманов действуют только с 12 ноября – Оружие Водоворота срабатывает реже",
+          "text": "По словам комьюнити-менеджера Kaivax на форуме Blizzard, объявленные изменения шаманов из-за задержки развёртывания вступили в силу во всех регионах только 12 ноября в 10:45 по тихоокеанскому времени. Шаманы «Совершенствования» теперь наносят меньше урона Ударом бури, а Оружие Водоворота срабатывает в зависимости от ранга лишь 6–10 раз в минуту вместо фиксированных 20.",
+          "tipp": "Шаману «Совершенствования» сейчас стоит собирать силу и силу атаки, а не интеллект, и брать медленное двуручное оружие – так шанс получить заряд за удар максимален.",
+          "inhalt": [
+            {
+              "typ": "tabelle",
+              "titel": "Что изменилось у шаманов",
+              "kopf": [
+                "Способность",
+                "Сейчас",
+                "Раньше"
+              ],
+              "zeilen": [
+                [
+                  "Удар бури",
+                  "100 % урона оружия, восстановление 8 сек.",
+                  "150 %, 6 сек."
+                ],
+                [
+                  "Ловкость ума*",
+                  "33/66/100 % интеллекта в силу атаки",
+                  "50/100/150 %"
+                ],
+                [
+                  "Оружие Водоворота (эффект)",
+                  "на 20 % меньше время произнесения и стоимость маны за заряд на любом ранге",
+                  "4/8/12/16/20 % по рангам"
+                ],
+                [
+                  "Оружие Водоворота (срабатывание)",
+                  "6/7/8/9/10 раз в минуту в зависимости от ранга",
+                  "20 раз в минуту на любом ранге"
+                ],
+                [
+                  "Чары оружия и тотемы оружия",
+                  "действуют одновременно (например, Оружие неистовства ветра и Тотем неистовства ветра)",
+                  "не одновременно"
+                ]
+              ]
+            },
+            {
+              "typ": "liste",
+              "titel": "Полезно знать",
+              "punkte": [
+                "Подсказка Оружия Водоворота теперь показывает шанс за удар с учётом скорости оружия в правой руке.",
+                "Пример Blizzard с 5 очками талантов: 60 % за удар с оружием скорости 3,6, но только 33 % со скоростью 2,0.",
+                "Изменения уже были в списке хотфиксов от 10 ноября, но заработали везде только 12 ноября."
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "2026-11-13-weltbuffs-neue-orte",
+      "datum": "2026-11-13",
+      "kat": "System",
+      "titel": "Weltbuffs jetzt auch in Klingenhügel, Goldhain und Späherkuppe – in Raids wirken sie nicht",
+      "text": "Laut einem Blizzard-Entwickler auf X (berichtet von Warcraft Tavern) verteilen die Herolde Thralls die Horde-Buffs jetzt nicht nur am Wegekreuz, sondern auch am Wachturm von Klingenhügel. Für die Allianz reiten neue Ausrufer aus Sturmwind nach Goldhain, zur Späherkuppe und ins Rotkammgebirge. Laut Icy Veins und Spielerberichten wirken Weltbuffs in Forever aber nicht in Raids – eine eigene Blizzard-Meldung dazu gibt es noch nicht.",
+      "tipp": "Für Weltbuffs musst du nicht mehr extra in die Hauptstadt – sie helfen dir vor allem beim Questen in der offenen Welt.",
+      "video": null,
+      "inhalt": [
+        {
+          "typ": "liste",
+          "titel": "Was bisher bekannt ist",
+          "punkte": [
+            "Horde: Orgrimmar, Wegekreuz und neu der Wachturm von Klingenhügel (Durotar).",
+            "Allianz: Sturmwind und neu Goldhain (Wald von Elwynn), Späherkuppe (Westfall) und das Rotkammgebirge.",
+            "Bestätigt sind laut Warcraft Tavern bisher Warchief's Blessing (Horde) und Might of Stormwind (Allianz); beide gibt es, wenn jemand die Quest zu Rend Blackhand in der Oberen Schwarzfelsspitze abschließt.",
+            "Die Düsterbruch-Buffs (Mol'dar's Moxie, Fengus' Ferocity, Slip'kik's Savvy) und Sayges Buff vom Dunkelmond-Jahrmarkt haben laut Tooltip keine Wirkung in Raids und auf Schlachtfeldern (laut Spielerberichten, nicht offiziell von Blizzard angekündigt)."
+          ]
+        }
+      ],
+      "quellen": [
+        {
+          "name": "Warcraft Tavern – Forever World Buffs Now Provided in Razor Hill, Goldshire, Lakeshire & Sentinel Hill",
+          "url": "https://www.warcrafttavern.com/forever/news/forever-world-buffs-now-provided-in-razor-hill-goldshire-lakeshire-sentinel-hill/"
+        },
+        {
+          "name": "Icy Veins – World Buffs Just Got Benched From Raids in WoW Forever",
+          "url": "https://www.icy-veins.com/wow-forever/news/world-buffs-just-got-benched-from-raids-in-wow-forever-ending-a-classic-headache/"
+        },
+        {
+          "name": "Stevinho.de – Die World Buffs funktionieren nicht mehr in Raids",
+          "url": "https://www.stevinho.de/2026/11/10/wow-forever-die-world-buffs-funktionieren-nicht-mehr-in-raids/"
+        }
+      ],
+      "i18n": {
+        "en": {
+          "kat": "System",
+          "titel": "World buffs now also in Razor Hill, Goldshire and Sentinel Hill – but they don't work in raids",
+          "text": "According to a Blizzard developer on X (reported by Warcraft Tavern), the Heralds of Thrall now hand out the Horde buffs not only at the Crossroads but also at the Razor Hill guard tower. For the Alliance, new criers ride from Stormwind to Goldshire, Sentinel Hill and Redridge. According to Icy Veins and player reports, however, world buffs in Forever do not work in raids – there is no dedicated Blizzard announcement on this yet.",
+          "tipp": "You no longer need to rush to your capital for world buffs – they mainly help you while questing in the open world.",
+          "inhalt": [
+            {
+              "typ": "liste",
+              "titel": "What we know so far",
+              "punkte": [
+                "Horde: Orgrimmar, the Crossroads and now the Razor Hill guard tower (Durotar).",
+                "Alliance: Stormwind and now Goldshire (Elwynn Forest), Sentinel Hill (Westfall) and Redridge Mountains.",
+                "According to Warcraft Tavern, Warchief's Blessing (Horde) and Might of Stormwind (Alliance) are confirmed so far; both are granted when someone completes the Rend Blackhand quest in Upper Blackrock Spire.",
+                "The Dire Maul buffs (Mol'dar's Moxie, Fengus' Ferocity, Slip'kik's Savvy) and Sayge's buff from the Darkmoon Faire have no effect in raids and battlegrounds according to their tooltips (per player reports, not officially announced by Blizzard)."
+              ]
+            }
+          ]
+        },
+        "fr": {
+          "kat": "Système",
+          "titel": "Buffs mondiaux désormais aussi à Tranchecolline, Comté-de-l'Or et Colline des Sentinelles – mais pas en raid",
+          "text": "Selon un développeur de Blizzard sur X (rapporté par Warcraft Tavern), les Hérauts de Thrall distribuent désormais les buffs de la Horde non seulement à la Croisée, mais aussi à la tour de garde de Tranchecolline. Côté Alliance, de nouveaux crieurs partent de Hurlevent vers Comté-de-l'Or, la Colline des Sentinelles et les Carmines. Selon Icy Veins et des retours de joueurs, les buffs mondiaux ne fonctionnent toutefois pas en raid dans Forever – Blizzard n'a pas encore fait d'annonce dédiée.",
+          "tipp": "Plus besoin de foncer en capitale pour les buffs mondiaux – ils servent surtout pour les quêtes en monde ouvert.",
+          "inhalt": [
+            {
+              "typ": "liste",
+              "titel": "Ce que l'on sait pour l'instant",
+              "punkte": [
+                "Horde : Orgrimmar, la Croisée et désormais la tour de garde de Tranchecolline (Durotar).",
+                "Alliance : Hurlevent et désormais Comté-de-l'Or (forêt d'Elwynn), Colline des Sentinelles (Marche de l'Ouest) et les Carmines.",
+                "Selon Warcraft Tavern, Warchief's Blessing (Horde) et Might of Stormwind (Alliance) sont confirmés pour l'instant ; les deux s'obtiennent quand quelqu'un termine la quête de Rend Main-noire au sommet du pic Rochenoire.",
+                "Les buffs de Hache-tripes (Mol'dar's Moxie, Fengus' Ferocity, Slip'kik's Savvy) et le buff de Sayge de la foire de Sombrelune n'ont aucun effet en raid et en champ de bataille d'après leur infobulle (selon des retours de joueurs, pas annoncé officiellement par Blizzard)."
+              ]
+            }
+          ]
+        },
+        "es": {
+          "kat": "Sistema",
+          "titel": "Bufos de mundo ahora también en Cerrotajo, Villadorada y Colina del Centinela, pero no funcionan en bandas",
+          "text": "Según un desarrollador de Blizzard en X (recogido por Warcraft Tavern), los Heraldos de Thrall reparten ahora los bufos de la Horda no solo en el Cruce, sino también en la torre de guardia de Cerrotajo. Para la Alianza, nuevos pregoneros salen de Ventormenta hacia Villadorada, la Colina del Centinela y las Montañas Crestagrana. Sin embargo, según Icy Veins y reportes de jugadores, los bufos de mundo no funcionan en bandas en Forever; todavía no hay un anuncio propio de Blizzard.",
+          "tipp": "Ya no tienes que ir corriendo a tu capital por los bufos de mundo: sobre todo te ayudan al hacer misiones en el mundo abierto.",
+          "inhalt": [
+            {
+              "typ": "liste",
+              "titel": "Lo que se sabe hasta ahora",
+              "punkte": [
+                "Horda: Orgrimmar, el Cruce y ahora la torre de guardia de Cerrotajo (Durotar).",
+                "Alianza: Ventormenta y ahora Villadorada (Bosque de Elwynn), Colina del Centinela (Páramos de Poniente) y las Montañas Crestagrana.",
+                "Según Warcraft Tavern, por ahora están confirmados Warchief's Blessing (Horda) y Might of Stormwind (Alianza); ambos se obtienen cuando alguien completa la misión de Rend Puño Negro en la Cumbre de Roca Negra.",
+                "Los bufos de La Masacre (Mol'dar's Moxie, Fengus' Ferocity, Slip'kik's Savvy) y el bufo de Sayge de la Feria de la Luna Negra no tienen efecto en bandas ni campos de batalla según su descripción (según reportes de jugadores, sin anuncio oficial de Blizzard)."
+              ]
+            }
+          ]
+        },
+        "ru": {
+          "kat": "Система",
+          "titel": "Мировые баффы теперь и в Колючем Холме, Златоземье и на Сторожевом холме – но в рейдах они не действуют",
+          "text": "По словам разработчика Blizzard в X (сообщает Warcraft Tavern), Глашатаи Тралла теперь раздают баффы Орды не только на Перекрёстке, но и у сторожевой башни Колючего Холма. У Альянса новые глашатаи скачут из Штормграда в Златоземье, на Сторожевой холм и в Красногорье. Однако, по данным Icy Veins и сообщениям игроков, в Forever мировые баффы не действуют в рейдах – отдельного объявления Blizzard об этом пока нет.",
+          "tipp": "Ради мировых баффов больше не нужно бежать в столицу – они в основном помогают при выполнении заданий в открытом мире.",
+          "inhalt": [
+            {
+              "typ": "liste",
+              "titel": "Что известно на данный момент",
+              "punkte": [
+                "Орда: Оргриммар, Перекрёсток и теперь сторожевая башня Колючего Холма (Дуротар).",
+                "Альянс: Штормград и теперь Златоземье (Элвиннский лес), Сторожевой холм (Западный Край) и Красногорье.",
+                "По данным Warcraft Tavern, пока подтверждены Warchief's Blessing (Орда) и Might of Stormwind (Альянс); оба выдаются, когда кто-то выполняет задание на Ренда Чернорука в Верхней части пика Черной горы.",
+                "Баффы Забытого Города (Mol'dar's Moxie, Fengus' Ferocity, Slip'kik's Savvy) и бафф Сайге с Ярмарки Новолуния, судя по подсказке, не действуют в рейдах и на полях боя (по сообщениям игроков, официально Blizzard не объявляла)."
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "2026-11-13-wochenquest-duesterbruch",
+      "datum": "2026-11-13",
+      "kat": "Dungeons",
+      "titel": "Wochenquest in Beutebucht: Düsterbruch-Beute gegen Gold",
+      "text": "Laut Wowhead-Datenbank und Timesaver gibt es auf Stufe 60 die wöchentliche Quest „In Demand - Ancient Elven Curiosities“ bei Pix Xizzix in Beutebucht, für beide Fraktionen. Du bringst je einen Gegenstand aus allen drei Flügeln von Düsterbruch und bekommst eine Undermine Satchel mit einem Goldgegenstand im Wert von 10, 20, 40 oder 100 Gold plus Materialien. Blizzard hat die Quest nicht eigens angekündigt, und wie oft es welchen Goldwert gibt, ist nicht bekannt.",
+      "tipp": "Die drei Gegenstände kommen von den Endbossen der Flügel – nimm die Quest einfach mit, wenn du ohnehin in Düsterbruch unterwegs bist.",
+      "video": null,
+      "inhalt": [
+        {
+          "typ": "tabelle",
+          "titel": "Was du abgeben musst",
+          "kopf": [
+            "Gegenstand",
+            "Flügel",
+            "Boss"
+          ],
+          "zeilen": [
+            [
+              "Felvine Seed",
+              "Ost",
+              "Alzzin"
+            ],
+            [
+              "Ancient Memento",
+              "West",
+              "Prinz Tortheldrin"
+            ],
+            [
+              "Earthstone Diamond Pinky Ring",
+              "Nord",
+              "König Gordok"
+            ]
+          ]
+        }
+      ],
+      "quellen": [
+        {
+          "name": "Timesaver – WoW Forever Weekly Quest: 3 Dire Maul Bosses for Up to 100 Gold",
+          "url": "https://timesaver.gg/blog/wow-forever-weekly-quest-dire-maul-100-gold"
+        }
+      ],
+      "i18n": {
+        "en": {
+          "kat": "Dungeons",
+          "titel": "Weekly quest in Booty Bay: Dire Maul loot for gold",
+          "text": "According to the Wowhead database and Timesaver, there is a level 60 weekly quest called “In Demand - Ancient Elven Curiosities” from Pix Xizzix in Booty Bay, available to both factions. You bring one item from each of the three Dire Maul wings and receive an Undermine Satchel containing a gold item worth 10, 20, 40 or 100 gold plus materials. Blizzard has not announced the quest separately, and the odds for each gold value are unknown.",
+          "tipp": "The three items come from the final bosses of each wing – just pick up the quest whenever you're heading into Dire Maul anyway.",
+          "inhalt": [
+            {
+              "typ": "tabelle",
+              "titel": "What you need to turn in",
+              "kopf": [
+                "Item",
+                "Wing",
+                "Boss"
+              ],
+              "zeilen": [
+                [
+                  "Felvine Seed",
+                  "East",
+                  "Alzzin"
+                ],
+                [
+                  "Ancient Memento",
+                  "West",
+                  "Prince Tortheldrin"
+                ],
+                [
+                  "Earthstone Diamond Pinky Ring",
+                  "North",
+                  "King Gordok"
+                ]
+              ]
+            }
+          ]
+        },
+        "fr": {
+          "kat": "Donjons",
+          "titel": "Quête hebdomadaire à Baie-du-Butin : du butin de Hache-tripes contre de l'or",
+          "text": "Selon la base de données de Wowhead et Timesaver, il existe au niveau 60 une quête hebdomadaire « In Demand - Ancient Elven Curiosities » auprès de Pix Xizzix à Baie-du-Butin, pour les deux factions. Vous rapportez un objet de chacune des trois ailes de Hache-tripes et recevez une Undermine Satchel contenant un objet en or valant 10, 20, 40 ou 100 pièces d'or, plus des composants. Blizzard n'a pas annoncé la quête à part, et les chances pour chaque valeur sont inconnues.",
+          "tipp": "Les trois objets viennent des boss de fin de chaque aile – prenez simplement la quête quand vous allez de toute façon à Hache-tripes.",
+          "inhalt": [
+            {
+              "typ": "tabelle",
+              "titel": "Ce que vous devez rapporter",
+              "kopf": [
+                "Objet",
+                "Aile",
+                "Boss"
+              ],
+              "zeilen": [
+                [
+                  "Felvine Seed",
+                  "Est",
+                  "Alzzin"
+                ],
+                [
+                  "Ancient Memento",
+                  "Ouest",
+                  "Prince Tortheldrin"
+                ],
+                [
+                  "Earthstone Diamond Pinky Ring",
+                  "Nord",
+                  "Roi Gordok"
+                ]
+              ]
+            }
+          ]
+        },
+        "es": {
+          "kat": "Mazmorras",
+          "titel": "Misión semanal en Bahía del Botín: botín de La Masacre a cambio de oro",
+          "text": "Según la base de datos de Wowhead y Timesaver, en el nivel 60 hay una misión semanal llamada «In Demand - Ancient Elven Curiosities» de Pix Xizzix en Bahía del Botín, para ambas facciones. Llevas un objeto de cada una de las tres alas de La Masacre y recibes una Undermine Satchel con un objeto de oro que vale 10, 20, 40 o 100 de oro, además de materiales. Blizzard no ha anunciado la misión por separado y no se conocen las probabilidades de cada valor.",
+          "tipp": "Los tres objetos los sueltan los jefes finales de cada ala: coge la misión cuando vayas a La Masacre de todos modos.",
+          "inhalt": [
+            {
+              "typ": "tabelle",
+              "titel": "Lo que tienes que entregar",
+              "kopf": [
+                "Objeto",
+                "Ala",
+                "Jefe"
+              ],
+              "zeilen": [
+                [
+                  "Felvine Seed",
+                  "Este",
+                  "Alzzin"
+                ],
+                [
+                  "Ancient Memento",
+                  "Oeste",
+                  "Príncipe Tortheldrin"
+                ],
+                [
+                  "Earthstone Diamond Pinky Ring",
+                  "Norte",
+                  "Rey Gordok"
+                ]
+              ]
+            }
+          ]
+        },
+        "ru": {
+          "kat": "Подземелья",
+          "titel": "Еженедельное задание в Пиратской Бухте: добыча из Забытого Города за золото",
+          "text": "По данным базы Wowhead и Timesaver, на 60-м уровне есть еженедельное задание «In Demand - Ancient Elven Curiosities» у Пикса Ксиззикса в Пиратской Бухте, доступное обеим фракциям. Нужно принести по одному предмету из всех трёх крыльев Забытого Города, а в награду дают Undermine Satchel с золотым предметом стоимостью 10, 20, 40 или 100 золотых и материалами. Blizzard отдельно задание не анонсировала, шансы на каждую сумму неизвестны.",
+          "tipp": "Все три предмета падают с последних боссов крыльев – просто берите задание, когда всё равно идёте в Забытый Город.",
+          "inhalt": [
+            {
+              "typ": "tabelle",
+              "titel": "Что нужно сдать",
+              "kopf": [
+                "Предмет",
+                "Крыло",
+                "Босс"
+              ],
+              "zeilen": [
+                [
+                  "Felvine Seed",
+                  "Восток",
+                  "Аззин"
+                ],
+                [
+                  "Ancient Memento",
+                  "Запад",
+                  "Принц Тортелдрин"
+                ],
+                [
+                  "Earthstone Diamond Pinky Ring",
+                  "Север",
+                  "Король Гордок"
+                ]
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "2026-11-13-ddos-verbindungsabbrueche",
+      "datum": "2026-11-13",
+      "kat": "Bugs",
+      "titel": "DDoS-Angriff: Verbindungsabbrüche und Warteschlangen am 12. November",
+      "text": "In der Nacht zum 12. November (etwa 2 bis 3:30 Uhr deutscher Zeit) flogen viele Spieler aus WoW Forever, landeten in Warteschlangen oder hingen beim Einloggen fest. Laut dem Blizzard-Kundendienst im US-Forum lief ein DDoS-Angriff auf alle Blizzard-Spiele, den Blizzard abwehren wollte. Ab etwa 22:15 Uhr deutscher Zeit meldeten vor allem Spieler auf amerikanischen Servern erneut Abbrüche – dazu hat sich Blizzard laut Timesaver noch nicht geäußert.",
+      "tipp": "Fliegst du raus, ein paar Minuten warten statt ständig neu zu starten – das Problem liegt bei den Servern, nicht bei deinem PC.",
+      "video": null,
+      "inhalt": [],
+      "quellen": [
+        {
+          "name": "Timesaver – Is WoW Forever Down? (Verbindungsabbrüche seit 12. November)",
+          "url": "https://timesaver.gg/blog/is-wow-forever-down"
+        },
+        {
+          "name": "Blizzard-Forum – WoW Forever: Constant disconnecting",
+          "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-constant-disconnecting-for-10-minutes/2413251"
+        }
+      ],
+      "i18n": {
+        "en": {
+          "kat": "Bugs",
+          "titel": "DDoS attack: disconnects and queues on November 12",
+          "text": "During the night of November 12 (roughly 00:50 to 02:30 UTC), many players were kicked from WoW Forever, ended up in queues or got stuck while logging in. According to Blizzard customer support on the US forums, a DDoS attack was hitting all Blizzard games and Blizzard was working to mitigate it. From around 21:15 UTC, mainly players on American servers again reported disconnects – according to Timesaver, Blizzard has not commented on that yet.",
+          "tipp": "If you get disconnected, wait a few minutes instead of restarting over and over – the problem is on the servers, not your PC.",
+          "inhalt": []
+        },
+        "fr": {
+          "kat": "Bugs",
+          "titel": "Attaque DDoS : déconnexions et files d'attente le 12 novembre",
+          "text": "Dans la nuit du 12 novembre (environ de 2h à 3h30, heure de Paris), de nombreux joueurs ont été déconnectés de WoW Forever, se sont retrouvés en file d'attente ou bloqués à la connexion. Selon le support client de Blizzard sur le forum américain, une attaque DDoS visait tous les jeux Blizzard, que Blizzard s'efforçait de contrer. À partir d'environ 22h15 (heure de Paris), surtout des joueurs sur les serveurs américains ont de nouveau signalé des déconnexions – selon Timesaver, Blizzard ne s'est pas encore exprimé à ce sujet.",
+          "tipp": "Si vous êtes déconnecté, attendez quelques minutes au lieu de relancer sans cesse – le problème vient des serveurs, pas de votre PC.",
+          "inhalt": []
+        },
+        "es": {
+          "kat": "Errores",
+          "titel": "Ataque DDoS: desconexiones y colas el 12 de noviembre",
+          "text": "En la madrugada del 12 de noviembre (aprox. de 2:00 a 3:30, hora peninsular española), muchos jugadores fueron expulsados de WoW Forever, acabaron en colas o se quedaron atascados al iniciar sesión. Según el servicio de atención al cliente de Blizzard en el foro de EE. UU., había un ataque DDoS contra todos los juegos de Blizzard que la compañía intentaba mitigar. Desde aprox. las 22:15 (hora peninsular), sobre todo jugadores de servidores americanos volvieron a informar de desconexiones; según Timesaver, Blizzard aún no se ha pronunciado al respecto.",
+          "tipp": "Si te desconecta, espera unos minutos en lugar de reiniciar una y otra vez: el problema está en los servidores, no en tu PC.",
+          "inhalt": []
+        },
+        "ru": {
+          "kat": "Ошибки",
+          "titel": "DDoS-атака: разрывы соединения и очереди 12 ноября",
+          "text": "В ночь на 12 ноября (примерно с 4:00 до 5:30 по Москве) многих игроков выбрасывало из WoW Forever, они попадали в очереди или зависали при входе. По словам службы поддержки Blizzard на американском форуме, шла DDoS-атака на все игры Blizzard, и компания пыталась её отразить. Примерно с 0:15 по Москве (13 ноября) снова сообщали о разрывах, в основном игроки на американских серверах – по данным Timesaver, Blizzard это пока не комментировала.",
+          "tipp": "Если вас выбросило, подождите несколько минут, а не перезапускайте игру снова и снова – проблема на серверах, а не в вашем ПК.",
+          "inhalt": []
+        }
+      }
+    },
     {
       "id": "2026-11-12-hotfixes-11-november",
       "datum": "2026-11-12",
       "kat": "Patch",
-      "top": true,
       "titel": "Hotfixes vom 11. November: größere Schneider-Taschen, Flussauen entschärft, Richturteil zählt als Fernkampf",
       "text": "Blizzard hat am 11. November die nächste Runde Hotfixes eingespielt. Mehrere Stofftaschen aus der Schneiderei waren versehentlich zu klein und haben jetzt mehr Plätze, brauchen dafür aber einen Stoffballen mehr. In den Flussauen* (Riverglades) machen einige Zwielicht-Gegner deutlich weniger Schaden, und das Richturteil des Paladins gilt jetzt als Fernkampfangriff.",
       "tipp": "Für Twinks lohnen sich jetzt Green und Red Woolen Bag: Sie haben jetzt 10 Plätze und kosten nur einen Ballen Wollstoff mehr.",
