@@ -1,12 +1,557 @@
 {
-  "stand": "2026-11-13",
+  "stand": "2026-11-14",
   "hinweis": "Wird täglich gegen 8 Uhr morgens automatisch aktualisiert.",
   "eintraege": [
+    {
+      "id": "2026-11-14-hotfixes-13-november",
+      "datum": "2026-11-14",
+      "kat": "Patch",
+      "top": true,
+      "titel": "Hotfixes vom 13. November: Wildwuchs heilt doppelt so stark, graue Dungeon-Gegner geben keine Erfahrung mehr",
+      "text": "Blizzard hat am 13. November die nächste Runde Hotfixes eingespielt. Wildwuchs heilt jetzt doppelt so stark, Totem des Windzorns löst durch alle Nahkampffähigkeiten aus und Berserkerwut entfernt Kopfnuss. In Dungeons gibt es keine Erfahrung mehr, wenn die Gegner für ein Gruppenmitglied grau sind – und in The Drowned City kommen normale Gegner erst nach 2 Stunden zurück.",
+      "tipp": "Wer sich von einem hochstufigen Freund durch Dungeons ziehen lassen wollte: Das bringt jetzt keine Erfahrung mehr – such dir lieber eine Gruppe auf deiner Stufe.",
+      "video": null,
+      "inhalt": [
+        {
+          "typ": "tabelle",
+          "titel": "Klassen",
+          "kopf": [
+            "Klasse",
+            "Änderung"
+          ],
+          "zeilen": [
+            [
+              "Alle",
+              "Betäubungen gegen Gegner (nicht Spieler) haben wieder abnehmende Wirkung (Diminishing Returns)."
+            ],
+            [
+              "Druide",
+              "Wildwuchs kann nicht mehr in der Bewegung gewirkt werden, heilt dafür doppelt so stark (Koeffizient 6,6 % statt 3,3 %)."
+            ],
+            [
+              "Magier",
+              "Frostnova bricht jetzt auch durch Schaden von Procs und von Blizzard."
+            ],
+            [
+              "Paladin",
+              "Richturteil des Befehls gilt als Nahkampfangriff und löst Treffer-Effekte aus; alle anderen Richturteile bleiben Fernkampf."
+            ],
+            [
+              "Priester",
+              "Das Legacy-Perk The Quick and the Dead senkt jetzt auch die Manakosten von Göttlicher Willen."
+            ],
+            [
+              "Schamane",
+              "Totem des Windzorns löst durch alle Nahkampffähigkeiten aus, auch ohne Haupthandwaffe – reine Schildhand-Schläge (z. B. von Wirbelwind oder Verstümmeln) weiterhin nicht."
+            ],
+            [
+              "Hexenmeister",
+              "Lebensentzug Rang 1 kann nicht mehr gewirkt werden, während ihr zum Schweigen gebracht seid."
+            ],
+            [
+              "Krieger",
+              "Berserkerwut entfernt jetzt Kopfnuss."
+            ]
+          ]
+        },
+        {
+          "typ": "liste",
+          "titel": "Dungeons und Welt",
+          "punkte": [
+            "Dungeon-Gegner geben der ganzen Gruppe 0 Erfahrung, wenn sie für mindestens ein Gruppenmitglied grau (zu niedrig) sind.",
+            "The Drowned City: Normale Gegner erscheinen erst nach 2 Stunden wieder (vorher 1 Stunde).",
+            "Die Todesminen: Sneed fällt richtig aus seinem Schredder, auch wenn dieser bei 0 % Leben betäubt ist.",
+            "Stratholme: Balnazzar zählt jetzt für die Legacy-Herausforderung Master Spelunker.",
+            "Mehr Gegner: Kleine Felselementare im Ödland sowie Tiger, Panther und Raptoren im Schlingendorntal erscheinen häufiger.",
+            "Mulgore: Im Startgebiet gibt es weniger Stachelebereber und Venture Co.-Gegner.",
+            "Wachen der Burg Nethergarde (Verwüstete Lande) lassen keine Beute mehr fallen."
+          ]
+        },
+        {
+          "typ": "liste",
+          "titel": "Quests und Sonstiges",
+          "punkte": [
+            "Viele Quest-Gegenstände (z. B. Deadwood Key, Ring of the Fallen Soldier) fallen jetzt für alle Gruppenmitglieder.",
+            "Die wöchentlichen Dungeonquests von Pix Xizzix verschwinden beim Wochen-Reset aus dem Questlog.",
+            "Owen Thadd (Unterstadt) und Garion Wendell (Sturmwind) nehmen wieder Bücher an.",
+            "Beim Angelwettbewerb im Schlingendorntal können pro Servertyp jetzt viel mehr Spieler gewinnen.",
+            "Aktionsleisten-Einstellungen werden beim Ausloggen nicht mehr zurückgesetzt, wenn ihr eine zweite Talentverteilung habt."
+          ]
+        }
+      ],
+      "quellen": [
+        {
+          "name": "Blizzard – WoW: Forever Hotfixes, 13. November 2026",
+          "url": "https://news.blizzard.com/en-us/article/24315281/wow-forever-hotfixes-november-13-2026"
+        },
+        {
+          "name": "Blizzard-Forum – Kaivax: Hotfixes vom 13. November",
+          "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/10"
+        },
+        {
+          "name": "Wowhead – Hotfixes for November 13, 2026",
+          "url": "https://www.wowhead.com/forever/news/many-fixes-to-dungeons-quests-enemies-and-classes-wow-forever-hotfixes-for-383876"
+        }
+      ],
+      "i18n": {
+        "en": {
+          "kat": "Patch",
+          "titel": "Hotfixes from November 13: Wild Growth heals twice as much, grey dungeon mobs no longer give XP",
+          "text": "Blizzard deployed the next round of hotfixes on November 13. Wild Growth now heals twice as much, Windfury Totem procs from all melee abilities and Berserker Rage removes Sap. Dungeon mobs no longer give any experience if they are grey to someone in the group – and in The Drowned City, trash now takes 2 hours to respawn.",
+          "tipp": "If you were planning to get boosted through dungeons by a high-level friend: that no longer gives any XP – find a group at your own level instead.",
+          "inhalt": [
+            {
+              "typ": "tabelle",
+              "titel": "Classes",
+              "kopf": [
+                "Class",
+                "Change"
+              ],
+              "zeilen": [
+                [
+                  "All",
+                  "Stuns against creatures (not players) have diminishing returns again."
+                ],
+                [
+                  "Druid",
+                  "Wild Growth can no longer be cast while moving, but heals twice as much (coefficient 6.6% instead of 3.3%)."
+                ],
+                [
+                  "Mage",
+                  "Frost Nova now also breaks from proc damage and from Blizzard."
+                ],
+                [
+                  "Paladin",
+                  "Judgement of Command counts as a melee attack and triggers on-hit effects; all other Judgements remain ranged."
+                ],
+                [
+                  "Priest",
+                  "The Legacy perk The Quick and the Dead now also reduces the mana cost of Divine Spirit."
+                ],
+                [
+                  "Shaman",
+                  "Windfury Totem procs from all melee abilities, even without the main-hand weapon – pure off-hand strikes (e.g. from Whirlwind or Mutilate) still don't."
+                ],
+                [
+                  "Warlock",
+                  "Siphon Life Rank 1 can no longer be cast while silenced."
+                ],
+                [
+                  "Warrior",
+                  "Berserker Rage now removes Sap."
+                ]
+              ]
+            },
+            {
+              "typ": "liste",
+              "titel": "Dungeons and world",
+              "punkte": [
+                "Dungeon mobs give the whole group 0 experience if they are grey (too low) for at least one group member.",
+                "The Drowned City: Trash mobs now respawn after 2 hours (previously 1 hour).",
+                "The Deadmines: Sneed now ejects properly even if his Shredder is stunned at 0% health.",
+                "Stratholme: Balnazzar now counts toward the Legacy Challenge Master Spelunker.",
+                "More mobs: Lesser Rock Elementals in the Badlands and tigers, panthers and raptors in Stranglethorn Vale spawn more often.",
+                "Mulgore: Fewer Quillboar and Venture Co. mobs in the starting area.",
+                "Nethergarde Keep guards (Blasted Lands) no longer drop loot."
+              ]
+            },
+            {
+              "typ": "liste",
+              "titel": "Quests and other",
+              "punkte": [
+                "Many quest items (e.g. Deadwood Key, Ring of the Fallen Soldier) now drop for all group members.",
+                "Pix Xizzix's weekly dungeon quests are removed from the quest log at the weekly reset.",
+                "Owen Thadd (Undercity) and Garion Wendell (Stormwind) accept books again.",
+                "Many more players per ruleset can now win the Stranglethorn fishing tournament.",
+                "Action bar settings no longer reset on logout if you have a second talent spec."
+              ]
+            }
+          ]
+        },
+        "fr": {
+          "kat": "Patch",
+          "titel": "Correctifs du 13 novembre : Croissance sauvage soigne deux fois plus, plus d'XP sur les monstres gris en donjon",
+          "text": "Blizzard a déployé une nouvelle série de correctifs le 13 novembre. Croissance sauvage soigne désormais deux fois plus, le Totem Furie-des-vents se déclenche avec toutes les techniques de mêlée et Rage berserker retire Assommer. En donjon, les monstres ne donnent plus d'expérience s'ils sont gris pour un membre du groupe – et dans The Drowned City, les monstres normaux mettent maintenant 2 heures à réapparaître.",
+          "tipp": "Si tu comptais te faire « rush » en donjon par un ami de haut niveau : ça ne rapporte plus d'XP – cherche plutôt un groupe de ton niveau.",
+          "inhalt": [
+            {
+              "typ": "tabelle",
+              "titel": "Classes",
+              "kopf": [
+                "Classe",
+                "Changement"
+              ],
+              "zeilen": [
+                [
+                  "Toutes",
+                  "Les étourdissements contre les créatures (pas les joueurs) ont de nouveau des rendements décroissants."
+                ],
+                [
+                  "Druide",
+                  "Croissance sauvage ne peut plus être lancée en mouvement, mais soigne deux fois plus (coefficient 6,6 % au lieu de 3,3 %)."
+                ],
+                [
+                  "Mage",
+                  "Nova de givre se brise désormais aussi avec les dégâts de procs et de Blizzard."
+                ],
+                [
+                  "Paladin",
+                  "Jugement d'autorité compte comme une attaque de mêlée et déclenche les effets à l'impact ; tous les autres Jugements restent à distance."
+                ],
+                [
+                  "Prêtre",
+                  "L'avantage Legacy The Quick and the Dead réduit désormais aussi le coût en mana d'Esprit divin."
+                ],
+                [
+                  "Chaman",
+                  "Le Totem Furie-des-vents se déclenche avec toutes les techniques de mêlée, même sans l'arme principale – les frappes uniquement en main gauche (p. ex. Tourbillon ou Mutilation) toujours pas."
+                ],
+                [
+                  "Démoniste",
+                  "Siphon de vie rang 1 ne peut plus être lancé sous l'effet d'un silence."
+                ],
+                [
+                  "Guerrier",
+                  "Rage berserker retire désormais Assommer."
+                ]
+              ]
+            },
+            {
+              "typ": "liste",
+              "titel": "Donjons et monde",
+              "punkte": [
+                "Les monstres de donjon donnent 0 expérience à tout le groupe s'ils sont gris (trop bas niveau) pour au moins un membre.",
+                "The Drowned City : les monstres normaux réapparaissent après 2 heures (au lieu d'1 heure).",
+                "Les Mortemines : Sneed est correctement éjecté même si son Déchiqueteur est étourdi à 0 % de vie.",
+                "Stratholme : Balnazzar compte désormais pour le défi Legacy Master Spelunker.",
+                "Plus de monstres : les petits élémentaires de roche dans les Terres ingrates ainsi que les tigres, panthères et raptors de Strangleronce réapparaissent plus souvent.",
+                "Mulgore : moins de Huran-brocheurs et de monstres de la KapitalRisk dans la zone de départ.",
+                "Les gardes du donjon de Rempart-du-Néant (Terres foudroyées) ne donnent plus de butin."
+              ]
+            },
+            {
+              "typ": "liste",
+              "titel": "Quêtes et divers",
+              "punkte": [
+                "De nombreux objets de quête (p. ex. Deadwood Key, Ring of the Fallen Soldier) tombent désormais pour tous les membres du groupe.",
+                "Les quêtes hebdomadaires de donjon de Pix Xizzix disparaissent du journal lors de la réinitialisation hebdomadaire.",
+                "Owen Thadd (Fossoyeuse) et Garion Wendell (Hurlevent) acceptent de nouveau les livres.",
+                "Beaucoup plus de joueurs par type de royaume peuvent désormais gagner le concours de pêche de Strangleronce.",
+                "Les réglages des barres d'action ne sont plus réinitialisés à la déconnexion si vous avez une deuxième spécialisation."
+              ]
+            }
+          ]
+        },
+        "es": {
+          "kat": "Parche",
+          "titel": "Correcciones del 13 de noviembre: Crecimiento salvaje cura el doble y los enemigos grises de mazmorra ya no dan experiencia",
+          "text": "Blizzard aplicó una nueva tanda de correcciones el 13 de noviembre. Crecimiento salvaje ahora cura el doble, el Tótem Viento Furioso se activa con todas las habilidades cuerpo a cuerpo y Rabia rabiosa elimina Aporrear. En las mazmorras ya no se gana experiencia si los enemigos son grises para algún miembro del grupo, y en The Drowned City los enemigos normales tardan ahora 2 horas en reaparecer.",
+          "tipp": "Si pensabas dejarte llevar por mazmorras con un amigo de nivel alto: eso ya no da experiencia; mejor busca un grupo de tu nivel.",
+          "inhalt": [
+            {
+              "typ": "tabelle",
+              "titel": "Clases",
+              "kopf": [
+                "Clase",
+                "Cambio"
+              ],
+              "zeilen": [
+                [
+                  "Todas",
+                  "Los aturdimientos contra criaturas (no jugadores) vuelven a tener rendimientos decrecientes."
+                ],
+                [
+                  "Druida",
+                  "Crecimiento salvaje ya no se puede lanzar en movimiento, pero cura el doble (coeficiente del 6,6 % en vez del 3,3 %)."
+                ],
+                [
+                  "Mago",
+                  "Nova de Escarcha ahora también se rompe con el daño de procs y de Ventisca."
+                ],
+                [
+                  "Paladín",
+                  "Sentencia de orden cuenta como ataque cuerpo a cuerpo y activa efectos al golpear; las demás Sentencias siguen siendo a distancia."
+                ],
+                [
+                  "Sacerdote",
+                  "La ventaja Legacy The Quick and the Dead ahora también reduce el coste de maná de Espíritu divino."
+                ],
+                [
+                  "Chamán",
+                  "El Tótem Viento Furioso se activa con todas las habilidades cuerpo a cuerpo, aunque no usen el arma principal; los golpes solo de mano izquierda (p. ej. de Torbellino o Mutilar) siguen sin activarlo."
+                ],
+                [
+                  "Brujo",
+                  "Succionar vida rango 1 ya no se puede lanzar estando silenciado."
+                ],
+                [
+                  "Guerrero",
+                  "Rabia rabiosa ahora elimina Aporrear."
+                ]
+              ]
+            },
+            {
+              "typ": "liste",
+              "titel": "Mazmorras y mundo",
+              "punkte": [
+                "Los enemigos de mazmorra dan 0 de experiencia a todo el grupo si son grises (de nivel demasiado bajo) para al menos un miembro.",
+                "The Drowned City: los enemigos normales reaparecen tras 2 horas (antes 1 hora).",
+                "Las Minas de la Muerte: Sneed sale correctamente de su Trituradora aunque esta esté aturdida al 0 % de salud.",
+                "Stratholme: Balnazzar ahora cuenta para el desafío Legacy Master Spelunker.",
+                "Más enemigos: los elementales de roca menores en las Tierras Inhóspitas y los tigres, panteras y raptores de la Vega de Tuercespina aparecen más a menudo.",
+                "Mulgore: hay menos jabaespines y enemigos de Ventura y Cía. en la zona inicial.",
+                "Los guardias del Castillo de Nethergarde (Las Tierras Devastadas) ya no sueltan botín."
+              ]
+            },
+            {
+              "typ": "liste",
+              "titel": "Misiones y otros",
+              "punkte": [
+                "Muchos objetos de misión (p. ej. Deadwood Key, Ring of the Fallen Soldier) ahora caen para todos los miembros del grupo.",
+                "Las misiones semanales de mazmorra de Pix Xizzix desaparecen del registro con el reinicio semanal.",
+                "Owen Thadd (Entrañas) y Garion Wendell (Ventormenta) vuelven a aceptar libros.",
+                "Ahora muchos más jugadores por tipo de reino pueden ganar el torneo de pesca de Tuercespina.",
+                "La configuración de las barras de acción ya no se reinicia al desconectarse si tienes una segunda especialización."
+              ]
+            }
+          ]
+        },
+        "ru": {
+          "kat": "Патч",
+          "titel": "Хотфиксы от 13 ноября: «Буйный рост» лечит вдвое сильнее, серые мобы в подземельях больше не дают опыта",
+          "text": "13 ноября Blizzard выпустила очередную порцию хотфиксов. «Буйный рост» теперь лечит вдвое сильнее, «Тотем неистовства ветра» срабатывает от всех атак ближнего боя, а «Ярость берсерка» снимает «Ошеломление». В подземельях больше не дают опыта, если мобы серые хотя бы для одного члена группы, а в The Drowned City обычные противники теперь возрождаются через 2 часа.",
+          "tipp": "Если собирался прокачаться, пока тебя «протаскивает» по подземельям высокоуровневый друг, — это больше не даёт опыта, лучше найди группу своего уровня.",
+          "inhalt": [
+            {
+              "typ": "tabelle",
+              "titel": "Классы",
+              "kopf": [
+                "Класс",
+                "Изменение"
+              ],
+              "zeilen": [
+                [
+                  "Все",
+                  "Оглушения против существ (не игроков) снова подвержены эффекту убывающей отдачи."
+                ],
+                [
+                  "Друид",
+                  "«Буйный рост» больше нельзя применять в движении, зато он лечит вдвое сильнее (коэффициент 6,6 % вместо 3,3 %)."
+                ],
+                [
+                  "Маг",
+                  "«Кольцо льда» теперь также спадает от урона проков и «Снежной бури»."
+                ],
+                [
+                  "Паладин",
+                  "«Правосудие повелителя» считается атакой ближнего боя и срабатывает с эффектами при ударе; все остальные «Правосудия» остаются дальнобойными."
+                ],
+                [
+                  "Жрец",
+                  "Перк Legacy The Quick and the Dead теперь также снижает стоимость маны «Божественного духа»."
+                ],
+                [
+                  "Шаман",
+                  "«Тотем неистовства ветра» срабатывает от всех атак ближнего боя, даже без основного оружия, — удары только левой рукой (например, от «Вихря» или «Расправы») по-прежнему нет."
+                ],
+                [
+                  "Чернокнижник",
+                  "«Вытягивание жизни» 1-го ранга больше нельзя применять под эффектом немоты."
+                ],
+                [
+                  "Воин",
+                  "«Ярость берсерка» теперь снимает «Ошеломление»."
+                ]
+              ]
+            },
+            {
+              "typ": "liste",
+              "titel": "Подземелья и мир",
+              "punkte": [
+                "Мобы в подземельях дают всей группе 0 опыта, если они серые (слишком низкого уровня) хотя бы для одного члена группы.",
+                "The Drowned City: обычные противники возрождаются через 2 часа (раньше через 1 час).",
+                "Мертвые копи: Снид корректно выпадает из своего крошшера, даже если тот оглушён при 0 % здоровья.",
+                "Стратхольм: Балназар теперь засчитывается в испытание Legacy Master Spelunker.",
+                "Больше мобов: малые каменные элементали в Бесплодных землях, а также тигры, пантеры и ящеры в Тернистой долине появляются чаще.",
+                "Мулгор: в стартовой зоне меньше иглогривов и мобов Торговой компании.",
+                "Стражи крепости Стражей Пустоты (Выжженные земли) больше не оставляют добычу."
+              ]
+            },
+            {
+              "typ": "liste",
+              "titel": "Задания и прочее",
+              "punkte": [
+                "Многие предметы для заданий (например, Deadwood Key, Ring of the Fallen Soldier) теперь выпадают для всех членов группы.",
+                "Еженедельные задания в подземельях от Пикса Ксиззикса удаляются из журнала при еженедельном сбросе.",
+                "Оуэн Тадд (Подгород) и Гарион Венделл (Штормград) снова принимают книги.",
+                "Теперь гораздо больше игроков на каждом типе миров могут выиграть рыболовный турнир в Тернистой долине.",
+                "Настройки панелей команд больше не сбрасываются при выходе, если у вас есть вторая специализация."
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "2026-11-14-lichtband-ring-tausch",
+      "datum": "2026-11-14",
+      "kat": "Patch",
+      "titel": "Blessed Band of Light verliert Trefferwertung – Tausch gegen Channeler's Ring möglich",
+      "text": "Mit den Hotfixes vom 13. November hat Blizzard mehrere Gegenstände korrigiert: Blessed Band of Light hat keine Trefferwertung mehr, und Channeler's Ring gibt jetzt Zaubermacht statt Willenskraft. Laut Blizzard könnt ihr Blessed Band of Light bei Pix Xizzix gegen Channeler's Ring eintauschen – bis zur Raid-Öffnung steht der Tausch ganz oben in seiner Händlerliste.",
+      "tipp": "Überleg vor dem Tausch genau, welchen Ring du brauchst – Blizzard sagt, dass sich der Tausch nicht rückgängig machen lässt.",
+      "video": null,
+      "inhalt": [
+        {
+          "typ": "liste",
+          "titel": "Weitere Gegenstands-Korrekturen",
+          "punkte": [
+            "Gloves of Holy Might lösen nur noch durch schädliche Zauber und Fähigkeiten aus, die Schaden machen.",
+            "Glimmering Mithril Insignia setzt nicht mehr voraus, dass ihr Kettenrüstung tragen könnt.",
+            "Taran Icebreaker ist jetzt ein Zweihandstreitkolben (vorher Einhand).",
+            "Die Siegelringe der Dunkelspeere geben jetzt so viel Mana alle 5 Sek. wie die Allianz-Gegenstücke.",
+            "Werte von Everstaring Abomination Eye, The Bad Hat und The Souvenir Sea Shell wurden korrigiert."
+          ]
+        }
+      ],
+      "quellen": [
+        {
+          "name": "Blizzard – WoW: Forever Hotfixes, 13. November 2026",
+          "url": "https://news.blizzard.com/en-us/article/24315281/wow-forever-hotfixes-november-13-2026"
+        },
+        {
+          "name": "Blizzard-Forum – Kaivax: Hotfixes vom 13. November",
+          "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/10"
+        }
+      ],
+      "i18n": {
+        "en": {
+          "kat": "Patch",
+          "titel": "Blessed Band of Light loses hit rating – can be exchanged for Channeler's Ring",
+          "text": "With the November 13 hotfixes, Blizzard corrected several items: Blessed Band of Light no longer has hit rating, and Channeler's Ring now gives spell power instead of Spirit. According to Blizzard, you can exchange Blessed Band of Light for Channeler's Ring at Pix Xizzix – until raids open, the exchange is the very first item on his vendor list.",
+          "tipp": "Think carefully about which ring you need before swapping – Blizzard says the exchange cannot be undone.",
+          "inhalt": [
+            {
+              "typ": "liste",
+              "titel": "Other item fixes",
+              "punkte": [
+                "Gloves of Holy Might now only trigger from harmful spells and abilities that deal damage.",
+                "Glimmering Mithril Insignia no longer requires the ability to wear mail armor.",
+                "Taran Icebreaker is now a two-handed mace (previously one-handed).",
+                "The Darkspear signet rings now give as much mana per 5 sec. as their Alliance counterparts.",
+                "Stats of Everstaring Abomination Eye, The Bad Hat and The Souvenir Sea Shell have been corrected."
+              ]
+            }
+          ]
+        },
+        "fr": {
+          "kat": "Patch",
+          "titel": "Blessed Band of Light perd son score de toucher – échange possible contre Channeler's Ring",
+          "text": "Avec les correctifs du 13 novembre, Blizzard a corrigé plusieurs objets : Blessed Band of Light n'a plus de score de toucher, et Channeler's Ring donne désormais de la puissance des sorts au lieu de l'Esprit. Selon Blizzard, vous pouvez échanger Blessed Band of Light contre Channeler's Ring auprès de Pix Xizzix – jusqu'à l'ouverture des raids, l'échange est le tout premier article de sa liste.",
+          "tipp": "Réfléchis bien à l'anneau dont tu as besoin avant d'échanger – selon Blizzard, l'échange est irréversible.",
+          "inhalt": [
+            {
+              "typ": "liste",
+              "titel": "Autres corrections d'objets",
+              "punkte": [
+                "Gloves of Holy Might ne se déclenchent plus qu'avec les sorts et techniques offensifs qui infligent des dégâts.",
+                "Glimmering Mithril Insignia ne nécessite plus de pouvoir porter des armures en mailles.",
+                "Taran Icebreaker est désormais une masse à deux mains (auparavant à une main).",
+                "Les chevalières des Sombrelances donnent désormais autant de mana toutes les 5 s que leurs équivalents de l'Alliance.",
+                "Les caractéristiques d'Everstaring Abomination Eye, The Bad Hat et The Souvenir Sea Shell ont été corrigées."
+              ]
+            }
+          ]
+        },
+        "es": {
+          "kat": "Parche",
+          "titel": "Blessed Band of Light pierde el índice de golpe: se puede cambiar por Channeler's Ring",
+          "text": "Con las correcciones del 13 de noviembre, Blizzard ajustó varios objetos: Blessed Band of Light ya no tiene índice de golpe y Channeler's Ring ahora da poder con hechizos en vez de espíritu. Según Blizzard, puedes cambiar Blessed Band of Light por Channeler's Ring con Pix Xizzix; hasta que abran las bandas, el cambio es el primer artículo de su lista.",
+          "tipp": "Piensa bien qué anillo necesitas antes de cambiarlo: según Blizzard, el cambio no se puede deshacer.",
+          "inhalt": [
+            {
+              "typ": "liste",
+              "titel": "Otras correcciones de objetos",
+              "punkte": [
+                "Gloves of Holy Might ahora solo se activan con hechizos y habilidades ofensivos que infligen daño.",
+                "Glimmering Mithril Insignia ya no exige poder llevar armadura de mallas.",
+                "Taran Icebreaker ahora es una maza de dos manos (antes de una mano).",
+                "Los sellos de los Lanza Negra ahora dan tanto maná cada 5 s como sus equivalentes de la Alianza.",
+                "Se corrigieron las estadísticas de Everstaring Abomination Eye, The Bad Hat y The Souvenir Sea Shell."
+              ]
+            }
+          ]
+        },
+        "ru": {
+          "kat": "Патч",
+          "titel": "Blessed Band of Light лишилось меткости — его можно обменять на Channeler's Ring",
+          "text": "С хотфиксами от 13 ноября Blizzard исправила несколько предметов: у Blessed Band of Light больше нет рейтинга меткости, а Channeler's Ring теперь даёт силу заклинаний вместо духа. По словам Blizzard, Blessed Band of Light можно обменять на Channeler's Ring у Пикса Ксиззикса — до открытия рейдов этот обмен стоит первым в списке его товаров.",
+          "tipp": "Хорошо подумай, какое кольцо тебе нужно, — по словам Blizzard, обмен нельзя отменить.",
+          "inhalt": [
+            {
+              "typ": "liste",
+              "titel": "Другие исправления предметов",
+              "punkte": [
+                "Gloves of Holy Might теперь срабатывают только от наносящих урон атакующих заклинаний и способностей.",
+                "Для Glimmering Mithril Insignia больше не требуется умение носить кольчужные доспехи.",
+                "Taran Icebreaker теперь двуручная булава (раньше одноручная).",
+                "Перстни Черного Копья теперь дают столько же маны раз в 5 сек., сколько их аналоги у Альянса.",
+                "Исправлены характеристики Everstaring Abomination Eye, The Bad Hat и The Souvenir Sea Shell."
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "2026-11-14-notfall-neustart-13-november",
+      "datum": "2026-11-14",
+      "kat": "Bugs",
+      "titel": "Notfall-Neustart am Freitagabend: Server wegen Absturz-Fehler kurz offline",
+      "text": "Am 13. November kündigte Blizzard gegen 19:37 Uhr im Spiel an, dass alle Server in 30 Minuten neu gestartet werden – Grund war laut Blizzard ein dringender Fehler, der Server abstürzen ließ. Laut MeinMMO sollte die Wartung ab 20 Uhr etwa eine Stunde dauern; ob dabei auch ein Patch kam, hat Blizzard nicht gesagt.",
+      "tipp": "Kündigt Blizzard im Chat einen Neustart an, bring deinen Charakter rechtzeitig in eine Stadt oder ein Gasthaus, damit du nach dem Neustart sicher weiterspielen kannst.",
+      "video": null,
+      "inhalt": [],
+      "quellen": [
+        {
+          "name": "MeinMMO – WoW Forever: Server Down am 13. November",
+          "url": "https://mein-mmo.de/wow-forever-server-down-13-november-im-live-ticker/"
+        }
+      ],
+      "i18n": {
+        "en": {
+          "kat": "Bugs",
+          "titel": "Emergency restart on Friday evening: servers briefly offline due to a crash bug",
+          "text": "On November 13 at around 19:37 CET, Blizzard announced in-game that all realms would restart in 30 minutes – according to Blizzard, the reason was an urgent bug that was crashing servers. According to MeinMMO, the maintenance starting at 20:00 CET was expected to last about an hour; Blizzard did not say whether a patch came with it.",
+          "tipp": "When Blizzard announces a restart in chat, get your character to a city or inn in time so you can continue safely after the restart.",
+          "inhalt": []
+        },
+        "fr": {
+          "kat": "Bugs",
+          "titel": "Redémarrage d'urgence vendredi soir : serveurs brièvement hors ligne à cause d'un bug de crash",
+          "text": "Le 13 novembre vers 19h37 (heure de Paris), Blizzard a annoncé en jeu que tous les royaumes redémarreraient dans 30 minutes – selon Blizzard, à cause d'un bug urgent qui faisait planter les serveurs. Selon MeinMMO, la maintenance à partir de 20h devait durer environ une heure ; Blizzard n'a pas précisé si un patch l'accompagnait.",
+          "tipp": "Quand Blizzard annonce un redémarrage dans le chat, ramène ton personnage dans une ville ou une auberge à temps pour reprendre tranquillement après.",
+          "inhalt": []
+        },
+        "es": {
+          "kat": "Errores",
+          "titel": "Reinicio de emergencia el viernes por la noche: servidores caídos brevemente por un error de cierre",
+          "text": "El 13 de noviembre, hacia las 19:37 (hora peninsular), Blizzard anunció en el juego que todos los reinos se reiniciarían en 30 minutos; según Blizzard, el motivo era un error urgente que hacía caer los servidores. Según MeinMMO, el mantenimiento a partir de las 20:00 duraría alrededor de una hora; Blizzard no dijo si incluía un parche.",
+          "tipp": "Cuando Blizzard anuncie un reinicio en el chat, lleva a tu personaje a una ciudad o posada a tiempo para seguir jugando tranquilo después.",
+          "inhalt": []
+        },
+        "ru": {
+          "kat": "Ошибки",
+          "titel": "Экстренный перезапуск в пятницу вечером: серверы ненадолго отключались из-за ошибки с вылетами",
+          "text": "13 ноября около 19:37 по центральноевропейскому времени Blizzard объявила в игре, что все миры будут перезапущены через 30 минут — по словам Blizzard, из-за срочной ошибки, из-за которой падали серверы. По данным MeinMMO, работы с 20:00 должны были продлиться около часа; был ли при этом патч, Blizzard не сообщила.",
+          "tipp": "Если Blizzard объявляет в чате перезапуск, заранее отведи персонажа в город или таверну, чтобы потом спокойно продолжить игру.",
+          "inhalt": []
+        }
+      }
+    },
     {
       "id": "2026-11-13-schamane-hotfix-live",
       "datum": "2026-11-13",
       "kat": "Klassen",
-      "top": true,
       "titel": "Schamanen-Änderungen erst seit 12. November live – Waffe des Mahlstroms löst seltener aus",
       "text": "Laut Community-Manager Kaivax im Blizzard-Forum sind die angekündigten Schamanen-Änderungen wegen einer Verzögerung erst am 12. November um 10:45 Uhr Pazifikzeit (19:45 Uhr deutscher Zeit) in allen Regionen live gegangen. Verstärkungs-Schamanen machen damit weniger Schaden mit Sturmschlag, und die Waffe des Mahlstroms löst je nach Rang nur noch 6- bis 10-mal pro Minute aus statt pauschal 20-mal.",
       "tipp": "Als Verstärkungs-Schamane jetzt Stärke und Angriffskraft vor Intelligenz sammeln und eine langsame Zweihandwaffe nutzen – damit ist die Chance auf Aufladungen pro Schlag am höchsten.",
