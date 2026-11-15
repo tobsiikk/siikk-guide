@@ -1,12 +1,272 @@
 {
-  "stand": "2026-11-14",
+  "stand": "2026-11-15",
   "hinweis": "Wird täglich gegen 8 Uhr morgens automatisch aktualisiert.",
   "eintraege": [
+    {
+      "id": "2026-11-15-pvp-fraktionsbalance",
+      "datum": "2026-11-15",
+      "kat": "PvP",
+      "top": true,
+      "titel": "PvP-Regelsätze: Blizzard erschwert neue Charaktere auf der volleren Fraktion",
+      "text": "Laut Kaivax schaut die Charaktererstellung auf PvP-Regelsätzen jetzt auf das Fraktionsverhältnis der ganzen Region über längere Zeit statt auf Momentaufnahmen. Auf der volleren Seite wird es schwerer, neue Charaktere zu erstellen – in Nordamerika (PvP) trifft es die Horde, in Europa auf dem Rollenspiel-PvP-Regelsatz die Allianz. Selbst der extremste Fall liegt laut Blizzard bei etwa 55 zu 45; das Ziel ist möglichst 50 zu 50, und die gesperrte Seite kann später wechseln.",
+      "tipp": "Willst du mit Freunden auf einem PvP-Regelsatz anfangen, erstellt eure Charaktere möglichst gemeinsam und früh – oder weicht auf einen Normal-Regelsatz aus, für den Blizzard keine solche Sperre angekündigt hat.",
+      "video": null,
+      "inhalt": [
+        {
+          "typ": "tabelle",
+          "titel": "Wer ist betroffen? (laut Blizzard, Stand 10. November)",
+          "kopf": [
+            "Region / Regelsatz",
+            "Erschwert für"
+          ],
+          "zeilen": [
+            [
+              "Nordamerika – PvP",
+              "Horde"
+            ],
+            [
+              "Europa – Rollenspiel-PvP",
+              "Allianz"
+            ],
+            [
+              "Europa – PvP",
+              "von Blizzard nicht genannt"
+            ]
+          ]
+        },
+        {
+          "typ": "liste",
+          "titel": "Das Wichtigste",
+          "punkte": [
+            "Gezählt wird über einen längeren Zeitraum und über die ganze Region, nicht zu einem einzelnen Zeitpunkt.",
+            "Laut Blizzard liegt selbst der unausgeglichenste Fall bei etwa 55/45 – das ist Blizzard noch zu ungleich.",
+            "Die Sperre kann sich umdrehen, wenn sich die Spielerzahlen verschieben; ein Enddatum gibt es nicht."
+          ]
+        }
+      ],
+      "quellen": [
+        {
+          "name": "Blizzard-Forum (US) – PvP Faction Balance Updates – November 10",
+          "url": "https://us.forums.blizzard.com/en/wow/t/pvp-faction-balance-updates-november-10/2408781"
+        },
+        {
+          "name": "Blizzard-Forum (EU) – PvP Faction Balance Updates – 11 November",
+          "url": "https://eu.forums.blizzard.com/en/wow/t/pvp-faction-balance-updates-11-november/641169"
+        }
+      ],
+      "i18n": {
+        "en": {
+          "kat": "PvP",
+          "titel": "PvP rulesets: Blizzard makes new characters harder to create on the more populous faction",
+          "text": "According to Kaivax, character creation on PvP rulesets now looks at the faction balance of the whole region over time instead of point-in-time snapshots. On the more crowded side it becomes harder to create new characters – Horde on North American PvP and Alliance on the European Roleplay-PvP ruleset. Even the most extreme case is at roughly 55/45 according to Blizzard; the goal is as close to 50/50 as possible, and the restricted side may flip later.",
+          "tipp": "If you want to start on a PvP ruleset with friends, create your characters together and early – or go for a Normal ruleset, for which Blizzard hasn't announced such a restriction.",
+          "inhalt": [
+            {
+              "typ": "tabelle",
+              "titel": "Who is affected? (according to Blizzard, as of November 10)",
+              "kopf": [
+                "Region / ruleset",
+                "Restricted for"
+              ],
+              "zeilen": [
+                [
+                  "North America – PvP",
+                  "Horde"
+                ],
+                [
+                  "Europe – Roleplay-PvP",
+                  "Alliance"
+                ],
+                [
+                  "Europe – PvP",
+                  "not named by Blizzard"
+                ]
+              ]
+            },
+            {
+              "typ": "liste",
+              "titel": "Key points",
+              "punkte": [
+                "Balance is measured over a longer period and across the whole region, not at a single moment.",
+                "According to Blizzard, even the most unbalanced case is at roughly 55/45 – still too uneven for Blizzard.",
+                "The restriction can flip if populations shift; there is no end date."
+              ]
+            }
+          ]
+        },
+        "fr": {
+          "kat": "PvP",
+          "titel": "Règles JcJ : Blizzard complique la création de personnages dans la faction la plus peuplée",
+          "text": "Selon Kaivax, la création de personnages sur les règles JcJ tient désormais compte de l'équilibre des factions de toute la région sur la durée, et non plus d'instantanés. Du côté le plus peuplé, il devient plus difficile de créer de nouveaux personnages – la Horde en Amérique du Nord (JcJ) et l'Alliance en Europe sur les règles JcJ RP. Selon Blizzard, même le cas le plus extrême est d'environ 55/45 ; l'objectif est d'approcher le 50/50, et le côté restreint peut s'inverser plus tard.",
+          "tipp": "Si tu veux commencer sur des règles JcJ avec des amis, créez vos personnages ensemble et tôt – ou choisissez des règles Normales, pour lesquelles Blizzard n'a pas annoncé une telle restriction.",
+          "inhalt": [
+            {
+              "typ": "tabelle",
+              "titel": "Qui est concerné ? (selon Blizzard, au 10 novembre)",
+              "kopf": [
+                "Région / règles",
+                "Restreint pour"
+              ],
+              "zeilen": [
+                [
+                  "Amérique du Nord – JcJ",
+                  "Horde"
+                ],
+                [
+                  "Europe – JcJ RP",
+                  "Alliance"
+                ],
+                [
+                  "Europe – JcJ",
+                  "non précisé par Blizzard"
+                ]
+              ]
+            },
+            {
+              "typ": "liste",
+              "titel": "L'essentiel",
+              "punkte": [
+                "L'équilibre est mesuré sur une longue période et sur toute la région, pas à un instant donné.",
+                "Selon Blizzard, même le cas le plus déséquilibré est d'environ 55/45 – encore trop inégal pour Blizzard.",
+                "La restriction peut s'inverser si les populations évoluent ; aucune date de fin n'est prévue."
+              ]
+            }
+          ]
+        },
+        "es": {
+          "kat": "JcJ",
+          "titel": "Reglas JcJ: Blizzard dificulta crear personajes en la facción más poblada",
+          "text": "Según Kaivax, la creación de personajes en las reglas JcJ ahora tiene en cuenta el equilibrio de facciones de toda la región a lo largo del tiempo, en vez de instantáneas puntuales. En el lado más poblado cuesta más crear personajes nuevos: la Horda en Norteamérica (JcJ) y la Alianza en Europa en las reglas JcJ de rol. Según Blizzard, incluso el caso más extremo ronda el 55/45; el objetivo es acercarse al 50/50, y el lado restringido puede cambiar más adelante.",
+          "tipp": "Si quieres empezar en unas reglas JcJ con amigos, cread los personajes juntos y pronto, o elegid unas reglas Normales, para las que Blizzard no ha anunciado esta restricción.",
+          "inhalt": [
+            {
+              "typ": "tabelle",
+              "titel": "¿A quién afecta? (según Blizzard, a 10 de noviembre)",
+              "kopf": [
+                "Región / reglas",
+                "Restringido para"
+              ],
+              "zeilen": [
+                [
+                  "Norteamérica – JcJ",
+                  "Horda"
+                ],
+                [
+                  "Europa – JcJ de rol",
+                  "Alianza"
+                ],
+                [
+                  "Europa – JcJ",
+                  "Blizzard no lo ha dicho"
+                ]
+              ]
+            },
+            {
+              "typ": "liste",
+              "titel": "Lo más importante",
+              "punkte": [
+                "El equilibrio se mide durante un periodo largo y en toda la región, no en un momento concreto.",
+                "Según Blizzard, incluso el caso más desequilibrado ronda el 55/45, algo todavía demasiado desigual para Blizzard.",
+                "La restricción puede invertirse si cambian las poblaciones; no hay fecha de fin."
+              ]
+            }
+          ]
+        },
+        "ru": {
+          "kat": "PvP",
+          "titel": "PvP-наборы правил: Blizzard усложняет создание персонажей за более населённую фракцию",
+          "text": "По словам Kaivax, при создании персонажей на PvP-наборах правил теперь учитывается баланс фракций по всему региону за длительный период, а не моментальные снимки. За более населённую сторону создавать новых персонажей станет сложнее – в Северной Америке (PvP) это Орда, в Европе на ролевом PvP-наборе правил – Альянс. По данным Blizzard, даже самый крайний случай – около 55 на 45; цель – как можно ближе к 50 на 50, а ограниченная сторона позже может смениться.",
+          "tipp": "Если хотите начать с друзьями на PvP-наборе правил, создавайте персонажей вместе и пораньше – или выберите обычный набор правил, для него Blizzard такого ограничения не объявляла.",
+          "inhalt": [
+            {
+              "typ": "tabelle",
+              "titel": "Кого это касается? (по данным Blizzard, на 10 ноября)",
+              "kopf": [
+                "Регион / набор правил",
+                "Ограничено для"
+              ],
+              "zeilen": [
+                [
+                  "Северная Америка – PvP",
+                  "Орда"
+                ],
+                [
+                  "Европа – ролевой PvP",
+                  "Альянс"
+                ],
+                [
+                  "Европа – PvP",
+                  "Blizzard не уточнила"
+                ]
+              ]
+            },
+            {
+              "typ": "liste",
+              "titel": "Главное",
+              "punkte": [
+                "Баланс считается за длительный период и по всему региону, а не в отдельный момент.",
+                "По данным Blizzard, даже самый несбалансированный случай – около 55/45, и это для Blizzard всё ещё слишком неравномерно.",
+                "Ограничение может смениться, если изменится население; даты окончания нет."
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "2026-11-15-erstattung-lehrerkosten",
+      "datum": "2026-11-15",
+      "kat": "Bugs",
+      "titel": "Verlorene Fähigkeiten vom 9. November: Blizzard erstattet das Gold per Post",
+      "text": "Wer am Montag, 9. November, zwischen 22:17 und 23:17 Uhr bei einem Lehrer Fähigkeiten gekauft und sie durch die damaligen Serverprobleme wieder verloren hat, bekommt das Gold zurück. Laut Kaivax ist die Erstattung bereits per Post im Spiel an alle Betroffenen verschickt. Im Forum melden einige Spieler, dass die Summe kleiner ist als das, was sie bezahlt haben – dazu hat Blizzard sich noch nicht geäußert.",
+      "tipp": "Schau in deinen Briefkasten und lerne die Fähigkeiten beim Lehrer neu; fehlt dir trotzdem etwas, melde es mit Uhrzeit beim Blizzard-Support.",
+      "video": null,
+      "inhalt": [],
+      "quellen": [
+        {
+          "name": "Blizzard-Forum (EU) – Lost Training Purchase Refunds – 13 November",
+          "url": "https://eu.forums.blizzard.com/en/wow/t/lost-training-purchase-refunds-13-november/642655/1"
+        },
+        {
+          "name": "Blizzard-Forum (US) – Lost Training Purchase Refunds – November 13",
+          "url": "https://us.forums.blizzard.com/en/wow/t/lost-training-purchase-refunds-november-13/2415068"
+        }
+      ],
+      "i18n": {
+        "en": {
+          "kat": "Bugs",
+          "titel": "Skills lost on November 9: Blizzard refunds the gold by mail",
+          "text": "If you bought skills from a trainer on Monday, November 9, between 22:17 and 23:17 CET and lost them again due to the server issues at the time, you'll get the gold back. According to Kaivax, the refund has already been sent to all affected players via in-game mail. On the forums, some players report the amount is smaller than what they paid – Blizzard hasn't commented on that yet.",
+          "tipp": "Check your mailbox and relearn the skills at your trainer; if something is still missing, report it to Blizzard Support with the time.",
+          "inhalt": []
+        },
+        "fr": {
+          "kat": "Bugs",
+          "titel": "Techniques perdues le 9 novembre : Blizzard rembourse l'or par courrier",
+          "text": "Si tu as acheté des techniques chez un maître le lundi 9 novembre entre 22h17 et 23h17 (heure de Paris) et que tu les as perdues à cause des problèmes de serveur, tu récupères l'or. Selon Kaivax, le remboursement a déjà été envoyé par courrier en jeu à tous les joueurs concernés. Sur le forum, certains joueurs signalent que la somme est inférieure à ce qu'ils ont payé – Blizzard ne s'est pas encore exprimé à ce sujet.",
+          "tipp": "Vérifie ta boîte aux lettres et réapprends les techniques chez ton maître ; s'il manque encore quelque chose, signale-le au support Blizzard en indiquant l'heure.",
+          "inhalt": []
+        },
+        "es": {
+          "kat": "Errores",
+          "titel": "Habilidades perdidas el 9 de noviembre: Blizzard devuelve el oro por correo",
+          "text": "Si compraste habilidades a un instructor el lunes 9 de noviembre entre las 22:17 y las 23:17 (hora peninsular) y las perdiste por los problemas de servidor de entonces, recuperarás el oro. Según Kaivax, el reembolso ya se ha enviado por correo del juego a todos los afectados. En el foro, algunos jugadores dicen que la cantidad es menor de lo que pagaron; Blizzard aún no se ha pronunciado al respecto.",
+          "tipp": "Mira tu buzón y vuelve a aprender las habilidades con tu instructor; si aún te falta algo, avisa al soporte de Blizzard indicando la hora.",
+          "inhalt": []
+        },
+        "ru": {
+          "kat": "Ошибки",
+          "titel": "Способности, потерянные 9 ноября: Blizzard возвращает золото по почте",
+          "text": "Если вы купили способности у учителя в понедельник, 9 ноября, с 22:17 до 23:17 (CET) и потеряли их из-за тогдашних проблем с серверами, золото вернут. По словам Kaivax, возмещение уже отправлено всем пострадавшим через внутриигровую почту. На форуме некоторые игроки пишут, что сумма меньше, чем они заплатили, – Blizzard это пока не прокомментировала.",
+          "tipp": "Проверьте почтовый ящик и заново выучите способности у учителя; если чего-то всё ещё не хватает, сообщите в поддержку Blizzard, указав время.",
+          "inhalt": []
+        }
+      }
+    },
     {
       "id": "2026-11-14-hotfixes-13-november",
       "datum": "2026-11-14",
       "kat": "Patch",
-      "top": true,
       "titel": "Hotfixes vom 13. November: Wildwuchs heilt doppelt so stark, graue Dungeon-Gegner geben keine Erfahrung mehr",
       "text": "Blizzard hat am 13. November die nächste Runde Hotfixes eingespielt. Wildwuchs heilt jetzt doppelt so stark, Totem des Windzorns löst durch alle Nahkampffähigkeiten aus und Berserkerwut entfernt Kopfnuss. In Dungeons gibt es keine Erfahrung mehr, wenn die Gegner für ein Gruppenmitglied grau sind – und in The Drowned City kommen normale Gegner erst nach 2 Stunden zurück.",
       "tipp": "Wer sich von einem hochstufigen Freund durch Dungeons ziehen lassen wollte: Das bringt jetzt keine Erfahrung mehr – such dir lieber eine Gruppe auf deiner Stufe.",
