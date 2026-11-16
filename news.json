@@ -1,12 +1,116 @@
 {
-  "stand": "2026-11-15",
+  "stand": "2026-11-16",
   "hinweis": "Wird täglich gegen 8 Uhr morgens automatisch aktualisiert.",
   "eintraege": [
+    {
+      "id": "2026-11-16-dungeon-xp-12-stufen",
+      "datum": "2026-11-16",
+      "kat": "Dungeons",
+      "top": true,
+      "titel": "Dungeon-Erfahrung: Blizzard lockert die Regel – erst ab 12 Stufen Unterschied gibt es keine EP mehr",
+      "text": "Seit dem Hotfix vom 13. November bekam die ganze Gruppe in Dungeons keine Erfahrung mehr, sobald Gegner für ein Mitglied zu niedrig waren. Laut Warcraft Tavern traf das aber auch Gruppen auf passender Stufe, etwa in den Hügeln der Klingenhauer. Blizzard hat deshalb per Hotfix vom 14. November nachgebessert: Die Erfahrung fällt nur noch weg, wenn ein Spieler mehr als 12 Stufen über den Gegnern liegt.",
+      "tipp": "Ein paar Stufen Unterschied in der Gruppe sind wieder kein Problem – wer sich aber von einem viel höheren Freund ziehen lässt, bekommt weiterhin keine Erfahrung.",
+      "video": null,
+      "inhalt": [
+        {
+          "typ": "liste",
+          "titel": "Das Wichtigste",
+          "punkte": [
+            "Neu: Die Erfahrung der ganzen Gruppe fällt nur noch weg, wenn ein Gruppenmitglied mehr als 12 Stufen über den Gegnern liegt.",
+            "Grund laut Blizzard: Die alte Regel passte in manchen Dungeons wegen der großen Stufenspanne der Gegner nicht.",
+            "Dungeons, die beim Einspielen schon liefen, sind von der Änderung noch nicht betroffen – im Zweifel eine neue Instanz starten."
+          ]
+        }
+      ],
+      "quellen": [
+        {
+          "name": "Blizzard-Forum (EU) – Kaivax: Player-Level Dungeon XP Adjustment, 15. November",
+          "url": "https://eu.forums.blizzard.com/en/wow/t/player-level-dungeon-xp-adjustment-15-november/642962/1"
+        },
+        {
+          "name": "Blizzard-Forum (US) – Kaivax: Player-Level Dungeon XP Adjustment, 14. November",
+          "url": "https://us.forums.blizzard.com/en/wow/t/player-level-dungeon-xp-adjustment-november-14/2416343"
+        },
+        {
+          "name": "Warcraft Tavern – Spieler melden Dungeons ohne Erfahrung",
+          "url": "https://www.warcrafttavern.com/forever/news/wow-forever-players-reporting-dungeons-giving-no-exp-after-recent-change/"
+        }
+      ],
+      "i18n": {
+        "en": {
+          "kat": "Dungeons",
+          "titel": "Dungeon XP: Blizzard relaxes the rule – XP is only lost at a 12-level gap",
+          "text": "Since the November 13 hotfix, the whole group got no experience in dungeons as soon as mobs were too low for one member. According to Warcraft Tavern, this also hit groups at the right level, for example in Razorfen Downs. Blizzard adjusted it with a hotfix on November 14: experience is now only lost if a player is more than 12 levels above the mobs.",
+          "tipp": "A few levels of difference in your group are fine again – but getting carried by a much higher friend still gives no experience.",
+          "inhalt": [
+            {
+              "typ": "liste",
+              "titel": "Key points",
+              "punkte": [
+                "New: the whole group only loses experience if one member is more than 12 levels above the mobs.",
+                "Reason according to Blizzard: the old rule didn't fit some dungeons because of their wide range of mob levels.",
+                "Instances that were already running when the change went live aren't affected yet – if in doubt, start a new instance."
+              ]
+            }
+          ]
+        },
+        "fr": {
+          "kat": "Donjons",
+          "titel": "XP en donjon : Blizzard assouplit la règle – plus d'XP seulement à partir de 12 niveaux d'écart",
+          "text": "Depuis le correctif du 13 novembre, tout le groupe ne gagnait plus d'expérience en donjon dès que les monstres étaient trop bas niveau pour un membre. Selon Warcraft Tavern, cela touchait aussi des groupes du bon niveau, par exemple à Souilles de Tranchebauge. Blizzard a corrigé le tir avec un correctif le 14 novembre : l'expérience n'est supprimée que si un joueur a plus de 12 niveaux de plus que les monstres.",
+          "tipp": "Quelques niveaux d'écart dans le groupe ne posent plus problème – mais se faire porter par un ami de bien plus haut niveau ne rapporte toujours pas d'expérience.",
+          "inhalt": [
+            {
+              "typ": "liste",
+              "titel": "L'essentiel",
+              "punkte": [
+                "Nouveau : tout le groupe ne perd l'expérience que si un membre a plus de 12 niveaux de plus que les monstres.",
+                "Raison selon Blizzard : l'ancienne règle ne convenait pas à certains donjons à cause du large écart de niveau des monstres.",
+                "Les instances déjà en cours au moment du déploiement ne sont pas encore concernées – dans le doute, lancez une nouvelle instance."
+              ]
+            }
+          ]
+        },
+        "es": {
+          "kat": "Mazmorras",
+          "titel": "Experiencia en mazmorras: Blizzard suaviza la regla – solo se pierde la EXP con 12 niveles de diferencia",
+          "text": "Desde la corrección del 13 de noviembre, todo el grupo dejaba de recibir experiencia en mazmorras en cuanto los enemigos eran de nivel demasiado bajo para un miembro. Según Warcraft Tavern, esto también afectaba a grupos del nivel adecuado, por ejemplo en Zahúrda Rajacieno. Blizzard lo ajustó con una corrección el 14 de noviembre: la experiencia solo se pierde si un jugador está más de 12 niveles por encima de los enemigos.",
+          "tipp": "Unos pocos niveles de diferencia en el grupo vuelven a no ser un problema, pero dejarse llevar por un amigo de nivel mucho más alto sigue sin dar experiencia.",
+          "inhalt": [
+            {
+              "typ": "liste",
+              "titel": "Lo más importante",
+              "punkte": [
+                "Novedad: todo el grupo solo pierde la experiencia si un miembro está más de 12 niveles por encima de los enemigos.",
+                "Motivo según Blizzard: la regla anterior no encajaba en algunas mazmorras por el amplio rango de niveles de sus enemigos.",
+                "Las instancias que ya estaban en curso al aplicarse el cambio todavía no se ven afectadas; en caso de duda, empieza una instancia nueva."
+              ]
+            }
+          ]
+        },
+        "ru": {
+          "kat": "Подземелья",
+          "titel": "Опыт в подземельях: Blizzard смягчила правило – опыт пропадает только при разнице в 12 уровней",
+          "text": "После хотфикса от 13 ноября вся группа переставала получать опыт в подземельях, как только мобы были слишком низкого уровня для одного из участников. По данным Warcraft Tavern, это задело и группы подходящего уровня, например в Курганах Иглошкурых. Blizzard исправила это хотфиксом от 14 ноября: опыт теперь пропадает, только если игрок выше мобов более чем на 12 уровней.",
+          "tipp": "Небольшая разница в уровнях в группе снова не проблема, но если вас тащит намного более высокоуровневый друг, опыта по-прежнему не будет.",
+          "inhalt": [
+            {
+              "typ": "liste",
+              "titel": "Главное",
+              "punkte": [
+                "Новое: вся группа теряет опыт, только если один из участников выше мобов более чем на 12 уровней.",
+                "Причина по словам Blizzard: старое правило не подходило для некоторых подземелий из-за большого разброса уровней мобов.",
+                "На подземелья, которые уже шли на момент изменения, оно пока не действует — если сомневаетесь, начните новое подземелье."
+              ]
+            }
+          ]
+        }
+      }
+    },
     {
       "id": "2026-11-15-pvp-fraktionsbalance",
       "datum": "2026-11-15",
       "kat": "PvP",
-      "top": true,
       "titel": "PvP-Regelsätze: Blizzard erschwert neue Charaktere auf der volleren Fraktion",
       "text": "Laut Kaivax schaut die Charaktererstellung auf PvP-Regelsätzen jetzt auf das Fraktionsverhältnis der ganzen Region über längere Zeit statt auf Momentaufnahmen. Auf der volleren Seite wird es schwerer, neue Charaktere zu erstellen – in Nordamerika (PvP) trifft es die Horde, in Europa auf dem Rollenspiel-PvP-Regelsatz die Allianz. Selbst der extremste Fall liegt laut Blizzard bei etwa 55 zu 45; das Ziel ist möglichst 50 zu 50, und die gesperrte Seite kann später wechseln.",
       "tipp": "Willst du mit Freunden auf einem PvP-Regelsatz anfangen, erstellt eure Charaktere möglichst gemeinsam und früh – oder weicht auf einen Normal-Regelsatz aus, für den Blizzard keine solche Sperre angekündigt hat.",
