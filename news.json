@@ -1,12 +1,281 @@
 {
-  "stand": "2026-11-16",
+  "stand": "2026-11-17",
   "hinweis": "Wird täglich gegen 8 Uhr morgens automatisch aktualisiert.",
   "eintraege": [
+    {
+      "id": "2026-11-17-hotfixes-16-november",
+      "datum": "2026-11-17",
+      "kat": "Patch",
+      "top": true,
+      "titel": "Hotfixes vom 16. November: Vampirumarmung umgebaut, Totem des Windzorns repariert",
+      "text": "Blizzard hat am 16. November die nächste Runde Hotfixes veröffentlicht. Am wichtigsten: Vampirumarmung heilt die Gruppe nur noch halb so stark, der Priester selbst dafür doppelt so stark – laut Blizzard ändert sich solo nichts, die Änderung kommt mit der wöchentlichen Wartung. Dazu gibt es Fehlerbehebungen für Schamanen, Krieger, Druiden und Schurken, Entschärfungen in The Drowned City und viele Quest-Fixes.",
+      "tipp": "Spielst du Schattenpriester in Gruppen, plane etwas weniger Gruppenheilung durch Vampirumarmung ein – solo merkst du nichts.",
+      "video": null,
+      "inhalt": [
+        {
+          "typ": "tabelle",
+          "titel": "Klassen",
+          "kopf": [
+            "Klasse",
+            "Änderung"
+          ],
+          "zeilen": [
+            [
+              "Priester",
+              "Vampirumarmung heilt die Gruppe nur noch mit 10 % deines Schattenschadens (vorher 20 %), du selbst bekommst doppelt so viel – kommt mit der wöchentlichen Wartung. Dark Inspiration stapelt sich nicht mehr bei mehreren Schattenpriestern."
+            ],
+            [
+              "Schamane",
+              "Totem des Windzorns ignoriert keine Rüstung mehr und hat eine interne Abklingzeit; Waffe des Mahlstroms verstärkt nicht mehr zwei Zauber auf einmal; Donnernde Stöße wirkt auch ohne angelegte Waffe."
+            ],
+            [
+              "Krieger",
+              "Spalten und Heldenhafter Stoß lösen Entfesselter Zorn und Reckless Swings aus und verbrauchen keine Schlaghagel-Stapel mehr. Der NPC Revered Champion bietet Legacy of Valor wieder allen berechtigten Kriegern an."
+            ],
+            [
+              "Druide",
+              "Alle Ränge von Wildwuchs lösen die Abklingzeit korrekt aus; Genesis verstärkt wieder die Blutung von Anspringen."
+            ],
+            [
+              "Schurke",
+              "Gifte steigen nicht mehr über ihren Höchstrang; Shank löscht keine Combopunkte auf anderen Zielen mehr."
+            ]
+          ]
+        },
+        {
+          "typ": "liste",
+          "titel": "Dungeons, Gegenstände, PvP & Quests",
+          "punkte": [
+            "The Drowned City: Captain Dreadrise kann jetzt betäubt werden, seine Abyssal Bubble kann nicht mehr blocken, ausweichen oder parieren; der seltene Gegner Pyromancer Braxton reagiert jetzt auf Kämpfe.",
+            "Tempel von Atal'Hakkar: Die Schlangenstatuen lassen sich wieder benutzen, wenn man sie in der falschen Reihenfolge aktiviert hat.",
+            "Das Fishing Rack am Lagerplatz gibt jetzt allen Spielern Köder; Bloated Fish fallen öfter.",
+            "Die Formel „Stiefel verzaubern – Tempo“ (Ruf) ist jetzt beim Aufheben gebunden; The Violet Tragan unterbricht keine Kontrolleffekte mehr.",
+            "Arathibecken: Wer in der Goldmine stirbt, landet nicht mehr auf einem Friedhof in den Riverglades.",
+            "Quests: Blood Red Bandanas fallen öfter, die wiederholbare Quest „Water Pouch Bounty“ gibt keine Erfahrung mehr, „The Return of the King?“ in Theramore lässt sich wieder abschließen."
+          ]
+        }
+      ],
+      "quellen": [
+        {
+          "name": "Blizzard News – WoW: Forever Hotfixes, 16. November 2026",
+          "url": "https://news.blizzard.com/en-us/article/24315281/wow-forever-hotfixes-november-16-2026"
+        },
+        {
+          "name": "Blizzard-Forum (EU) – Kaivax: Hotfixes 16. November",
+          "url": "https://eu.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/639885/10"
+        },
+        {
+          "name": "Wowhead Blue Tracker – Hotfixes 16. November",
+          "url": "https://www.wowhead.com/forever/blue-tracker/news/us/wow-forever-hotfixes-november-16-2026-world-of-warcraft-blizzard-news-24315281"
+        }
+      ],
+      "i18n": {
+        "en": {
+          "kat": "Patch",
+          "titel": "Hotfixes from November 16: Vampiric Embrace reworked, Windfury Totem fixed",
+          "text": "Blizzard released the next round of hotfixes on November 16. The biggest one: Vampiric Embrace now heals the group only half as much, while the Priest gets twice as much – according to Blizzard nothing changes when playing solo, and the change arrives with weekly maintenance. There are also bug fixes for Shamans, Warriors, Druids and Rogues, nerfs in The Drowned City and lots of quest fixes.",
+          "tipp": "If you play Shadow Priest in groups, count on a bit less group healing from Vampiric Embrace – solo you won't notice anything.",
+          "inhalt": [
+            {
+              "typ": "tabelle",
+              "titel": "Classes",
+              "kopf": [
+                "Class",
+                "Change"
+              ],
+              "zeilen": [
+                [
+                  "Priest",
+                  "Vampiric Embrace now heals the group for only 10% of your Shadow damage (was 20%), while you yourself get twice as much – arrives with weekly maintenance. Dark Inspiration no longer stacks with multiple Shadow Priests."
+                ],
+                [
+                  "Shaman",
+                  "Windfury Totem no longer ignores armor and now has an internal cooldown; Maelstrom Weapon no longer empowers two spells at once; Thundering Strikes now works without a weapon equipped."
+                ],
+                [
+                  "Warrior",
+                  "Cleave and Heroic Strike now trigger Unbridled Wrath and Reckless Swings and no longer consume Flurry stacks. The NPC Revered Champion offers Legacy of Valor to all eligible Warriors again."
+                ],
+                [
+                  "Druid",
+                  "All ranks of Wild Growth now correctly trigger the cooldown; Genesis once again boosts the Pounce bleed."
+                ],
+                [
+                  "Rogue",
+                  "Poisons no longer stack beyond their max rank; Shank no longer wipes combo points on other targets."
+                ]
+              ]
+            },
+            {
+              "typ": "liste",
+              "titel": "Dungeons, items, PvP & quests",
+              "punkte": [
+                "The Drowned City: Captain Dreadrise can now be stunned, his Abyssal Bubble can no longer block, dodge or parry; the rare Pyromancer Braxton now reacts to combat.",
+                "Sunken Temple: the serpent statues can be used again if you activated them in the wrong order.",
+                "The Fishing Rack at camp now gives bait to all players; Bloated Fish drop more often.",
+                "Formula: Enchant Boots – Speed (reputation) is now Bind on Pickup; The Violet Tragan no longer breaks crowd control.",
+                "Arathi Basin: dying in the Gold Mine no longer sends you to a graveyard in the Riverglades.",
+                "Quests: Blood Red Bandanas drop more often, the repeatable \"Water Pouch Bounty\" no longer grants experience, and \"The Return of the King?\" in Theramore can be completed again."
+              ]
+            }
+          ]
+        },
+        "fr": {
+          "kat": "Patch",
+          "titel": "Correctifs du 16 novembre : Étreinte vampirique revue, Totem Furie-des-vents corrigé",
+          "text": "Blizzard a publié une nouvelle série de correctifs le 16 novembre. Le plus important : Étreinte vampirique soigne le groupe deux fois moins, mais le prêtre lui-même deux fois plus – selon Blizzard, rien ne change en solo, et le changement arrive avec la maintenance hebdomadaire. S'y ajoutent des corrections pour les chamans, guerriers, druides et voleurs, des allègements dans The Drowned City et de nombreuses corrections de quêtes.",
+          "tipp": "Si vous jouez prêtre Ombre en groupe, comptez sur un peu moins de soins de groupe via Étreinte vampirique – en solo, vous ne verrez aucune différence.",
+          "inhalt": [
+            {
+              "typ": "tabelle",
+              "titel": "Classes",
+              "kopf": [
+                "Classe",
+                "Changement"
+              ],
+              "zeilen": [
+                [
+                  "Prêtre",
+                  "Étreinte vampirique ne soigne plus le groupe qu'à hauteur de 10 % de vos dégâts d'Ombre (contre 20 %), mais vous recevez deux fois plus – arrive avec la maintenance hebdomadaire. Dark Inspiration ne se cumule plus avec plusieurs prêtres Ombre."
+                ],
+                [
+                  "Chaman",
+                  "Le Totem Furie-des-vents n'ignore plus l'armure et a désormais un temps de recharge interne ; Arme du Maelström ne renforce plus deux sorts à la fois ; Frappes foudroyantes fonctionne aussi sans arme équipée."
+                ],
+                [
+                  "Guerrier",
+                  "Enchaînement et Frappe héroïque déclenchent Courroux déchaîné et Reckless Swings et ne consomment plus les charges de Rafale. Le PNJ Revered Champion propose de nouveau Legacy of Valor à tous les guerriers éligibles."
+                ],
+                [
+                  "Druide",
+                  "Tous les rangs de Croissance sauvage déclenchent correctement le temps de recharge ; Genèse augmente de nouveau le saignement de Traquenard."
+                ],
+                [
+                  "Voleur",
+                  "Les poisons ne dépassent plus leur rang maximal ; Shank n'efface plus les points de combo sur d'autres cibles."
+                ]
+              ]
+            },
+            {
+              "typ": "liste",
+              "titel": "Donjons, objets, JcJ et quêtes",
+              "punkte": [
+                "The Drowned City : Captain Dreadrise peut désormais être étourdi, son Abyssal Bubble ne peut plus bloquer, esquiver ni parer ; le rare Pyromancer Braxton réagit maintenant aux combats.",
+                "Temple d'Atal'Hakkar : les statues de serpent redeviennent utilisables si on les a activées dans le mauvais ordre.",
+                "Le Fishing Rack du campement donne maintenant des appâts à tous les joueurs ; les Bloated Fish tombent plus souvent.",
+                "La formule Enchantement de bottes – Vitesse (réputation) est désormais liée quand ramassée ; The Violet Tragan n'interrompt plus les effets de contrôle.",
+                "Bassin Arathi : mourir dans la mine d'or ne vous envoie plus à un cimetière des Riverglades.",
+                "Quêtes : les Blood Red Bandanas tombent plus souvent, la quête répétable « Water Pouch Bounty » ne donne plus d'expérience et « The Return of the King? » à Theramore peut de nouveau être terminée."
+              ]
+            }
+          ]
+        },
+        "es": {
+          "kat": "Parche",
+          "titel": "Hotfixes del 16 de noviembre: Abrazo vampírico rehecho, Tótem Viento Furioso corregido",
+          "text": "Blizzard publicó el 16 de noviembre la siguiente tanda de hotfixes. Lo más importante: Abrazo vampírico cura al grupo solo la mitad, pero al sacerdote el doble – según Blizzard, en solitario no cambia nada, y el cambio llega con el mantenimiento semanal. Además hay correcciones para chamanes, guerreros, druidas y pícaros, ajustes a la baja en The Drowned City y muchas correcciones de misiones.",
+          "tipp": "Si juegas sacerdote de Sombras en grupo, cuenta con algo menos de curación de grupo de Abrazo vampírico; en solitario no notarás nada.",
+          "inhalt": [
+            {
+              "typ": "tabelle",
+              "titel": "Clases",
+              "kopf": [
+                "Clase",
+                "Cambio"
+              ],
+              "zeilen": [
+                [
+                  "Sacerdote",
+                  "Abrazo vampírico ahora cura al grupo solo con el 10 % de tu daño de Sombras (antes 20 %), pero tú recibes el doble – llega con el mantenimiento semanal. Dark Inspiration ya no se acumula con varios sacerdotes de Sombras."
+                ],
+                [
+                  "Chamán",
+                  "El Tótem Viento Furioso ya no ignora la armadura y ahora tiene un tiempo de reutilización interno; Arma vorágine ya no potencia dos hechizos a la vez; Golpes atronadores funciona también sin arma equipada."
+                ],
+                [
+                  "Guerrero",
+                  "Rajar y Golpe heroico ahora activan Cólera desatada y Reckless Swings y ya no consumen acumulaciones de Ráfaga. El PNJ Revered Champion vuelve a ofrecer Legacy of Valor a todos los guerreros que cumplan los requisitos."
+                ],
+                [
+                  "Druida",
+                  "Todos los rangos de Crecimiento salvaje activan correctamente el tiempo de reutilización; Génesis vuelve a potenciar el sangrado de Abalanzarse."
+                ],
+                [
+                  "Pícaro",
+                  "Los venenos ya no superan su rango máximo; Shank ya no borra los puntos de combo de otros objetivos."
+                ]
+              ]
+            },
+            {
+              "typ": "liste",
+              "titel": "Mazmorras, objetos, JcJ y misiones",
+              "punkte": [
+                "The Drowned City: Captain Dreadrise ahora puede ser aturdido, su Abyssal Bubble ya no puede bloquear, esquivar ni parar; el raro Pyromancer Braxton ahora reacciona al combate.",
+                "Templo de Atal'Hakkar: las estatuas de serpiente vuelven a poder usarse si las activaste en el orden equivocado.",
+                "El Fishing Rack del campamento ahora da cebo a todos los jugadores; los Bloated Fish caen más a menudo.",
+                "La fórmula Encantar botas: velocidad (reputación) ahora se liga al recogerla; The Violet Tragan ya no rompe los efectos de control.",
+                "Cuenca de Arathi: morir en la mina de oro ya no te manda a un cementerio de los Riverglades.",
+                "Misiones: los Blood Red Bandanas caen más a menudo, la misión repetible «Water Pouch Bounty» ya no da experiencia y «The Return of the King?» en Theramore vuelve a poder completarse."
+              ]
+            }
+          ]
+        },
+        "ru": {
+          "kat": "Патч",
+          "titel": "Хотфиксы от 16 ноября: «Объятия вампира» переработаны, «Тотем неистовства ветра» исправлен",
+          "text": "16 ноября Blizzard выпустила новую порцию хотфиксов. Главное: «Объятия вампира» теперь лечат группу вдвое слабее, а самого жреца – вдвое сильнее; по словам Blizzard, при соло-игре ничего не меняется, а изменение вступит в силу с еженедельным обслуживанием. Кроме того, исправлены ошибки шаманов, воинов, друидов и разбойников, ослаблена The Drowned City и исправлено много заданий.",
+          "tipp": "Если играете жрецом Тьмы в группе, рассчитывайте на чуть меньшее групповое лечение от «Объятий вампира» – соло вы ничего не заметите.",
+          "inhalt": [
+            {
+              "typ": "tabelle",
+              "titel": "Классы",
+              "kopf": [
+                "Класс",
+                "Изменение"
+              ],
+              "zeilen": [
+                [
+                  "Жрец",
+                  "«Объятия вампира» теперь лечат группу лишь на 10 % от вашего урона от темной магии (было 20 %), зато сам жрец получает вдвое больше – вступит в силу с еженедельным обслуживанием. Dark Inspiration больше не складывается от нескольких жрецов Тьмы."
+                ],
+                [
+                  "Шаман",
+                  "«Тотем неистовства ветра» больше не игнорирует броню и получил внутреннее время восстановления; «Оружие Водоворота» больше не усиливает два заклинания сразу; «Громовые удары» работают и без надетого оружия."
+                ],
+                [
+                  "Воин",
+                  "«Рассекающий удар» и «Удар героя» теперь вызывают «Необузданный гнев» и Reckless Swings и больше не тратят заряды «Шквала». NPC Revered Champion снова предлагает Legacy of Valor всем подходящим воинам."
+                ],
+                [
+                  "Друид",
+                  "Все ранги «Буйного роста» корректно запускают время восстановления; «Генезис» снова усиливает кровотечение от «Наскока»."
+                ],
+                [
+                  "Разбойник",
+                  "Яды больше не превышают максимальный ранг; Shank больше не сбрасывает приемы серии на других целях."
+                ]
+              ]
+            },
+            {
+              "typ": "liste",
+              "titel": "Подземелья, предметы, PvP и задания",
+              "punkte": [
+                "The Drowned City: Captain Dreadrise теперь можно оглушить, его Abyssal Bubble больше не может блокировать, уклоняться и парировать; редкий Pyromancer Braxton теперь реагирует на бой.",
+                "Затонувший храм: статуи змей снова можно использовать, если активировать их в неправильном порядке.",
+                "Fishing Rack в лагере теперь дает наживку всем игрокам; Bloated Fish выпадают чаще.",
+                "Формула «Чары для обуви – скорость» (репутация) теперь становится персональной при поднятии; The Violet Tragan больше не снимает эффекты контроля.",
+                "Низина Арати: смерть в Золотом руднике больше не отправляет на кладбище в Riverglades.",
+                "Задания: Blood Red Bandanas выпадают чаще, повторяемое задание «Water Pouch Bounty» больше не дает опыта, а «The Return of the King?» в Тераморе снова можно выполнить."
+              ]
+            }
+          ]
+        }
+      }
+    },
     {
       "id": "2026-11-16-dungeon-xp-12-stufen",
       "datum": "2026-11-16",
       "kat": "Dungeons",
-      "top": true,
       "titel": "Dungeon-Erfahrung: Blizzard lockert die Regel – erst ab 12 Stufen Unterschied gibt es keine EP mehr",
       "text": "Seit dem Hotfix vom 13. November bekam die ganze Gruppe in Dungeons keine Erfahrung mehr, sobald Gegner für ein Mitglied zu niedrig waren. Laut Warcraft Tavern traf das aber auch Gruppen auf passender Stufe, etwa in den Hügeln der Klingenhauer. Blizzard hat deshalb per Hotfix vom 14. November nachgebessert: Die Erfahrung fällt nur noch weg, wenn ein Spieler mehr als 12 Stufen über den Gegnern liegt.",
       "tipp": "Ein paar Stufen Unterschied in der Gruppe sind wieder kein Problem – wer sich aber von einem viel höheren Freund ziehen lässt, bekommt weiterhin keine Erfahrung.",
