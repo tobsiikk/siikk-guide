@@ -1,12 +1,343 @@
 {
-  "stand": "2026-11-17",
+  "stand": "2026-11-18",
   "hinweis": "Wird täglich gegen 8 Uhr morgens automatisch aktualisiert.",
   "eintraege": [
+    {
+      "id": "2026-11-18-hotfixes-17-november",
+      "datum": "2026-11-18",
+      "kat": "Patch",
+      "top": true,
+      "titel": "Hotfixes vom 17. November: Obere Schwarzfelsspitze wird härter, Paladin-Tanks setzen auf Zaubermacht",
+      "text": "Blizzard hat am 17. November weitere Hotfixes veröffentlicht. Die Gegner in der Oberen Schwarzfelsspitze hatten laut Blizzard deutlich zu wenig Leben und Schaden und wurden auf das geplante Niveau angehoben. Außerdem gibt das Tank-Dungeonset Soulforge Armor für Paladine jetzt Zaubermacht statt Stärke, dazu kommen viele Fixes für Berufe, Quests, PvP und den Lagerplatz.",
+      "tipp": "Plant ihr die Obere Schwarzfelsspitze, nehmt lieber eine volle, gut ausgerüstete Gruppe mit – sie ist jetzt spürbar schwerer als in den ersten Tagen.",
+      "video": {
+        "youtube": "Pkr-a_WZsdc",
+        "titel": "Spell Power Added to Soulforge Paladin Armor - Item Hotfixes in WoW: Forever"
+      },
+      "inhalt": [
+        {
+          "typ": "tabelle",
+          "titel": "Klassen & Gegenstände",
+          "kopf": [
+            "Bereich",
+            "Änderung"
+          ],
+          "zeilen": [
+            [
+              "Paladin",
+              "Soulforge Armor (aufgewertetes Tank-Dungeonset) hat jetzt Zaubermacht statt Stärke – laut Blizzard sollen Paladin-Tanks Zaubermacht als wichtigsten Schadenswert nutzen."
+            ],
+            [
+              "Schamane",
+              "Schlaghagel verliert keine Stapel mehr, wenn Angriffe des Totems des Windzorns treffen."
+            ],
+            [
+              "Buffs",
+              "Macht von Sturmwind und Segen des Kriegshäuptlings enden beim Tod richtig und wirken nicht mehr auf Nicht-Spieler."
+            ],
+            [
+              "Priester",
+              "Schattenpriester können jetzt die Fackel Night Watchman's Torch tragen."
+            ],
+            [
+              "Stäbe",
+              "Whiteout Staff und Crackling Staff haben jetzt dieselben Werte: 25 Ausdauer, 25 Intelligenz und 74 Zaubermacht."
+            ]
+          ]
+        },
+        {
+          "typ": "liste",
+          "titel": "Dungeons, PvP, Berufe & mehr",
+          "punkte": [
+            "Obere Schwarzfelsspitze: Leben und Schaden der Gegner auf das geplante Niveau angehoben.",
+            "Kriegshymnenschlucht: In den Startbereichen kann man nicht mehr aufsitzen. Die Quests der Schlacht um das Alteractal setzen jetzt Stufe 58 voraus.",
+            "Schmiedekunst: Wer das Rezept Orcish War Leggings aus „The Old Ways“ nie bekommen oder verloren hat, erhält Ersatz bei Sumi.",
+            "Kräuterkunde: Cultivation funktioniert wieder bei Maguskönigskraut. Kürschnerei: Einige eigentlich nicht häutbare Wesen lassen sich nicht mehr häuten.",
+            "Lagerplatz: Auf dem Cozy Sleeping Bag kann man nicht mehr beritten schlafen; er lässt sich an mehr Stellen aufstellen und zeigt die Erholungs-Zone an.",
+            "Shen'dralas: Pylon-Reparaturen und das Kristallherz zählen für die ganze Gruppe, Spectral Iron Ore ist aufspürbar und erscheint öfter.",
+            "Ignorieren-Listen bleiben nach dem Ausloggen erhalten."
+          ]
+        }
+      ],
+      "quellen": [
+        {
+          "name": "Blizzard News – WoW: Forever Hotfixes, 17. November 2026",
+          "url": "https://news.blizzard.com/en-us/article/24315281/wow-forever-hotfixes-november-17-2026"
+        },
+        {
+          "name": "Blizzard-Forum (US) – Kaivax: Hotfixes 17. November",
+          "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-17-2026/2403040/12"
+        },
+        {
+          "name": "Icy Veins – UBRS Buffs, Profession and Camping Improvements",
+          "url": "https://www.icy-veins.com/wow-forever/news/ubrs-buffs-profession-and-camping-improvements-quest-fixes-wow-forever-hotfixes-november-17th/"
+        }
+      ],
+      "i18n": {
+        "en": {
+          "kat": "Patch",
+          "titel": "Hotfixes from November 17: Upper Blackrock Spire gets harder, Paladin tanks lean on Spell Power",
+          "text": "Blizzard released more hotfixes on November 17. According to Blizzard, enemies in Upper Blackrock Spire had far too little health and damage and have been raised to the intended level. The Paladin tank dungeon set Soulforge Armor now gives Spell Power instead of Strength, plus many fixes for professions, quests, PvP and camping.",
+          "tipp": "If you're planning Upper Blackrock Spire, bring a full, well-geared group – it's noticeably harder than in the first days.",
+          "video_titel": "Spell Power Added to Soulforge Paladin Armor - Item Hotfixes in WoW: Forever",
+          "inhalt": [
+            {
+              "typ": "tabelle",
+              "titel": "Classes & items",
+              "kopf": [
+                "Area",
+                "Change"
+              ],
+              "zeilen": [
+                [
+                  "Paladin",
+                  "Soulforge Armor (upgraded tank dungeon set) now has Spell Power instead of Strength – according to Blizzard, Paladin tanks are meant to use Spell Power as their main damage stat."
+                ],
+                [
+                  "Shaman",
+                  "Flurry no longer loses stacks when Windfury Totem attacks hit."
+                ],
+                [
+                  "Buffs",
+                  "Might of Stormwind and Warchief's Blessing now end properly on death and no longer apply to non-players."
+                ],
+                [
+                  "Priest",
+                  "Shadow Priests can now equip the Night Watchman's Torch."
+                ],
+                [
+                  "Staves",
+                  "Whiteout Staff and Crackling Staff now have the same stats: 25 Stamina, 25 Intellect and 74 Spell Power."
+                ]
+              ]
+            },
+            {
+              "typ": "liste",
+              "titel": "Dungeons, PvP, professions & more",
+              "punkte": [
+                "Upper Blackrock Spire: enemy health and damage raised to the intended level.",
+                "Warsong Gulch: you can no longer mount in the starting rooms. Battle for Alterac Valley quests now require level 58.",
+                "Blacksmithing: if you never got or lost the Orcish War Leggings recipe from \"The Old Ways\", Sumi gives you a replacement.",
+                "Herbalism: Cultivation works on Mageroyal again. Skinning: a few creatures that shouldn't be skinnable can no longer be skinned.",
+                "Camping: you can no longer sleep on the Cozy Sleeping Bag while mounted; it can be placed in more spots and shows the resting area.",
+                "Shen'dralas: pylon repairs and the crystal heart count for the whole party, Spectral Iron Ore can be tracked and spawns more often.",
+                "Ignore lists now persist after logging out."
+              ]
+            }
+          ]
+        },
+        "fr": {
+          "kat": "Patch",
+          "titel": "Correctifs du 17 novembre : le Pic Rochenoire supérieur devient plus dur, les paladins tanks misent sur la puissance des sorts",
+          "text": "Blizzard a publié de nouveaux correctifs le 17 novembre. Selon Blizzard, les ennemis du Pic Rochenoire supérieur avaient beaucoup trop peu de vie et de dégâts ; ils ont été remontés au niveau prévu. L'ensemble de donjon tank Soulforge Armor des paladins donne désormais de la puissance des sorts au lieu de la force, avec en plus de nombreux correctifs pour les métiers, les quêtes, le JcJ et le camp.",
+          "tipp": "Si vous prévoyez le Pic Rochenoire supérieur, partez avec un groupe complet et bien équipé – il est nettement plus dur que les premiers jours.",
+          "video_titel": "Spell Power Added to Soulforge Paladin Armor - Item Hotfixes in WoW: Forever",
+          "inhalt": [
+            {
+              "typ": "tabelle",
+              "titel": "Classes et objets",
+              "kopf": [
+                "Domaine",
+                "Changement"
+              ],
+              "zeilen": [
+                [
+                  "Paladin",
+                  "Soulforge Armor (ensemble de donjon tank amélioré) donne maintenant de la puissance des sorts au lieu de la force – selon Blizzard, les paladins tanks doivent utiliser la puissance des sorts comme principale statistique de dégâts."
+                ],
+                [
+                  "Chaman",
+                  "Rafale ne perd plus de charges quand les attaques du Totem Furie-des-vents touchent."
+                ],
+                [
+                  "Buffs",
+                  "Puissance de Hurlevent et Bénédiction du chef de guerre se dissipent correctement à la mort et ne s'appliquent plus aux non-joueurs."
+                ],
+                [
+                  "Prêtre",
+                  "Les prêtres Ombre peuvent maintenant équiper la Night Watchman's Torch."
+                ],
+                [
+                  "Bâtons",
+                  "Whiteout Staff et Crackling Staff ont désormais les mêmes stats : 25 Endurance, 25 Intelligence et 74 puissance des sorts."
+                ]
+              ]
+            },
+            {
+              "typ": "liste",
+              "titel": "Donjons, JcJ, métiers et plus",
+              "punkte": [
+                "Pic Rochenoire supérieur : vie et dégâts des ennemis remontés au niveau prévu.",
+                "Goulet des Chanteguerres : impossible de monter sur sa monture dans les salles de départ. Les quêtes de la bataille de la vallée d'Alterac exigent désormais le niveau 58.",
+                "Forge : si vous n'avez jamais reçu ou avez perdu la recette Orcish War Leggings de « The Old Ways », Sumi vous en donne une nouvelle.",
+                "Herboristerie : Cultivation fonctionne à nouveau sur la Mage royal. Dépeçage : quelques créatures qui ne devraient pas l'être ne peuvent plus être dépecées.",
+                "Camp : impossible de dormir sur le Cozy Sleeping Bag en étant monté ; il peut être posé à plus d'endroits et affiche la zone de repos.",
+                "Shen'dralas : les réparations de pylônes et le cœur de cristal comptent pour tout le groupe, le Spectral Iron Ore peut être pisté et apparaît plus souvent.",
+                "Les listes d'ignorés sont conservées après la déconnexion."
+              ]
+            }
+          ]
+        },
+        "es": {
+          "kat": "Parche",
+          "titel": "Hotfixes del 17 de noviembre: Cumbre de Roca Negra Superior más difícil, los paladines tanque apuestan por el poder con hechizos",
+          "text": "Blizzard publicó más hotfixes el 17 de noviembre. Según Blizzard, los enemigos de Cumbre de Roca Negra Superior tenían demasiada poca salud y daño, y se han subido al nivel previsto. El conjunto de mazmorra de tanque Soulforge Armor del paladín ahora da poder con hechizos en lugar de fuerza, además de muchas correcciones para profesiones, misiones, JcJ y el campamento.",
+          "tipp": "Si vas a Cumbre de Roca Negra Superior, lleva un grupo completo y bien equipado: ahora es bastante más difícil que los primeros días.",
+          "video_titel": "Spell Power Added to Soulforge Paladin Armor - Item Hotfixes in WoW: Forever",
+          "inhalt": [
+            {
+              "typ": "tabelle",
+              "titel": "Clases y objetos",
+              "kopf": [
+                "Área",
+                "Cambio"
+              ],
+              "zeilen": [
+                [
+                  "Paladín",
+                  "Soulforge Armor (conjunto de mazmorra de tanque mejorado) ahora tiene poder con hechizos en lugar de fuerza; según Blizzard, los paladines tanque deben usar el poder con hechizos como estadística principal de daño."
+                ],
+                [
+                  "Chamán",
+                  "Ráfaga (Flurry) ya no pierde acumulaciones cuando aciertan los ataques del Tótem Viento Furioso."
+                ],
+                [
+                  "Bufos",
+                  "Poderío de Ventormenta y Bendición del Jefe de Guerra terminan correctamente al morir y ya no afectan a quienes no son jugadores."
+                ],
+                [
+                  "Sacerdote",
+                  "Los sacerdotes de Sombra ya pueden equipar la Night Watchman's Torch."
+                ],
+                [
+                  "Bastones",
+                  "Whiteout Staff y Crackling Staff ahora tienen las mismas estadísticas: 25 de aguante, 25 de intelecto y 74 de poder con hechizos."
+                ]
+              ]
+            },
+            {
+              "typ": "liste",
+              "titel": "Mazmorras, JcJ, profesiones y más",
+              "punkte": [
+                "Cumbre de Roca Negra Superior: salud y daño de los enemigos subidos al nivel previsto.",
+                "Garganta Grito de Guerra: ya no se puede montar en las salas iniciales. Las misiones de la Batalla del Valle de Alterac ahora requieren nivel 58.",
+                "Herrería: si nunca recibiste o perdiste la receta Orcish War Leggings de «The Old Ways», Sumi te da una nueva.",
+                "Herboristería: Cultivation vuelve a funcionar con Marregal. Desuello: algunas criaturas que no deberían poder desollarse ya no se pueden desollar.",
+                "Campamento: ya no se puede dormir montado en el Cozy Sleeping Bag; se puede colocar en más sitios y muestra la zona de descanso.",
+                "Shen'dralas: las reparaciones de pilones y el corazón de cristal cuentan para todo el grupo; el Spectral Iron Ore se puede rastrear y aparece más a menudo.",
+                "Las listas de ignorados se conservan al cerrar sesión."
+              ]
+            }
+          ]
+        },
+        "ru": {
+          "kat": "Патч",
+          "titel": "Хотфиксы от 17 ноября: Верхняя часть пика Черной горы стала сложнее, паладины-танки делают ставку на силу заклинаний",
+          "text": "17 ноября Blizzard выпустила новые хотфиксы. По словам Blizzard, у противников в Верхней части пика Черной горы было слишком мало здоровья и урона – теперь они подняты до запланированного уровня. Танковый подземельный комплект паладина Soulforge Armor теперь даёт силу заклинаний вместо силы, а также вышло много исправлений для профессий, заданий, PvP и лагеря.",
+          "tipp": "Если собираетесь в Верхнюю часть пика Черной горы, берите полную и хорошо одетую группу – теперь там заметно сложнее, чем в первые дни.",
+          "video_titel": "Spell Power Added to Soulforge Paladin Armor - Item Hotfixes in WoW: Forever",
+          "inhalt": [
+            {
+              "typ": "tabelle",
+              "titel": "Классы и предметы",
+              "kopf": [
+                "Область",
+                "Изменение"
+              ],
+              "zeilen": [
+                [
+                  "Паладин",
+                  "Soulforge Armor (улучшенный танковый комплект из подземелий) теперь даёт силу заклинаний вместо силы – по словам Blizzard, паладины-танки должны использовать силу заклинаний как основную характеристику урона."
+                ],
+                [
+                  "Шаман",
+                  "Шквал больше не теряет заряды, когда попадают атаки тотема неистовства ветра."
+                ],
+                [
+                  "Баффы",
+                  "Мощь Штормграда и Благословение вождя корректно спадают при смерти и больше не действуют на неигровых персонажей."
+                ],
+                [
+                  "Жрец",
+                  "Жрецы тьмы теперь могут экипировать Night Watchman's Torch."
+                ],
+                [
+                  "Посохи",
+                  "Whiteout Staff и Crackling Staff теперь имеют одинаковые характеристики: 25 выносливости, 25 интеллекта и 74 силы заклинаний."
+                ]
+              ]
+            },
+            {
+              "typ": "liste",
+              "titel": "Подземелья, PvP, профессии и прочее",
+              "punkte": [
+                "Верхняя часть пика Черной горы: здоровье и урон противников подняты до запланированного уровня.",
+                "Ущелье Песни Войны: в стартовых комнатах больше нельзя сесть на средство передвижения. Задания битвы за Альтеракскую долину теперь требуют 58-го уровня.",
+                "Кузнечное дело: если вы так и не получили или потеряли рецепт Orcish War Leggings из «The Old Ways», Суми выдаст замену.",
+                "Травничество: Cultivation снова работает на магорозе. Снятие шкур: с некоторых существ, с которых не должно сниматься, шкуры больше не снимаются.",
+                "Лагерь: на Cozy Sleeping Bag больше нельзя спать верхом; его можно ставить в большем числе мест, и он показывает зону отдыха.",
+                "Шен'драла: починка пилонов и кристальное сердце засчитываются всей группе, Spectral Iron Ore можно отслеживать, и он появляется чаще.",
+                "Списки игнорируемых сохраняются после выхода из игры."
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "2026-11-18-blackmaw-hold-ausnutzer",
+      "datum": "2026-11-18",
+      "kat": "Bugs",
+      "titel": "Blackmaw Hold: Blizzard nimmt Ausnutzern eines Beute-Fehlers das Gold weg und sperrt Accounts",
+      "text": "Am Wochenende vor dem 17. November ließ eine große Gruppe normaler Gegner in Blackmaw Hold fälschlich die volle Dungeon-Beute eines Elitegegners fallen; der Fehler wurde am 16. November per Hotfix behoben. Laut Blizzard haben einige hundert Spieler weltweit gezielt nur diese Gruppe gefarmt – ihre Accounts bekamen zunächst eine Wirtschaftssperre, jetzt wird das so verdiente Gold entfernt und wer es stark ausgenutzt hat, wird zeitweise gesperrt. Wer den Dungeon ganz normal gespielt hat, muss sich laut Blizzard keine Sorgen machen.",
+      "tipp": "Fällt dir im Spiel etwas auf, das offensichtlich ein Fehler ist (z. B. viel zu viel Beute), melde es lieber, statt es gezielt zu farmen.",
+      "video": null,
+      "inhalt": [],
+      "quellen": [
+        {
+          "name": "Blizzard-Forum (EU) – Actions For Blackmaw Hold Abuse, 17. November",
+          "url": "https://www.bluetracker.gg/wow/topic/eu-en/643759-actions-for-blackmaw-hold-abuse-17-november/"
+        },
+        {
+          "name": "Icy Veins – Account Suspensions and Gold Removal for Blackmaw Hold Exploit Abusers",
+          "url": "https://www.icy-veins.com/wow-forever/news/account-suspensions-and-gold-removal-for-blackmaw-hold-exploit-abusers/"
+        }
+      ],
+      "i18n": {
+        "en": {
+          "kat": "Bugs",
+          "titel": "Blackmaw Hold: Blizzard removes gold from loot-bug abusers and suspends accounts",
+          "text": "Over the weekend before November 17, a large group of non-elite enemies in Blackmaw Hold wrongly dropped the full dungeon loot of an elite; the bug was hotfixed on November 16. According to Blizzard, a couple hundred players worldwide farmed only that group on purpose – their accounts first got an economy lock, now the gold earned this way is being removed and heavy abusers receive suspensions. If you just played the dungeon normally, Blizzard says you have nothing to worry about.",
+          "tipp": "If you spot something in-game that is clearly a bug (e.g. far too much loot), report it instead of farming it on purpose.",
+          "inhalt": []
+        },
+        "fr": {
+          "kat": "Bugs",
+          "titel": "Blackmaw Hold : Blizzard retire l'or des abuseurs d'un bug de butin et suspend des comptes",
+          "text": "Le week-end précédant le 17 novembre, un grand groupe d'ennemis non élites de Blackmaw Hold lâchait à tort tout le butin de donjon d'un élite ; le bug a été corrigé le 16 novembre. Selon Blizzard, quelques centaines de joueurs dans le monde ont farmé exprès uniquement ce groupe – leurs comptes ont d'abord été bloqués économiquement, l'or gagné ainsi est maintenant retiré et les gros abuseurs sont suspendus. Si vous avez simplement fait le donjon normalement, Blizzard indique que vous n'avez rien à craindre.",
+          "tipp": "Si vous remarquez en jeu quelque chose qui est clairement un bug (par ex. beaucoup trop de butin), signalez-le plutôt que de le farmer exprès.",
+          "inhalt": []
+        },
+        "es": {
+          "kat": "Errores",
+          "titel": "Blackmaw Hold: Blizzard retira el oro a quienes abusaron de un error de botín y suspende cuentas",
+          "text": "El fin de semana anterior al 17 de noviembre, un gran grupo de enemigos no élite en Blackmaw Hold soltaba por error todo el botín de mazmorra de un élite; el error se corrigió con un hotfix el 16 de noviembre. Según Blizzard, unos cientos de jugadores en todo el mundo farmearon a propósito solo ese grupo: sus cuentas recibieron primero un bloqueo económico, ahora se les retira el oro obtenido así y quienes más abusaron reciben suspensiones. Si jugaste la mazmorra con normalidad, Blizzard dice que no tienes de qué preocuparte.",
+          "tipp": "Si ves en el juego algo que claramente es un error (p. ej. demasiado botín), repórtalo en lugar de farmearlo a propósito.",
+          "inhalt": []
+        },
+        "ru": {
+          "kat": "Ошибки",
+          "titel": "Blackmaw Hold: Blizzard изымает золото у абьюзеров бага с добычей и блокирует аккаунты",
+          "text": "В выходные перед 17 ноября большая группа обычных (не элитных) противников в Blackmaw Hold по ошибке роняла полную добычу элитного противника; 16 ноября баг исправили хотфиксом. По словам Blizzard, несколько сотен игроков по всему миру намеренно фармили только эту группу – их аккаунтам сначала ограничили экономические действия, теперь заработанное так золото изымается, а злостных нарушителей временно блокируют. Тем, кто просто проходил подземелье как обычно, по словам Blizzard, беспокоиться не о чем.",
+          "tipp": "Если заметили в игре явный баг (например, слишком много добычи), лучше сообщите о нём, а не фармите его намеренно.",
+          "inhalt": []
+        }
+      }
+    },
     {
       "id": "2026-11-17-hotfixes-16-november",
       "datum": "2026-11-17",
       "kat": "Patch",
-      "top": true,
       "titel": "Hotfixes vom 16. November: Vampirumarmung umgebaut, Totem des Windzorns repariert",
       "text": "Blizzard hat am 16. November die nächste Runde Hotfixes veröffentlicht. Am wichtigsten: Vampirumarmung heilt die Gruppe nur noch halb so stark, der Priester selbst dafür doppelt so stark – laut Blizzard ändert sich solo nichts, die Änderung kommt mit der wöchentlichen Wartung. Dazu gibt es Fehlerbehebungen für Schamanen, Krieger, Druiden und Schurken, Entschärfungen in The Drowned City und viele Quest-Fixes.",
       "tipp": "Spielst du Schattenpriester in Gruppen, plane etwas weniger Gruppenheilung durch Vampirumarmung ein – solo merkst du nichts.",
