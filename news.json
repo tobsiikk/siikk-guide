@@ -1,12 +1,302 @@
 {
-  "stand": "2026-11-18",
+  "stand": "2026-11-19",
   "hinweis": "Wird täglich gegen 8 Uhr morgens automatisch aktualisiert.",
   "eintraege": [
+    {
+      "id": "2026-11-19-15-millionen-charaktere",
+      "datum": "2026-11-19",
+      "kat": "System",
+      "top": true,
+      "titel": "Über 15 Millionen Charaktere: Blizzard nennt Zahlen zu den ersten zwei Wochen",
+      "text": "Blizzard hat am 18. November auf X eine Bilanz der ersten zwei Wochen von WoW Forever veröffentlicht: Über 15 Millionen Charaktere wurden erstellt und fast 1,5 Milliarden Quests abgeschlossen. Der tödlichste Boss ist bisher Erzmagier Arugal in Burg Schattenfang. Laut Executive Producer Holly Longdale spielen jede Woche mehr Menschen Forever als WoW in den letzten 15 Jahren – genaue Spielerzahlen nennt Blizzard aber nicht.",
+      "tipp": "Arugal in Burg Schattenfang ist der gefährlichste Boss bisher – geh mit voller Gruppe hin und unterbrich seine Zauber, statt allein zu kämpfen.",
+      "video": null,
+      "inhalt": [
+        {
+          "typ": "tabelle",
+          "titel": "Die Zahlen der ersten zwei Wochen",
+          "kopf": [
+            "Wert",
+            "Zahl"
+          ],
+          "zeilen": [
+            [
+              "Erstellte Charaktere",
+              "15.160.147"
+            ],
+            [
+              "Abgeschlossene Quests",
+              "1.480.343.357"
+            ],
+            [
+              "Besiegte Gegner",
+              "9.786.925.806"
+            ],
+            [
+              "Gegründete Gilden",
+              "140.764"
+            ],
+            [
+              "Gebildete Gruppen",
+              "71.309.889"
+            ],
+            [
+              "Benutzte Lager-Gegenstände",
+              "28.696.386"
+            ],
+            [
+              "PvP-Siege",
+              "28.938.569"
+            ],
+            [
+              "Spielertode",
+              "196.851.761"
+            ]
+          ]
+        },
+        {
+          "typ": "text",
+          "titel": "Was die Zahlen bedeuten",
+          "text": "Erstellte Charaktere sind nicht gleich Spieler: Viele haben mehrere Charaktere oder nur Namen reserviert. Die Zahlen zeigen aber, dass Forever weiterhin sehr gut läuft. Die ersten Raids starten wie angekündigt am 9. Dezember."
+        }
+      ],
+      "quellen": [
+        {
+          "name": "Wowhead: WoW Forever Continuing to Break Records",
+          "url": "https://www.wowhead.com/forever/news/wow-forever-continuing-to-break-records-with-over-15-million-characters-created-383912"
+        },
+        {
+          "name": "PC Games: WoW Forever bricht alle Rekorde",
+          "url": "https://www.pcgames.de/World-of-Warcraft-Spiel-42971/News/WoW-Forever-breaks-all-records-Numbers-like-these-havent-been-seen-in-15-years-1560423/"
+        }
+      ],
+      "i18n": {
+        "en": {
+          "kat": "System",
+          "titel": "Over 15 million characters: Blizzard shares stats from the first two weeks",
+          "text": "On November 18, Blizzard posted a recap of WoW Forever's first two weeks on X: more than 15 million characters have been created and almost 1.5 billion quests completed. The deadliest boss so far is Archmage Arugal in Shadowfang Keep. According to executive producer Holly Longdale, more people play Forever each week than played WoW at any point in the last 15 years – but Blizzard hasn't shared exact player numbers.",
+          "tipp": "Arugal in Shadowfang Keep is the deadliest boss so far – bring a full group and interrupt his spells instead of fighting him alone.",
+          "inhalt": [
+            {
+              "typ": "tabelle",
+              "titel": "The numbers from the first two weeks",
+              "kopf": [
+                "Stat",
+                "Number"
+              ],
+              "zeilen": [
+                [
+                  "Characters created",
+                  "15,160,147"
+                ],
+                [
+                  "Quests completed",
+                  "1,480,343,357"
+                ],
+                [
+                  "Enemies defeated",
+                  "9,786,925,806"
+                ],
+                [
+                  "Guilds created",
+                  "140,764"
+                ],
+                [
+                  "Parties formed",
+                  "71,309,889"
+                ],
+                [
+                  "Camping items used",
+                  "28,696,386"
+                ],
+                [
+                  "PvP kills",
+                  "28,938,569"
+                ],
+                [
+                  "Player deaths",
+                  "196,851,761"
+                ]
+              ]
+            },
+            {
+              "typ": "text",
+              "titel": "What the numbers mean",
+              "text": "Characters created are not the same as players: many people have several characters or just reserved names. Still, the numbers show Forever keeps going strong. The first raids open as announced on December 9."
+            }
+          ]
+        },
+        "fr": {
+          "kat": "Système",
+          "titel": "Plus de 15 millions de personnages : Blizzard dévoile les chiffres des deux premières semaines",
+          "text": "Le 18 novembre, Blizzard a publié sur X un bilan des deux premières semaines de WoW Forever : plus de 15 millions de personnages créés et près de 1,5 milliard de quêtes terminées. Le boss le plus meurtrier pour l'instant est l'archimage Arugal au donjon d'Ombrecroc. Selon la productrice exécutive Holly Longdale, plus de joueurs jouent chaque semaine à Forever qu'à WoW à n'importe quel moment des 15 dernières années – mais Blizzard ne donne pas de chiffres précis.",
+          "tipp": "Arugal au donjon d'Ombrecroc est le boss le plus dangereux pour l'instant – venez en groupe complet et interrompez ses sorts au lieu de l'affronter seul.",
+          "inhalt": [
+            {
+              "typ": "tabelle",
+              "titel": "Les chiffres des deux premières semaines",
+              "kopf": [
+                "Statistique",
+                "Nombre"
+              ],
+              "zeilen": [
+                [
+                  "Personnages créés",
+                  "15 160 147"
+                ],
+                [
+                  "Quêtes terminées",
+                  "1 480 343 357"
+                ],
+                [
+                  "Ennemis vaincus",
+                  "9 786 925 806"
+                ],
+                [
+                  "Guildes créées",
+                  "140 764"
+                ],
+                [
+                  "Groupes formés",
+                  "71 309 889"
+                ],
+                [
+                  "Objets de campement utilisés",
+                  "28 696 386"
+                ],
+                [
+                  "Victimes en JcJ",
+                  "28 938 569"
+                ],
+                [
+                  "Morts de joueurs",
+                  "196 851 761"
+                ]
+              ]
+            },
+            {
+              "typ": "text",
+              "titel": "Ce que signifient ces chiffres",
+              "text": "Personnages créés ne veut pas dire joueurs : beaucoup ont plusieurs personnages ou ont juste réservé des noms. Les chiffres montrent quand même que Forever marche toujours très bien. Les premiers raids ouvrent comme prévu le 9 décembre."
+            }
+          ]
+        },
+        "es": {
+          "kat": "Sistema",
+          "titel": "Más de 15 millones de personajes: Blizzard comparte cifras de las dos primeras semanas",
+          "text": "El 18 de noviembre, Blizzard publicó en X un resumen de las dos primeras semanas de WoW Forever: se han creado más de 15 millones de personajes y se han completado casi 1500 millones de misiones. El jefe más mortal hasta ahora es el archimago Arugal en el Castillo de Colmillo Oscuro. Según la productora ejecutiva Holly Longdale, cada semana juegan a Forever más personas que a WoW en cualquier momento de los últimos 15 años, aunque Blizzard no da cifras exactas de jugadores.",
+          "tipp": "Arugal en el Castillo de Colmillo Oscuro es el jefe más peligroso hasta ahora: ve con un grupo completo e interrumpe sus hechizos en vez de luchar solo.",
+          "inhalt": [
+            {
+              "typ": "tabelle",
+              "titel": "Las cifras de las dos primeras semanas",
+              "kopf": [
+                "Estadística",
+                "Cifra"
+              ],
+              "zeilen": [
+                [
+                  "Personajes creados",
+                  "15.160.147"
+                ],
+                [
+                  "Misiones completadas",
+                  "1.480.343.357"
+                ],
+                [
+                  "Enemigos derrotados",
+                  "9.786.925.806"
+                ],
+                [
+                  "Hermandades creadas",
+                  "140.764"
+                ],
+                [
+                  "Grupos formados",
+                  "71.309.889"
+                ],
+                [
+                  "Objetos de campamento usados",
+                  "28.696.386"
+                ],
+                [
+                  "Muertes JcJ",
+                  "28.938.569"
+                ],
+                [
+                  "Muertes de jugadores",
+                  "196.851.761"
+                ]
+              ]
+            },
+            {
+              "typ": "text",
+              "titel": "Qué significan las cifras",
+              "text": "Personajes creados no es lo mismo que jugadores: muchos tienen varios personajes o solo han reservado nombres. Aun así, las cifras muestran que Forever sigue funcionando muy bien. Las primeras bandas abren, como se anunció, el 9 de diciembre."
+            }
+          ]
+        },
+        "ru": {
+          "kat": "Система",
+          "titel": "Более 15 миллионов персонажей: Blizzard поделилась статистикой первых двух недель",
+          "text": "18 ноября Blizzard опубликовала в X итоги первых двух недель WoW Forever: создано более 15 миллионов персонажей и выполнено почти 1,5 миллиарда заданий. Самым смертоносным боссом пока остаётся верховный маг Аругал в Крепости Темного Клыка. По словам исполнительного продюсера Холли Лонгдейл, каждую неделю в Forever играет больше людей, чем в WoW когда-либо за последние 15 лет, – но точное число игроков Blizzard не называет.",
+          "tipp": "Аругал в Крепости Темного Клыка – самый опасный босс на данный момент: идите полной группой и прерывайте его заклинания, а не сражайтесь в одиночку.",
+          "inhalt": [
+            {
+              "typ": "tabelle",
+              "titel": "Цифры первых двух недель",
+              "kopf": [
+                "Показатель",
+                "Число"
+              ],
+              "zeilen": [
+                [
+                  "Создано персонажей",
+                  "15 160 147"
+                ],
+                [
+                  "Выполнено заданий",
+                  "1 480 343 357"
+                ],
+                [
+                  "Убито противников",
+                  "9 786 925 806"
+                ],
+                [
+                  "Создано гильдий",
+                  "140 764"
+                ],
+                [
+                  "Собрано групп",
+                  "71 309 889"
+                ],
+                [
+                  "Использовано предметов для лагеря",
+                  "28 696 386"
+                ],
+                [
+                  "Убийств в PvP",
+                  "28 938 569"
+                ],
+                [
+                  "Смертей игроков",
+                  "196 851 761"
+                ]
+              ]
+            },
+            {
+              "typ": "text",
+              "titel": "Что значат эти цифры",
+              "text": "Созданные персонажи – это не то же самое, что игроки: у многих несколько персонажей или просто зарезервированные имена. Тем не менее цифры показывают, что Forever по-прежнему очень популярна. Первые рейды откроются, как и было объявлено, 9 декабря."
+            }
+          ]
+        }
+      }
+    },
     {
       "id": "2026-11-18-hotfixes-17-november",
       "datum": "2026-11-18",
       "kat": "Patch",
-      "top": true,
       "titel": "Hotfixes vom 17. November: Obere Schwarzfelsspitze wird härter, Paladin-Tanks setzen auf Zaubermacht",
       "text": "Blizzard hat am 17. November weitere Hotfixes veröffentlicht. Die Gegner in der Oberen Schwarzfelsspitze hatten laut Blizzard deutlich zu wenig Leben und Schaden und wurden auf das geplante Niveau angehoben. Außerdem gibt das Tank-Dungeonset Soulforge Armor für Paladine jetzt Zaubermacht statt Stärke, dazu kommen viele Fixes für Berufe, Quests, PvP und den Lagerplatz.",
       "tipp": "Plant ihr die Obere Schwarzfelsspitze, nehmt lieber eine volle, gut ausgerüstete Gruppe mit – sie ist jetzt spürbar schwerer als in den ersten Tagen.",
