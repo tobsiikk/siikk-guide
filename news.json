@@ -1,12 +1,287 @@
 {
-  "stand": "2026-11-19",
+  "stand": "2026-11-20",
   "hinweis": "Wird täglich gegen 8 Uhr morgens automatisch aktualisiert.",
   "eintraege": [
+    {
+      "id": "2026-11-20-hotfixes-19-november",
+      "datum": "2026-11-20",
+      "kat": "Patch",
+      "top": true,
+      "titel": "Hotfixes vom 19. November: Seed Hybridizer ist zurück, Tauren-Kultivierung verbessert",
+      "text": "Blizzard hat am 19. November neue Hotfixes veröffentlicht. Der Seed Hybridizer im Lagerplatz ist wieder aktiv, das Kreuzen von Samen kann jetzt aber auch fehlschlagen. Außerdem funktioniert die Tauren-Kultivierung zuverlässiger, Vergeltungs-Paladine bekommen mit Zweihandwaffen den vollen Heiligschaden-Bonus, und mehrere Dungeon-, Quest- und Gegenstandsfehler wurden behoben.",
+      "tipp": "Wenn ihr Samen kreuzt, setzt nicht gleich eure wertvollsten ein – das Kombinieren kann jetzt schiefgehen.",
+      "video": null,
+      "inhalt": [
+        {
+          "typ": "liste",
+          "titel": "Lagerplatz, Kräuterkunde & Völker",
+          "punkte": [
+            "Der Seed Hybridizer ist wieder aktiviert. Die Werte beim Kreuzen wurden angepasst, und das Kombinieren von Samen kann jetzt auch fehlschlagen.",
+            "Scarce Herb Seeds lassen sich nicht mehr im Seed Hybridizer verwenden.",
+            "Tauren: Kultivierung klappt zuverlässiger bei Kräutern, für die ihr genug Kräuterkunde habt, und funktioniert jetzt auch mit Lila Lotus.",
+            "Himmelsgeborene: Der Rabatt von 10 % bei „Wohlwollend“ auf das Reiten (Lehrling und Geselle) bei Genn Fairweather auf der Zephras-Insel wird jetzt richtig gewährt."
+          ]
+        },
+        {
+          "typ": "tabelle",
+          "titel": "Klassen, Dungeons, Gegenstände & Quests",
+          "kopf": [
+            "Bereich",
+            "Änderung"
+          ],
+          "zeilen": [
+            [
+              "Paladin (Vergeltung)",
+              "Zweihandwaffenspezialisierung erhöht jetzt korrekt jeglichen Heiligschaden, solange eine Zweihandwaffe ausgerüstet ist."
+            ],
+            [
+              "City of Dalaran",
+              "Shade of the Archmage verschwindet nicht mehr sofort, wenn der Kampf beginnt."
+            ],
+            [
+              "The Shaper's Terrace",
+              "Poison Shock von Vitrix macht weniger Schaden."
+            ],
+            [
+              "Gegner",
+              "Flussauen: Mosh'gra kann jetzt seltene Beute fallen lassen. Schimmernde Ebene: Eine unter der Welt feststeckende Silithiden-Drohne wurde befreit."
+            ],
+            [
+              "Gegenstände",
+              "Motes of Unstable Magic sind jetzt seelengebunden. Squall-breaker's Potion lässt sich löschen."
+            ],
+            [
+              "Quests",
+              "Fehler in „Stormpike's Deciphering“ (Alteracgebirge), „Hunting for Ectoplasm“ und nach „Rift Away“ in Beutebucht behoben."
+            ]
+          ]
+        }
+      ],
+      "quellen": [
+        {
+          "name": "Blizzard News – WoW: Forever Hotfixes, 19. November 2026",
+          "url": "https://news.blizzard.com/en-gb/article/24315281/wow-forever-hotfixes-november-19-2026"
+        },
+        {
+          "name": "Wowhead Blue Tracker – WoW: Forever Hotfixes, 19. November 2026",
+          "url": "https://www.wowhead.com/forever/blue-tracker/news/us/wow-forever-hotfixes-november-19-2026-world-of-warcraft-blizzard-news-24315281"
+        }
+      ],
+      "i18n": {
+        "en": {
+          "kat": "Patch",
+          "titel": "Hotfixes from November 19: Seed Hybridizer is back, Tauren Cultivation improved",
+          "text": "Blizzard released new hotfixes on November 19. The Seed Hybridizer at your camp is active again, but combining seeds can now fail. Tauren Cultivation also works more reliably, Retribution Paladins get the full Holy damage bonus with two-handers, and several dungeon, quest and item bugs were fixed.",
+          "tipp": "When hybridizing seeds, don't start with your most valuable ones – combining can fail now.",
+          "inhalt": [
+            {
+              "typ": "liste",
+              "titel": "Camping, Herbalism & Races",
+              "punkte": [
+                "The Seed Hybridizer is enabled again. Hybridization values were adjusted, and combining seeds can now fail.",
+                "Scarce Herb Seeds can no longer be used in the Seed Hybridizer.",
+                "Tauren: Cultivation now succeeds more reliably on herbs you have the Herbalism skill for, and it now works with Purple Lotus.",
+                "Skyborne: the 10% Honored discount on Apprentice and Journeyman Riding from Genn Fairweather on Zephras Isle is now applied correctly."
+              ]
+            },
+            {
+              "typ": "tabelle",
+              "titel": "Classes, Dungeons, Items & Quests",
+              "kopf": [
+                "Area",
+                "Change"
+              ],
+              "zeilen": [
+                [
+                  "Paladin (Retribution)",
+                  "Two-Handed Weapon Specialization now correctly increases all Holy damage while a two-handed weapon is equipped."
+                ],
+                [
+                  "City of Dalaran",
+                  "Shade of the Archmage no longer despawns right when combat starts."
+                ],
+                [
+                  "The Shaper's Terrace",
+                  "Vitrix's Poison Shock deals less damage."
+                ],
+                [
+                  "Enemies",
+                  "Riverglades: Mosh'gra can now drop rare loot. Shimmering Flats: a Silithid drone stuck under the world was fixed."
+                ],
+                [
+                  "Items",
+                  "Motes of Unstable Magic are now Soulbound. Squall-breaker's Potion can be deleted."
+                ],
+                [
+                  "Quests",
+                  "Fixed issues with \"Stormpike's Deciphering\" (Alterac Mountains), \"Hunting for Ectoplasm\" and after \"Rift Away\" in Booty Bay."
+                ]
+              ]
+            }
+          ]
+        },
+        "fr": {
+          "kat": "Patch",
+          "titel": "Correctifs du 19 novembre : le Seed Hybridizer revient, la Cultivation des Taurens améliorée",
+          "text": "Blizzard a publié de nouveaux correctifs le 19 novembre. Le Seed Hybridizer du campement est de nouveau actif, mais combiner des graines peut désormais échouer. La Cultivation des Taurens est aussi plus fiable, les Paladins Vindicte profitent pleinement du bonus aux dégâts du Sacré avec une arme à deux mains, et plusieurs bugs de donjons, de quêtes et d'objets ont été corrigés.",
+          "tipp": "Pour croiser des graines, ne commencez pas par vos plus précieuses : la combinaison peut maintenant échouer.",
+          "inhalt": [
+            {
+              "typ": "liste",
+              "titel": "Campement, herboristerie & races",
+              "punkte": [
+                "Le Seed Hybridizer est de nouveau activé. Ses valeurs ont été ajustées et la combinaison de graines peut désormais échouer.",
+                "Les Scarce Herb Seeds ne peuvent plus être utilisées dans le Seed Hybridizer.",
+                "Taurens : Cultivation réussit plus souvent sur les herbes pour lesquelles vous avez le niveau d'herboristerie et fonctionne désormais avec le Lotus pourpre.",
+                "Skyborne : la réduction de 10 % au rang Honoré sur l'équitation apprenti et compagnon chez Genn Fairweather, sur l'île de Zephras, s'applique correctement."
+              ]
+            },
+            {
+              "typ": "tabelle",
+              "titel": "Classes, donjons, objets & quêtes",
+              "kopf": [
+                "Domaine",
+                "Changement"
+              ],
+              "zeilen": [
+                [
+                  "Paladin (Vindicte)",
+                  "Spécialisation Arme à deux mains augmente désormais correctement tous les dégâts du Sacré tant qu'une arme à deux mains est équipée."
+                ],
+                [
+                  "City of Dalaran",
+                  "Shade of the Archmage ne disparaît plus dès le début du combat."
+                ],
+                [
+                  "The Shaper's Terrace",
+                  "Le Poison Shock de Vitrix inflige moins de dégâts."
+                ],
+                [
+                  "Ennemis",
+                  "Riverglades : Mosh'gra peut maintenant laisser du butin rare. Étendues Chatoyantes : un drone silithide coincé sous le monde a été corrigé."
+                ],
+                [
+                  "Objets",
+                  "Les Motes of Unstable Magic sont désormais liées. La Squall-breaker's Potion peut être détruite."
+                ],
+                [
+                  "Quêtes",
+                  "Bugs corrigés pour « Stormpike's Deciphering » (montagnes d'Alterac), « Hunting for Ectoplasm » et après « Rift Away » à Baie-du-Butin."
+                ]
+              ]
+            }
+          ]
+        },
+        "es": {
+          "kat": "Parche",
+          "titel": "Correcciones del 19 de noviembre: vuelve el Seed Hybridizer y mejora la Cultivation de los taurens",
+          "text": "Blizzard publicó nuevas correcciones el 19 de noviembre. El Seed Hybridizer del campamento vuelve a funcionar, aunque ahora combinar semillas puede fallar. Además, la Cultivation de los taurens es más fiable, los paladines de Reprensión reciben el bonus completo de daño Sagrado con armas de dos manos y se arreglaron varios errores de mazmorras, misiones y objetos.",
+          "tipp": "Si cruzas semillas, no empieces por las más valiosas: ahora la combinación puede fallar.",
+          "inhalt": [
+            {
+              "typ": "liste",
+              "titel": "Campamento, herboristería y razas",
+              "punkte": [
+                "El Seed Hybridizer vuelve a estar activo. Se han ajustado sus valores y ahora combinar semillas puede fallar.",
+                "Las Scarce Herb Seeds ya no se pueden usar en el Seed Hybridizer.",
+                "Taurens: Cultivation funciona de forma más fiable con hierbas para las que tienes nivel de herboristería y ahora también con Loto púrpura.",
+                "Skyborne: el descuento del 10 % con reputación Honorable en equitación de aprendiz y oficial con Genn Fairweather en la isla de Zephras ya se aplica bien."
+              ]
+            },
+            {
+              "typ": "tabelle",
+              "titel": "Clases, mazmorras, objetos y misiones",
+              "kopf": [
+                "Ámbito",
+                "Cambio"
+              ],
+              "zeilen": [
+                [
+                  "Paladín (Reprensión)",
+                  "Especialización en armas de dos manos ahora aumenta correctamente todo el daño Sagrado mientras llevas un arma de dos manos."
+                ],
+                [
+                  "City of Dalaran",
+                  "Shade of the Archmage ya no desaparece nada más empezar el combate."
+                ],
+                [
+                  "The Shaper's Terrace",
+                  "El Poison Shock de Vitrix inflige menos daño."
+                ],
+                [
+                  "Enemigos",
+                  "Riverglades: Mosh'gra ya puede soltar botín raro. Desierto de Sal: se arregló un dron silítido atascado bajo el mundo."
+                ],
+                [
+                  "Objetos",
+                  "Las Motes of Unstable Magic ahora son ligadas. La Squall-breaker's Potion se puede destruir."
+                ],
+                [
+                  "Misiones",
+                  "Errores corregidos en «Stormpike's Deciphering» (Montañas de Alterac), «Hunting for Ectoplasm» y tras «Rift Away» en Bahía del Botín."
+                ]
+              ]
+            }
+          ]
+        },
+        "ru": {
+          "kat": "Патч",
+          "titel": "Хотфиксы от 19 ноября: Seed Hybridizer вернулся, Cultivation у тауренов улучшена",
+          "text": "Blizzard выпустила новые хотфиксы 19 ноября. Seed Hybridizer в лагере снова работает, но скрещивание семян теперь может не удаться. Кроме того, Cultivation у тауренов срабатывает надёжнее, паладины «Воздаяния» получают полный бонус к урону от сил Света с двуручным оружием, а также исправлено несколько ошибок в подземельях, заданиях и предметах.",
+          "tipp": "Скрещивая семена, не начинайте с самых ценных – теперь комбинация может провалиться.",
+          "inhalt": [
+            {
+              "typ": "liste",
+              "titel": "Лагерь, травничество и расы",
+              "punkte": [
+                "Seed Hybridizer снова включён. Его значения изменены, и скрещивание семян теперь может закончиться неудачей.",
+                "Scarce Herb Seeds больше нельзя использовать в Seed Hybridizer.",
+                "Таурены: Cultivation надёжнее срабатывает на травах, для которых хватает навыка травничества, и теперь работает с Лиловым лотосом.",
+                "Skyborne: скидка 10 % при «Уважении» на обучение верховой езде (ученик и подмастерье) у Genn Fairweather на острове Зефрас теперь применяется правильно."
+              ]
+            },
+            {
+              "typ": "tabelle",
+              "titel": "Классы, подземелья, предметы и задания",
+              "kopf": [
+                "Раздел",
+                "Изменение"
+              ],
+              "zeilen": [
+                [
+                  "Паладин (Воздаяние)",
+                  "Специализация на двуручном оружии теперь правильно усиливает весь урон от сил Света, пока экипировано двуручное оружие."
+                ],
+                [
+                  "City of Dalaran",
+                  "Shade of the Archmage больше не исчезает сразу после начала боя."
+                ],
+                [
+                  "The Shaper's Terrace",
+                  "Poison Shock у Vitrix наносит меньше урона."
+                ],
+                [
+                  "Противники",
+                  "Riverglades: Mosh'gra теперь может оставлять редкую добычу. Мерцающая равнина: исправлен силитидский трутень, застрявший под миром."
+                ],
+                [
+                  "Предметы",
+                  "Motes of Unstable Magic теперь становятся персональными при получении. Squall-breaker's Potion можно удалить."
+                ],
+                [
+                  "Задания",
+                  "Исправлены ошибки в «Stormpike's Deciphering» (Альтеракские горы), «Hunting for Ectoplasm» и после «Rift Away» в Пиратской Бухте."
+                ]
+              ]
+            }
+          ]
+        }
+      }
+    },
     {
       "id": "2026-11-19-15-millionen-charaktere",
       "datum": "2026-11-19",
       "kat": "System",
-      "top": true,
       "titel": "Über 15 Millionen Charaktere: Blizzard nennt Zahlen zu den ersten zwei Wochen",
       "text": "Blizzard hat am 18. November auf X eine Bilanz der ersten zwei Wochen von WoW Forever veröffentlicht: Über 15 Millionen Charaktere wurden erstellt und fast 1,5 Milliarden Quests abgeschlossen. Der tödlichste Boss ist bisher Erzmagier Arugal in Burg Schattenfang. Laut Executive Producer Holly Longdale spielen jede Woche mehr Menschen Forever als WoW in den letzten 15 Jahren – genaue Spielerzahlen nennt Blizzard aber nicht.",
       "tipp": "Arugal in Burg Schattenfang ist der gefährlichste Boss bisher – geh mit voller Gruppe hin und unterbrich seine Zauber, statt allein zu kämpfen.",
