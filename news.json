@@ -1,12 +1,262 @@
 {
-  "stand": "2026-11-20",
+  "stand": "2026-11-21",
   "hinweis": "Wird täglich gegen 8 Uhr morgens automatisch aktualisiert.",
   "eintraege": [
+    {
+      "id": "2026-11-21-hotfixes-20-november",
+      "datum": "2026-11-21",
+      "kat": "Patch",
+      "top": true,
+      "titel": "Hotfixes vom 20. November: Dungeons nur noch 5-mal pro Stunde, Klingenwirbel trifft mit Messerstich",
+      "text": "Blizzard hat in der Nacht zum 21. November die Hotfixes vom 20. November im Forum veröffentlicht. Jeder Dungeon lässt sich jetzt nur noch 5-mal pro Stunde zurücksetzen und betreten statt 10-mal. Außerdem gibt es Korrekturen für Schurken und Hexenmeister, einen schwächeren Set-Bonus der Stormshroud Armor und eine reparierte Gruppensuche.",
+      "tipp": "Wer Dungeons am Stück farmt, sollte seine Runs planen – nach 5 Betretungen pro Stunde ist erst einmal Pause.",
+      "video": null,
+      "inhalt": [
+        {
+          "typ": "liste",
+          "titel": "Wichtigste Änderungen",
+          "punkte": [
+            "Dungeons: Jeder Dungeon kann pro Stunde höchstens 5-mal zurückgesetzt und betreten werden (vorher 10-mal).",
+            "Gruppensuche: Ein Fehler, durch den manche Spieler weniger Gruppen angezeigt bekamen, ist behoben.",
+            "Berufe: Toron Rockhoof hat Schmiede und Amboss am Summit of Eternity repariert – dort könnt ihr jetzt schmieden und verhütten."
+          ]
+        },
+        {
+          "typ": "tabelle",
+          "titel": "Klassen, Gegenstände, Dungeons & Quests",
+          "kopf": [
+            "Bereich",
+            "Änderung"
+          ],
+          "zeilen": [
+            [
+              "Schurke (Kampf)",
+              "Klingenwirbel trifft mit dem Schaden von Messerstich* jetzt korrekt ein zusätzliches Ziel."
+            ],
+            [
+              "Hexenmeister (Dämonologie)",
+              "Effekte von Dämonische Ägide ließen sich in Dämonenrüstung oder Dämonenhaut „einfrieren“ und blieben nach dem Verlernen erhalten. Behoben: Wer das Talent verlernt, verliert Dämonische Ägide und Dämonenhaut."
+            ],
+            [
+              "Gegenstände",
+              "Stormshroud Armor: Der 3-Teile-Bonus hat jetzt 3 % Chance (vorher 4 %) pro Nahkampfangriff, 18 Energie (vorher 30) wiederherzustellen."
+            ],
+            [
+              "Schwarzfelsspitze",
+              "Eine Steinsäule der Rebellen sperrt Spieler nicht mehr ein."
+            ],
+            [
+              "Quests",
+              "Hinterland: Witch Doctor Ti'ik lässt für Gruppen mehrere Köpfe fallen. Tanaris: Gor'marok erscheint für „The Dunemaul Compound“ schneller wieder. Außerdem Fehler bei „Perfect Yeti Hide“ (Feralas) und „Dunston Checks Out“ (Flussauen) behoben."
+            ]
+          ]
+        }
+      ],
+      "quellen": [
+        {
+          "name": "Blizzard-Forum (Kaivax) – WoW: Forever Hotfixes, 20. November 2026",
+          "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-20-2026/2403040/14"
+        },
+        {
+          "name": "Blizzard News – WoW: Forever Hotfixes (laufend aktualisiert)",
+          "url": "https://worldofwarcraft.blizzard.com/en-us/news/24315281"
+        }
+      ],
+      "i18n": {
+        "en": {
+          "kat": "Patch",
+          "titel": "Hotfixes from November 20: dungeons only 5 times per hour, Blade Flurry now hits with Shank",
+          "text": "Overnight into November 21, Blizzard posted the November 20 hotfixes on the forums. Each dungeon can now only be reset and entered 5 times per hour instead of 10. There are also fixes for Rogues and Warlocks, a weaker Stormshroud Armor set bonus and a repaired group finder.",
+          "tipp": "If you farm dungeons back to back, plan your runs – after 5 entries per hour you'll have to take a break.",
+          "inhalt": [
+            {
+              "typ": "liste",
+              "titel": "Key changes",
+              "punkte": [
+                "Dungeons: Each dungeon can be reset and entered at most 5 times per hour (previously 10).",
+                "Group finder: A bug that showed some players fewer groups has been fixed.",
+                "Professions: Toron Rockhoof repaired the forge and anvil at the Summit of Eternity – you can now do blacksmithing and smelting there."
+              ]
+            },
+            {
+              "typ": "tabelle",
+              "titel": "Classes, items, dungeons & quests",
+              "kopf": [
+                "Area",
+                "Change"
+              ],
+              "zeilen": [
+                [
+                  "Rogue (Combat)",
+                  "Blade Flurry now correctly hits an additional target with Shank*'s damage."
+                ],
+                [
+                  "Warlock (Demonology)",
+                  "Demonic Aegis effects could be snapshotted into Demon Armor or Demon Skin and kept after untalenting. Fixed: unlearning the talent now removes Demonic Aegis and Demon Skin."
+                ],
+                [
+                  "Items",
+                  "Stormshroud Armor: the 3-piece bonus now has a 3% chance (was 4%) on melee attack to restore 18 Energy (was 30)."
+                ],
+                [
+                  "Blackrock Spire",
+                  "A rebel stone pillar no longer traps players."
+                ],
+                [
+                  "Quests",
+                  "The Hinterlands: Witch Doctor Ti'ik drops multiple heads for groups. Tanaris: Gor'marok respawns faster for \"The Dunemaul Compound\". Also fixed issues with \"Perfect Yeti Hide\" (Feralas) and \"Dunston Checks Out\" (Riverglades)."
+                ]
+              ]
+            }
+          ]
+        },
+        "fr": {
+          "kat": "Patch",
+          "titel": "Correctifs du 20 novembre : donjons limités à 5 fois par heure, Déluge de lames touche avec Surin",
+          "text": "Dans la nuit du 21 novembre, Blizzard a publié sur les forums les correctifs du 20 novembre. Chaque donjon ne peut désormais être réinitialisé et rejoint que 5 fois par heure au lieu de 10. Il y a aussi des corrections pour les voleurs et les démonistes, un bonus de set Stormshroud Armor affaibli et une recherche de groupe réparée.",
+          "tipp": "Si vous farmez les donjons à la chaîne, planifiez vos runs – après 5 entrées par heure, il faudra faire une pause.",
+          "inhalt": [
+            {
+              "typ": "liste",
+              "titel": "Principaux changements",
+              "punkte": [
+                "Donjons : chaque donjon peut être réinitialisé et rejoint au maximum 5 fois par heure (10 auparavant).",
+                "Recherche de groupe : un bug qui affichait moins de groupes à certains joueurs est corrigé.",
+                "Métiers : Toron Rockhoof a réparé la forge et l'enclume au Summit of Eternity – vous pouvez désormais y forger et fondre."
+              ]
+            },
+            {
+              "typ": "tabelle",
+              "titel": "Classes, objets, donjons et quêtes",
+              "kopf": [
+                "Domaine",
+                "Changement"
+              ],
+              "zeilen": [
+                [
+                  "Voleur (Combat)",
+                  "Déluge de lames touche désormais correctement une cible supplémentaire avec les dégâts de Surin*."
+                ],
+                [
+                  "Démoniste (Démonologie)",
+                  "Les effets d'Égide démoniaque pouvaient être figés dans Armure démoniaque ou Peau de démon et conservés après avoir retiré le talent. Corrigé : désapprendre le talent retire Égide démoniaque et Peau de démon."
+                ],
+                [
+                  "Objets",
+                  "Stormshroud Armor : le bonus 3 pièces a maintenant 3 % de chances (4 % auparavant) par attaque de mêlée de rendre 18 points d'énergie (30 auparavant)."
+                ],
+                [
+                  "Pic Rochenoire",
+                  "Un pilier de pierre des rebelles n'emprisonne plus les joueurs."
+                ],
+                [
+                  "Quêtes",
+                  "Les Hinterlands : Witch Doctor Ti'ik laisse tomber plusieurs têtes pour les groupes. Tanaris : Gor'marok réapparaît plus vite pour « The Dunemaul Compound ». Des problèmes avec « Perfect Yeti Hide » (Féralas) et « Dunston Checks Out » (Riverglades) ont aussi été corrigés."
+                ]
+              ]
+            }
+          ]
+        },
+        "es": {
+          "kat": "Parche",
+          "titel": "Correcciones del 20 de noviembre: mazmorras solo 5 veces por hora, Aluvión de acero golpea con Cuchillada",
+          "text": "En la noche del 21 de noviembre, Blizzard publicó en los foros las correcciones del 20 de noviembre. Cada mazmorra solo puede reiniciarse y entrarse 5 veces por hora en lugar de 10. Además hay arreglos para pícaros y brujos, un bonus de conjunto de Stormshroud Armor más débil y el buscador de grupos reparado.",
+          "tipp": "Si farmeas mazmorras sin parar, planifica tus runs: tras 5 entradas por hora tendrás que hacer una pausa.",
+          "inhalt": [
+            {
+              "typ": "liste",
+              "titel": "Cambios principales",
+              "punkte": [
+                "Mazmorras: cada mazmorra puede reiniciarse y entrarse como máximo 5 veces por hora (antes 10).",
+                "Buscador de grupos: se corrigió un error por el que algunos jugadores veían menos grupos.",
+                "Profesiones: Toron Rockhoof ha reparado la forja y el yunque en el Summit of Eternity; ya podéis herrar y fundir allí."
+              ]
+            },
+            {
+              "typ": "tabelle",
+              "titel": "Clases, objetos, mazmorras y misiones",
+              "kopf": [
+                "Ámbito",
+                "Cambio"
+              ],
+              "zeilen": [
+                [
+                  "Pícaro (Combate)",
+                  "Aluvión de acero ahora alcanza correctamente a un objetivo adicional con el daño de Cuchillada*."
+                ],
+                [
+                  "Brujo (Demonología)",
+                  "Los efectos de Égida demoníaca podían quedar fijados en Armadura demoníaca o Piel de demonio y conservarse tras quitar el talento. Corregido: al desaprender el talento se pierden Égida demoníaca y Piel de demonio."
+                ],
+                [
+                  "Objetos",
+                  "Stormshroud Armor: el bonus de 3 piezas tiene ahora un 3 % de probabilidad (antes 4 %) por ataque cuerpo a cuerpo de restaurar 18 de energía (antes 30)."
+                ],
+                [
+                  "Cumbre de Roca Negra",
+                  "Un pilar de piedra de los rebeldes ya no deja atrapados a los jugadores."
+                ],
+                [
+                  "Misiones",
+                  "Tierras del Interior: Witch Doctor Ti'ik suelta varias cabezas para los grupos. Tanaris: Gor'marok reaparece más rápido para «The Dunemaul Compound». También se corrigieron fallos en «Perfect Yeti Hide» (Feralas) y «Dunston Checks Out» (Riverglades)."
+                ]
+              ]
+            }
+          ]
+        },
+        "ru": {
+          "kat": "Патч",
+          "titel": "Хотфиксы от 20 ноября: подземелья только 5 раз в час, «Шквал клинков» срабатывает с «Ударом заточкой»",
+          "text": "В ночь на 21 ноября Blizzard опубликовала на форуме хотфиксы от 20 ноября. Теперь каждое подземелье можно сбросить и посетить не более 5 раз в час вместо 10. Кроме того, исправлены ошибки разбойников и чернокнижников, ослаблен комплектный бонус Stormshroud Armor и починен поиск группы.",
+          "tipp": "Если фармите подземелья подряд, планируйте заходы – после 5 входов за час придётся сделать перерыв.",
+          "inhalt": [
+            {
+              "typ": "liste",
+              "titel": "Главные изменения",
+              "punkte": [
+                "Подземелья: каждое подземелье можно сбросить и посетить не более 5 раз в час (раньше 10).",
+                "Поиск группы: исправлена ошибка, из-за которой некоторые игроки видели меньше групп.",
+                "Профессии: Toron Rockhoof починил кузницу и наковальню на Summit of Eternity – теперь там можно заниматься кузнечным делом и выплавкой."
+              ]
+            },
+            {
+              "typ": "tabelle",
+              "titel": "Классы, предметы, подземелья и задания",
+              "kopf": [
+                "Раздел",
+                "Изменение"
+              ],
+              "zeilen": [
+                [
+                  "Разбойник (Бой)",
+                  "«Шквал клинков» теперь корректно наносит урон «Удара заточкой*» по дополнительной цели."
+                ],
+                [
+                  "Чернокнижник (Демонология)",
+                  "Эффекты «Демонической эгиды» можно было «зафиксировать» в «Демонической броне» или «Коже демона» и сохранить после сброса таланта. Исправлено: при сбросе таланта «Демоническая эгида» и «Кожа демона» снимаются."
+                ],
+                [
+                  "Предметы",
+                  "Stormshroud Armor: бонус за 3 предмета теперь с шансом 3% (было 4%) при атаке в ближнем бою восстанавливает 18 энергии (было 30)."
+                ],
+                [
+                  "Пик Черной горы",
+                  "Каменная колонна повстанцев больше не запирает игроков."
+                ],
+                [
+                  "Задания",
+                  "Внутренние земли: Witch Doctor Ti'ik оставляет несколько голов для групп. Танарис: Gor'marok возрождается быстрее для «The Dunemaul Compound». Также исправлены ошибки в «Perfect Yeti Hide» (Фералас) и «Dunston Checks Out» (Riverglades)."
+                ]
+              ]
+            }
+          ]
+        }
+      }
+    },
     {
       "id": "2026-11-20-hotfixes-19-november",
       "datum": "2026-11-20",
       "kat": "Patch",
-      "top": true,
       "titel": "Hotfixes vom 19. November: Seed Hybridizer ist zurück, Tauren-Kultivierung verbessert",
       "text": "Blizzard hat am 19. November neue Hotfixes veröffentlicht. Der Seed Hybridizer im Lagerplatz ist wieder aktiv, das Kreuzen von Samen kann jetzt aber auch fehlschlagen. Außerdem funktioniert die Tauren-Kultivierung zuverlässiger, Vergeltungs-Paladine bekommen mit Zweihandwaffen den vollen Heiligschaden-Bonus, und mehrere Dungeon-, Quest- und Gegenstandsfehler wurden behoben.",
       "tipp": "Wenn ihr Samen kreuzt, setzt nicht gleich eure wertvollsten ein – das Kombinieren kann jetzt schiefgehen.",
