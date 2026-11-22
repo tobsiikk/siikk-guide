@@ -1,12 +1,281 @@
 {
-  "stand": "2026-11-21",
+  "stand": "2026-11-22",
   "hinweis": "Wird täglich gegen 8 Uhr morgens automatisch aktualisiert.",
   "eintraege": [
+    {
+      "id": "2026-11-22-bis-zirene-podcast",
+      "datum": "2026-11-22",
+      "kat": "System",
+      "top": true,
+      "titel": "Weg vom „Best in Slot“: Zirene will, dass die beste Ausrüstung vom Boss abhängt",
+      "text": "Im WoW: Forever Podcast (Folge 8 vom 19. November) hat Senior Game Designer Aidan „Zirene“ Moon laut Wowhead gesagt, dass er das klassische „BiS“ abschaffen möchte. Statt einer festen besten Ausrüstung soll sich die beste Wahl je nach Boss, Kreaturentyp und Umgebung (Biom) unterscheiden – Raid-Flügel können etwa verschneit oder verflucht sein. Konkrete Änderungen oder Termine wurden dazu nicht genannt.",
+      "tipp": "Hebt Ausrüstung mit Boni gegen bestimmte Kreaturentypen ruhig auf, statt sie sofort zu verkaufen – sie könnte später für einzelne Bosse wertvoll werden.",
+      "video": {
+        "youtube": "67dDe3QgJtM",
+        "titel": "Catching Up On Classes | Episode 8 - The WoW: Forever Podcast"
+      },
+      "inhalt": [
+        {
+          "typ": "liste",
+          "titel": "Das Wichtigste",
+          "punkte": [
+            "Ziel laut Zirene: Die beste Ausrüstung soll für jeden Boss anders sein, abhängig von Kreaturentyp und Biom.",
+            "Als Beispiel nennt er Raid-Flügel mit unterschiedlichen Biomen, z. B. einen verschneiten und einen heimgesuchten Flügel.",
+            "Laut Wowhead kündigten die Entwickler außerdem für später größere Taschen und bessere Möglichkeiten zum Sortieren und Suchen von Gegenständen an.",
+            "Folge 9 des Podcasts soll laut Warcraft Tavern nach einer Thanksgiving-Pause die Raids behandeln – kurz vor dem Raid-Start am 9. Dezember."
+          ]
+        }
+      ],
+      "quellen": [
+        {
+          "name": "Wowhead – Blizzard Wants to Get Rid of BiS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/news/blizzard-wants-to-get-rid-of-bis-in-wow-forever-383931"
+        },
+        {
+          "name": "Blizzard-Forum (Kaivax) – The WoW Forever Podcast: Episode 8",
+          "url": "https://us.forums.blizzard.com/en/wow/t/the-wow-forever-podcast-episode-8-catching-up-on-classes/2422535/1"
+        },
+        {
+          "name": "Warcraft Tavern – Episode 8 of the WoW Forever Podcast",
+          "url": "https://www.warcrafttavern.com/forever/news/episode-8-of-the-wow-forever-podcast-returns-to-classes/"
+        }
+      ],
+      "i18n": {
+        "en": {
+          "kat": "System",
+          "titel": "Moving away from “Best in Slot”: Zirene wants the best gear to depend on the boss",
+          "text": "On the WoW: Forever Podcast (episode 8, November 19), Senior Game Designer Aidan “Zirene” Moon said, according to Wowhead, that he wants to get rid of classic “BiS”. Instead of one fixed best set, the best choice should differ by boss, creature type and environment (biome) – raid wings can be snowy or haunted, for example. No concrete changes or dates were given.",
+          "tipp": "Hang on to gear with bonuses against specific creature types instead of vendoring it right away – it might become valuable for certain bosses later.",
+          "video_titel": "Catching Up On Classes | Episode 8 - The WoW: Forever Podcast",
+          "inhalt": [
+            {
+              "typ": "liste",
+              "titel": "Key points",
+              "punkte": [
+                "Zirene's goal: the best gear should be different for each boss, depending on creature type and biome.",
+                "As an example he mentions raid wings with different biomes, such as a snowy wing and a haunted wing.",
+                "According to Wowhead, the developers also said bigger bags and better ways to sort and search items will come later.",
+                "According to Warcraft Tavern, episode 9 will cover raids after a Thanksgiving break – shortly before raids open on December 9."
+              ]
+            }
+          ]
+        },
+        "fr": {
+          "kat": "Système",
+          "titel": "Fini le « Best in Slot » : Zirene veut que le meilleur équipement dépende du boss",
+          "text": "Dans le WoW: Forever Podcast (épisode 8 du 19 novembre), le Senior Game Designer Aidan « Zirene » Moon a déclaré, selon Wowhead, vouloir supprimer le « BiS » classique. Au lieu d'un équipement optimal figé, le meilleur choix devrait varier selon le boss, le type de créature et l'environnement (biome) – une aile de raid peut par exemple être enneigée ou hantée. Aucun changement concret ni date n'a été annoncé.",
+          "tipp": "Gardez l'équipement avec des bonus contre certains types de créatures au lieu de le vendre tout de suite – il pourrait devenir précieux contre certains boss.",
+          "video_titel": "Catching Up On Classes | Episode 8 - The WoW: Forever Podcast",
+          "inhalt": [
+            {
+              "typ": "liste",
+              "titel": "L'essentiel",
+              "punkte": [
+                "Objectif de Zirene : le meilleur équipement doit être différent pour chaque boss, selon le type de créature et le biome.",
+                "Il cite en exemple des ailes de raid aux biomes différents, comme une aile enneigée et une aile hantée.",
+                "Selon Wowhead, les développeurs ont aussi annoncé pour plus tard des sacs plus grands et de meilleurs moyens de trier et rechercher les objets.",
+                "Selon Warcraft Tavern, l'épisode 9 traitera des raids après une pause pour Thanksgiving – peu avant l'ouverture des raids le 9 décembre."
+              ]
+            }
+          ]
+        },
+        "es": {
+          "kat": "Sistema",
+          "titel": "Adiós al «Best in Slot»: Zirene quiere que el mejor equipo dependa del jefe",
+          "text": "En el WoW: Forever Podcast (episodio 8 del 19 de noviembre), el Senior Game Designer Aidan «Zirene» Moon dijo, según Wowhead, que quiere eliminar el «BiS» clásico. En lugar de un equipo óptimo fijo, la mejor elección debería variar según el jefe, el tipo de criatura y el entorno (bioma); por ejemplo, un ala de banda puede ser nevada o encantada. No se anunciaron cambios concretos ni fechas.",
+          "tipp": "Guarda el equipo con bonificaciones contra ciertos tipos de criaturas en lugar de venderlo enseguida: podría ser valioso contra jefes concretos más adelante.",
+          "video_titel": "Catching Up On Classes | Episode 8 - The WoW: Forever Podcast",
+          "inhalt": [
+            {
+              "typ": "liste",
+              "titel": "Lo más importante",
+              "punkte": [
+                "Objetivo de Zirene: el mejor equipo debe ser distinto para cada jefe, según el tipo de criatura y el bioma.",
+                "Como ejemplo menciona alas de banda con biomas distintos, como un ala nevada y otra encantada.",
+                "Según Wowhead, los desarrolladores también anunciaron para más adelante bolsas más grandes y mejores formas de ordenar y buscar objetos.",
+                "Según Warcraft Tavern, el episodio 9 tratará las bandas tras una pausa por Acción de Gracias, poco antes de que abran el 9 de diciembre."
+              ]
+            }
+          ]
+        },
+        "ru": {
+          "kat": "Система",
+          "titel": "Прощай, «Best in Slot»: Zirene хочет, чтобы лучшая экипировка зависела от босса",
+          "text": "В WoW: Forever Podcast (8-й выпуск от 19 ноября) ведущий геймдизайнер Aidan «Zirene» Moon, по данным Wowhead, сказал, что хочет избавиться от классического «BiS». Вместо одного неизменного лучшего набора лучший выбор должен зависеть от босса, типа существ и окружения (биома) – например, крыло рейда может быть снежным или населённым призраками. Конкретных изменений и сроков не назвали.",
+          "tipp": "Не спешите продавать вещи с бонусами против определённых типов существ – позже они могут пригодиться против отдельных боссов.",
+          "video_titel": "Catching Up On Classes | Episode 8 - The WoW: Forever Podcast",
+          "inhalt": [
+            {
+              "typ": "liste",
+              "titel": "Главное",
+              "punkte": [
+                "Цель Zirene: лучшая экипировка должна быть разной для каждого босса – в зависимости от типа существ и биома.",
+                "В пример он приводит крылья рейда с разными биомами, например снежное крыло и крыло с призраками.",
+                "По данным Wowhead, разработчики также пообещали позже увеличить сумки и улучшить сортировку и поиск предметов.",
+                "По данным Warcraft Tavern, 9-й выпуск после перерыва на День благодарения будет посвящён рейдам – незадолго до их открытия 9 декабря."
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "2026-11-22-motes-unstable-magic-seelengebunden",
+      "datum": "2026-11-22",
+      "kat": "System",
+      "titel": "Motes of Unstable Magic sind jetzt seelengebunden – Gold-Strategie abgeschwächt",
+      "text": "Laut Wowhead (keine eigene Blizzard-Meldung dazu) sind die Motes of Unstable Magic seit etwa dem 20. November seelengebunden und lassen sich nicht mehr im Auktionshaus verkaufen. Die Motes stammen aus der Quest „Unstable Magic“ ab Stufe 48 und werden für Ruf und Gold abgegeben. Wowhead vermutet einen Zusammenhang mit dem inzwischen abgeschwächten Farm in Blackmaw Hold – das ist aber nicht bestätigt.",
+      "tipp": "Sammelt eure Motes selbst und gebt sie in 10er-Paketen ab, solange ihr den Ruf noch steigern könnt – kaufen lassen sie sich nicht mehr.",
+      "video": null,
+      "inhalt": [
+        {
+          "typ": "liste",
+          "titel": "So funktioniert es (laut Wowhead)",
+          "punkte": [
+            "Ab Stufe 48 gibt es die Quest „Unstable Magic“ in Dalaran oder auf dem Himmelswachtplateau (Skywatcher Plateau).",
+            "Die Belohnung Elemental Attractor gibt einen Buff, durch den Zauberwirker und Bosse manchmal ein Mote fallen lassen.",
+            "Mit der wiederholbaren Quest „More Unstable Magic“ tauscht ihr 10 Motes gegen Ruf und Gold – bis zum Rang Wohlwollend."
+          ]
+        }
+      ],
+      "quellen": [
+        {
+          "name": "Wowhead – Motes of Unstable Magic Now Soulbound in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/news/motes-of-unstable-magic-now-soulbound-in-wow-forever-gold-strategy-nerfed-383935"
+        }
+      ],
+      "i18n": {
+        "en": {
+          "kat": "System",
+          "titel": "Motes of Unstable Magic are now soulbound – gold strategy nerfed",
+          "text": "According to Wowhead (no Blizzard announcement about it), Motes of Unstable Magic have been soulbound since around November 20 and can no longer be sold on the Auction House. The motes come from the level 48+ quest “Unstable Magic” and are turned in for reputation and gold. Wowhead suspects a link to the since-nerfed Blackmaw Hold farm – but that is not confirmed.",
+          "tipp": "Collect your own motes and turn them in in batches of 10 while you can still gain reputation – they can no longer be bought.",
+          "inhalt": [
+            {
+              "typ": "liste",
+              "titel": "How it works (according to Wowhead)",
+              "punkte": [
+                "From level 48, the quest “Unstable Magic” is available in Dalaran or at Skywatcher Plateau.",
+                "The reward, the Elemental Attractor, gives a buff that sometimes makes spellcasters and bosses drop a mote.",
+                "The repeatable quest “More Unstable Magic” trades 10 motes for reputation and gold – up to Honored."
+              ]
+            }
+          ]
+        },
+        "fr": {
+          "kat": "Système",
+          "titel": "Les Motes of Unstable Magic sont désormais liées – stratégie d'or affaiblie",
+          "text": "Selon Wowhead (aucune annonce de Blizzard à ce sujet), les Motes of Unstable Magic sont liées quand ramassées depuis le 20 novembre environ et ne peuvent plus être vendues à l'hôtel des ventes. Elles proviennent de la quête « Unstable Magic » (niveau 48+) et s'échangent contre réputation et or. Wowhead soupçonne un lien avec le farm de Blackmaw Hold, depuis affaibli – mais ce n'est pas confirmé.",
+          "tipp": "Récoltez vos motes vous-même et rendez-les par lots de 10 tant que vous pouvez encore gagner de la réputation – on ne peut plus les acheter.",
+          "inhalt": [
+            {
+              "typ": "liste",
+              "titel": "Fonctionnement (selon Wowhead)",
+              "punkte": [
+                "Dès le niveau 48, la quête « Unstable Magic » est disponible à Dalaran ou au plateau de Guet-du-Ciel (Skywatcher Plateau).",
+                "La récompense, l'Elemental Attractor, donne un buff qui fait parfois lâcher une mote aux lanceurs de sorts et aux boss.",
+                "La quête répétable « More Unstable Magic » échange 10 motes contre réputation et or – jusqu'au rang Honoré."
+              ]
+            }
+          ]
+        },
+        "es": {
+          "kat": "Sistema",
+          "titel": "Las Motes of Unstable Magic ahora son ligadas – estrategia de oro debilitada",
+          "text": "Según Wowhead (sin anuncio de Blizzard al respecto), las Motes of Unstable Magic son ligadas desde aproximadamente el 20 de noviembre y ya no se pueden vender en la casa de subastas. Provienen de la misión «Unstable Magic» (nivel 48+) y se entregan a cambio de reputación y oro. Wowhead sospecha una relación con el farmeo de Blackmaw Hold, ya debilitado, pero no está confirmado.",
+          "tipp": "Consigue tus propias motes y entrégalas en lotes de 10 mientras aún puedas subir reputación: ya no se pueden comprar.",
+          "inhalt": [
+            {
+              "typ": "liste",
+              "titel": "Cómo funciona (según Wowhead)",
+              "punkte": [
+                "Desde el nivel 48 está disponible la misión «Unstable Magic» en Dalaran o en la Meseta del Vigía del Cielo (Skywatcher Plateau).",
+                "La recompensa, el Elemental Attractor, da un beneficio que a veces hace que lanzadores de hechizos y jefes suelten una mote.",
+                "La misión repetible «More Unstable Magic» cambia 10 motes por reputación y oro, hasta Honorable."
+              ]
+            }
+          ]
+        },
+        "ru": {
+          "kat": "Система",
+          "titel": "Motes of Unstable Magic теперь персональные – золотая схема ослаблена",
+          "text": "По данным Wowhead (официального сообщения Blizzard об этом нет), Motes of Unstable Magic примерно с 20 ноября стали персональными и больше не продаются на аукционе. Их дают за задание «Unstable Magic» (с 48 уровня) и сдают за репутацию и золото. Wowhead предполагает связь с уже ослабленным фармом в Blackmaw Hold, но это не подтверждено.",
+          "tipp": "Собирайте частицы сами и сдавайте по 10 штук, пока ещё можете повышать репутацию – купить их больше нельзя.",
+          "inhalt": [
+            {
+              "typ": "liste",
+              "titel": "Как это работает (по данным Wowhead)",
+              "punkte": [
+                "С 48 уровня задание «Unstable Magic» можно взять в Даларане или на плато Небесного Дозора (Skywatcher Plateau).",
+                "Награда Elemental Attractor даёт эффект, из-за которого заклинатели и боссы иногда роняют частицу.",
+                "Повторяемое задание «More Unstable Magic» обменивает 10 частиц на репутацию и золото – до уровня «Уважение»."
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "2026-11-22-study-the-well-raetsel",
+      "datum": "2026-11-22",
+      "kat": "Events",
+      "titel": "„STUDY THE WELL“: Geheime Botschaft im Podcast deutet auf ein neues Rätsel",
+      "text": "Auf der Tafel hinter den Entwicklern stand in Folge 8 des WoW: Forever Podcasts die Botschaft „STUDY THE WELL 196.5.86.259“. Laut Wowhead hat die Community-Gruppe Secret Finders die Spur auf einen bestimmten Brunnen am Berg Hyjal eingegrenzt. Eine Lösung hat Blizzard nicht bestätigt; frühere Tafel-Botschaften führten etwa zu Beta-Codes und Geheimcodes.",
+      "tipp": "Wer gern rätselt, schaut sich am Berg Hyjal die Brunnen genauer an – und hält in Büchern im Spiel nach Hinweisen Ausschau.",
+      "video": {
+        "youtube": "67dDe3QgJtM",
+        "titel": "Catching Up On Classes | Episode 8 - The WoW: Forever Podcast"
+      },
+      "inhalt": [],
+      "quellen": [
+        {
+          "name": "Wowhead – Study The Well: Podcast Board Message Hints at New Brainteaser",
+          "url": "https://www.wowhead.com/forever/news/study-the-well-wow-forever-podcast-board-message-hints-at-new-brainteaser-383929"
+        },
+        {
+          "name": "Warcraft Tavern – Episode 8 of the WoW Forever Podcast",
+          "url": "https://www.warcrafttavern.com/forever/news/episode-8-of-the-wow-forever-podcast-returns-to-classes/"
+        }
+      ],
+      "i18n": {
+        "en": {
+          "kat": "Events",
+          "titel": "“STUDY THE WELL”: secret podcast message hints at a new puzzle",
+          "text": "In episode 8 of the WoW: Forever Podcast, the board behind the developers read “STUDY THE WELL 196.5.86.259”. According to Wowhead, the community group Secret Finders has narrowed the trail down to a particular well on Mount Hyjal. Blizzard has not confirmed a solution; earlier board messages led to beta codes and secret codes, among other things.",
+          "tipp": "If you like puzzles, take a closer look at the wells on Mount Hyjal – and keep an eye out for clues in in-game books.",
+          "video_titel": "Catching Up On Classes | Episode 8 - The WoW: Forever Podcast",
+          "inhalt": []
+        },
+        "fr": {
+          "kat": "Événements",
+          "titel": "« STUDY THE WELL » : un message secret du podcast annonce une nouvelle énigme",
+          "text": "Dans l'épisode 8 du WoW: Forever Podcast, le tableau derrière les développeurs affichait « STUDY THE WELL 196.5.86.259 ». Selon Wowhead, le groupe communautaire Secret Finders a localisé la piste près d'un puits précis du mont Hyjal. Blizzard n'a confirmé aucune solution ; les messages précédents menaient entre autres à des codes bêta et à des codes secrets.",
+          "tipp": "Si vous aimez les énigmes, examinez de près les puits du mont Hyjal – et cherchez des indices dans les livres du jeu.",
+          "video_titel": "Catching Up On Classes | Episode 8 - The WoW: Forever Podcast",
+          "inhalt": []
+        },
+        "es": {
+          "kat": "Eventos",
+          "titel": "«STUDY THE WELL»: un mensaje secreto del podcast apunta a un nuevo acertijo",
+          "text": "En el episodio 8 del WoW: Forever Podcast, la pizarra detrás de los desarrolladores mostraba «STUDY THE WELL 196.5.86.259». Según Wowhead, el grupo de la comunidad Secret Finders ha reducido la pista a un pozo concreto del Monte Hyjal. Blizzard no ha confirmado ninguna solución; mensajes anteriores llevaron, entre otras cosas, a códigos de beta y códigos secretos.",
+          "tipp": "Si te gustan los acertijos, examina bien los pozos del Monte Hyjal y busca pistas en los libros del juego.",
+          "video_titel": "Catching Up On Classes | Episode 8 - The WoW: Forever Podcast",
+          "inhalt": []
+        },
+        "ru": {
+          "kat": "События",
+          "titel": "«STUDY THE WELL»: тайное послание в подкасте намекает на новую загадку",
+          "text": "В 8-м выпуске WoW: Forever Podcast на доске за спинами разработчиков было написано «STUDY THE WELL 196.5.86.259». По данным Wowhead, сообщество Secret Finders сузило поиски до определённого колодца на горе Хиджал. Blizzard никакого решения не подтверждала; прежние послания на доске вели, например, к бета-кодам и секретным кодам.",
+          "tipp": "Любите загадки – присмотритесь к колодцам на горе Хиджал и ищите подсказки во внутриигровых книгах.",
+          "video_titel": "Catching Up On Classes | Episode 8 - The WoW: Forever Podcast",
+          "inhalt": []
+        }
+      }
+    },
     {
       "id": "2026-11-21-hotfixes-20-november",
       "datum": "2026-11-21",
       "kat": "Patch",
-      "top": true,
       "titel": "Hotfixes vom 20. November: Dungeons nur noch 5-mal pro Stunde, Klingenwirbel trifft mit Messerstich",
       "text": "Blizzard hat in der Nacht zum 21. November die Hotfixes vom 20. November im Forum veröffentlicht. Jeder Dungeon lässt sich jetzt nur noch 5-mal pro Stunde zurücksetzen und betreten statt 10-mal. Außerdem gibt es Korrekturen für Schurken und Hexenmeister, einen schwächeren Set-Bonus der Stormshroud Armor und eine reparierte Gruppensuche.",
       "tipp": "Wer Dungeons am Stück farmt, sollte seine Runs planen – nach 5 Betretungen pro Stunde ist erst einmal Pause.",
