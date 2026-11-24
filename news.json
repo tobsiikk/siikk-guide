@@ -1,12 +1,327 @@
 {
-  "stand": "2026-11-23",
+  "stand": "2026-11-24",
   "hinweis": "Wird täglich gegen 8 Uhr morgens automatisch aktualisiert.",
   "eintraege": [
+    {
+      "id": "2026-11-24-hotfixes-23-november",
+      "datum": "2026-11-24",
+      "kat": "Patch",
+      "top": true,
+      "titel": "Hotfixes vom 23. November: Weltbuffs bleiben beim Gebietswechsel, Tödlicher Stoß nur noch mit Talent",
+      "text": "Blizzard hat neue Hotfixes für WoW Forever vom 23. November veröffentlicht. Weltbuffs verschwinden beim Gebietswechsel nicht mehr, und die Buffs vom Dunkelmond-Jahrmarkt sowie Fengus' Ferocity gaben doppelt so viel wie geplant. Dazu kommen Klassenkorrekturen für Druiden, Priester, Hexenmeister und Krieger sowie viele Fehlerbehebungen bei Kochkunst und Quests.",
+      "tipp": "Weltbuffs halten jetzt auch beim Gebietswechsel – hol sie dir und quest in Ruhe weiter, sie fallen erst beim Betreten eines Raids ab.",
+      "video": null,
+      "inhalt": [
+        {
+          "typ": "liste",
+          "titel": "Wichtigste Änderungen",
+          "punkte": [
+            "Weltbuffs: Sie verschwinden beim Gebietswechsel nicht mehr – nur noch beim Betreten eines Raids.",
+            "Fengus' Ferocity und die Buffs vom Dunkelmond-Jahrmarkt gaben doppelt so viel wie geplant. Das ist jetzt korrigiert.",
+            "Einige Zauber und Fähigkeiten lösten öfter Waffeneffekte aus als vorgesehen. Behoben.",
+            "Uldaman: Der Obsidian Sentinel lässt wieder Beute fallen."
+          ]
+        },
+        {
+          "typ": "tabelle",
+          "titel": "Klassen, Berufe & Quests",
+          "kopf": [
+            "Bereich",
+            "Änderung"
+          ],
+          "zeilen": [
+            [
+              "Druide",
+              "Der 4-Teile-Bonus von Feralheart gibt jetzt richtig 4 Energie pro Sekunde für 5 Sekunden."
+            ],
+            [
+              "Priester",
+              "Gedankensicht löst keine Effekte mehr aus. Schatten: Dunkle Inspiration* gibt über Gedankenschinden den richtigen Willenskraft-Bonus, Züchtigung geht jetzt auch in Schattengestalt."
+            ],
+            [
+              "Hexenmeister (Zerstörung)",
+              "Intensität wirkt jetzt auch auf Verbrennen (Incinerate)."
+            ],
+            [
+              "Krieger",
+              "Tödlicher Stoß ließ sich ohne Talentpunkt aus dem Zauberbuch nutzen. Er bleibt im Zauberbuch, geht aber nur noch mit dem Talent."
+            ],
+            [
+              "Kochkunst",
+              "Muschel-Gerichte (z. B. Boiled Clams, Clam Chowder, Giant Clam Scorcho) geben jetzt den richtigen „Satt“-Bonus und stehen unter Ausdauer-Essen. Murloc Fin Soup wurde eine Stufe stärker."
+            ],
+            [
+              "Ingenieurskunst & Lederverarbeitung",
+              "Die Renewal-Gift-Gegenstände zeigen wieder ihr Symbol, „The Mortar: Reloaded“ lernt man zusammen mit „Goblin Mortar“, Pattern: Centaur Hoofwarmers ist wieder erlernbar."
+            ],
+            [
+              "Quests & Gegenstände",
+              "Sumpfland: „For Further Study“ hat Belohnungen, „Uncovering the Past“ und „Gleaning Our Future“ geben Ruf bei Eisenschmiede. Flussauen*: Begleitquest „Dunston Checks Out“ repariert. Filcher's Cowl hat keine Stufenanforderung mehr."
+            ],
+            [
+              "Völker",
+              "Die Irrwisch-Gestalt ließ sich auf lebende Spieler wirken. Behoben."
+            ]
+          ]
+        }
+      ],
+      "quellen": [
+        {
+          "name": "Blizzard News – WoW: Forever Hotfixes, 23. November 2026",
+          "url": "https://worldofwarcraft.blizzard.com/en-us/news/24315281"
+        },
+        {
+          "name": "Wowhead – Class and Profession Bug Fixes: WoW Forever Hotfixes for November 23, 2026",
+          "url": "https://www.wowhead.com/forever/news/class-and-profession-bug-fixes-wow-forever-hotfixes-for-november-23-2026-383972"
+        }
+      ],
+      "i18n": {
+        "en": {
+          "kat": "Patch",
+          "titel": "Hotfixes from November 23: world buffs survive zone changes, Mortal Strike now needs the talent",
+          "text": "Blizzard has released new WoW Forever hotfixes dated November 23. World buffs no longer drop when you change zones, and Darkmoon Faire buffs and Fengus' Ferocity were giving twice the intended power. There are also class fixes for Druids, Priests, Warlocks and Warriors as well as many cooking and quest fixes.",
+          "tipp": "World buffs now last through zone changes – pick them up and quest on for a while, they only drop when you enter a raid.",
+          "inhalt": [
+            {
+              "typ": "liste",
+              "titel": "Key changes",
+              "punkte": [
+                "World buffs: they no longer drop when you change zones – only when you enter a raid.",
+                "Fengus' Ferocity and the Darkmoon Faire buffs were giving twice the intended power. This has been corrected.",
+                "Some spells and abilities triggered weapon procs more often than intended. Fixed.",
+                "Uldaman: the Obsidian Sentinel drops loot again."
+              ]
+            },
+            {
+              "typ": "tabelle",
+              "titel": "Classes, professions & quests",
+              "kopf": [
+                "Area",
+                "Change"
+              ],
+              "zeilen": [
+                [
+                  "Druid",
+                  "The Feralheart 4-piece bonus now correctly grants 4 Energy per second for 5 seconds."
+                ],
+                [
+                  "Priest",
+                  "Mind Vision no longer triggers effects. Shadow: Dark Inspiration* now grants the correct Spirit bonus via Mind Flay, and Chastise can now be used in Shadowform."
+                ],
+                [
+                  "Warlock (Destruction)",
+                  "Intensity now also works on Incinerate."
+                ],
+                [
+                  "Warrior",
+                  "Mortal Strike could be used from the spellbook without the talent point. It stays in the spellbook but now only works with the talent."
+                ],
+                [
+                  "Cooking",
+                  "Clam dishes (e.g. Boiled Clams, Clam Chowder, Giant Clam Scorcho) now give the correct Well Fed bonus and are listed under Stamina food. Murloc Fin Soup was moved up one food tier."
+                ],
+                [
+                  "Engineering & Leatherworking",
+                  "The Renewal Gift items show their icon again, \"The Mortar: Reloaded\" is learned together with \"Goblin Mortar\", and Pattern: Centaur Hoofwarmers can be learned again."
+                ],
+                [
+                  "Quests & items",
+                  "Wetlands: \"For Further Study\" has rewards, \"Uncovering the Past\" and \"Gleaning Our Future\" give Ironforge reputation. Riverglades*: escort quest \"Dunston Checks Out\" fixed. Filcher's Cowl no longer has a level requirement."
+                ],
+                [
+                  "Races",
+                  "Wisp Form could be applied to living players. Fixed."
+                ]
+              ]
+            }
+          ]
+        },
+        "fr": {
+          "kat": "Patch",
+          "titel": "Correctifs du 23 novembre : les buffs mondiaux résistent aux changements de zone, Frappe mortelle exige le talent",
+          "text": "Blizzard a publié de nouveaux correctifs pour WoW Forever datés du 23 novembre. Les buffs mondiaux ne disparaissent plus quand on change de zone, et les buffs de la foire de Sombrelune ainsi que Fengus' Ferocity donnaient deux fois trop de puissance. Il y a aussi des corrections pour les druides, prêtres, démonistes et guerriers, ainsi que de nombreux correctifs de cuisine et de quêtes.",
+          "tipp": "Les buffs mondiaux tiennent désormais aux changements de zone – récupérez-les et continuez à quêter, ils ne tombent qu'en entrant dans un raid.",
+          "inhalt": [
+            {
+              "typ": "liste",
+              "titel": "Principaux changements",
+              "punkte": [
+                "Buffs mondiaux : ils ne disparaissent plus lors d'un changement de zone – seulement en entrant dans un raid.",
+                "Fengus' Ferocity et les buffs de la foire de Sombrelune donnaient deux fois trop de puissance. C'est corrigé.",
+                "Certains sorts et techniques déclenchaient plus souvent que prévu les effets d'arme. Corrigé.",
+                "Uldaman : l'Obsidian Sentinel donne de nouveau du butin."
+              ]
+            },
+            {
+              "typ": "tabelle",
+              "titel": "Classes, métiers et quêtes",
+              "kopf": [
+                "Domaine",
+                "Changement"
+              ],
+              "zeilen": [
+                [
+                  "Druide",
+                  "Le bonus 4 pièces Feralheart donne désormais correctement 4 points d'énergie par seconde pendant 5 secondes."
+                ],
+                [
+                  "Prêtre",
+                  "Vision télépathique ne déclenche plus d'effets. Ombre : Dark Inspiration* donne le bon bonus d'Esprit via Fouet mental, et Châtier est utilisable en Forme d'ombre."
+                ],
+                [
+                  "Démoniste (Destruction)",
+                  "Intensité fonctionne aussi sur Incinérer."
+                ],
+                [
+                  "Guerrier",
+                  "Frappe mortelle pouvait être utilisée depuis le grimoire sans le point de talent. Elle reste dans le grimoire mais ne fonctionne plus qu'avec le talent."
+                ],
+                [
+                  "Cuisine",
+                  "Les plats de palourdes (p. ex. Boiled Clams, Clam Chowder, Giant Clam Scorcho) donnent maintenant le bon bonus « Bien nourri » et sont classés en nourriture d'Endurance. Murloc Fin Soup passe au palier de nourriture supérieur."
+                ],
+                [
+                  "Ingénierie et travail du cuir",
+                  "Les objets Renewal Gift affichent de nouveau leur icône, « The Mortar: Reloaded » s'apprend avec « Goblin Mortar », et Pattern: Centaur Hoofwarmers peut de nouveau être appris."
+                ],
+                [
+                  "Quêtes et objets",
+                  "Les Paluns : « For Further Study » a des récompenses, « Uncovering the Past » et « Gleaning Our Future » donnent de la réputation auprès de Forgefer. Riverglades* : la quête d'escorte « Dunston Checks Out » est réparée. Filcher's Cowl n'a plus de niveau requis."
+                ],
+                [
+                  "Races",
+                  "La forme de feu follet pouvait être appliquée à des joueurs vivants. Corrigé."
+                ]
+              ]
+            }
+          ]
+        },
+        "es": {
+          "kat": "Parche",
+          "titel": "Correcciones del 23 de noviembre: los bufos de mundo aguantan el cambio de zona, Golpe mortal requiere el talento",
+          "text": "Blizzard ha publicado nuevas correcciones de WoW Forever con fecha del 23 de noviembre. Los bufos de mundo ya no se pierden al cambiar de zona, y los bufos de la Feria de la Luna Negra y Fengus' Ferocity daban el doble de poder del previsto. También hay arreglos para druidas, sacerdotes, brujos y guerreros, además de muchas correcciones de cocina y misiones.",
+          "tipp": "Los bufos de mundo ya sobreviven al cambio de zona: consíguelos y sigue haciendo misiones un rato, solo se pierden al entrar en una banda.",
+          "inhalt": [
+            {
+              "typ": "liste",
+              "titel": "Cambios principales",
+              "punkte": [
+                "Bufos de mundo: ya no desaparecen al cambiar de zona, solo al entrar en una banda.",
+                "Fengus' Ferocity y los bufos de la Feria de la Luna Negra daban el doble de poder del previsto. Ya está corregido.",
+                "Algunos hechizos y habilidades activaban efectos de arma más a menudo de lo previsto. Corregido.",
+                "Uldaman: el Obsidian Sentinel vuelve a soltar botín."
+              ]
+            },
+            {
+              "typ": "tabelle",
+              "titel": "Clases, profesiones y misiones",
+              "kopf": [
+                "Área",
+                "Cambio"
+              ],
+              "zeilen": [
+                [
+                  "Druida",
+                  "La bonificación de 4 piezas de Feralheart ahora otorga correctamente 4 de energía por segundo durante 5 segundos."
+                ],
+                [
+                  "Sacerdote",
+                  "Visión mental ya no activa efectos. Sombra: Dark Inspiration* da la bonificación de Espíritu correcta mediante Tortura mental, y Castigar se puede usar en Forma de las Sombras."
+                ],
+                [
+                  "Brujo (Destrucción)",
+                  "Intensidad ahora también funciona con Incinerar."
+                ],
+                [
+                  "Guerrero",
+                  "Golpe mortal se podía usar desde el libro de hechizos sin el punto de talento. Sigue en el libro, pero solo funciona con el talento."
+                ],
+                [
+                  "Cocina",
+                  "Los platos de almejas (p. ej. Boiled Clams, Clam Chowder, Giant Clam Scorcho) ahora dan la bonificación de «Bien alimentado» correcta y aparecen como comida de aguante. Murloc Fin Soup sube un nivel de comida."
+                ],
+                [
+                  "Ingeniería y peletería",
+                  "Los objetos Renewal Gift vuelven a mostrar su icono, «The Mortar: Reloaded» se aprende junto con «Goblin Mortar» y Pattern: Centaur Hoofwarmers se puede volver a aprender."
+                ],
+                [
+                  "Misiones y objetos",
+                  "Los Humedales: «For Further Study» tiene recompensas, «Uncovering the Past» y «Gleaning Our Future» dan reputación con Forjaz. Riverglades*: arreglada la misión de escolta «Dunston Checks Out». Filcher's Cowl ya no tiene requisito de nivel."
+                ],
+                [
+                  "Razas",
+                  "La Forma de fuego fatuo se podía aplicar a jugadores vivos. Corregido."
+                ]
+              ]
+            }
+          ]
+        },
+        "ru": {
+          "kat": "Патч",
+          "titel": "Хотфиксы от 23 ноября: мировые баффы переживают смену зоны, «Смертельный удар» требует таланта",
+          "text": "Blizzard выпустила новые хотфиксы WoW Forever от 23 ноября. Мировые баффы больше не пропадают при смене зоны, а баффы Ярмарки Новолуния и Fengus' Ferocity давали вдвое больше силы, чем задумано. Также есть исправления для друидов, жрецов, чернокнижников и воинов, а ещё множество правок кулинарии и заданий.",
+          "tipp": "Мировые баффы теперь сохраняются при смене зоны – возьмите их и спокойно квестуйте дальше, пропадают они только при входе в рейд.",
+          "inhalt": [
+            {
+              "typ": "liste",
+              "titel": "Главные изменения",
+              "punkte": [
+                "Мировые баффы: больше не пропадают при смене зоны – только при входе в рейд.",
+                "Fengus' Ferocity и баффы Ярмарки Новолуния давали вдвое больше силы, чем задумано. Исправлено.",
+                "Некоторые заклинания и способности срабатывали эффекты оружия чаще, чем нужно. Исправлено.",
+                "Ульдаман: Obsidian Sentinel снова оставляет добычу."
+              ]
+            },
+            {
+              "typ": "tabelle",
+              "titel": "Классы, профессии и задания",
+              "kopf": [
+                "Раздел",
+                "Изменение"
+              ],
+              "zeilen": [
+                [
+                  "Друид",
+                  "Бонус 4 предметов Feralheart теперь правильно даёт 4 ед. энергии в секунду в течение 5 секунд."
+                ],
+                [
+                  "Жрец",
+                  "«Внутреннее зрение» больше не вызывает эффектов. Тьма: Dark Inspiration* даёт правильный бонус к духу через «Пытку разума», а «Покарание» можно использовать в облике Тьмы."
+                ],
+                [
+                  "Чернокнижник (Разрушение)",
+                  "«Интенсивность» теперь работает и на «Испепеление»."
+                ],
+                [
+                  "Воин",
+                  "«Смертельный удар» можно было применять из книги заклинаний без очка таланта. Он остаётся в книге, но работает только с талантом."
+                ],
+                [
+                  "Кулинария",
+                  "Блюда из моллюсков (например, Boiled Clams, Clam Chowder, Giant Clam Scorcho) теперь дают правильный эффект «Сытость» и относятся к еде на выносливость. Murloc Fin Soup поднят на следующий уровень еды."
+                ],
+                [
+                  "Инженерное дело и кожевничество",
+                  "Предметы Renewal Gift снова показывают свою иконку, «The Mortar: Reloaded» изучается вместе с «Goblin Mortar», а Pattern: Centaur Hoofwarmers снова можно выучить."
+                ],
+                [
+                  "Задания и предметы",
+                  "Болотина: у «For Further Study» есть награды, «Uncovering the Past» и «Gleaning Our Future» дают репутацию у Стальгорна. Riverglades*: исправлено задание сопровождения «Dunston Checks Out». У Filcher's Cowl больше нет требования к уровню."
+                ],
+                [
+                  "Расы",
+                  "Облик огонька можно было наложить на живых игроков. Исправлено."
+                ]
+              ]
+            }
+          ]
+        }
+      }
+    },
     {
       "id": "2026-11-22-bis-zirene-podcast",
       "datum": "2026-11-22",
       "kat": "System",
-      "top": true,
       "titel": "Weg vom „Best in Slot“: Zirene will, dass die beste Ausrüstung vom Boss abhängt",
       "text": "Im WoW: Forever Podcast (Folge 8 vom 19. November) hat Senior Game Designer Aidan „Zirene“ Moon laut Wowhead gesagt, dass er das klassische „BiS“ abschaffen möchte. Statt einer festen besten Ausrüstung soll sich die beste Wahl je nach Boss, Kreaturentyp und Umgebung (Biom) unterscheiden – Raid-Flügel können etwa verschneit oder verflucht sein. Konkrete Änderungen oder Termine wurden dazu nicht genannt.",
       "tipp": "Hebt Ausrüstung mit Boni gegen bestimmte Kreaturentypen ruhig auf, statt sie sofort zu verkaufen – sie könnte später für einzelne Bosse wertvoll werden.",
