@@ -1,12 +1,231 @@
 {
-  "stand": "2026-11-24",
+  "stand": "2026-11-25",
   "hinweis": "Wird täglich gegen 8 Uhr morgens automatisch aktualisiert.",
   "eintraege": [
+    {
+      "id": "2026-11-25-schlachtfeld-warteschlangen-eu",
+      "datum": "2026-11-25",
+      "kat": "Bugs",
+      "top": true,
+      "titel": "EU-Schlachtfelder: Fix für hängende Warteschlangen soll mit der Wartung am 25. November greifen",
+      "text": "Seit Mitte November melden Spieler auf einem EU-Server (Layer 15), dass ihre Schlachtfeld-Warteschlange allein nie aufgeht; teils fehlten auch Ehre und Rangpunkte. Blizzard bestätigte am 23. November im EU-Forum, dass das Problem untersucht wird. Laut PC Games Hardware landeten betroffene Spieler bei der Partnersuche fälschlich in der russischen Region – ein Hotfix dagegen soll mit dem Server-Neustart bei der Wartung am 25. November vollständig wirken.",
+      "tipp": "Hängt deine Warteschlange immer noch, lass dich von einem Freund auf einem anderen Layer in eine Gruppe einladen und gemeinsam anmelden – das hat laut Spielern zuverlässig geklappt.",
+      "video": null,
+      "inhalt": [
+        {
+          "typ": "liste",
+          "titel": "Was bekannt ist",
+          "punkte": [
+            "Betroffen: vor allem EU-Server mit normalem Regelsatz (Layer 15), Horde und Allianz, alle Sprachen.",
+            "Symptom: Die Solo-Anmeldung für Alteractal, Kriegshymnenschlucht und Arathibecken geht nicht auf und zeigt keine geschätzte Wartezeit.",
+            "Gruppen-Anmeldungen funktionierten laut Spielern normal.",
+            "Einige Spieler melden zusätzlich fehlende Ehre bzw. eingefrorene Rangpunkte – ob verlorene Ehre erstattet wird, hat Blizzard nicht gesagt.",
+            "Ursache und Fix laut PC Games Hardware (unter Berufung auf das Blizzard-Forum); eine offizielle Liste aller Änderungen vom 25. November gab es zunächst nicht."
+          ]
+        }
+      ],
+      "quellen": [
+        {
+          "name": "Blizzard-Forum (EU) – Bugged BG queues on WoW Forever",
+          "url": "https://eu.forums.blizzard.com/en/wow/t/bugged-bg-queues-on-wow-forever/644089"
+        },
+        {
+          "name": "PC Games Hardware – WoW Forever down: Blizzard behebt PvP-Problem",
+          "url": "https://www.pcgameshardware.de/World-of-Warcraft-Forever-Spiel-78891/News/WoW-Forever-down-Blizzard-is-fixing-an-annoying-issue-right-now-1560998/"
+        },
+        {
+          "name": "Wowhead – Some EU Players Reporting Issues with PvP Queues and Honor Gains",
+          "url": "https://www.wowhead.com/forever/news/some-eu-players-reporting-issues-with-pvp-queues-and-honor-gains-in-wow-forever-383937"
+        }
+      ],
+      "i18n": {
+        "en": {
+          "kat": "Bugs",
+          "titel": "EU battlegrounds: fix for stuck queues should take effect with the November 25 maintenance",
+          "text": "Since mid-November, players on one EU server (layer 15) have reported that their solo battleground queue never pops; some were also missing honor and rank points. Blizzard confirmed on November 23 on the EU forums that the issue is being investigated. According to PC Games Hardware, affected players were wrongly matched into the Russian region – a hotfix is supposed to take full effect with the server restart during the November 25 maintenance.",
+          "tipp": "If your queue is still stuck, have a friend on another layer invite you to a group and queue together – players report this worked reliably.",
+          "inhalt": [
+            {
+              "typ": "liste",
+              "titel": "What we know",
+              "punkte": [
+                "Affected: mainly EU Normal-ruleset servers (layer 15), Horde and Alliance, all languages.",
+                "Symptom: solo queues for Alterac Valley, Warsong Gulch and Arathi Basin never pop and show no estimated wait time.",
+                "According to players, group queues worked normally.",
+                "Some players also report missing honor or frozen rank points – Blizzard hasn't said whether lost honor will be restored.",
+                "Cause and fix according to PC Games Hardware (citing the Blizzard forums); there was initially no official list of all changes for November 25."
+              ]
+            }
+          ]
+        },
+        "fr": {
+          "kat": "Bugs",
+          "titel": "Champs de bataille EU : le correctif des files bloquées doit s'appliquer avec la maintenance du 25 novembre",
+          "text": "Depuis mi-novembre, des joueurs d'un serveur EU (couche 15) signalent que leur file de champ de bataille en solo ne se lance jamais ; certains ne recevaient pas non plus d'honneur ni de points de rang. Blizzard a confirmé le 23 novembre sur le forum EU que le problème est en cours d'examen. Selon PC Games Hardware, les joueurs concernés étaient placés par erreur dans la région russe – un correctif doit s'appliquer pleinement avec le redémarrage des serveurs lors de la maintenance du 25 novembre.",
+          "tipp": "Si ta file est toujours bloquée, demande à un ami sur une autre couche de t'inviter en groupe et inscrivez-vous ensemble – selon les joueurs, ça marche à chaque fois.",
+          "inhalt": [
+            {
+              "typ": "liste",
+              "titel": "Ce que l'on sait",
+              "punkte": [
+                "Concernés : surtout les serveurs EU en règles normales (couche 15), Horde et Alliance, toutes langues.",
+                "Symptôme : la file solo pour la vallée d'Alterac, le goulet des Chanteguerres et le bassin Arathi ne se lance jamais et n'affiche aucun temps d'attente estimé.",
+                "Selon les joueurs, les inscriptions en groupe fonctionnaient normalement.",
+                "Certains joueurs signalent aussi de l'honneur manquant ou des points de rang figés – Blizzard n'a pas dit si l'honneur perdu sera rendu.",
+                "Cause et correctif selon PC Games Hardware (qui cite le forum Blizzard) ; il n'y avait d'abord pas de liste officielle de tous les changements du 25 novembre."
+              ]
+            }
+          ]
+        },
+        "es": {
+          "kat": "Errores",
+          "titel": "Campos de batalla EU: el arreglo de las colas atascadas debería aplicarse con el mantenimiento del 25 de noviembre",
+          "text": "Desde mediados de noviembre, jugadores de un servidor EU (capa 15) informan de que su cola de campo de batalla en solitario nunca salta; a algunos también les faltaban honor y puntos de rango. Blizzard confirmó el 23 de noviembre en el foro EU que está investigando el problema. Según PC Games Hardware, los jugadores afectados acababan por error en la región rusa – un hotfix debería aplicarse por completo con el reinicio de los servidores durante el mantenimiento del 25 de noviembre.",
+          "tipp": "Si tu cola sigue atascada, pide a un amigo de otra capa que te invite a un grupo y apuntaos juntos – según los jugadores, funciona sin problemas.",
+          "inhalt": [
+            {
+              "typ": "liste",
+              "titel": "Lo que se sabe",
+              "punkte": [
+                "Afectados: sobre todo servidores EU con reglas normales (capa 15), Horda y Alianza, todos los idiomas.",
+                "Síntoma: la cola en solitario para el Valle de Alterac, la Garganta Grito de Guerra y la Cuenca de Arathi nunca salta y no muestra tiempo de espera estimado.",
+                "Según los jugadores, las colas en grupo funcionaban con normalidad.",
+                "Algunos jugadores también informan de honor perdido o puntos de rango congelados – Blizzard no ha dicho si devolverá el honor perdido.",
+                "Causa y arreglo según PC Games Hardware (citando el foro de Blizzard); al principio no hubo una lista oficial de todos los cambios del 25 de noviembre."
+              ]
+            }
+          ]
+        },
+        "ru": {
+          "kat": "Ошибки",
+          "titel": "Поля боя в EU: исправление зависших очередей должно заработать после техобслуживания 25 ноября",
+          "text": "С середины ноября игроки на одном из европейских серверов (слой 15) жалуются, что одиночная очередь на поле боя никогда не срабатывает; у некоторых также не начислялись честь и очки ранга. 23 ноября Blizzard подтвердила на европейском форуме, что проблему изучают. По данным PC Games Hardware, затронутых игроков по ошибке отправляло в российский регион подбора – хотфикс должен полностью заработать после перезапуска серверов во время техобслуживания 25 ноября.",
+          "tipp": "Если очередь всё ещё висит, попроси друга с другого слоя пригласить тебя в группу и встаньте в очередь вместе – по словам игроков, это надёжно работает.",
+          "inhalt": [
+            {
+              "typ": "liste",
+              "titel": "Что известно",
+              "punkte": [
+                "Затронуты в основном европейские серверы с обычными правилами (слой 15), Орда и Альянс, все языки.",
+                "Симптом: одиночная очередь на Альтеракскую долину, Ущелье Песни Войны и Низину Арати не срабатывает и не показывает примерное время ожидания.",
+                "По словам игроков, групповая очередь работала нормально.",
+                "Некоторые игроки также сообщают о пропавшей чести или замороженных очках ранга – вернут ли потерянную честь, Blizzard не сообщила.",
+                "Причина и исправление – по данным PC Games Hardware (со ссылкой на форум Blizzard); официального списка всех изменений от 25 ноября поначалу не было."
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "2026-11-25-schliesskassetten-vorschau",
+      "datum": "2026-11-25",
+      "kat": "System",
+      "titel": "Schließkassetten: Reinschauen ist vorerst abgeschaltet – Blizzard will es zurückbringen",
+      "text": "Mit einem Hotfix am Wochenende hat Blizzard geändert, dass sich Schließkassetten nicht mehr nur ansehen lassen – der Inhalt landet sofort in den Taschen. Blizzard nennt das eine vorübergehende Maßnahme und arbeitet an einem richtigen Fix, der Reinschauen und teilweises Plündern wieder erlaubt; einen Termin gibt es noch nicht. Laut Wowhead (nicht von Blizzard bestätigt) richtet sich die Änderung sehr wahrscheinlich gegen einen Exploit, mit dem Schurken den Inhalt von Kassetten neu auswürfeln konnten.",
+      "tipp": "Öffne Schließkassetten nur mit genug freiem Taschenplatz – der Inhalt wandert derzeit direkt in deine Taschen.",
+      "video": null,
+      "inhalt": [
+        {
+          "typ": "liste",
+          "titel": "Das ändert sich",
+          "punkte": [
+            "Schließkassetten lassen sich nicht mehr nur ansehen: Beim Öffnen kommt der Inhalt direkt in die Taschen.",
+            "Nebenwirkung laut Wowhead: „Junkboxes“ kann man nicht mehr teilweise plündern und dann abgeben.",
+            "Blizzard: Es ist nur vorübergehend, ein richtiger Fix soll Reinschauen und teilweises Plündern zurückbringen – ohne Termin.",
+            "Den Grund hat Blizzard nicht genannt; laut Wowhead ging es um einen Exploit zum Neuauswürfeln des Inhalts."
+          ]
+        }
+      ],
+      "quellen": [
+        {
+          "name": "Wowhead – Blizzard Announces Lockbox Change is Temporary in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/news/blizzard-announces-lockbox-change-is-temporary-and-peeking-inside-lockboxes-will-383963"
+        },
+        {
+          "name": "Icy Veins – Your WoW Forever Lockboxes Will Get Peeking and Partial Looting Back",
+          "url": "https://www.icy-veins.com/wow-forever/news/your-wow-forever-lockboxes-will-get-peeking-and-partial-looting-back-blizzard-says/"
+        }
+      ],
+      "i18n": {
+        "en": {
+          "kat": "System",
+          "titel": "Lockboxes: peeking is disabled for now – Blizzard plans to bring it back",
+          "text": "With a hotfix over the weekend, Blizzard changed lockboxes so you can no longer just look inside – the contents go straight into your bags. Blizzard calls this a temporary measure and is working on a proper fix that restores peeking and partial looting; there's no date yet. According to Wowhead (not confirmed by Blizzard), the change is very likely aimed at an exploit that let rogues reroll lockbox contents.",
+          "tipp": "Only open lockboxes with enough free bag space – the contents currently go straight into your bags.",
+          "inhalt": [
+            {
+              "typ": "liste",
+              "titel": "What changes",
+              "punkte": [
+                "Lockboxes can no longer just be peeked into: opening one puts the contents directly into your bags.",
+                "Side effect according to Wowhead: \"Junkboxes\" can no longer be partially looted and then turned in.",
+                "Blizzard: this is only temporary, a proper fix should bring back peeking and partial looting – no date given.",
+                "Blizzard didn't give a reason; according to Wowhead it was about an exploit for rerolling the contents."
+              ]
+            }
+          ]
+        },
+        "fr": {
+          "kat": "Système",
+          "titel": "Coffrets : impossible d'y jeter un œil pour l'instant – Blizzard veut rétablir la fonction",
+          "text": "Avec un correctif ce week-end, Blizzard a fait en sorte qu'on ne puisse plus simplement regarder dans les coffrets – le contenu va directement dans les sacs. Blizzard parle d'une mesure temporaire et prépare un vrai correctif qui rétablira la consultation et le butin partiel ; pas encore de date. Selon Wowhead (non confirmé par Blizzard), le changement vise très probablement un exploit permettant aux voleurs de relancer le contenu des coffrets.",
+          "tipp": "N'ouvre tes coffrets qu'avec assez de place dans tes sacs – le contenu y va directement en ce moment.",
+          "inhalt": [
+            {
+              "typ": "liste",
+              "titel": "Ce qui change",
+              "punkte": [
+                "On ne peut plus simplement regarder dans les coffrets : à l'ouverture, le contenu va directement dans les sacs.",
+                "Effet secondaire selon Wowhead : on ne peut plus piller partiellement les « Junkboxes » puis les rendre.",
+                "Blizzard : c'est seulement temporaire, un vrai correctif doit rétablir la consultation et le butin partiel – sans date.",
+                "Blizzard n'a pas donné de raison ; selon Wowhead, il s'agissait d'un exploit pour relancer le contenu."
+              ]
+            }
+          ]
+        },
+        "es": {
+          "kat": "Sistema",
+          "titel": "Cajas fuertes: de momento no se puede mirar dentro – Blizzard quiere recuperarlo",
+          "text": "Con un hotfix durante el fin de semana, Blizzard cambió las cajas fuertes para que ya no se pueda solo mirar dentro – el contenido va directamente a las bolsas. Blizzard lo llama una medida temporal y trabaja en un arreglo de verdad que permita volver a mirar y saquear parcialmente; aún no hay fecha. Según Wowhead (no confirmado por Blizzard), el cambio va muy probablemente dirigido contra un exploit con el que los pícaros podían volver a sortear el contenido.",
+          "tipp": "Abre las cajas fuertes solo con espacio libre en las bolsas – ahora mismo el contenido va directamente a ellas.",
+          "inhalt": [
+            {
+              "typ": "liste",
+              "titel": "Qué cambia",
+              "punkte": [
+                "Ya no se puede solo mirar dentro de las cajas fuertes: al abrirlas, el contenido va directamente a las bolsas.",
+                "Efecto secundario según Wowhead: las \"Junkboxes\" ya no se pueden saquear parcialmente y luego entregar.",
+                "Blizzard: es solo temporal, un arreglo de verdad devolverá la opción de mirar y saquear parcialmente – sin fecha.",
+                "Blizzard no dio el motivo; según Wowhead se trataba de un exploit para volver a sortear el contenido."
+              ]
+            }
+          ]
+        },
+        "ru": {
+          "kat": "Система",
+          "titel": "Сейфы: заглянуть внутрь пока нельзя – Blizzard обещает вернуть эту возможность",
+          "text": "Хотфиксом на выходных Blizzard изменила сейфы: просто посмотреть содержимое больше нельзя – оно сразу попадает в сумки. Blizzard называет это временной мерой и готовит полноценное исправление, которое вернёт просмотр и частичный сбор добычи; сроков пока нет. По данным Wowhead (не подтверждено Blizzard), изменение, скорее всего, направлено против эксплойта, позволявшего разбойникам перебрасывать содержимое сейфов.",
+          "tipp": "Открывай сейфы только при наличии свободного места в сумках – сейчас содержимое сразу попадает туда.",
+          "inhalt": [
+            {
+              "typ": "liste",
+              "titel": "Что меняется",
+              "punkte": [
+                "Просто заглянуть в сейф больше нельзя: при открытии содержимое сразу попадает в сумки.",
+                "Побочный эффект по данным Wowhead: «Junkboxes» больше нельзя частично облутать и затем сдать.",
+                "Blizzard: это временно, полноценное исправление вернёт просмотр и частичный сбор добычи – без сроков.",
+                "Причину Blizzard не назвала; по данным Wowhead, речь шла об эксплойте для переброса содержимого."
+              ]
+            }
+          ]
+        }
+      }
+    },
     {
       "id": "2026-11-24-hotfixes-23-november",
       "datum": "2026-11-24",
       "kat": "Patch",
-      "top": true,
       "titel": "Hotfixes vom 23. November: Weltbuffs bleiben beim Gebietswechsel, Tödlicher Stoß nur noch mit Talent",
       "text": "Blizzard hat neue Hotfixes für WoW Forever vom 23. November veröffentlicht. Weltbuffs verschwinden beim Gebietswechsel nicht mehr, und die Buffs vom Dunkelmond-Jahrmarkt sowie Fengus' Ferocity gaben doppelt so viel wie geplant. Dazu kommen Klassenkorrekturen für Druiden, Priester, Hexenmeister und Krieger sowie viele Fehlerbehebungen bei Kochkunst und Quests.",
       "tipp": "Weltbuffs halten jetzt auch beim Gebietswechsel – hol sie dir und quest in Ruhe weiter, sie fallen erst beim Betreten eines Raids ab.",
