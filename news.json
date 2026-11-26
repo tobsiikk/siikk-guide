@@ -1,12 +1,694 @@
 {
-  "stand": "2026-11-25",
+  "stand": "2026-11-26",
   "hinweis": "Wird täglich gegen 8 Uhr morgens automatisch aktualisiert.",
   "eintraege": [
+    {
+      "id": "2026-11-26-hotfixes-25-november",
+      "datum": "2026-11-26",
+      "kat": "Klassen",
+      "top": true,
+      "titel": "Hotfixes vom 25. November: Gleichgewichts-Druide umgebaut, Schurkengifte vorerst seelengebunden",
+      "text": "Blizzard hat mit den Hotfixes vom 25. November den Gleichgewichts-Druiden in WoW Forever kräftig umgebaut – unter anderem ersetzt das neue Talent Traumzustand (Dreamstate) den Mondzorn. Schurkengifte und Blendpulver sind wegen eines Fehlers vorübergehend beim Aufheben gebunden. Dazu kommen Korrekturen für Jäger, Paladine und andere Klassen, das Legacy-System, Dungeons und Völker.",
+      "tipp": "Druiden mit 3 oder mehr Punkten in Verbessertes Sternenfeuer: Eure Talente wurden zurückgesetzt – verteilt sie neu, bevor ihr loszieht.",
+      "video": null,
+      "inhalt": [
+        {
+          "typ": "tabelle",
+          "titel": "Gleichgewichts-Druide",
+          "kopf": [
+            "Talent",
+            "Änderung"
+          ],
+          "zeilen": [
+            [
+              "Sternenlicht-Zorn (Starlight Wrath)",
+              "Neuer Name für Verbesserter Zorn; verkürzt jetzt auch die Zauberzeit von Sternenfeuer um 0,1–0,5 Sek."
+            ],
+            [
+              "Mond und Sterne (Moon and Stars)",
+              "Neuer Name für Verbessertes Mondfeuer; Sternenfeuer hat 50/100 % Chance, bei Schaden keine Zauberzeit zu verlieren."
+            ],
+            [
+              "Verbessertes Sternenfeuer",
+              "Nur noch 2 statt 5 Ränge mit 8/15 % Chance. Wer 3 oder mehr Punkte hatte, bekommt alle Talentpunkte zurück."
+            ],
+            [
+              "Traumzustand (Dreamstate)",
+              "Ersetzt Mondzorn: Wirkt ihr Anregen auf jemand anderen, bekommt ihr selbst 20–100 % der Wirkung."
+            ],
+            [
+              "Finsternis",
+              "Erhöht zusätzlich dauerhaft die kritische Trefferchance von Zorn um 7/13/20 %."
+            ],
+            [
+              "Mondkingestalt",
+              "+10 % Arkan- und Naturschaden in der Gestalt."
+            ],
+            [
+              "Genesis & Hurrikan",
+              "Genesis verstärkt jetzt Hurrikan und Gelassenheit; Hurrikan trifft auch mit dem letzten Schlag."
+            ]
+          ]
+        },
+        {
+          "typ": "liste",
+          "titel": "Weitere Klassen",
+          "punkte": [
+            "Schurke: Alle Gifte und Blendpulver sind vorübergehend beim Aufheben gebunden, bis ein Fehler behoben ist. Gefasst verschwindet jetzt richtig nach Kopfnuss oder Ablenken aus der Verstohlenheit.",
+            "Jäger (Tierherrschaft): Beschworene Falken greifen auch an, wenn der Begleiter auf Passiv steht, lassen sich per Rechtsklick entlassen und hatten zu wenig Krit-Chance.",
+            "Paladin: Eid des Lichts hält jetzt 60 Minuten; Fehler bei Richturteil und Exorzismus behoben.",
+            "Schamane, Hexenmeister, Krieger: Fehler bei Kettenblitzschlag und Freizaubern, bei der Krit-Chance der Dämonen und bei Waffenmeister auf Schlachtfeldern behoben."
+          ]
+        },
+        {
+          "typ": "liste",
+          "titel": "Sonstiges",
+          "punkte": [
+            "Legacy-System: Reinforce senkt den Haltbarkeitsverlust jetzt richtig um 8/16/24/32/40 %. The Quick and the Dead macht Schattengestalt, Mondkingestalt, Reisegestalt und Aura des Volltreffers wieder kostenlos.",
+            "PvP-Legacy-Erfolge zählen nach „Ehrfürchtig“ wieder, „Lord Valthalak Laid to Rest“ gibt jetzt Legacy-Fortschritt.",
+            "Dungeons: Fehler am Altar in der Tiefschwarzen Grotte und beim Erscheinen von Hakkars Avatar im Tempel von Atal'Hakkar behoben.",
+            "Völker: Gnome, Menschen, Nachtelfen und Zwerge können nicht mehr in den Krieg mit den Kirin Tor ziehen, Zwerge nicht mehr mit dem Wildhammerklan.",
+            "Gegenstände: Totem of the Storm heißt jetzt Totem of the Maelstrom."
+          ]
+        }
+      ],
+      "quellen": [
+        {
+          "name": "Blizzard News: WoW: Forever Hotfixes – 25. November 2026",
+          "url": "https://news.blizzard.com/en-us/article/24315281/wow-forever-hotfixes-november-25-2026"
+        },
+        {
+          "name": "Blizzard-Forum (Kaivax): WoW: Forever Hotfixes – 25. November 2026",
+          "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-25-2026/2403040/16"
+        }
+      ],
+      "i18n": {
+        "en": {
+          "kat": "Classes",
+          "titel": "Hotfixes from November 25: Balance Druid reworked, Rogue poisons temporarily bind on pickup",
+          "text": "With the November 25 hotfixes Blizzard heavily reworked the Balance Druid in WoW Forever – among other things, the new talent Dreamstate replaces Moonfury. Rogue poisons and Blinding Powder are temporarily bind on pickup because of a bug. There are also fixes for Hunters, Paladins and other classes, the Legacy system, dungeons and races.",
+          "tipp": "Druids with 3 or more points in Improved Starfire: your talents were reset – respend them before heading out.",
+          "inhalt": [
+            {
+              "typ": "tabelle",
+              "titel": "Balance Druid",
+              "kopf": [
+                "Talent",
+                "Change"
+              ],
+              "zeilen": [
+                [
+                  "Starlight Wrath",
+                  "New name for Improved Wrath; now also reduces the cast time of Starfire by 0.1–0.5 sec."
+                ],
+                [
+                  "Moon and Stars",
+                  "New name for Improved Moonfire; Starfire gets a 50/100% chance not to lose casting time when you take damage."
+                ],
+                [
+                  "Improved Starfire",
+                  "Only 2 ranks instead of 5 with an 8/15% chance. Anyone with 3 or more points gets all talent points refunded."
+                ],
+                [
+                  "Dreamstate",
+                  "Replaces Moonfury: when you cast Innervate on someone else, you receive 20–100% of the effect yourself."
+                ],
+                [
+                  "Eclipse",
+                  "Also permanently increases the critical strike chance of Wrath by 7/13/20%."
+                ],
+                [
+                  "Moonkin Form",
+                  "+10% Arcane and Nature damage while in the form."
+                ],
+                [
+                  "Genesis & Hurricane",
+                  "Genesis now boosts Hurricane and Tranquility; Hurricane now lands its final hit."
+                ]
+              ]
+            },
+            {
+              "typ": "liste",
+              "titel": "Other classes",
+              "punkte": [
+                "Rogue: All poisons and Blinding Powder are temporarily bind on pickup until a bug is fixed. Poised is now correctly removed after Sap or Distract from Stealth.",
+                "Hunter (Beast Mastery): Summoned Hawks attack even if your pet is set to Passive, can be dismissed with a right-click and had too little crit chance.",
+                "Paladin: Oath of Light now lasts 60 minutes; Judgement and Exorcism bugs fixed.",
+                "Shaman, Warlock, Warrior: bugs with Chain Lightning and Clearcasting, demon crit chance and Weaponmaster in battlegrounds fixed."
+              ]
+            },
+            {
+              "typ": "liste",
+              "titel": "Other changes",
+              "punkte": [
+                "Legacy system: Reinforce now correctly reduces durability loss by 8/16/24/32/40%. The Quick and the Dead makes Shadowform, Moonkin Form, Travel Form and Trueshot Aura free again.",
+                "PvP Legacy achievements count again after Exalted, and \"Lord Valthalak Laid to Rest\" now grants Legacy credit.",
+                "Dungeons: Fixed the Altar in Blackfathom Deeps and the Avatar of Hakkar spawn in the Temple of Atal'Hakkar.",
+                "Races: Gnomes, Humans, Night Elves and Dwarves can no longer go to war with the Kirin Tor, and Dwarves no longer with the Wildhammer Clan.",
+                "Items: Totem of the Storm is now called Totem of the Maelstrom."
+              ]
+            }
+          ]
+        },
+        "fr": {
+          "kat": "Classes",
+          "titel": "Correctifs du 25 novembre : druide Équilibre remanié, poisons de voleur liés temporairement",
+          "text": "Avec les correctifs du 25 novembre, Blizzard a profondément remanié le druide Équilibre dans WoW Forever – entre autres, le nouveau talent État de rêve (Dreamstate) remplace Furie lunaire. Les poisons de voleur et la Poudre aveuglante sont temporairement liés quand ramassés à cause d'un bug. S'y ajoutent des corrections pour les chasseurs, les paladins et d'autres classes, le système Legacy, des donjons et des races.",
+          "tipp": "Druides avec 3 points ou plus dans Feu stellaire amélioré : vos talents ont été réinitialisés – redistribuez-les avant de partir.",
+          "inhalt": [
+            {
+              "typ": "tabelle",
+              "titel": "Druide Équilibre",
+              "kopf": [
+                "Talent",
+                "Changement"
+              ],
+              "zeilen": [
+                [
+                  "Colère de lumière stellaire (Starlight Wrath)",
+                  "Nouveau nom de Colère améliorée ; réduit aussi le temps d'incantation de Feu stellaire de 0,1–0,5 s."
+                ],
+                [
+                  "Lune et étoiles (Moon and Stars)",
+                  "Nouveau nom d'Éclat lunaire amélioré ; Feu stellaire a 50/100 % de chances de ne pas perdre de temps d'incantation quand vous subissez des dégâts."
+                ],
+                [
+                  "Feu stellaire amélioré",
+                  "Plus que 2 rangs au lieu de 5, avec 8/15 % de chances. Ceux qui avaient 3 points ou plus récupèrent tous leurs points de talent."
+                ],
+                [
+                  "État de rêve (Dreamstate)",
+                  "Remplace Furie lunaire : si vous lancez Innervation sur quelqu'un d'autre, vous recevez vous-même 20–100 % de l'effet."
+                ],
+                [
+                  "Éclipse",
+                  "Augmente aussi en permanence les chances de coup critique de Colère de 7/13/20 %."
+                ],
+                [
+                  "Forme de sélénien",
+                  "+10 % de dégâts des Arcanes et de Nature dans cette forme."
+                ],
+                [
+                  "Genèse & Ouragan",
+                  "Genèse renforce désormais Ouragan et Tranquillité ; Ouragan inflige bien son dernier coup."
+                ]
+              ]
+            },
+            {
+              "typ": "liste",
+              "titel": "Autres classes",
+              "punkte": [
+                "Voleur : tous les poisons et la Poudre aveuglante sont temporairement liés quand ramassés jusqu'à la correction d'un bug. Posé disparaît désormais correctement après Assommer ou Distraction en camouflage.",
+                "Chasseur (Maîtrise des bêtes) : les faucons invoqués attaquent même si le familier est en mode passif, se renvoient d'un clic droit et avaient trop peu de chances de critique.",
+                "Paladin : Serment de lumière dure désormais 60 minutes ; bugs de Jugement et d'Exorcisme corrigés.",
+                "Chaman, démoniste, guerrier : bugs corrigés pour Chaîne d'éclairs et Idées claires, les chances de critique des démons et Maître d'armes en champs de bataille."
+              ]
+            },
+            {
+              "typ": "liste",
+              "titel": "Divers",
+              "punkte": [
+                "Système Legacy : Reinforce réduit désormais correctement la perte de durabilité de 8/16/24/32/40 %. The Quick and the Dead rend de nouveau gratuites Forme d'ombre, Forme de sélénien, Forme de voyage et Aura de précision.",
+                "Les hauts faits Legacy JcJ comptent de nouveau après « Exalté », et « Lord Valthalak Laid to Rest » donne maintenant de la progression Legacy.",
+                "Donjons : corrections de l'autel des Profondeurs de Brassenoire et de l'apparition de l'Avatar d'Hakkar dans le temple d'Atal'Hakkar.",
+                "Races : gnomes, humains, elfes de la nuit et nains ne peuvent plus entrer en guerre avec le Kirin Tor, et les nains plus avec le clan Marteau-Hardi.",
+                "Objets : Totem of the Storm s'appelle désormais Totem of the Maelstrom."
+              ]
+            }
+          ]
+        },
+        "es": {
+          "kat": "Clases",
+          "titel": "Correcciones del 25 de noviembre: druida Equilibrio rehecho, venenos de pícaro ligados temporalmente",
+          "text": "Con las correcciones del 25 de noviembre, Blizzard ha rehecho a fondo el druida Equilibrio en WoW Forever; entre otras cosas, el nuevo talento Estado de sueño (Dreamstate) sustituye a Furia lunar. Los venenos de pícaro y el Polvo cegador se ligan temporalmente al recogerlos por un error. Además hay correcciones para cazadores, paladines y otras clases, el sistema Legacy, mazmorras y razas.",
+          "tipp": "Druidas con 3 puntos o más en Fuego estelar mejorado: vuestros talentos se han reiniciado; repartidlos de nuevo antes de salir.",
+          "inhalt": [
+            {
+              "typ": "tabelle",
+              "titel": "Druida Equilibrio",
+              "kopf": [
+                "Talento",
+                "Cambio"
+              ],
+              "zeilen": [
+                [
+                  "Cólera de luz estelar (Starlight Wrath)",
+                  "Nuevo nombre de Cólera mejorada; ahora también reduce el tiempo de lanzamiento de Fuego estelar 0,1–0,5 s."
+                ],
+                [
+                  "Luna y estrellas (Moon and Stars)",
+                  "Nuevo nombre de Fuego lunar mejorado; Fuego estelar tiene un 50/100 % de probabilidad de no perder tiempo de lanzamiento al recibir daño."
+                ],
+                [
+                  "Fuego estelar mejorado",
+                  "Solo 2 rangos en vez de 5, con un 8/15 % de probabilidad. Quien tenía 3 puntos o más recupera todos sus puntos de talento."
+                ],
+                [
+                  "Estado de sueño (Dreamstate)",
+                  "Sustituye a Furia lunar: si lanzas Estimular sobre otro, tú recibes el 20–100 % del efecto."
+                ],
+                [
+                  "Eclipse",
+                  "Además aumenta siempre la probabilidad de golpe crítico de Cólera un 7/13/20 %."
+                ],
+                [
+                  "Forma de lechúcico lunar",
+                  "+10 % de daño Arcano y de Naturaleza en esa forma."
+                ],
+                [
+                  "Génesis y Huracán",
+                  "Génesis ahora potencia Huracán y Tranquilidad; Huracán acierta también su último golpe."
+                ]
+              ]
+            },
+            {
+              "typ": "liste",
+              "titel": "Otras clases",
+              "punkte": [
+                "Pícaro: todos los venenos y el Polvo cegador se ligan temporalmente al recogerlos hasta que se corrija un error. Sereno desaparece correctamente tras Aporrear o Distracción desde sigilo.",
+                "Cazador (Bestias): los halcones invocados atacan aunque la mascota esté en pasivo, se pueden retirar con clic derecho y tenían poca probabilidad de crítico.",
+                "Paladín: Juramento de luz ahora dura 60 minutos; corregidos errores de Sentencia y Exorcismo.",
+                "Chamán, brujo, guerrero: corregidos errores de Cadena de relámpagos y Libre lanzamiento, de la probabilidad de crítico de los demonios y de Maestro de armas en campos de batalla."
+              ]
+            },
+            {
+              "typ": "liste",
+              "titel": "Otros cambios",
+              "punkte": [
+                "Sistema Legacy: Reinforce ahora reduce correctamente la pérdida de durabilidad un 8/16/24/32/40 %. The Quick and the Dead vuelve a hacer gratis Forma de las Sombras, Forma de lechúcico, Forma de viaje y Aura de disparo certero.",
+                "Los logros Legacy JcJ vuelven a contar tras «Exaltado», y «Lord Valthalak Laid to Rest» ahora da progreso Legacy.",
+                "Mazmorras: corregidos el altar de Cavernas de Brazanegra y la aparición del Avatar de Hakkar en el Templo de Atal'Hakkar.",
+                "Razas: gnomos, humanos, elfos de la noche y enanos ya no pueden declarar la guerra al Kirin Tor, ni los enanos al clan Martillo Salvaje.",
+                "Objetos: Totem of the Storm ahora se llama Totem of the Maelstrom."
+              ]
+            }
+          ]
+        },
+        "ru": {
+          "kat": "Классы",
+          "titel": "Хотфиксы от 25 ноября: переработка друида «Баланс», яды разбойника временно персональные",
+          "text": "Хотфиксами от 25 ноября Blizzard серьезно переработала друида «Баланс» в WoW Forever – среди прочего новый талант Состояние сна (Dreamstate) заменяет Лунную ярость. Яды разбойника и Ослепляющий порошок из-за ошибки временно становятся персональными при поднятии. Кроме того, есть исправления для охотников, паладинов и других классов, системы Legacy, подземелий и рас.",
+          "tipp": "Друиды с 3 и более очками в Улучшенном звездном огне: ваши таланты сброшены – распределите их заново перед выходом.",
+          "inhalt": [
+            {
+              "typ": "tabelle",
+              "titel": "Друид «Баланс»",
+              "kopf": [
+                "Талант",
+                "Изменение"
+              ],
+              "zeilen": [
+                [
+                  "Гнев звездного света (Starlight Wrath)",
+                  "Новое название Улучшенного гнева; теперь также сокращает время произнесения Звездного огня на 0,1–0,5 сек."
+                ],
+                [
+                  "Луна и звезды (Moon and Stars)",
+                  "Новое название Улучшенного лунного огня; Звездный огонь с шансом 50/100% не теряет время произнесения при получении урона."
+                ],
+                [
+                  "Улучшенный звездный огонь",
+                  "Всего 2 ранга вместо 5 с шансом 8/15%. У вложивших 3 очка и больше сброшены все таланты."
+                ],
+                [
+                  "Состояние сна (Dreamstate)",
+                  "Заменяет Лунную ярость: применяя Озарение на другого, вы сами получаете 20–100% эффекта."
+                ],
+                [
+                  "Затмение",
+                  "Также постоянно повышает шанс крита Гнева на 7/13/20%."
+                ],
+                [
+                  "Облик лунного совуха",
+                  "+10% к урону от тайной магии и сил природы в этом облике."
+                ],
+                [
+                  "Генезис и Гроза",
+                  "Генезис теперь усиливает Грозу и Спокойствие; Гроза наносит и последний удар."
+                ]
+              ]
+            },
+            {
+              "typ": "liste",
+              "titel": "Другие классы",
+              "punkte": [
+                "Разбойник: все яды и Ослепляющий порошок временно персональные при поднятии, пока не исправят ошибку. Собранность теперь правильно снимается после Ошеломления или Отвлечения из незаметности.",
+                "Охотник (Чувство зверя): призванные ястребы атакуют, даже если питомец в пассивном режиме, отпускаются правым кликом и имели слишком низкий шанс крита.",
+                "Паладин: Клятва Света теперь длится 60 минут; исправлены ошибки Правосудия и Экзорцизма.",
+                "Шаман, чернокнижник, воин: исправлены ошибки Цепной молнии и Ясности мысли, шанса крита демонов и Мастера оружия на полях боя."
+              ]
+            },
+            {
+              "typ": "liste",
+              "titel": "Прочее",
+              "punkte": [
+                "Система Legacy: Reinforce теперь правильно снижает потерю прочности на 8/16/24/32/40%. The Quick and the Dead снова делает бесплатными Облик Тьмы, Облик лунного совуха, Походный облик и Ауру меткого выстрела.",
+                "PvP-достижения Legacy снова засчитываются после «Превознесения», а «Lord Valthalak Laid to Rest» теперь дает прогресс Legacy.",
+                "Подземелья: исправлены алтарь в Непроглядной Пучине и появление Аватары Хаккара в Храме Атал'Хаккара.",
+                "Расы: гномы, люди, ночные эльфы и дворфы больше не могут объявить войну Кирин-Тору, а дворфы – клану Громового Молота.",
+                "Предметы: Totem of the Storm теперь называется Totem of the Maelstrom."
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "2026-11-26-alteractal-umbau",
+      "datum": "2026-11-26",
+      "kat": "PvP",
+      "titel": "Alteractal umgebaut: Blizzard belohnt Türme und Friedhöfe statt General-Rush",
+      "text": "Mit den Hotfixes vom 25. November hat Blizzard das Alteractal in WoW Forever deutlich verändert. Für den Sieg über den gegnerischen General gibt es viel weniger Ruf und Ehre, für Türme, Friedhöfe, Minen und Leutnants dagegen mehr. Laut Blizzard bleibt die Ehre pro Spiel etwa gleich, der Ruf soll steigen.",
+      "tipp": "Lauft nicht stumpf zum General – Türme und Friedhöfe bringen jetzt mehr Ruf und machen den Boss am Ende schwächer.",
+      "video": null,
+      "inhalt": [
+        {
+          "typ": "liste",
+          "titel": "Die Änderungen",
+          "punkte": [
+            "Den gegnerischen General zu töten bringt deutlich weniger Ruf und Ehre.",
+            "Ziele wie Türme, Friedhöfe und Minen geben mehr Ruf und etwas mehr Ehre.",
+            "Getötete gegnerische NPCs geben mehr Ruf, besiegte Leutnants deutlich mehr.",
+            "Den Ruf-Bonus für lange Spiele gibt es schon nach 20 statt nach 60 Minuten.",
+            "Alle gegnerischen Kreaturen im Alteractal haben mehr Leben und machen mehr Schaden.",
+            "Generäle und Kriegsmeister bzw. Marschälle bekommen einen 20-Minuten-Buff mit 4 Stapeln – jedes eroberte Ziel entfernt einen Stapel.",
+            "Kriegsmeister und Marschälle laufen zurück, wenn man sie aus ihrem Raum zieht, und greifen aus größerer Entfernung an.",
+            "Generäle machen mehr Schaden und entdecken Verstohlene besser; ein Fehler bei ihrer Verteidigung ist behoben.",
+            "Sturmkristalle und andere Quest-Gegenstände aus dem Alteractal kommen nicht mehr per Post, wenn ihr sie liegen lasst."
+          ]
+        },
+        {
+          "typ": "text",
+          "titel": "Warum?",
+          "text": "Laut Blizzard haben viele Spieler das Alteractal beendet, ohne Ziele einzunehmen, und sind direkt zum General gerannt. Die Änderungen sollen Ziele wieder lohnend machen. Außerdem waren die Gegner im Tal schwächer als geplant."
+        }
+      ],
+      "quellen": [
+        {
+          "name": "Blizzard News: WoW: Forever Hotfixes – 25. November 2026",
+          "url": "https://news.blizzard.com/en-us/article/24315281/wow-forever-hotfixes-november-25-2026"
+        }
+      ],
+      "i18n": {
+        "en": {
+          "kat": "PvP",
+          "titel": "Alterac Valley reworked: Blizzard rewards towers and graveyards instead of the General rush",
+          "text": "With the November 25 hotfixes Blizzard made big changes to Alterac Valley in WoW Forever. Killing the enemy General now gives much less reputation and honor, while towers, graveyards, mines and Lieutenants give more. According to Blizzard, honor per match should stay about the same, while reputation should go up.",
+          "tipp": "Don't just run straight to the General – towers and graveyards now give more reputation and make the boss weaker at the end.",
+          "inhalt": [
+            {
+              "typ": "liste",
+              "titel": "The changes",
+              "punkte": [
+                "Killing the enemy General gives significantly less reputation and honor.",
+                "Objectives such as towers, graveyards and mines give more reputation and slightly more honor.",
+                "Killing enemy NPCs gives more reputation, defeating Lieutenants significantly more.",
+                "The long-match reputation bonus now kicks in after 20 instead of 60 minutes.",
+                "All enemy creatures in Alterac Valley have more health and deal more damage.",
+                "Generals and Warmasters/Marshals get a 20-minute buff with 4 stacks – each captured objective removes one stack.",
+                "Warmasters and Marshals leash if pulled out of their rooms and aggro from further away.",
+                "Generals deal more damage and detect stealth better; a bug with their defenses was fixed.",
+                "Storm Crystals and other Alterac Valley quest items are no longer mailed to you if you leave them unlooted."
+              ]
+            },
+            {
+              "typ": "text",
+              "titel": "Why?",
+              "text": "According to Blizzard, many players finished Alterac Valley without taking objectives and rushed straight to the General. The changes are meant to make objectives worthwhile again. The enemies in the valley were also weaker than intended."
+            }
+          ]
+        },
+        "fr": {
+          "kat": "PvP",
+          "titel": "Vallée d'Alterac remaniée : Blizzard récompense tours et cimetières plutôt que le rush du général",
+          "text": "Avec les correctifs du 25 novembre, Blizzard a nettement modifié la vallée d'Alterac dans WoW Forever. Tuer le général adverse rapporte beaucoup moins de réputation et d'honneur, tandis que les tours, cimetières, mines et lieutenants en rapportent davantage. Selon Blizzard, l'honneur par partie devrait rester à peu près le même et la réputation augmenter.",
+          "tipp": "Ne foncez pas bêtement sur le général – tours et cimetières rapportent désormais plus de réputation et affaiblissent le boss à la fin.",
+          "inhalt": [
+            {
+              "typ": "liste",
+              "titel": "Les changements",
+              "punkte": [
+                "Tuer le général adverse rapporte nettement moins de réputation et d'honneur.",
+                "Les objectifs comme les tours, cimetières et mines rapportent plus de réputation et un peu plus d'honneur.",
+                "Tuer des PNJ ennemis rapporte plus de réputation, vaincre des lieutenants nettement plus.",
+                "Le bonus de réputation des longues parties s'active après 20 au lieu de 60 minutes.",
+                "Toutes les créatures ennemies de la vallée d'Alterac ont plus de points de vie et infligent plus de dégâts.",
+                "Les généraux et les maîtres de guerre/maréchaux reçoivent un buff de 20 minutes à 4 cumuls – chaque objectif pris en retire un.",
+                "Maîtres de guerre et maréchaux retournent à leur place si on les sort de leur salle et attaquent de plus loin.",
+                "Les généraux infligent plus de dégâts et détectent mieux le camouflage ; un bug de leurs défenses a été corrigé.",
+                "Les cristaux d'orage et autres objets de quête d'Alterac ne sont plus envoyés par courrier si vous ne les ramassez pas."
+              ]
+            },
+            {
+              "typ": "text",
+              "titel": "Pourquoi ?",
+              "text": "Selon Blizzard, beaucoup de joueurs terminaient la vallée d'Alterac sans prendre d'objectifs et fonçaient directement sur le général. Les changements doivent rendre les objectifs de nouveau intéressants. De plus, les ennemis de la vallée étaient plus faibles que prévu."
+            }
+          ]
+        },
+        "es": {
+          "kat": "JcJ",
+          "titel": "Valle de Alterac rehecho: Blizzard premia torres y cementerios en lugar de ir a por el general",
+          "text": "Con las correcciones del 25 de noviembre, Blizzard ha cambiado mucho el Valle de Alterac en WoW Forever. Matar al general enemigo da mucha menos reputación y honor, mientras que torres, cementerios, minas y lugartenientes dan más. Según Blizzard, el honor por partida debería quedarse más o menos igual y la reputación subir.",
+          "tipp": "No corras sin más hacia el general: torres y cementerios dan ahora más reputación y debilitan al jefe al final.",
+          "inhalt": [
+            {
+              "typ": "liste",
+              "titel": "Los cambios",
+              "punkte": [
+                "Matar al general enemigo da bastante menos reputación y honor.",
+                "Objetivos como torres, cementerios y minas dan más reputación y algo más de honor.",
+                "Matar PNJ enemigos da más reputación; derrotar lugartenientes, mucha más.",
+                "La bonificación de reputación por partidas largas llega a los 20 minutos en lugar de a los 60.",
+                "Todas las criaturas enemigas del Valle de Alterac tienen más salud y hacen más daño.",
+                "Los generales y los maestros de guerra/mariscales reciben un beneficio de 20 minutos con 4 acumulaciones; cada objetivo tomado quita una.",
+                "Maestros de guerra y mariscales vuelven a su sitio si se les saca de su sala y atacan desde más lejos.",
+                "Los generales hacen más daño y detectan mejor el sigilo; se corrigió un error en sus defensas.",
+                "Los cristales de tormenta y otros objetos de misión de Alterac ya no se envían por correo si los dejas sin recoger."
+              ]
+            },
+            {
+              "typ": "text",
+              "titel": "¿Por qué?",
+              "text": "Según Blizzard, muchos jugadores terminaban el Valle de Alterac sin tomar objetivos y corrían directamente hacia el general. Los cambios buscan que los objetivos vuelvan a merecer la pena. Además, los enemigos del valle eran más débiles de lo previsto."
+            }
+          ]
+        },
+        "ru": {
+          "kat": "PvP",
+          "titel": "Альтеракская долина переработана: Blizzard награждает за башни и кладбища, а не за раш генерала",
+          "text": "Хотфиксами от 25 ноября Blizzard заметно изменила Альтеракскую долину в WoW Forever. За убийство вражеского генерала теперь дают гораздо меньше репутации и чести, а за башни, кладбища, рудники и лейтенантов – больше. По словам Blizzard, честь за матч останется примерно на прежнем уровне, а репутация вырастет.",
+          "tipp": "Не бегите сразу к генералу – башни и кладбища теперь дают больше репутации и ослабляют босса в конце.",
+          "inhalt": [
+            {
+              "typ": "liste",
+              "titel": "Изменения",
+              "punkte": [
+                "Убийство вражеского генерала дает значительно меньше репутации и чести.",
+                "Цели вроде башен, кладбищ и рудников дают больше репутации и немного больше чести.",
+                "Убийство вражеских NPC дает больше репутации, победа над лейтенантами – значительно больше.",
+                "Бонус репутации за долгие матчи начисляется уже после 20, а не 60 минут.",
+                "Все вражеские существа в Альтеракской долине получили больше здоровья и урона.",
+                "Генералы и военачальники/маршалы получают 20-минутный бафф с 4 стаками – каждая захваченная цель снимает один стак.",
+                "Военачальники и маршалы возвращаются, если их вытянуть из комнаты, и агрятся с большего расстояния.",
+                "Генералы наносят больше урона и лучше видят незаметность; исправлена ошибка с их защитой.",
+                "Грозовые кристаллы и другие квестовые предметы Альтерака больше не приходят по почте, если вы их не подобрали."
+              ]
+            },
+            {
+              "typ": "text",
+              "titel": "Почему?",
+              "text": "По словам Blizzard, многие игроки завершали Альтеракскую долину, не захватывая цели, и сразу бежали к генералу. Изменения должны снова сделать цели выгодными. Кроме того, враги в долине были слабее задуманного."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "2026-11-26-reitfertigkeit-klassenquests",
+      "datum": "2026-11-26",
+      "kat": "System",
+      "titel": "Paladine und Hexenmeister: Reittierquests geben jetzt die Reitfertigkeit dazu",
+      "text": "Seit den Hotfixes vom 25. November bekommen Paladine und Hexenmeister die Reitfertigkeit „Journeyman Riding“ direkt beim Abschluss bestimmter Klassen-Reittierquests. Wer die Quest schon vorher erledigt hat, kann sich die Fertigkeit kostenlos bei einem NPC abholen.",
+      "tipp": "Habt ihr die Reittierquest schon hinter euch, sprecht den passenden NPC an – die Gesprächsoption für die Reitfertigkeit ist gratis.",
+      "video": null,
+      "inhalt": [
+        {
+          "typ": "tabelle",
+          "titel": "Welche Quest – wo nachträglich abholen?",
+          "kopf": [
+            "Quest",
+            "Für",
+            "Nachträglich bei"
+          ],
+          "zeilen": [
+            [
+              "Justice and Retribution",
+              "Untote Paladine",
+              "Danitha Morr, Bandarion-Feste"
+            ],
+            [
+              "Judgment and Redemption",
+              "Zwergen- und Menschen-Paladine",
+              "Lord Grayson Shadowbreaker, Kathedrale von Sturmwind"
+            ],
+            [
+              "Dreadsteed of Xoroth",
+              "Alle Hexenmeister",
+              "Horde: Zevrost, Kluft der Schatten (Orgrimmar) · Allianz: Ursula Deline, Zum Geschlachteten Lamm (Sturmwind)"
+            ]
+          ]
+        }
+      ],
+      "quellen": [
+        {
+          "name": "Blizzard News: WoW: Forever Hotfixes – 25. November 2026",
+          "url": "https://news.blizzard.com/en-us/article/24315281/wow-forever-hotfixes-november-25-2026"
+        }
+      ],
+      "i18n": {
+        "en": {
+          "kat": "System",
+          "titel": "Paladins and Warlocks: mount quests now also grant the riding skill",
+          "text": "Since the November 25 hotfixes, Paladins and Warlocks receive the Journeyman Riding skill directly upon completing certain class mount quests. If you already completed the quest, you can pick up the skill for free from an NPC.",
+          "tipp": "If you already finished your mount quest, talk to the right NPC – the gossip option for the riding skill is free.",
+          "inhalt": [
+            {
+              "typ": "tabelle",
+              "titel": "Which quest – where to claim it afterwards?",
+              "kopf": [
+                "Quest",
+                "For",
+                "Claim afterwards from"
+              ],
+              "zeilen": [
+                [
+                  "Justice and Retribution",
+                  "Forsaken Paladins",
+                  "Danitha Morr, Bandarion Keep"
+                ],
+                [
+                  "Judgment and Redemption",
+                  "Dwarf and Human Paladins",
+                  "Lord Grayson Shadowbreaker, Stormwind Cathedral"
+                ],
+                [
+                  "Dreadsteed of Xoroth",
+                  "All Warlocks",
+                  "Horde: Zevrost, Cleft of Shadow (Orgrimmar) · Alliance: Ursula Deline, The Slaughtered Lamb (Stormwind)"
+                ]
+              ]
+            }
+          ]
+        },
+        "fr": {
+          "kat": "Système",
+          "titel": "Paladins et démonistes : les quêtes de monture donnent désormais aussi la compétence de monte",
+          "text": "Depuis les correctifs du 25 novembre, paladins et démonistes reçoivent la compétence Journeyman Riding directement en terminant certaines quêtes de monture de classe. Si vous avez déjà terminé la quête, vous pouvez récupérer la compétence gratuitement auprès d'un PNJ.",
+          "tipp": "Si vous avez déjà fini votre quête de monture, parlez au bon PNJ – l'option de dialogue pour la compétence de monte est gratuite.",
+          "inhalt": [
+            {
+              "typ": "tabelle",
+              "titel": "Quelle quête – où la récupérer après coup ?",
+              "kopf": [
+                "Quête",
+                "Pour",
+                "À récupérer auprès de"
+              ],
+              "zeilen": [
+                [
+                  "Justice and Retribution",
+                  "Paladins réprouvés",
+                  "Danitha Morr, Bastion de Bandarion"
+                ],
+                [
+                  "Judgment and Redemption",
+                  "Paladins nains et humains",
+                  "Lord Grayson Shadowbreaker, cathédrale de Hurlevent"
+                ],
+                [
+                  "Dreadsteed of Xoroth",
+                  "Tous les démonistes",
+                  "Horde : Zevrost, Faille de l'ombre (Orgrimmar) · Alliance : Ursula Deline, L'Agneau égorgé (Hurlevent)"
+                ]
+              ]
+            }
+          ]
+        },
+        "es": {
+          "kat": "Sistema",
+          "titel": "Paladines y brujos: las misiones de montura ahora también dan la habilidad de equitación",
+          "text": "Desde las correcciones del 25 de noviembre, paladines y brujos reciben la habilidad Journeyman Riding directamente al completar ciertas misiones de montura de clase. Si ya completaste la misión, puedes recoger la habilidad gratis de un PNJ.",
+          "tipp": "Si ya terminaste tu misión de montura, habla con el PNJ adecuado: la opción de diálogo para la habilidad de equitación es gratis.",
+          "inhalt": [
+            {
+              "typ": "tabelle",
+              "titel": "¿Qué misión? ¿Dónde recogerla después?",
+              "kopf": [
+                "Misión",
+                "Para",
+                "Recoger después con"
+              ],
+              "zeilen": [
+                [
+                  "Justice and Retribution",
+                  "Paladines renegados",
+                  "Danitha Morr, Bastión de Bandarion"
+                ],
+                [
+                  "Judgment and Redemption",
+                  "Paladines enanos y humanos",
+                  "Lord Grayson Shadowbreaker, catedral de Ventormenta"
+                ],
+                [
+                  "Dreadsteed of Xoroth",
+                  "Todos los brujos",
+                  "Horda: Zevrost, Grieta de las Sombras (Orgrimmar) · Alianza: Ursula Deline, El Cordero Degollado (Ventormenta)"
+                ]
+              ]
+            }
+          ]
+        },
+        "ru": {
+          "kat": "Система",
+          "titel": "Паладины и чернокнижники: задания на ездовое животное теперь дают и навык верховой езды",
+          "text": "С хотфиксов от 25 ноября паладины и чернокнижники получают навык Journeyman Riding сразу за выполнение определенных классовых заданий на ездовое животное. Если задание уже выполнено, навык можно бесплатно получить у NPC.",
+          "tipp": "Если вы уже прошли задание на ездовое животное, поговорите с нужным NPC – вариант диалога для навыка верховой езды бесплатный.",
+          "inhalt": [
+            {
+              "typ": "tabelle",
+              "titel": "Какое задание – где получить навык позже?",
+              "kopf": [
+                "Задание",
+                "Для кого",
+                "Получить позже у"
+              ],
+              "zeilen": [
+                [
+                  "Justice and Retribution",
+                  "Паладины-Отрекшиеся",
+                  "Данита Морр, Крепость Бандариона"
+                ],
+                [
+                  "Judgment and Redemption",
+                  "Паладины-дворфы и люди",
+                  "Лорд Грейсон Шэдоубрейкер, Собор Штормграда"
+                ],
+                [
+                  "Dreadsteed of Xoroth",
+                  "Все чернокнижники",
+                  "Орда: Зеврост, Расселина Теней (Оргриммар) · Альянс: Урсула Делин, «Забитый ягненок» (Штормград)"
+                ]
+              ]
+            }
+          ]
+        }
+      }
+    },
     {
       "id": "2026-11-25-schlachtfeld-warteschlangen-eu",
       "datum": "2026-11-25",
       "kat": "Bugs",
-      "top": true,
       "titel": "EU-Schlachtfelder: Fix für hängende Warteschlangen soll mit der Wartung am 25. November greifen",
       "text": "Seit Mitte November melden Spieler auf einem EU-Server (Layer 15), dass ihre Schlachtfeld-Warteschlange allein nie aufgeht; teils fehlten auch Ehre und Rangpunkte. Blizzard bestätigte am 23. November im EU-Forum, dass das Problem untersucht wird. Laut PC Games Hardware landeten betroffene Spieler bei der Partnersuche fälschlich in der russischen Region – ein Hotfix dagegen soll mit dem Server-Neustart bei der Wartung am 25. November vollständig wirken.",
       "tipp": "Hängt deine Warteschlange immer noch, lass dich von einem Freund auf einem anderen Layer in eine Gruppe einladen und gemeinsam anmelden – das hat laut Spielern zuverlässig geklappt.",
