@@ -1,12 +1,118 @@
 {
-  "stand": "2026-11-26",
+  "stand": "2026-11-27",
   "hinweis": "Wird täglich gegen 8 Uhr morgens automatisch aktualisiert.",
   "eintraege": [
+    {
+      "id": "2026-11-27-celebration-pass",
+      "datum": "2026-11-27",
+      "kat": "System",
+      "top": true,
+      "titel": "WoW Celebration Pass: Ein Jahr Spielzeit günstiger – Angebot läuft bis 7. Dezember",
+      "text": "Zum Start von WoW Forever bietet Blizzard laut Icy Veins den „WoW Celebration Pass“ an: 365 Tage Spielzeit für 99 € bzw. 120 US-Dollar, laut Icy Veins mindestens 30 Dollar günstiger als ein normales Jahresabo. Die Spielzeit gilt für ganz WoW, also auch für WoW Forever und Classic, und lässt sich an ein laufendes Abo anhängen. Das Angebot gilt nur bis zum 7. Dezember 2026.",
+      "tipp": "Wollt ihr sowieso länger bleiben, rechnet kurz nach – das Jahresangebot lohnt sich nur bis zum 7. Dezember.",
+      "video": null,
+      "inhalt": [
+        {
+          "typ": "liste",
+          "titel": "Das Wichtigste",
+          "punkte": [
+            "Preis: 99 € bzw. 120 US-Dollar für 365 Tage Spielzeit.",
+            "Gilt für WoW Forever, WoW Classic und das aktuelle WoW.",
+            "Bestehende Spielzeit oder ein laufendes Abo wird um 365 Tage verlängert.",
+            "Wie bei Jahresabos üblich gibt es laut Icy Veins zusätzliche Boni wie Reittiere und Haustiere.",
+            "Angebot gültig bis 7. Dezember 2026."
+          ]
+        }
+      ],
+      "quellen": [
+        {
+          "name": "Icy Veins – Limited-Time Yearly Subscription Discount: WoW Forever Celebration Pass",
+          "url": "https://www.icy-veins.com/wow-forever/news/limited-time-yearly-subscription-discount-wow-forever-celebration-pass/"
+        }
+      ],
+      "i18n": {
+        "en": {
+          "kat": "System",
+          "titel": "WoW Celebration Pass: A year of game time for less – offer runs until December 7",
+          "text": "To celebrate the launch of WoW Forever, Blizzard is offering the “WoW Celebration Pass”, according to Icy Veins: 365 days of game time for €99 or $120, which Icy Veins says is at least $30 cheaper than a regular yearly subscription. The game time covers all of WoW, including WoW Forever and Classic, and can be added on top of an active subscription. The offer is only valid until December 7, 2026.",
+          "tipp": "If you're planning to stick around anyway, do the math – the yearly deal is only available until December 7.",
+          "inhalt": [
+            {
+              "typ": "liste",
+              "titel": "Key facts",
+              "punkte": [
+                "Price: €99 or $120 for 365 days of game time.",
+                "Valid for WoW Forever, WoW Classic and modern WoW.",
+                "Existing game time or an active subscription is extended by 365 days.",
+                "As usual for yearly subscriptions, Icy Veins says there are extra bonuses such as mounts and pets.",
+                "Offer valid until December 7, 2026."
+              ]
+            }
+          ]
+        },
+        "fr": {
+          "kat": "Système",
+          "titel": "WoW Celebration Pass : un an de temps de jeu moins cher – offre valable jusqu'au 7 décembre",
+          "text": "Pour fêter le lancement de WoW Forever, Blizzard propose le « WoW Celebration Pass », selon Icy Veins : 365 jours de temps de jeu pour 99 € ou 120 dollars, soit au moins 30 dollars de moins qu'un abonnement annuel classique d'après Icy Veins. Le temps de jeu vaut pour tout WoW, y compris WoW Forever et Classic, et peut s'ajouter à un abonnement en cours. L'offre n'est valable que jusqu'au 7 décembre 2026.",
+          "tipp": "Si vous comptez rester de toute façon, faites le calcul – l'offre annuelle n'est valable que jusqu'au 7 décembre.",
+          "inhalt": [
+            {
+              "typ": "liste",
+              "titel": "L'essentiel",
+              "punkte": [
+                "Prix : 99 € ou 120 dollars pour 365 jours de temps de jeu.",
+                "Valable pour WoW Forever, WoW Classic et le WoW actuel.",
+                "Le temps de jeu existant ou l'abonnement en cours est prolongé de 365 jours.",
+                "Comme d'habitude pour les abonnements annuels, Icy Veins mentionne des bonus comme des montures et des mascottes.",
+                "Offre valable jusqu'au 7 décembre 2026."
+              ]
+            }
+          ]
+        },
+        "es": {
+          "kat": "Sistema",
+          "titel": "WoW Celebration Pass: un año de tiempo de juego más barato – la oferta dura hasta el 7 de diciembre",
+          "text": "Para celebrar el lanzamiento de WoW Forever, Blizzard ofrece el «WoW Celebration Pass», según Icy Veins: 365 días de tiempo de juego por 99 € o 120 dólares, al menos 30 dólares menos que una suscripción anual normal según Icy Veins. El tiempo de juego vale para todo WoW, incluidos WoW Forever y Classic, y se puede sumar a una suscripción activa. La oferta solo es válida hasta el 7 de diciembre de 2026.",
+          "tipp": "Si de todas formas pensáis seguir jugando, echad cuentas: la oferta anual solo está disponible hasta el 7 de diciembre.",
+          "inhalt": [
+            {
+              "typ": "liste",
+              "titel": "Lo más importante",
+              "punkte": [
+                "Precio: 99 € o 120 dólares por 365 días de tiempo de juego.",
+                "Válido para WoW Forever, WoW Classic y el WoW actual.",
+                "El tiempo de juego existente o la suscripción activa se amplía 365 días.",
+                "Como es habitual en las suscripciones anuales, según Icy Veins hay bonificaciones extra como monturas y mascotas.",
+                "Oferta válida hasta el 7 de diciembre de 2026."
+              ]
+            }
+          ]
+        },
+        "ru": {
+          "kat": "Система",
+          "titel": "WoW Celebration Pass: год игрового времени дешевле – предложение действует до 7 декабря",
+          "text": "В честь запуска WoW Forever Blizzard, по данным Icy Veins, предлагает «WoW Celebration Pass»: 365 дней игрового времени за 99 € или 120 долларов – по словам Icy Veins, это как минимум на 30 долларов дешевле обычной годовой подписки. Игровое время действует для всего WoW, включая WoW Forever и Classic, и может добавляться к активной подписке. Предложение действует только до 7 декабря 2026 года.",
+          "tipp": "Если вы всё равно собираетесь играть дальше, посчитайте – годовое предложение доступно только до 7 декабря.",
+          "inhalt": [
+            {
+              "typ": "liste",
+              "titel": "Главное",
+              "punkte": [
+                "Цена: 99 € или 120 долларов за 365 дней игрового времени.",
+                "Действует для WoW Forever, WoW Classic и актуального WoW.",
+                "Имеющееся игровое время или активная подписка продлевается на 365 дней.",
+                "Как обычно для годовых подписок, по данным Icy Veins, есть дополнительные бонусы, например транспорт и питомцы.",
+                "Предложение действует до 7 декабря 2026 года."
+              ]
+            }
+          ]
+        }
+      }
+    },
     {
       "id": "2026-11-26-hotfixes-25-november",
       "datum": "2026-11-26",
       "kat": "Klassen",
-      "top": true,
       "titel": "Hotfixes vom 25. November: Gleichgewichts-Druide umgebaut, Schurkengifte vorerst seelengebunden",
       "text": "Blizzard hat mit den Hotfixes vom 25. November den Gleichgewichts-Druiden in WoW Forever kräftig umgebaut – unter anderem ersetzt das neue Talent Traumzustand (Dreamstate) den Mondzorn. Schurkengifte und Blendpulver sind wegen eines Fehlers vorübergehend beim Aufheben gebunden. Dazu kommen Korrekturen für Jäger, Paladine und andere Klassen, das Legacy-System, Dungeons und Völker.",
       "tipp": "Druiden mit 3 oder mehr Punkten in Verbessertes Sternenfeuer: Eure Talente wurden zurückgesetzt – verteilt sie neu, bevor ihr loszieht.",
